@@ -102,7 +102,7 @@ def main():
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
         json.dump(full_courses, json_file, indent=4)
 
-    header = ['course_code', 'course_name']
+    header = ['course_code', 'course_name', 'course_description']
     workbook = xlsxwriter.Workbook(f'{UNIVERSITY}.xlsx')
     worksheet = workbook.add_worksheet()
     for col, header_name in enumerate(header):
