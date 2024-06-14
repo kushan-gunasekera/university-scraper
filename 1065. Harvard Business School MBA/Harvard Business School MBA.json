@@ -1,0 +1,527 @@
+{
+    "HBSMBA 1105": {
+        "course_code": "HBSMBA 1105",
+        "course_name": "Energy",
+        "course_description": "http://www.hbs.edu/coursecatalog/1105.html"
+    },
+    "HBSMBA 1120": {
+        "course_code": "HBSMBA 1120",
+        "course_name": "Capitalism and the State",
+        "course_description": "http://www.hbs.edu/coursecatalog/1120.html"
+    },
+    "HBSMBA 1130": {
+        "course_code": "HBSMBA 1130",
+        "course_name": "Entrepreneurship and Global Capitalism",
+        "course_description": "http://www.hbs.edu/coursecatalog/1130.html"
+    },
+    "HBSMBA 1143": {
+        "course_code": "HBSMBA 1143",
+        "course_name": "Global Climate Change",
+        "course_description": "http://www.hbs.edu/coursecatalog/1143.html"
+    },
+    "HBSMBA 1155": {
+        "course_code": "HBSMBA 1155",
+        "course_name": "Business and Geopolitics",
+        "course_description": "http://www.hbs.edu/coursecatalog/1155.html"
+    },
+    "HBSMBA 1160": {
+        "course_code": "HBSMBA 1160",
+        "course_name": "Creating the Modern Financial System",
+        "course_description": "http://www.hbs.edu/coursecatalog/1160.html"
+    },
+    "HBSMBA 1166": {
+        "course_code": "HBSMBA 1166",
+        "course_name": "Managing International Trade and Investment",
+        "course_description": "http://www.hbs.edu/coursecatalog/1166.html"
+    },
+    "HBSMBA 1175": {
+        "course_code": "HBSMBA 1175",
+        "course_name": "Space, Public And Commercial Economics (SPACE)",
+        "course_description": "http://www.hbs.edu/coursecatalog/1175.html"
+    },
+    "HBSMBA 1180": {
+        "course_code": "HBSMBA 1180",
+        "course_name": "Institutions, Macroeconomics, and the Global Economy",
+        "course_description": "http://www.hbs.edu/coursecatalog/1180.html"
+    },
+    "HBSMBA 1195": {
+        "course_code": "HBSMBA 1195",
+        "course_name": "The Role of Government in Market Economies",
+        "course_description": "http://www.hbs.edu/coursecatalog/1195.html"
+    },
+    "HBSMBA 1205": {
+        "course_code": "HBSMBA 1205",
+        "course_name": "Reshaping Competition",
+        "course_description": "http://www.hbs.edu/coursecatalog/1205.html"
+    },
+    "HBSMBA 1224": {
+        "course_code": "HBSMBA 1224",
+        "course_name": "Managing Turbulence",
+        "course_description": "http://www.hbs.edu/coursecatalog/1224.html"
+    },
+    "HBSMBA 1230": {
+        "course_code": "HBSMBA 1230",
+        "course_name": "Revitalizing the Corporation: Modern Corporate Strategy",
+        "course_description": "http://www.hbs.edu/coursecatalog/1230.html"
+    },
+    "HBSMBA 1235": {
+        "course_code": "HBSMBA 1235",
+        "course_name": "Ownership and Competitive Advantage",
+        "course_description": "http://www.hbs.edu/coursecatalog/1235.html"
+    },
+    "HBSMBA 1257": {
+        "course_code": "HBSMBA 1257",
+        "course_name": "Strategy for Entrepreneurs",
+        "course_description": "http://www.hbs.edu/coursecatalog/1257.html"
+    },
+    "HBSMBA 1286": {
+        "course_code": "HBSMBA 1286",
+        "course_name": "Strategy and Technology",
+        "course_description": "http://www.hbs.edu/coursecatalog/1286.html"
+    },
+    "HBSMBA 1287": {
+        "course_code": "HBSMBA 1287",
+        "course_name": "Creating and Sustaining Competitive Advantage",
+        "course_description": "http://www.hbs.edu/coursecatalog/1287.html"
+    },
+    "HBSMBA 1295": {
+        "course_code": "HBSMBA 1295",
+        "course_name": "Managing and Investing in a Fast-Growing Emerging Market: India",
+        "course_description": "http://www.hbs.edu/coursecatalog/1295.html"
+    },
+    "HBSMBA 1301": {
+        "course_code": "HBSMBA 1301",
+        "course_name": "Generative AI for Business Leaders",
+        "course_description": "<p>https://www.hbs.edu/coursecatalog/1301.html</p>"
+    },
+    "HBSMBA 1306": {
+        "course_code": "HBSMBA 1306",
+        "course_name": "Business Analysis and Valuation Using Financial Statements",
+        "course_description": "http://www.hbs.edu/coursecatalog/1306.html"
+    },
+    "HBSMBA 1312": {
+        "course_code": "HBSMBA 1312",
+        "course_name": "Strategy Execution",
+        "course_description": "http://www.hbs.edu/coursecatalog/1312.html"
+    },
+    "HBSMBA 1315": {
+        "course_code": "HBSMBA 1315",
+        "course_name": "The Anatomy of Fraud",
+        "course_description": "http://www.hbs.edu/coursecatalog/1315.html"
+    },
+    "HBSMBA 1324": {
+        "course_code": "HBSMBA 1324",
+        "course_name": "Risks, Opportunities, And Investments In The Era Of Climate Change",
+        "course_description": "http://www.hbs.edu/coursecatalog/1324.html"
+    },
+    "HBSMBA 1326": {
+        "course_code": "HBSMBA 1326",
+        "course_name": "Risks, Opportunities, and Investments in the Era of Climate Change (ROICC): Solutions Lab",
+        "course_description": "http://www.hbs.edu/coursecatalog/1326.html"
+    },
+    "HBSMBA 1350": {
+        "course_code": "HBSMBA 1350",
+        "course_name": "Changing the World: Life Choices of Influential Leaders",
+        "course_description": "http://www.hbs.edu/coursecatalog/1350.html"
+    },
+    "HBSMBA 1413": {
+        "course_code": "HBSMBA 1413",
+        "course_name": "How to Not Bankrupt Your Family",
+        "course_description": "http://www.hbs.edu/coursecatalog/1413.html"
+    },
+    "HBSMBA 1416": {
+        "course_code": "HBSMBA 1416",
+        "course_name": "Corporate Finance: Corporate Financial Operations",
+        "course_description": "http://www.hbs.edu/coursecatalog/1416.html"
+    },
+    "HBSMBA 1417": {
+        "course_code": "HBSMBA 1417",
+        "course_name": "Strategies for Value Creation",
+        "course_description": "http://www.hbs.edu/coursecatalog/1417.html"
+    },
+    "HBSMBA 1420": {
+        "course_code": "HBSMBA 1420",
+        "course_name": "Creating Value Through Corporate Restructuring",
+        "course_description": "http://www.hbs.edu/coursecatalog/1420.html"
+    },
+    "HBSMBA 1425": {
+        "course_code": "HBSMBA 1425",
+        "course_name": "Investment Strategies",
+        "course_description": "http://www.hbs.edu/coursecatalog/1425.html"
+    },
+    "HBSMBA 1428": {
+        "course_code": "HBSMBA 1428",
+        "course_name": "Venture Capital and Private Equity",
+        "course_description": "http://www.hbs.edu/coursecatalog/1428.html"
+    },
+    "HBSMBA 1440": {
+        "course_code": "HBSMBA 1440",
+        "course_name": "Private Equity Finance",
+        "course_description": "http://www.hbs.edu/coursecatalog/1440.html"
+    },
+    "HBSMBA 1446": {
+        "course_code": "HBSMBA 1446",
+        "course_name": "Investment Management and Capital Markets",
+        "course_description": "http://www.hbs.edu/coursecatalog/1446.html"
+    },
+    "HBSMBA 1452": {
+        "course_code": "HBSMBA 1452",
+        "course_name": "Financial Management of Smaller Firms",
+        "course_description": "http://www.hbs.edu/coursecatalog/1452.html"
+    },
+    "HBSMBA 1457": {
+        "course_code": "HBSMBA 1457",
+        "course_name": "Market Perspectives",
+        "course_description": "http://www.hbs.edu/coursecatalog/1457.html"
+    },
+    "HBSMBA 1475": {
+        "course_code": "HBSMBA 1475",
+        "course_name": "Real Estate Investing",
+        "course_description": "http://www.hbs.edu/coursecatalog/1475.html"
+    },
+    "HBSMBA 1484": {
+        "course_code": "HBSMBA 1484",
+        "course_name": "Real Estate Private Equity",
+        "course_description": "http://www.hbs.edu/coursecatalog/1484.html"
+    },
+    "HBSMBA 1487": {
+        "course_code": "HBSMBA 1487",
+        "course_name": "Cities, Structures, and Climate Shocks",
+        "course_description": "http://www.hbs.edu/coursecatalog/1487.html"
+    },
+    "HBSMBA 1495": {
+        "course_code": "HBSMBA 1495",
+        "course_name": "Sustainable Investing",
+        "course_description": "http://www.hbs.edu/coursecatalog/1495.html"
+    },
+    "HBSMBA 1504": {
+        "course_code": "HBSMBA 1504",
+        "course_name": "Building and Sustaining a Successful Enterprise",
+        "course_description": "http://www.hbs.edu/coursecatalog/1504.html"
+    },
+    "HBSMBA 1505": {
+        "course_code": "HBSMBA 1505",
+        "course_name": "Solving Society's Complex Challenges Using a Systems Approach",
+        "course_description": "http://www.hbs.edu/coursecatalog/1505.html"
+    },
+    "HBSMBA 1509": {
+        "course_code": "HBSMBA 1509",
+        "course_name": "Managing and Innovating in Financial Services",
+        "course_description": "http://www.hbs.edu/coursecatalog/1509.html"
+    },
+    "HBSMBA 1515": {
+        "course_code": "HBSMBA 1515",
+        "course_name": "Unpacking the US-China Rivalry",
+        "course_description": "http://www.hbs.edu/coursecatalog/1515.html"
+    },
+    "HBSMBA 1524": {
+        "course_code": "HBSMBA 1524",
+        "course_name": "Reimagining Capitalism: Business and Big Problems",
+        "course_description": "http://www.hbs.edu/coursecatalog/1524.html"
+    },
+    "HBSMBA 1535": {
+        "course_code": "HBSMBA 1535",
+        "course_name": "The CEO Experience",
+        "course_description": "http://www.hbs.edu/coursecatalog/1535.html"
+    },
+    "HBSMBA 1540": {
+        "course_code": "HBSMBA 1540",
+        "course_name": "Law, Management and Entrepreneurship",
+        "course_description": "http://www.hbs.edu/coursecatalog/1540.html"
+    },
+    "HBSMBA 1545": {
+        "course_code": "HBSMBA 1545",
+        "course_name": "The Power of DEI: Harnessing Talent and Opportunity for Justice and Success",
+        "course_description": "http://www.hbs.edu/coursecatalog/1545.html"
+    },
+    "HBSMBA 1555": {
+        "course_code": "HBSMBA 1555",
+        "course_name": "Africa Rising: Understanding Business, Entrepreneurship, and the Complexities of a Continent",
+        "course_description": "http://www.hbs.edu/coursecatalog/1555.html"
+    },
+    "HBSMBA 1556": {
+        "course_code": "HBSMBA 1556",
+        "course_name": "Making Difficult Decisions: The General Manager\u2019s Job",
+        "course_description": "http://www.hbs.edu/coursecatalog/1556.html"
+    },
+    "HBSMBA 1562": {
+        "course_code": "HBSMBA 1562",
+        "course_name": "The Moral Leader",
+        "course_description": "http://www.hbs.edu/coursecatalog/1562.html"
+    },
+    "HBSMBA 1564": {
+        "course_code": "HBSMBA 1564",
+        "course_name": "Challenges and Opportunities in the Restaurant Industry",
+        "course_description": "http://www.hbs.edu/coursecatalog/1564.html"
+    },
+    "HBSMBA 1565": {
+        "course_code": "HBSMBA 1565",
+        "course_name": "Global Trade, Capital and National Institutions",
+        "course_description": "http://www.hbs.edu/coursecatalog/1565.html"
+    },
+    "HBSMBA 1575": {
+        "course_code": "HBSMBA 1575",
+        "course_name": "Doing Business with China 2035",
+        "course_description": "http://www.hbs.edu/coursecatalog/1575.html"
+    },
+    "HBSMBA 1585": {
+        "course_code": "HBSMBA 1585",
+        "course_name": "Social Entrepreneurship and Systems Change",
+        "course_description": "http://www.hbs.edu/coursecatalog/1585.html"
+    },
+    "HBSMBA 1602": {
+        "course_code": "HBSMBA 1602",
+        "course_name": "Transforming Education through Social Entrepreneurship",
+        "course_description": "http://www.hbs.edu/coursecatalog/1602.html"
+    },
+    "HBSMBA 1623": {
+        "course_code": "HBSMBA 1623",
+        "course_name": "Public Entrepreneurship",
+        "course_description": "http://www.hbs.edu/coursecatalog/1623.html"
+    },
+    "HBSMBA 1624": {
+        "course_code": "HBSMBA 1624",
+        "course_name": "Entrepreneurial Finance",
+        "course_description": "http://www.hbs.edu/coursecatalog/1624.html"
+    },
+    "HBSMBA 1625": {
+        "course_code": "HBSMBA 1625",
+        "course_name": "Entrepreneurial Finance",
+        "course_description": "http://www.hbs.edu/coursecatalog/1625.html"
+    },
+    "HBSMBA 1631": {
+        "course_code": "HBSMBA 1631",
+        "course_name": "Entrepreneurship Outside of the Valley",
+        "course_description": "http://www.hbs.edu/coursecatalog/1631.html"
+    },
+    "HBSMBA 1632": {
+        "course_code": "HBSMBA 1632",
+        "course_name": "3 Technologies that Will Change the World",
+        "course_description": "http://www.hbs.edu/coursecatalog/1632.html"
+    },
+    "HBSMBA 1636": {
+        "course_code": "HBSMBA 1636",
+        "course_name": "Turnarounds and Transformation",
+        "course_description": "http://www.hbs.edu/coursecatalog/1636.html"
+    },
+    "HBSMBA 1641": {
+        "course_code": "HBSMBA 1641",
+        "course_name": "Data for Impact",
+        "course_description": "http://www.hbs.edu/coursecatalog/1641.html"
+    },
+    "HBSMBA 1645": {
+        "course_code": "HBSMBA 1645",
+        "course_name": "Global Tech Entrepreneurship",
+        "course_description": "http://www.hbs.edu/coursecatalog/1645.html"
+    },
+    "HBSMBA 1655": {
+        "course_code": "HBSMBA 1655",
+        "course_name": "Entrepreneurial Sales 101: Founder Selling",
+        "course_description": "http://www.hbs.edu/coursecatalog/1655.html"
+    },
+    "HBSMBA 1665": {
+        "course_code": "HBSMBA 1665",
+        "course_name": "Making Markets",
+        "course_description": "http://www.hbs.edu/coursecatalog/1665.html"
+    },
+    "HBSMBA 1676": {
+        "course_code": "HBSMBA 1676",
+        "course_name": "Founder Mindset",
+        "course_description": "http://www.hbs.edu/coursecatalog/1676.html"
+    },
+    "HBSMBA 1677": {
+        "course_code": "HBSMBA 1677",
+        "course_name": "Managing the Future of Work",
+        "course_description": "http://www.hbs.edu/coursecatalog/1677.html"
+    },
+    "HBSMBA 1684": {
+        "course_code": "HBSMBA 1684",
+        "course_name": "Real Property",
+        "course_description": "http://www.hbs.edu/coursecatalog/1684.html"
+    },
+    "HBSMBA 1685": {
+        "course_code": "HBSMBA 1685",
+        "course_name": "Entrepreneurial Solutions to World Problems",
+        "course_description": "http://www.hbs.edu/coursecatalog/1685.html"
+    },
+    "HBSMBA 1695": {
+        "course_code": "HBSMBA 1695",
+        "course_name": "Entrepreneurial Sales 102: Building the First Sales Team",
+        "course_description": "http://www.hbs.edu/coursecatalog/1695.html"
+    },
+    "HBSMBA 1727": {
+        "course_code": "HBSMBA 1727",
+        "course_name": "Tough Tech Ventures",
+        "course_description": "http://www.hbs.edu/coursecatalog/1727.html"
+    },
+    "HBSMBA 1728": {
+        "course_code": "HBSMBA 1728",
+        "course_name": "Tough Tech Venture Labs",
+        "course_description": "http://www.hbs.edu/coursecatalog/1728.html"
+    },
+    "HBSMBA 1740": {
+        "course_code": "HBSMBA 1740",
+        "course_name": "Avoiding Startup Failure",
+        "course_description": "<p>http://www.hbs.edu/coursecatalog/1740.html</p>"
+    },
+    "HBSMBA 1757": {
+        "course_code": "HBSMBA 1757",
+        "course_name": "Launching Technology Ventures",
+        "course_description": "http://www.hbs.edu/coursecatalog/1757.html"
+    },
+    "HBSMBA 1765": {
+        "course_code": "HBSMBA 1765",
+        "course_name": "Product Management",
+        "course_description": "http://www.hbs.edu/coursecatalog/1765.html"
+    },
+    "HBSMBA 1777": {
+        "course_code": "HBSMBA 1777",
+        "course_name": "Entrepreneurship in the Life Sciences",
+        "course_description": "http://www.hbs.edu/coursecatalog/1777.html"
+    },
+    "HBSMBA 1785": {
+        "course_code": "HBSMBA 1785",
+        "course_name": "Building Web 3 Businesses",
+        "course_description": "http://www.hbs.edu/coursecatalog/1785.html"
+    },
+    "HBSMBA 1788": {
+        "course_code": "HBSMBA 1788",
+        "course_name": "Scaling Technology Ventures",
+        "course_description": "http://www.hbs.edu/coursecatalog/1788.html"
+    },
+    "HBSMBA 1789": {
+        "course_code": "HBSMBA 1789",
+        "course_name": "Systems for Scaling Ventures",
+        "course_description": "http://www.hbs.edu/coursecatalog/1789.html"
+    },
+    "HBSMBA 1816": {
+        "course_code": "HBSMBA 1816",
+        "course_name": "Motivation and Incentives",
+        "course_description": "http://www.hbs.edu/coursecatalog/1816.html"
+    },
+    "HBSMBA 1825": {
+        "course_code": "HBSMBA 1825",
+        "course_name": "Building Trusted Organizations",
+        "course_description": "http://www.hbs.edu/coursecatalog/1825.html"
+    },
+    "HBSMBA 1885": {
+        "course_code": "HBSMBA 1885",
+        "course_name": "Leadership and Happiness",
+        "course_description": "http://www.hbs.edu/coursecatalog/1885.html"
+    },
+    "HBSMBA 1908": {
+        "course_code": "HBSMBA 1908",
+        "course_name": "Business at the Base of the Pyramid",
+        "course_description": "http://www.hbs.edu/coursecatalog/1908.html"
+    },
+    "HBSMBA 1911": {
+        "course_code": "HBSMBA 1911",
+        "course_name": "Agribusiness",
+        "course_description": "http://www.hbs.edu/coursecatalog/1911.html"
+    },
+    "HBSMBA 1914": {
+        "course_code": "HBSMBA 1914",
+        "course_name": "The Business of Entertainment, Media, and Sports",
+        "course_description": "http://www.hbs.edu/coursecatalog/1914.html"
+    },
+    "HBSMBA 1915": {
+        "course_code": "HBSMBA 1915",
+        "course_name": "Pricing Strategy: Monetizing and Growing the Business",
+        "course_description": "http://www.hbs.edu/coursecatalog/1915.html"
+    },
+    "HBSMBA 1925": {
+        "course_code": "HBSMBA 1925",
+        "course_name": "Creating Brand Value",
+        "course_description": "http://www.hbs.edu/coursecatalog/1925.html"
+    },
+    "HBSMBA 1955": {
+        "course_code": "HBSMBA 1955",
+        "course_name": "Innovation and Renovation: Optimizing Product Line Architecture",
+        "course_description": "http://www.hbs.edu/coursecatalog/1955.html"
+    },
+    "HBSMBA 1965": {
+        "course_code": "HBSMBA 1965",
+        "course_name": "Managing Customers for Growth",
+        "course_description": "http://www.hbs.edu/coursecatalog/1965.html"
+    },
+    "HBSMBA 1975": {
+        "course_code": "HBSMBA 1975",
+        "course_name": "Go To Market Strategies",
+        "course_description": "http://www.hbs.edu/coursecatalog/1975.html"
+    },
+    "HBSMBA 1995": {
+        "course_code": "HBSMBA 1995",
+        "course_name": "Digital Marketing Workshop",
+        "course_description": "http://www.hbs.edu/coursecatalog/1995.html"
+    },
+    "HBSMBA 2010": {
+        "course_code": "HBSMBA 2010",
+        "course_name": "Corporate Governance and Boards of Directors",
+        "course_description": "http://www.hbs.edu/coursecatalog/2010.html"
+    },
+    "HBSMBA 2012": {
+        "course_code": "HBSMBA 2012",
+        "course_name": "Mastering Consulting and Advisory Skills",
+        "course_description": "http://www.hbs.edu/coursecatalog/2012.html"
+    },
+    "HBSMBA 2031": {
+        "course_code": "HBSMBA 2031",
+        "course_name": "Leadership Execution and Action Planning",
+        "course_description": "http://www.hbs.edu/coursecatalog/2031.html"
+    },
+    "HBSMBA 2045": {
+        "course_code": "HBSMBA 2045",
+        "course_name": "Climate Action Now",
+        "course_description": "http://www.hbs.edu/coursecatalog/2045.html"
+    },
+    "HBSMBA 2055": {
+        "course_code": "HBSMBA 2055",
+        "course_name": "Power and Influence for Positive Impact",
+        "course_description": "http://www.hbs.edu/coursecatalog/2055.html"
+    },
+    "HBSMBA 2056": {
+        "course_code": "HBSMBA 2056",
+        "course_name": "Power and Influence",
+        "course_description": "http://www.hbs.edu/coursecatalog/2056.html"
+    },
+    "HBSMBA 2060": {
+        "course_code": "HBSMBA 2060",
+        "course_name": "Managing Human Capital",
+        "course_description": "http://www.hbs.edu/coursecatalog/2060.html"
+    },
+    "HBSMBA 2077": {
+        "course_code": "HBSMBA 2077",
+        "course_name": "Crafting Your Life: The first ten years post MBA",
+        "course_description": "http://www.hbs.edu/coursecatalog/2077.html"
+    },
+    "HBSMBA 2090": {
+        "course_code": "HBSMBA 2090",
+        "course_name": "Authentic Leader Development",
+        "course_description": "http://www.hbs.edu/coursecatalog/2090.html"
+    },
+    "HBSMBA 2108": {
+        "course_code": "HBSMBA 2108",
+        "course_name": "Supply Chain Management",
+        "course_description": "http://www.hbs.edu/coursecatalog/2108.html"
+    },
+    "HBSMBA 2115": {
+        "course_code": "HBSMBA 2115",
+        "course_name": "Data Science for Managers 1",
+        "course_description": "http://www.hbs.edu/coursecatalog/2115.html"
+    },
+    "HBSMBA 2120": {
+        "course_code": "HBSMBA 2120",
+        "course_name": "Managing Service Operations",
+        "course_description": "http://www.hbs.edu/coursecatalog/2120.html"
+    },
+    "HBSMBA 2125": {
+        "course_code": "HBSMBA 2125",
+        "course_name": "Data Science for Managers 2",
+        "course_description": "http://www.hbs.edu/coursecatalog/2125.html"
+    },
+    "HBSMBA 2134": {
+        "course_code": "HBSMBA 2134",
+        "course_name": "Digital Innovation and Transformation",
+        "course_description": "http://www.hbs.edu/coursecatalog/2134.html"
+    }
+}

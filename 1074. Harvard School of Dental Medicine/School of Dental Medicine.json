@@ -1,0 +1,807 @@
+{
+    "DEN 601": {
+        "course_code": "DEN 601",
+        "course_name": "Dental Education Longitudinal Seminar Series I",
+        "course_description": "<p>The objectives of this course are: 1) To review basic and essential literature pertinent to current issues in dental education, 2) To provide information to residents on applying foundational concepts of education to the design of a dental curriculum,\u00a0 3) To better enable the correlation of clinical and didactic education with evidence-based literature and outcomes assessments, and 4) To enable students to stay on top of current issues, and continue to review the history of dental education. We will focus on reviewing dental pedagogy, curriculum planning, and critically assessing scientific papers.</p>"
+    },
+    "DEN 602": {
+        "course_code": "DEN 602",
+        "course_name": "Dental Education Portfolio I",
+        "course_description": "<p>Required every year of MMSc in Dental Education; or required in penultimate year of program if completing MMSc in Dental Education combined with a certificate</p>"
+    },
+    "DEN 700": {
+        "course_code": "DEN 700",
+        "course_name": "Mentored Project",
+        "course_description": "<p>The course may be begun in the first year, time permitting, but must be completed in the second year.\u00a0\u00a0 <br /><br />The student will select a project based on his or her interests in the field of dental education, and will work closely with one or two mentors to produce a poster or submitted/published paper on the subject.<br /><br />Participation in Student Research Day in the second year of the program is required. <br /><br />Posters will be presented at HSDM Research Day and, if possible, at an ADEA meeting.</p>"
+    },
+    "DEN 702": {
+        "course_code": "DEN 702",
+        "course_name": "Dental Education Portfolio",
+        "course_description": "<p>Required every year of MMSc in Dental Education; or required in penultimate year of program if completing MMSc in Dental Education combined with a certificate</p>"
+    },
+    "DEN 703": {
+        "course_code": "DEN 703",
+        "course_name": "Effective Leadership Communication Seminar Series",
+        "course_description": "<p><span style=\"font-family:calibri,sans-serif;\"><span style=\"font-size:10.0pt;\">Dental education is rapidly expanding with the frequent release of new publications and guidelines published by dental schools across the United States. As future leaders of dental education, it is important to know how to communicate effectively as a leader. We will focus on advanced public speaking techniques, effective communication, connecting with an audience and persuasion. Students will identify strengths and areas for improvement in their own communication style, while learning how to adapt their message for a variety of audiences.&nbsp; Throughout the semester lectures include a focus on presentation skills, language, narratives, vocal variation, techniques for persuasion and effective communication in the workplace. </span></span></p><p class=\"MsoNormal\" style=\"text-align:justify\"><span style=\"font-size:10.0pt;font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-theme-font:minor-latin\"><o:p>&nbsp;</o:p></span></p>"
+    },
+    "DHE 501": {
+        "course_code": "DHE 501",
+        "course_name": "Career Development in Global and Community Health",
+        "course_description": "<p>This is a seminar series course that examines the extensive career opportunities in global and community health through seminars provided by invited speakers currently working in the field.&nbsp; A variety of topics and areas of global health will be covered, and speakers may be added throughout the year as opportunities arise.&nbsp; By incorporating their current places of work and projects into presentations, discussions, and question and answer sessions, speakers will introduce students to a spectrum of global health career opportunities, both in the local community and abroad.&nbsp; Students will be required to attend a minimum of eight seminar sessions offered throughout the year.&nbsp; Students are evaluated on attendance and participation, as well as small group preparation through readings and discussion prior to scheduled lectures. By the end of this course, the student will be able to demonstrate understanding of the variety of career options in global health (possibly including program and policy development, private practice outreach, community health practice, research, and academics), as well as to demonstrate an understanding of the development of professional relationships in the field of global and community health.</p>"
+    },
+    "DHE 701": {
+        "course_code": "DHE 701",
+        "course_name": "Global Health Field Course: Perspectives from Costa Rica",
+        "course_description": "<p>Co-created by faculty from HSDM and the InterAmerican Center for Global Health (CISG), this course serves as an extension DHE601 (Global Oral Health: Interdisciplinary Approaches), which is taught as a series of modules within the longitudinal Principles of Oral Health course. Set in rural southern Costa Rica, this unique 1-week extension program will be embedded in some of the pressing grand challenges in the field of global health: achieving universal health care, environmental degradation, migrations and the demographic, nutritional, and epidemiological transition. The program provides students with a broad understanding of health and the social, political, cultural, behavioral and economic forces that influence health access, health outcomes, and health systems.<br /><br />This program represents an opportunity in which the interaction between the theoretical content and the identification of common factors of health inequities is realized through an immersive experience. Participants will be able to experience the multiple components that determine health, expanding their competencies within an ethically responsible and participatory approach.</p>"
+    },
+    "DHE 722": {
+        "course_code": "DHE 722",
+        "course_name": "Health Policy Issues: Access to Dental Services",
+        "course_description": "<p>This course uses examples and issues in dentistry and dental public health as a strategy for understanding health policy and public health program development at the local, state and national levels. The objectives are: to apply the health policy process and community health program planning methods to dental services program development; and to identify possible linkages between the public health system and the (dental) health services delivery system.</p>"
+    },
+    "DPH 601": {
+        "course_code": "DPH 601",
+        "course_name": "Current Literature Review",
+        "course_description": "<p>The field of Dental Public Health is rapidly expanding with the frequent release of new publications and evolution of evidence-based guidelines. As dental public health professionals, it is important to stay on top of current issues and hot topics. The goal of this course is to keep the DPH residents up-to-date with the current literature and train them to critically assess/ review scientific papers. There will be special emphasis on reviewing epidemiologic and statistical methods. Current literature will also be used as a way to review past literature on the topics of interest to dental public health professionals.</p>"
+    },
+    "DPH 602": {
+        "course_code": "DPH 602",
+        "course_name": "Principles of Dental Public Health",
+        "course_description": "<p>The goal of this course is to review various aspects and core principles of Dental Public Health. In addition to reviewing these topics, we discuss the application of these principles to population-based oral health through review of the resources recommended by the American Board of Dental Public Health for the board certification exam. This annual seminar is mandatory for all Dental Public Health students, including D.M.Sc., M.M.Sc. and Certificate candidates.</p>"
+    },
+    "DPH 604": {
+        "course_code": "DPH 604",
+        "course_name": "Research Design & Analysis I",
+        "course_description": "<p>The goal of the course is to provide didactic and practical experience in proposal development, grant writing and data analysis. Each student will design a research proposal for their degree or certificate program, conduct primary or secondary data analysis and complete a publishable written report. Course sessions will alternate weekly between didactic and &quot;hands on&quot; data analysis. &nbsp;DPH students enrolled in Years 3-4 will serve as teaching assistants as part of their educational program to assist in proposal preparation, data analysis plans, data analysis, and report writing.</p>"
+    },
+    "DPH 605": {
+        "course_code": "DPH 605",
+        "course_name": "Dental Public Health Project",
+        "course_description": "<p>The goal of this independent study is for DPH residents to conduct a public health project incorporating the competencies of the American Board of Dental Public Health in preparation for the certifying exam of the ABDPH. The student will work with their faculty advisor and DPH Program Director to conduct a public health project and produce a full written report in accordance with requirements for the ABDPH certifying exam.</p>"
+    },
+    "DPH 606": {
+        "course_code": "DPH 606",
+        "course_name": "Community Healthcare Program Planning, Implementation, and Evaluation",
+        "course_description": "<p>An in-depth study of basic planning and evaluation techniques for the implementation of a community health care program. It addresses conceptual framework for the planning and management of health care programs. The course also reviews essential methods for effective planning and evaluation considering the economic, political, epidemiological, demographic, and other components that contribute to the assessment of health needs and resource allocation.</p>"
+    },
+    "DPH 701": {
+        "course_code": "DPH 701",
+        "course_name": "Current Literature Review",
+        "course_description": "<p>The field of Dental Public Health is rapidly expanding with the frequent release of new publications and evolution of evidence-based guidelines. As dental public health professionals, it is important to stay on top of current issues and hot topics. The goal of this course is to keep the DPH residents up-to-date with the current literature and train them to critically assess/ review scientific papers. There will be special emphasis on reviewing epidemiologic and statistical methods. Current literature will also be used as a way to review past literature on the topics of interest to dental public health professionals.</p>"
+    },
+    "DPH 702": {
+        "course_code": "DPH 702",
+        "course_name": "Principles of Dental Public Health",
+        "course_description": "<p>The goal of this&nbsp;course is to review various aspects and core principles of Dental Public Health. In addition to reviewing these topics, we discuss the application of these principles to population-based oral health through review of the resources recommended by the American Board of Dental Public Health for the board certification exam. This annual seminar is mandatory for all Dental Public Health students, including D.M.Sc., M.M.Sc. and Certificate candidates.</p>"
+    },
+    "DPH 704": {
+        "course_code": "DPH 704",
+        "course_name": "Research Design and Analysis II",
+        "course_description": "<p>The goal of the course is to provide didactic and practical experience in proposal development, grant writing and data analysis. Each student will design a research proposal for their degree or certificate program, conduct primary or secondary data analysis and complete a publishable written report. Course sessions will alternate weekly between didactic and &quot;hands on&quot; data analysis. &nbsp;DPH students enrolled in Years 3-4 will serve as teaching assistants as part of their educational program to assist in proposal preparation, data analysis plans, data analysis, and report writing.</p>"
+    },
+    "DPH 705": {
+        "course_code": "DPH 705",
+        "course_name": "Dental Public Health Project",
+        "course_description": "<p>The goal of this independent study is for DPH residents to conduct a public health project incorporating the competencies of the American Board of Dental Public Health in preparation for the certifying exam of the ABDPH. The student will work with their faculty advisor and DPH Program Director to conduct a public health project and produce a full written report in accordance with requirements for the ABDPH certifying exam.</p>"
+    },
+    "DPH 801": {
+        "course_code": "DPH 801",
+        "course_name": "Current Literature Review",
+        "course_description": "<p>The field of Dental Public Health is rapidly expanding with the frequent release of new publications and evolution of evidence-based guidelines. As dental public health professionals, it is important to stay on top of current issues and hot topics. The goal of this course is to keep the DPH residents up-to-date with the current literature and train them to critically assess/ review scientific papers. There will be special emphasis on reviewing epidemiologic and statistical methods. Current literature will also be used as a way to review past literature on the topics of interest to dental public health professionals.</p>"
+    },
+    "DPH 802": {
+        "course_code": "DPH 802",
+        "course_name": "Principles of Dental Public Health",
+        "course_description": "<p>The goal of this course is to review various aspects and core principles of Dental Public Health. In addition to reviewing these topics, we discuss the application of these principles to population-based oral health through review of the resources recommended by the American Board of Dental Public Health for the board certification exam. This annual seminar is mandatory for all Dental Public Health students, including D.M.Sc., M.M.Sc. and Certificate candidates.</p>"
+    },
+    "DPH 804": {
+        "course_code": "DPH 804",
+        "course_name": "Research Design and Analysis (Teaching Assistantship I)",
+        "course_description": "<p>The goal of the course is to provide didactic and practical experience in proposal development, grant writing and data analysis. Each student will design a research proposal for their degree or certificate program, conduct primary or secondary data analysis and complete a publishable written report. Course sessions will alternate weekly between didactic and &quot;hands on&quot; data analysis. &nbsp;DPH students enrolled in Years 3-4 will serve as teaching assistants as part of their educational program to assist in proposal preparation, data analysis plans, data analysis, and report writing.</p>"
+    },
+    "DPH 805": {
+        "course_code": "DPH 805",
+        "course_name": "Dental Public Health Project",
+        "course_description": "<p>The goal of this independent study is for DPH residents to conduct a public health project incorporating the competencies of the American Board of Dental Public Health in preparation for the certifying exam of the ABDPH. The student will work with their faculty advisor and DPH Program Director to conduct a public health project and produce a full written report in accordance with requirements for the ABDPH certifying exam.</p>"
+    },
+    "DPH 901": {
+        "course_code": "DPH 901",
+        "course_name": "Current Literature Review",
+        "course_description": "<p>The field of Dental Public Health is rapidly expanding with the frequent release of new publications and evolution of evidence-based guidelines. As dental public health professionals, it is important to stay on top of current issues and hot topics. The goal of this course is to keep the DPH residents up-to-date with the current literature and train them to critically assess/ review scientific papers. There will be special emphasis on reviewing epidemiologic and statistical methods. Current literature will also be used as a way to review past literature on the topics of interest to dental public health professionals.</p>"
+    },
+    "DPH 902": {
+        "course_code": "DPH 902",
+        "course_name": "Principles of Dental Public Health",
+        "course_description": "<p>The goal of this&nbsp;course is to review various aspects and core principles of Dental Public Health. In addition to reviewing these topics, we discuss the application of these principles to population-based oral health through review of the resources recommended by the American Board of Dental Public Health for the board certification exam. This annual seminar is mandatory for all Dental Public Health students, including D.M.Sc., M.M.Sc. and Certificate candidates.</p>"
+    },
+    "DPH 904": {
+        "course_code": "DPH 904",
+        "course_name": "Research Design and Analysis (Teaching Assistantship II)",
+        "course_description": "<p>The goal of the course is to provide didactic and practical experience in proposal development, grant writing and data analysis. Each student will design a research proposal for their degree or certificate program, conduct primary or secondary data analysis and complete a publishable written report. Course sessions will alternate weekly between didactic and &quot;hands on&quot; data analysis. &nbsp;DPH students enrolled in Years 3-4 will serve as teaching assistants as part of their educational program to assist in proposal preparation, data analysis plans, data analysis, and report writing.</p>"
+    },
+    "END 600": {
+        "course_code": "END 600",
+        "course_name": "Introduction to Advanced Endodontics",
+        "course_description": "<p>This course serves as a topics survey of advanced endodontics.\u00a0 It is also designed to introduce incoming first year advanced graduate education Endodontics students to current techniques in clinical endodontics by combining extensive laboratory sessions with the utilization of microscopy and other technologies with, subsequent critical evaluation of laboratory exercises.\u00a0 In addition,\u00a0 this course incorporates review of current Endodontics texts in a seminar and lecture format. This advanced introductory course is completed before AGE Endodontics students begin patient care.</p>"
+    },
+    "END 601": {
+        "course_code": "END 601",
+        "course_name": "Classic Literature Seminar",
+        "course_description": "?p?The \"classic\"\u00a0 literature considered in this course is organized in a manner to complement the rapid clinical and academic growth of first and second year advanced graduate education Endodontics students. Students will analyze, review and critique original literature. The content of each article "
+    },
+    "END 602": {
+        "course_code": "END 602",
+        "course_name": "Current Literature Review Seminar",
+        "course_description": "?p?These seminars involve first, second and third year advanced graduate education Endodontics\u00a0 students. Each student is responsible for abstracting and reporting current articles from assigned journals. Critical analysis and evaluation of relative merit of information is stressed.?/p?"
+    },
+    "END 603": {
+        "course_code": "END 603",
+        "course_name": "Intradepartmental Case Presentation Seminars",
+        "course_description": "?p?These seminars involve first, second and third year advanced graduate education Endodontics students. Students present their clinical cases, either in progress or completed, for review and evaluation.\u00a0 Cases are pre-selected by the faculty or students. Case review follows the format of the Americ"
+    },
+    "END 701": {
+        "course_code": "END 701",
+        "course_name": "Classic Literature Seminar",
+        "course_description": "?p?The \"classic\"\u00a0 literature of this course is organized in a manner to complement the rapid clinical and academic growth of first and second year advanced graduate education Endodontics students. Students will analyze, review and critique original literature. The content of each article is discusse"
+    },
+    "END 702": {
+        "course_code": "END 702",
+        "course_name": "Current Literature Review Seminar",
+        "course_description": "?p?These seminars involve first, second and third year advanced graduate education Endodontics students. Each student is responsible for abstracting and reporting current articles from assigned journals. Critical analysis and evaluation of relative merit of information is stressed.?/p?"
+    },
+    "END 703": {
+        "course_code": "END 703",
+        "course_name": "Intradepartmental Case Presentation Seminars",
+        "course_description": "?p?These seminars involve first, second and third year advanced graduate education Endodontics students. Students present their clinical cases, either in progress or completed, for review and evaluation.\u00a0 Cases are pre-selected by the faculty or students. Case review follows the format of the Americ"
+    },
+    "END 802": {
+        "course_code": "END 802",
+        "course_name": "Current Literature Review Seminar",
+        "course_description": "?p?These seminars involve first, second and third year advanced graduate education Endodontics students. Each student is responsible for abstracting and reporting current articles from assigned journals. Critical analysis and evaluation of relative merit of information is stressed.?/p?"
+    },
+    "END 803": {
+        "course_code": "END 803",
+        "course_name": "Intradepartmental Case Presentation Seminars",
+        "course_description": "?p?These seminars will involve first, second and third year advanced graduate education Endodontics students. Students present their clinical cases, either in progress or completed, for review and evaluation.\u00a0 Cases are pre-selected by the faculty or students. Case review follows the format of the A"
+    },
+    "IDP 500": {
+        "course_code": "IDP 500",
+        "course_name": "Interdepartmental Multidisciplinary Case Presentation Seminars I",
+        "course_description": "?p?These seminars involve faculty and students from endodontics, periodontics, orthodontics and prosthodontics. Cases are selected by a senior graduate student and and presented by the student. For each case, there are several students from other disciplines serving as consultants. Open, animated di"
+    },
+    "IDP 501": {
+        "course_code": "IDP 501",
+        "course_name": "Interdepartmental Multidisciplinary Case Presentation Seminars II",
+        "course_description": "?p?These seminars involve faculty and students from endodontics, periodontics, orthodontics and prosthodontics. Cases are selected by a senior graduate student and and presented by the student. For each case, there are several students from other disciplines serving as consultants. Open, animated di"
+    },
+    "IDP 502": {
+        "course_code": "IDP 502",
+        "course_name": "Interdepartmental Multidisciplinary Case Presentation Seminars III",
+        "course_description": "?p?These seminars involve faculty and students from endodontics, periodontics, orthodontics and prosthodontics. Cases are selected by a senior graduate student and and presented by the student. For each case, there are several students from other disciplines serving as consultants. Open, animated di"
+    },
+    "IDP 600": {
+        "course_code": "IDP 600",
+        "course_name": "Advanced Graduate Education Research Seminar Series",
+        "course_description": "?p?The goal of the research seminars is for both D.M.Sc., M.M.Sc. and selected Certificate candidates to share their current research work with faculty, students and staff from all departments of HSDM. The seminars provide fellows with the chance for academic and research exchange among the differen"
+    },
+    "IDP 602": {
+        "course_code": "IDP 602",
+        "course_name": "Fundamentals of Research",
+        "course_description": "?p?The goal of this course is to guide M.M.Sc., D.M.Sc. and Ph.D. students through an introduction to research from a broad scientific perspective.\u00a0 Each of the course sessions will be taught by faculty members based on a chapter in \"Research Methodology in Medicine and Biological Sciences\" which wi"
+    },
+    "IDP 604": {
+        "course_code": "IDP 604",
+        "course_name": "Foundations for the Advanced Dental Practitioner",
+        "course_description": "?p?The overall goal of the foundations for the advanced dental practitioner course is for dental residents to gain the basic fundamentals necessary for the future practice of dentistry including understanding ethics/professionalism, evidence-based dentistry, behavioral science, practice management i"
+    },
+    "IDP 700": {
+        "course_code": "IDP 700",
+        "course_name": "Advanced Graduate Education Research Seminar Series",
+        "course_description": "?p?The goal of the research seminars is for both D.M.Sc., M.M.Sc. and selected Certificate candidates to share their current research work with faculty, students and staff from all departments of HSDM. The seminars provide fellows with the chance for academic and research exchange among the differen"
+    },
+    "IDP 751": {
+        "course_code": "IDP 751",
+        "course_name": "Biostatistics",
+        "course_description": "?p?This course will provide an introduction to the principles of biostatistics. This course is designed primarily for clinical researchers or clinicians with an interest in research. Topics to be covered include summarizing and displaying data, the normal distribution, Central Limit Theorem, probabi"
+    },
+    "IDP 800": {
+        "course_code": "IDP 800",
+        "course_name": "Advanced Graduate Education Research Seminar Series",
+        "course_description": "?p?The goal of the research seminars is for both D.M.Sc., M.M.Sc. and selected Certificate candidates to share their current research work with faculty, students and staff from all departments of HSDM. The seminars provide fellows with the chance for academic and research exchange among the differen"
+    },
+    "IDP 900": {
+        "course_code": "IDP 900",
+        "course_name": "Advanced Graduate Education Research Seminar Series",
+        "course_description": "?p?The goal of the research seminars is for both D.M.Sc., M.M.Sc. and selected Certificate candidates to share their current research work with faculty, students and staff from all departments of HSDM. The seminars provide fellows with the chance for academic and research exchange among the differen"
+    },
+    "IMP 601": {
+        "course_code": "IMP 601",
+        "course_name": "Oral Implantology Literature Review",
+        "course_description": "?p?This course is the main didactic component of the AGE Implantology. Focusing on evidence based practice, this literature review addresses the main topics related to modern Oral Implantology. This course is divided into several modules or weekly literature review topics addressing Biological, Surg"
+    },
+    "IMP 602": {
+        "course_code": "IMP 602",
+        "course_name": "Comprehensive Implant-Prosthodontic Treatment Planning",
+        "course_description": "?p?This course is designed to discuss straightforward and advanced clinical cases in order to develop prosthodontic implant treatment planning skills based on the clinical attributes of the case, and scientific knowledge acquired in the IM601 literature review course. The role of the instructors is "
+    },
+    "IMP 603": {
+        "course_code": "IMP 603",
+        "course_name": "Surgical Implant Planning",
+        "course_description": "?p?This course is designed to prepare the student for surgical intervention in straightforward and advanced implant cases. The course aims to develop surgical implant treatment planning skills based on the clinical attributes of the case, and scientific knowledge acquired in the IM601 literature rev"
+    },
+    "IMP 604": {
+        "course_code": "IMP 604",
+        "course_name": "Implant Placement Anatomy Lab",
+        "course_description": "?p?This hands-on course is designed to develop the basic surgical techniques required in the process of performing dental implant treatment. The course is undertaken in the HMS Anatomy Lab on cadavers as part of the pre-clinical surgical training. This provides a relatively stress free environment t"
+    },
+    "IMP 701": {
+        "course_code": "IMP 701",
+        "course_name": "Oral Implantology Literature Review",
+        "course_description": "?p?This course is the main didactic component of the AGE Implantology. Focusing on evidence based practice, this literature review addresses the main topics related to modern Oral Implantology. This course is divided into several modules or weekly literature review topics addressing Biological, Surg"
+    },
+    "IMP 702": {
+        "course_code": "IMP 702",
+        "course_name": "Complex Implant-Prosthodontic Treatment Planning",
+        "course_description": "?p?This course is designed to discuss and present advanced and complex clinical cases or to monitor progress of ongoing cases of any level of complexity. The aim of the course is to develop prosthodontic implant treatment planning skills for more advanced cases based on the clinical attributes of th"
+    },
+    "IMP 703": {
+        "course_code": "IMP 703",
+        "course_name": "Advanced Surgical Implant Planning",
+        "course_description": "?p?This course is designed to prepare the student for surgical intervention in advanced and complex implant cases and to discuss surgical complications. The course aims to develop surgical implant treatment planning skills based on the clinical attributes of the case, and scientific knowledge acquir"
+    },
+    "IMP 704": {
+        "course_code": "IMP 704",
+        "course_name": "Advanced Surgical Techniques Anatomy Lab",
+        "course_description": "<p>This hands-on course is designed to perform an exercise on advanced and complex implant related surgical techniques including Guided Bone Regeneration, Sinus Augmentation Procedures, Connective Tissue Grafting, Ramus Bone Block Harvesting, split crest, and various implant placement techniques. This takes place at the HMS Anatomy Lab. <br />The role of the instructors is to direct the session and oversee the surgical procedures performed by the students. The instructors will also participate by assisting, providing direct feedback as well as hands on demonstrations where required.</p>"
+    },
+    "ORB 601": {
+        "course_code": "ORB 601",
+        "course_name": "Oral Microbiology",
+        "course_description": "<p>The objective of this course is to present fundamental information and concepts regarding the relationship between microbiology (bacteriology) and dental diseases. The relationship between basic and clinical research is explored to include significance in clinical dental practice - as it is and how it might develop. The first part of the course covers traditional and newly developed molecular microbiological methods. The taxonomy of oral species is presented including methods used to derive stable species classifications. Acquisition of the oral microbiota and inter-bacterial relationships as they relate to plaque biofilm ecology are described. The second part of the course covers microbiology of dental caries and periodontal infections including other oral infections of dental origin including peri-implant and endodontic microbiology. Therapy, virulence and anti-microbial strategies for therapy and prevention are presented, and an introduction to species virulence and pathogenicity.</p>"
+    },
+    "ORB 602": {
+        "course_code": "ORB 602",
+        "course_name": "Oral Immunology",
+        "course_description": "<p>An introduction to basic immunology with emphasis on aspects of immunology relevant to the oral environment followed by an in depth survey of immunological phenomena operative in the oral cavity.\u00a0 The nature of innate and adaptive immunities is considered with emphasis on immune selective mechanisms, recognition, cellular interaction, development of immunity, and generation of diversity to meet the challenges of the host.\u00a0 Also considered are the genetics of the adaptive immune system, tolerance, control mechanisms and the nature of chemokines, cytokines and the association with immune cell subdivisions and specialization.\u00a0 Major emphasis is placed on the immune system of mucosal surfaces.\u00a0 The cellular dynamics and interactions in induction of mucosal immunity including unique molecules, synthesis and structures are highlighted.\u00a0 The impact of mucosal immunity on the oral cavity and the potential for basic immune mechanisms and the uniqueness of these oral environments are considered in depth.\u00a0 The molecular pathogeneses of major oral infectious diseases including dental caries, periodontal diseases, and pulpal infection are considered extensively in relation to host immunity to these infections and the philosophy of vaccine formulation. In addition, the etiology and oral manifestation of autoimmune diseases such as Sjogrens Syndrome and bullous diseases are considered in depth.\u00a0 There is also discussion of human immunodeficiency virus infection, emphasizing the oral cavity and effects on oral and other immune mechanisms.\u00a0 Outside reading of 4 hours per week are part of this course.</p>"
+    },
+    "ORB 606": {
+        "course_code": "ORB 606",
+        "course_name": "Fundamentals of Oral Implantology",
+        "course_description": "<p>This course is designed to expose advanced graduate education students to the multiple basic and clinical concepts relevant to dental implant osseointegration and to bone regeneration. Basic concepts include a review of bone healing, tissue response to biomaterials, review of biomechanics, and systemic conditions that might affect implant success. Multiple clinical applications of dental implants will be reviewed, as well as the different specialty approaches to bone regeneration.</p>"
+    },
+    "ORB 607": {
+        "course_code": "ORB 607",
+        "course_name": "Clinical Pharmacology",
+        "course_description": "<p>Building upon the basic principles of pharmacology learned in dental school, the student will understand the nature, administration, effects and potential complications of many drug classes.\u00a0 The emphasis will be on appropriate and accurate use of therapeutic agents commonly used in the practice of dentistry.\u00a0 This course will examine topics including basics of pharmakinetics and dynamics; pain control - intraoperatively and postoperatively; nitrous oxide use; pediatric sedation; parenteral sedation; antibiotics; opioids; anxiolytic agents; NSAIDs; pharmacologic precautions with ASA III-IV patients; and drug interactions.</p>"
+    },
+    "ORB 608": {
+        "course_code": "ORB 608",
+        "course_name": "Graduate Head and Neck Anatomy",
+        "course_description": "<p>This course is designed as an intensive review of head and neck anatomy for postgraduates. Emphasis is placed on the detailed anatomy of bones, muscles, arteries, nerves and fascial spaces associated with the oral cavity and teeth. The course objectives are: (1) provide each student with the opportunity to dissect the head and neck to reinforce their anatomical knowledge, (2) provide anatomy lectures that provide a basis for laboratory and integrate clinical aspects of dentistry, (3) facilitate student discussion on aspects of gross anatomy and dental specialties.</p>"
+    },
+    "ORB 610": {
+        "course_code": "ORB 610",
+        "course_name": "Advanced Oral Medicine, Pathology, and Radiology",
+        "course_description": "<p>The goal of this course is to provide students with formal instruction in advanced oral pathology, oral medicine and radiology. Students will be expected to be familiar with the etiology, clinical and radiographic manifestations, associated laboratory findings, and management of common oral pathology entities. These conditions will include inflammatory disorders, infections, neoplasms, immune disregulations, and other acquired and developmental disorders. Students will also gain an understanding of and appreciation for advanced diagnostic techniques in cytology and pathology, including special staining, immunohistochemistry, and direct and indirect immunoflouresence studies. Students will learn to demonstrate an ability to formulate a reasonable differential diagnosis based on available histories and clinical, radiographic, and laboratory findings as well as an ability to plan an appropriate course of treatment.</p>"
+    },
+    "ORB 611": {
+        "course_code": "ORB 611",
+        "course_name": "Craniofacial Development and Genetics",
+        "course_description": "<p>Required course for all first year MMSc and DMSc students.\u00a0 The Craniofacial Development and Genetics Course provides AGE students with an opportunity to apply some of the general principles of developmental biology and genetics to specific problems of craniofacial, oral and dental medicine.\u00a0 The course features Case Discussions and supporting Lectures in an interactive format.\u00a0 Reading assignments, group presentations and a Take-home Exam are also important components of the course.<br />At the end of the Craniofacial Development and Genetics Course, the students are expected to:<br />-Better understand how genetic diseases can affect the intracellular processes, intercellular interactions and biological signaling pathways essential for tooth and bone development. <br />-Know about strategies for determining whether a craniofacial/dental birth defect is the result of a genetic, environmental, or chance event.<br />-Understand strategies for diagnosing and identifying a genetic cause of craniofacial abnormalities and associated dental defects.<br />-Demonstrate ability to discuss mechanisms by which mutations in genes can give rise to clinical phenotypes.<br />-Know about treatment strategies for patients with genetic diseases affecting craniofacial bones and teeth. <br />-Demonstrate learning progress based on a good record of participation in Case Discussions and presentation assignments and perform well on a Take-home Exam.</p>"
+    },
+    "ORB 614": {
+        "course_code": "ORB 614",
+        "course_name": "Mineralized Tissue Biology and Diseases",
+        "course_description": "<p>The focus of this course is on the biology and pathology of mineralized tissues, including bone, cartilage and the tooth components. In the first part, the extracellular matrix, its inorganic, organic, and cellular components and the mechanisms by which the extracellular matrix is formed and remodeled will be analyzed. These basic principles will then be applied to tissues such as teeth, bone, and cartilage and will explain common features as well as tissue-specific aspects, integrating the biology and the pathology of the most significant diseases. The course will cover diseases affecting these tissues such as gain- or loss of bone mass (osteoporosis and<br />osteopetrosis) and osteo-arthritis and Rheumatoid arhtritis, as well as a detailed description of the calcium and phosphate metabolism and its disrders. The course will then move on to local treatment-related topics including distraction osteogenesis and bone regeneration. After completion of the course, the participant will have an in-depth understanding of the skeletal and tooth system, the extracellular matrix, its components, diseases, and treatment options.</p>"
+    },
+    "ORM 601": {
+        "course_code": "ORM 601",
+        "course_name": "Oral Medicine Seminar Series",
+        "course_description": "<p>The oral medicine seminar series include a literature review, as well as, focused discussions and review of classic and current papers on specific oral medicine and related topics.</p>"
+    },
+    "ORM 602": {
+        "course_code": "ORM 602",
+        "course_name": "Oral Medicine Grand Rounds",
+        "course_description": "<p>This bi-monthly grand rounds is a key clinical educational effort of the Division of Oral Medicine and Dentistry at Brigham and Women\u2019s Hospital.\u00a0 This forum is presented by the HSDM Oral Medicine and Oral Pathology Advanced Graduate Education students under the supervision of the division\u2019s faculty members.\u00a0 Two clinical cases are presented each session from the Oral Medicine teaching clinic at Brigham and Women\u2019s Hospital that demonstrate interesting, challenging, unique, and/or clinically important/relevant conditions.\u00a0 An in-depth discussion of the clinical presentation, diagnosis, and management, as well as a succinct discussion of the condition and pertinent literature are provided for each case.\u00a0 The entire HSDM community is invited to attend this rich educational forum.</p>"
+    },
+    "ORM 603": {
+        "course_code": "ORM 603",
+        "course_name": "Precision Medicine and Oral Diseases",
+        "course_description": "<p>Participation is typically limited to residents in the AGE program in Oral Medicine. Graduate students or residents in other programs may enroll in the course depending on space availability and at the discretion of the course director.</p><p>The objective of the course is to introduce basic and translational concepts in precision medicine as applied to oral diseases and/or systemic diseases with oral manifestations.</p>"
+    },
+    "ORM 616": {
+        "course_code": "ORM 616",
+        "course_name": "Oral Medicine Literature Review",
+        "course_description": "<p>The scope of these sessions is to keep students/residents up to date with the current literature, and to</p><p>learn how to critically read/review scientific papers. Each session is divided into two sections, 1) Journal updates and critical analysis of the literature, and 2) Manuscript reviewing exercise.</p>"
+    },
+    "ORM 701": {
+        "course_code": "ORM 701",
+        "course_name": "Oral Medicine Seminar Series",
+        "course_description": "<p>The oral medicine seminar series include a literature review, as well as, focused discussions and review of classic and current papers on specific oral medicine and related topics.</p>"
+    },
+    "ORM 716": {
+        "course_code": "ORM 716",
+        "course_name": "Oral Medicine Literature Review",
+        "course_description": "<p>The scope of these sessions is to keep students/residents up to date with the current literature, and to</p><p>learn how to critically read/review scientific papers. Each session is divided into two sections, 1) Journal updates and critical analysis of the literature, and 2) Manuscript reviewing exercise.</p>"
+    },
+    "ORM 722": {
+        "course_code": "ORM 722",
+        "course_name": "Oral Medicine Grand Rounds",
+        "course_description": "<p>This bi-monthly grand rounds is a key clinical educational effort of the Division of Oral Medicine and Dentistry at Brigham and Women\u2019s Hospital.\u00a0 This forum is presented by the HSDM Oral Medicine and Oral Pathology Advanced Graduate Education students under the supervision of the division\u2019s faculty members.\u00a0 Two clinical cases are presented each session from the Oral Medicine teaching clinic at Brigham and Women\u2019s Hospital that demonstrate interesting, challenging, unique, and/or clinically important/relevant conditions.\u00a0 An in-depth discussion of the clinical presentation, diagnosis, and management, as well as a succinct discussion of the condition and pertinent literature are provided for each case.\u00a0 The entire HSDM community is invited to attend this rich educational forum.</p>"
+    },
+    "ORM 723": {
+        "course_code": "ORM 723",
+        "course_name": "Precision Medicine and Oral Diseases",
+        "course_description": "<p>Participation is typically limited to residents in the AGE program in Oral Medicine. Graduate students or residents in other programs may enroll in the course depending on space availability and at the discretion of the course director.</p><p>The objective of the course is to introduce basic and translational concepts in precision medicine as applied to oral diseases and/or systemic diseases with oral manifestations.</p>"
+    },
+    "ORM 801": {
+        "course_code": "ORM 801",
+        "course_name": "Oral Medicine Seminar Series",
+        "course_description": "<p>The oral medicine seminar series include a literature review, as well as, focused discussions and review of classic and current papers on specific oral medicine and related topics.</p>"
+    },
+    "ORM 802": {
+        "course_code": "ORM 802",
+        "course_name": "Oral Medicine Grand Rounds",
+        "course_description": "<p>This bi-monthly grand rounds is a key clinical educational effort of the Division of Oral Medicine and Dentistry at Brigham and Women\u2019s Hospital.\u00a0 This forum is presented by the HSDM Oral Medicine and Oral Pathology Advanced Graduate Education students under the supervision of the division\u2019s faculty members.\u00a0 Two clinical cases are presented each session from the Oral Medicine teaching clinic at Brigham and Women\u2019s Hospital that demonstrate interesting, challenging, unique, and/or clinically important/relevant conditions.\u00a0 An in-depth discussion of the clinical presentation, diagnosis, and management, as well as a succinct discussion of the condition and pertinent literature are provided for each case.\u00a0 The entire HSDM community is invited to attend this rich educational forum.</p>"
+    },
+    "ORM 803": {
+        "course_code": "ORM 803",
+        "course_name": "Precision Medicine and Oral Diseases",
+        "course_description": "<p>Participation is typically limited to residents in the AGE program in Oral Medicine. Graduate students or residents in other programs may enroll in the course depending on space availability and at the discretion of the course director.</p><p>The objective of the course is to introduce basic and translational concepts in precision medicine as applied to oral diseases and/or systemic diseases with oral manifestations.</p>"
+    },
+    "ORM 816": {
+        "course_code": "ORM 816",
+        "course_name": "Oral Medicine Literature Review",
+        "course_description": "<p>The scope of these sessions is to keep students/residents up to date with the current literature, and to</p><p>learn how to critically read/review scientific papers. Each session is divided into two sections, 1) Journal updates and critical analysis of the literature, and 2) Manuscript reviewing exercise.</p>"
+    },
+    "ORM 903": {
+        "course_code": "ORM 903",
+        "course_name": "Precision Medicine and Oral Diseases",
+        "course_description": "<p>Participation is typically limited to residents in the AGE program in Oral Medicine. Graduate students or residents in other programs may enroll in the course depending on space availability and at the discretion of the course director.</p><p>The objective of the course is to introduce basic and translational concepts in precision medicine as applied to oral diseases and/or systemic diseases with oral manifestations.</p>"
+    },
+    "ORP 602": {
+        "course_code": "ORP 602",
+        "course_name": "Surgical Oral and Maxillofacial Pathology",
+        "course_description": "<p>This biweekly surgical oral pathology conference is designed to train oral medicine and oral pathology residents in the diagnosis of characteristic and common oral pathologic conditions. Participants will be assigned key readings and provided in advance with limited clinical histories and microscopic slides and will prepare written descriptions and differential diagnoses in advance to discuss at each session, at which residents will offer their interpretations and receive feedback from one another and from the instructor. In addition, three review sessions of basic histology and histopathology are given to the junior residents. The objective of this course is to train students to become competent in the microscopic diagnosis of characteristic and common oral pathologic conditions that they will be expected to encounter routinely in clinical practice. A practical examination will be administered annually in which residents will be expected to demonstrate diagnostic competence and progression.</p>"
+    },
+    "ORP 701": {
+        "course_code": "ORP 701",
+        "course_name": "Diagnostic, Oral and Maxillofacial Histopathology",
+        "course_description": "<p>Participants review microscopic slides and clinical histories in advance and prepare written slide descriptions and diagnoses in advance. During the meetings participants discuss the cases, offer their interpretations, and receive feedback from one another and from the instructor.\u00a0 The objective of this course is to train students to become competent in the microscopic diagnosis of head and neck pathology, This is accomplished both through fresh material that is accessioned daily at the laboratory as well as with archival material. Student learn to order the appropriate special stains and interpret them, including immunohistochemical and in situ hybridization studies. .Formerly titled \"Diagnostic Histopathology.\"</p>"
+    },
+    "ORP 705": {
+        "course_code": "ORP 705",
+        "course_name": "Oral and Maxillofacial Pathology Seminar",
+        "course_description": "<p>Students are assigned journals to read. They will present the list content list of articles for each journal that they review and present the articles that they found interesting. Each article is presented briefly with respect to the methodology, results and conclusions and finally, what the student understands as the merits or flaws in the article. Students are also given \u201cclassic\u201d articles to read that are of historical importance, as well as good review articles of lesions. Through this seminar, they steadily build upon their knowledge base and learn to read critically comparing new findings with the old.</p>"
+    },
+    "ORP 722": {
+        "course_code": "ORP 722",
+        "course_name": "Surgical Oral and Maxillofacial Pathology",
+        "course_description": "<p>This biweekly surgical oral pathology conference is designed to train oral medicine residents in the diagnosis of characteristic and common oral pathologic conditions. Participants will be assigned key readings and provided in advance with limited clinical histories and microscopic slides and will prepare written descriptions and differential diagnoses in advance to discuss at each session, at which residents will offer their interpretations and receive feedback from one another and from the instructor. In addition, three review sessions of basic histology and histopathology are given to the junior residents. The objective of this course is to train students to become competent in the microscopic diagnosis of characteristic and common oral pathologic conditions that they will be expected to encounter routinely in clinical practice. A practical examination will be administered annually in which residents will be expected to demonstrate diagnostic competence and progression.</p>"
+    },
+    "ORP 801": {
+        "course_code": "ORP 801",
+        "course_name": "Diagnostic, Oral and Maxillofacial Histopathology",
+        "course_description": "<p>Participants review microscopic slides and clinical histories in advance and prepare written slide descriptions and diagnoses in advance. During the meetings participants discuss the cases, offer their interpretations, and receive feedback from one another and from the instructor.\u00a0 The objective of this course is to train students to become competent in the microscopic diagnosis of head and neck pathology, This is accomplished both through fresh material that is accessioned daily at the laboratory as well as with archival material. Student learn to order the appropriate special stains and interpret them, including immunohistochemical and in situ hybridization studies. .Formerly titled \"Diagnostic Histopathology.\"</p>"
+    },
+    "ORP 802": {
+        "course_code": "ORP 802",
+        "course_name": "Surgical Oral and Maxillofacial Pathology",
+        "course_description": "<p>This biweekly surgical oral pathology conference is designed to train oral medicine residents in the diagnosis of characteristic and common oral pathologic conditions. Participants will be assigned key readings and provided in advance with limited clinical histories and microscopic slides and will prepare written descriptions and differential diagnoses in advance to discuss at each session, at which residents will offer their interpretations and receive feedback from one another and from the instructor. In addition, three review sessions of basic histology and histopathology are given to the junior residents. The objective of this course is to train students to become competent in the microscopic diagnosis of characteristic and common oral pathologic conditions that they will be expected to encounter routinely in clinical practice. A practical examination will be administered annually in which residents will be expected to demonstrate diagnostic competence and progression.</p>"
+    },
+    "ORP 805": {
+        "course_code": "ORP 805",
+        "course_name": "Oral and Maxillofacial Pathology Seminar",
+        "course_description": "<p>Students are assigned journals to read. They will present the list content list of articles for each journal that they review and present the articles that they found interesting. Each article is presented briefly with respect to the methodology, results and conclusions and finally, what the student understands as the merits or flaws in the article. Students are also given \u201cclassic\u201d articles to read that are of historical importance, as well as good review articles of lesions. Through this seminar, they steadily build upon their knowledge base and learn to read critically comparing new findings with the old.</p>"
+    },
+    "ORP 901": {
+        "course_code": "ORP 901",
+        "course_name": "Diagnostic, Oral and Maxillofacial Histopathology",
+        "course_description": "<p>Participants review microscopic slides and clinical histories in advance and prepare written slide descriptions and diagnoses in advance. During the meetings participants discuss the cases, offer their interpretations, and receive feedback from one another and from the instructor.\u00a0 The objective of this course is to train students to become competent in the microscopic diagnosis of head and neck pathology, This is accomplished both through fresh material that is accessioned daily at the laboratory as well as with archival material. Student learn to order the appropriate special stains and interpret them, including immunohistochemical and in situ hybridization studies. .Formerly titled \"Diagnostic Histopathology.\"</p>"
+    },
+    "ORP 902": {
+        "course_code": "ORP 902",
+        "course_name": "Surgical Oral and Maxillofacial Pathology",
+        "course_description": "<p>This biweekly surgical oral pathology conference is designed to train oral medicine residents in the diagnosis of characteristic and common oral pathologic conditions. Participants will be assigned key readings and provided in advance with limited clinical histories and microscopic slides and will prepare written descriptions and differential diagnoses in advance to discuss at each session, at which residents will offer their interpretations and receive feedback from one another and from the instructor. In addition, three review sessions of basic histology and histopathology are given to the junior residents. The objective of this course is to train students to become competent in the microscopic diagnosis of characteristic and common oral pathologic conditions that they will be expected to encounter routinely in clinical practice. A practical examination will be administered annually in which residents will be expected to demonstrate diagnostic competence and progression.</p>"
+    },
+    "ORP 905": {
+        "course_code": "ORP 905",
+        "course_name": "Oral and Maxillofacial Pathology Seminar",
+        "course_description": "<p>Students are assigned journals to read. They will present the list content list of articles for each journal that they review and present the articles that they found interesting. Each article is presented briefly with respect to the methodology, results and conclusions and finally, what the student understands as the merits or flaws in the article. Students are also given \u201cclassic\u201d articles to read that are of historical importance, as well as good review articles of lesions. Through this seminar, they steadily build upon their knowledge base and learn to read critically comparing new findings with the old.</p>"
+    },
+    "ORT 608": {
+        "course_code": "ORT 608",
+        "course_name": "Biology of Tooth Movement",
+        "course_description": "<p>To provide a concept that the biology of tooth movement occurs through a series of complex cell biological and tissue biological interactive processes. Local or systemic diseases as well as pharmacologic intervention can affect these processes in a variety of ways.</p>"
+    },
+    "ORT 613": {
+        "course_code": "ORT 613",
+        "course_name": "Orthodontics Standards of Care",
+        "course_description": "<p>The goal of this course is to introduce the graduate students/residents to the certification process and to give them an appreciation of its importance.&nbsp;</p><p>By the completion of the course, students should be able to:</p><p>-Understand the history of the ABO<br />-Understand the pathways to certification, banking and recertification<br />-Be familiar with the format and testing procedures<br />-Use all of the forms required for case analysis<br />-Understand the record standards required by the ABO<br />-Understand the treatment standards of the ABO<br />-Screen cases for inclusion as cases for presentations<br />-Write up ABO case reports<br />-Grade cases using the DI, CR-E and CMF forms<br />-Determine the most appropriate way to collect the data needed</p>"
+    },
+    "ORT 621": {
+        "course_code": "ORT 621",
+        "course_name": "Case Presentation Treatment Seminars",
+        "course_description": "<p>Each Orthodontics student presents at least once a month a formal presentation of a case. First year students present pre-treatment cases, while second and third year students present either a progress or completed case. The presentation follows a slide display format whereby the presenter provides full analysis of all necessary diagnostic records. These records include: extra and intra-oral patient slides, models, radiographs, cephalometirc and postero-anterior analyses as well as MESH analysis (this includes progress and/or final records analyses depending on whether the case is an initial case, in active treatment or a finished case). The presenter then leads the seminar by asking the other students to give problem lists, objectives and treatment plans.</p>"
+    },
+    "ORT 622": {
+        "course_code": "ORT 622",
+        "course_name": "Orthodontic Diagnosis and Treatment Planning",
+        "course_description": "<p>The course of orthodontic treatment plan focuses on the mechanism-based diagnosis and treatment planning. Students are required to present a case in the complete format of diagnosis, problem lists, solutions, and treatment plans. Discussion of every procedures in the treatment processes is required for every participating students. Year-long course.</p>"
+    },
+    "ORT 626": {
+        "course_code": "ORT 626",
+        "course_name": "Biomechanics of Orthodontics",
+        "course_description": "<p>The goals of this lecture series is for the students to understand the orthodontic force systems involved during tooth movement and how these force systems are adapted for optimum efficiency and predictability of tooth movement. The actions as well as the reactions of orthodontic forces will be discussed so that the student will be able to critically evaluate current orthodontic treatment methods with regard to the inherent strengths and weaknesses of these methods.</p>"
+    },
+    "ORT 629": {
+        "course_code": "ORT 629",
+        "course_name": "Child Growth and Development",
+        "course_description": "<p>This is a graduate level course utilizing assigned readings, lecture, and discussion.&nbsp; The topics covered are focused primarily on craniofacial growth and development from birth up through adolescence, and the effects of growth and development on treatment.&nbsp; In addition, an introduction to craniofacial embryology and developmental biology will give the student necessary knowledge and understanding to assimilate current and future findings relevant to deviations from normal growth and development.&nbsp;<br />The purpose of the course is to acquaint the student with the scientific literature that supports current knowledge and understanding of the basic biologic principles that explain human growth and development from a clinical perspective.</p>"
+    },
+    "ORT 704": {
+        "course_code": "ORT 704",
+        "course_name": "Evidence Based Orthodontics",
+        "course_description": "<p>Preparing the residents for Written American Board of Orthodontics exam. The objective of this reading list is to offer the practicing orthodontist a list of references, which may serve as a source of knowledge in preparing for certification. This reading list includes papers of historical as well as scientific interest. It is intended to give the orthodontist a broad perspective of the changing world of orthodontic theory and practice. Several articles by ABO directors are also included so the candidates may have some insight into their background and current interests. It should be clearly understood that a bibliography, such as this, is not all encompassing and does not remain static. It will be continuously subject to additions and deletions. Current literature and textbooks on orthodontics may be studied in addition to the suggested references. The American Board of Orthodontics does not consider any of the texts and/or articles to contain the indisputable answer to any questions within the field of orthodontics. Examinees are responsible for the content of the entire reading list, even though some references may not be represented by an exam question.</p>"
+    },
+    "ORT 706": {
+        "course_code": "ORT 706",
+        "course_name": "Oro-Pharyngeal Form and Function",
+        "course_description": "<p>The course introduces the residents to the growth, development and functions of naso-maxillary complex. It introduces them to the diagnosis, risk factors and management approaches to Obstructive Sleep Apnea. It also familiarizes them with the different temporomandibular disorders and the treatment philosophies for TMD especially splints.</p><p>The course helps the residents to understand the effects of speech and oro-nasal respiration on facial form, growth and development. It helps them to take into account the factors related to TMD, speech and airway while orthodontic treatment planning. It helps them to understand the role of an orthodontist in the management of OSA.</p>"
+    },
+    "ORT 713": {
+        "course_code": "ORT 713",
+        "course_name": "Orthodontics Standards of Care",
+        "course_description": "<p>The goal of this course is to introduce the graduate students/residents to the certification process and to give them an appreciation of its importance.&nbsp;</p><p>By the completion of the course, students should be able to:</p><p>-Understand the history of the ABO<br />-Understand the pathways to certification, banking and recertification<br />-Be familiar with the format and testing procedures<br />-Use all of the forms required for case analysis<br />-Understand the record standards required by the ABO<br />-Understand the treatment standards of the ABO<br />-Screen cases for inclusion as cases for presentations<br />-Write up ABO case reports<br />-Grade cases using the DI, CR-E and CMF forms<br />-Determine the most appropriate way to collect the data needed</p>"
+    },
+    "ORT 721": {
+        "course_code": "ORT 721",
+        "course_name": "Case Presentation Treatment Seminars",
+        "course_description": "<p>Each Orthodontics student presents at least once a month a formal presentation of a case. First year students present pre-treatment cases, while second and third year students present either a progress or completed case. The presentation follows a slide display format whereby the presenter provides full analysis of all necessary diagnostic records. These records include: extra and intra-oral patient slides, models, radiographs, cephalometirc and postero-anterior analyses as well as MESH analysis (this includes progress and/or final records analyses depending on whether the case is an initial case, in active treatment or a finished case). The presenter then leads the seminar by asking the other students to give problem lists, objectives and treatment plans.</p>"
+    },
+    "ORT 728": {
+        "course_code": "ORT 728",
+        "course_name": "Current Literature/Journal Club",
+        "course_description": "<p>The journal Club is to educate students to critically evaluate the current progress of sciences and orthodontics. Students are required to moderate, present, and participate in the discussion of orthodontic and non-orthodontic papers. In order to enhance the science literacy, presenters will follow the problem-oriented format with critical thinking in analyzing the significance of research, methodology, result interpretation, and discussion.\u00a0 The moderators are required to organize and monitor the progress of presentation and discussion. The audiences are required to participate in the group discussion.</p>"
+    },
+    "ORT 729": {
+        "course_code": "ORT 729",
+        "course_name": "Mechanotherapy",
+        "course_description": "<p>This course is designed to provide AGE orthodontic fellows pronounced knowledge in mechanical and biological principles of contemporary orthodontic treatment. By incorporating these principles proficiently, students will be able to design and deliver orthodontic treatment in a more effective and efficient way. Basic and advanced principles in physics and biomechanics, bone biology and growth and development along with their applications in various clinical scenarios, will be addressed. Students will learn how to recognize common errors in orthodontic mechanics in order to avoid inefficient and ineffective treatment. Students are encouraged to be creative on designing customized mechanics to fulfill different clinical needs at different stages of orthodontic treatment.</p>"
+    },
+    "ORT 730": {
+        "course_code": "ORT 730",
+        "course_name": "Surgical Orthodontics",
+        "course_description": "<p>This course is designed to cover didactic, clinical and hands-on education to familiarize the Orthodontic and OMFS Residents with the skill sets that are required for an understanding of the diagnosis, treatment planning and management of patients with dento-facial deformities.&nbsp;<br /><br />This didactic course in conjunction with the clinical components of the Dento-Facial Deformities Team and conference sessions, form the foundation for surgical-orthodontic management of patient.<br /><br />This course will include assigned readings, facilitated seminars and lectures.&nbsp; The course includes some hand-on exercises with surgical predictions and treatment planning where the orthodontic and OMFS residents are actively engaged with the assigned faculty in discussion.</p>"
+    },
+    "ORT 801": {
+        "course_code": "ORT 801",
+        "course_name": "Orthodontic Practice Management",
+        "course_description": "<p><span style=\"color:black;\">The goals of this lecture series are to give the orthodontic advanced graduate education student an overview of the issues that they will be facing after graduation and to give them a foundation on areas that are typically not reviewed o a day to day basis in the residency program.&nbsp; Often times the days are filled with didactic lessons about bone biology, mechanics, statistics, research projects and of course diagnosis and treatment planning.&nbsp; All of these lessons, of course, are very valuable and important in your profession but there is a whole area about how to run your practice, dealing with staffing situations and finances that will be addressed in this course.&nbsp; </span></p><p><span style=\"color:black;\">After I graduated from HSDM in 2002, I had a lot of free time that used to be filled up with reading textbooks, writing up treatment plans and preparing course work for the days and weeks ahead during residency.&nbsp; To fill up my free time I developed an affinity for watching television shows and movies.&nbsp; I have a great appreciation for story-telling and there are a number of shows that I really enjoyed.&nbsp;&nbsp; I believe that everyone has a story to tell.&nbsp; Here is my take on how <em>your </em>story parallels some of the greatest shows ever on television! </span></p>"
+    },
+    "ORT 813": {
+        "course_code": "ORT 813",
+        "course_name": "Orthodontics Standards of Care",
+        "course_description": "<p>The goal of this course is to introduce the graduate students/residents to the certification process and to give them an appreciation of its importance.&nbsp;</p><p>By the completion of the course, students should be able to:</p><p>-Understand the history of the ABO<br />-Understand the pathways to certification, banking and recertification<br />-Be familiar with the format and testing procedures<br />-Use all of the forms required for case analysis<br />-Understand the record standards required by the ABO<br />-Understand the treatment standards of the ABO<br />-Screen cases for inclusion as cases for presentations<br />-Write up ABO case reports<br />-Grade cases using the DI, CR-E and CMF forms<br />-Determine the most appropriate way to collect the data needed</p>"
+    },
+    "ORT 821": {
+        "course_code": "ORT 821",
+        "course_name": "Case Presentation Treatment Seminars",
+        "course_description": "<p>Each Orthodontics student presents at least once a month a formal presentation of a case. First year students present pre-treatment cases, while second and third year students present either a progress or completed case. The presentation follows a slide display format whereby the presenter provides full analysis of all necessary diagnostic records. These records include: extra and intra-oral patient slides, models, radiographs, cephalometirc and postero-anterior analyses as well as MESH analysis (this includes progress and/or final records analyses depending on whether the case is an initial case, in active treatment or a finished case). The presenter then leads the seminar by asking the other students to give problem lists, objectives and treatment plans.</p>"
+    },
+    "ORT 828": {
+        "course_code": "ORT 828",
+        "course_name": "Current Literature/Journal Club",
+        "course_description": "<p>The journal Club is to educate students to critically evaluate the current progress of sciences and orthodontics. Students are required to moderate, present, and participate in the discussion of orthodontic and non-orthodontic papers. In order to enhance the science literacy, presenters will follow the problem-oriented format with critical thinking in analyzing the significance of research, methodology, result interpretation, and discussion.\u00a0 The moderators are required to organize and monitor the progress of presentation and discussion. The audiences are required to participate in the group discussion.</p>"
+    },
+    "PER 600": {
+        "course_code": "PER 600",
+        "course_name": "Treatment Planning Seminar I",
+        "course_description": "<p>This course will focus on the comprehensive\u00a0 and practical understanding of the overall diagnosis, etiology and clinical needs of the periodontal patient as well as the multidisciplinary approach, so a comprehensive treatment planning can be tailored for a specific patient based on scientific evidence. Students will select, prepare and make a presentation of\u00a0 an \"untreated\" case. This case will be discussed on an open forum were all students are required to participate. A member of the faculty will serve as a moderator, will provide guidance, answer questions and stimulate discussion among the students. Students are required to review the current literature every week to support their rationale for treatment.</p>"
+    },
+    "PER 601": {
+        "course_code": "PER 601",
+        "course_name": "Periodontal Therapy I",
+        "course_description": "<p>The goal of this course is to provide formal instruction in the biomedical and clinical sciences related to the field of Periodontology to enable students to understand and perform diagnostic\u00a0 and therapeutic skills required to practice clinical periodontics. Utilizing traditional course presentations, seminars, and laboratory exercises, the course will provide students didactic instruction to enhance and complement the patient care provided in the clinic.</p>"
+    },
+    "PER 602": {
+        "course_code": "PER 602",
+        "course_name": "Periodontal Literature Review I: Classical Topics and Concepts in Periodontology",
+        "course_description": "<p>This course will review the cumulative periodontal literature with a focus on classic literature. Students will work together in a seminar format utilizing original articles as well as review materials to present a different periodontal topic each week. Formerly PE701.</p>"
+    },
+    "PER 603": {
+        "course_code": "PER 603",
+        "course_name": "Introduction to Periodontology: Preclinical Preparation",
+        "course_description": "<p>This course is offered to all incoming periodontal residents.\u00a0 Students will be introduced to basic information on how to examine, diagnose and treatment plan periodontal patients.\u00a0 Topics on initial phase therapy and surgical therapy will be covered to give all residents a base-line background prior to starting clinical practice. Students will review the American Academy of Periodontology Parameters of Care and Position papers, learn how to do a comprehensive periodontal examination, will be able to define all the clinical and diagnosis classifications, learn the basics of initial phase therapy, learn the basics of instrumentation and the care of instruments, will be exposed to preclinical surgical skills (incisions and suturing), will be exposed to a variety of biological regenerative products and techniques, will be exposed to a variety of dental implant systems and will learn the basics of sedation technique .</p>"
+    },
+    "PER 604": {
+        "course_code": "PER 604",
+        "course_name": "IV Sedation",
+        "course_description": "<p>This course will provide the basic didactic education and laboratory experiences necessary for certification in moderate sedation permitting.</p>"
+    },
+    "PER 700": {
+        "course_code": "PER 700",
+        "course_name": "Treatment Planning Seminar II",
+        "course_description": "<p>This course will focus on the comprehensive\u00a0 and practical understanding of the overall diagnosis, etiology and clinical needs of the periodontal patient as well as the multidisciplinary approach, so a comprehensive treatment planning can be tailored for a specific patient based on scientific evidence. Students will select, prepare and make a presentation of\u00a0 a \"treatment in progress\" case. This case will be discussed on an open forum were all students are required to participate. A member of the faculty will serve as a moderator, will provide guidance, answer questions and stimulate discussion among the students. Students are required to review the current literature every week to support their rationale for treatment.</p>"
+    },
+    "PER 701": {
+        "course_code": "PER 701",
+        "course_name": "Periodontal Therapy II",
+        "course_description": "<p>The goal of this course is to provide formal instruction in the biomedical and clinical sciences related to the field of Periodontology to enable students to understand and perform diagnostic\u00a0 and therapeutic skills required to practice clinical periodontics. Utilizing traditional course presentations, seminars, and laboratory exercises, the course will provide students didactic instruction to enhance and complement the patient care provided in the clinic.</p>"
+    },
+    "PER 702": {
+        "course_code": "PER 702",
+        "course_name": "Periodontal Literature Review II: Current Topics and Concepts in Periodontology",
+        "course_description": "<p>This course will review the cumulative periodontal literature with a focus on classic literature. It will also provide students with an updated knowledge in Periodontology and enable students to integrate the current concepts. Students will work together in a seminar format utilizing original articles as well as review materials to present a different periodontal topic each week. Formerly PE602, Classical Peridontal Literature Review.</p>"
+    },
+    "PER 800": {
+        "course_code": "PER 800",
+        "course_name": "Treatment Planning Seminar III",
+        "course_description": "<p>This course will focus on the comprehensive\u00a0 and practical understanding of the overall diagnosis, etiology and clinical needs of the periodontal patient as well as the muldisciplinary approach, so a comprehensive treatment planning can be tailored for a specific patient based on scientific evidence. Students will select, prepare and make a presentation of\u00a0 a \"complete and finalized treated\" case. This case will be discussed on an open forum were all students are required to participate. A member of the faculty will serve as a moderator, will provide guidance, answer questions and stimulate discussion among the students. Students are required to review the current literature every week to support their rationale for treatment.</p>"
+    },
+    "PER 801": {
+        "course_code": "PER 801",
+        "course_name": "Periodontal Therapy III",
+        "course_description": "<p>The goal of this course is to provide formal instruction in the biomedical and clinical sciences related to the field of Periodontology to enable students to understand and perform diagnostic\u00a0 and therapeutic skills required to practice clinical periodontics. Utilizing traditional course presentations, seminars, and laboratory exercises, the course will provide students didactic instruction to enhance and complement the patient care provided in the clinic.</p>"
+    },
+    "PER 802": {
+        "course_code": "PER 802",
+        "course_name": "Periodontal Literature Review III: Current Topics and Concepts in Periodontology",
+        "course_description": "<p>This course will review the cumulative periodontal literature with a focus on classic literature. Students will work together in a seminar format utilizing original articles as well as review materials to present a different periodontal topic each week.&nbsp; Formerly titled &quot;Periodontal Literature Review II.&quot;</p>"
+    },
+    "PRS 600": {
+        "course_code": "PRS 600",
+        "course_name": "Laboratory Technique",
+        "course_description": "<p>In this course first year students are required to perform a variety of technique exercises on a typodont. All projects are formally graded and students must produce an acceptable result for each procedure using criteria evaluation forms. Unacceptable projects must be redone by the student until they are acceptable. The purpose of the course is to bring students to the competency level of lab work which is required in the practice of prosthodontics and to complete Part 2 of the American Board of Prosthodontics.</p>"
+    },
+    "PRS 601": {
+        "course_code": "PRS 601",
+        "course_name": "Literature Review and Seminars in Fixed Prosthodontics",
+        "course_description": "<p>This course is offered once every two years and runs for an entire academic year. The goal of the course is to understand the relevant prosthodontic literature that validates the a student's clinical activities and provides a background to prepare for Part I of the American Board of Prosthodontists Board Exam and the clinical exam. The course also prepares students for\u00a0 Students are assigned seven articles per week on a main topic in fixed prosthodontics. In addition, each student is assigned a sub-topic and must select two current articles from the literature on that topic. Articles are reviewed in a seminar format and discussion focuses upon the scientific validity of the biostatistics and research methodology, the relevance of the article from a historical perspective, and suggestions for additional research on the topic.\u00a0 This course is offered in alternate years to PR603.\u00a0 Formerly titled \"Literature Review in Fixed Prosthodontics.\"</p>"
+    },
+    "PRS 602": {
+        "course_code": "PRS 602",
+        "course_name": "Literature Review and Seminars in Removable Complete Denture Prosthodontics",
+        "course_description": "<p>The course's focus is split between\u00a0 topics related directly to removable partial dentures and topics related to complete dentures. On a weekly basis students are assigned seven articles on a main topic in removable partial dentures or complete dentures. The articles are reviewed in a seminar/discussion format considering the scientific validity of the biostatistics and research methodology, relevance of the article from a historical perspective, and suggestions for additional research in the topic.\u00a0 This course is offered in alternate years.\u00a0 Formerly titled \"Literature Review in Removable Prosthodontics.\"</p>"
+    },
+    "PRS 606": {
+        "course_code": "PRS 606",
+        "course_name": "Applied Occlusion and Case Review Seminars",
+        "course_description": "<p>In this course, students are asked to present one of the cases assigned to them in the advanced specialty prosthodontic clinic. Clinical slides, mounted casts, and radiographs are used to present the case. Students have to develop a comprehensive treatment plan, present this plan during the seminar and explain the basic concepts of this process. Students will present approximately five cases over the duration of the course.</p>"
+    },
+    "PRS 611": {
+        "course_code": "PRS 611",
+        "course_name": "Literature Review and Seminars in Removable Partial Dentures",
+        "course_description": "<p>Literature Review and Seminar in Removable Partial Dentures is to<br />familiarize the resident in the indication, fabrication and function of a removable partial denture.This includes the theoretical, technical and clinical aspects of this restoration.</p>"
+    },
+    "PRS 612": {
+        "course_code": "PRS 612",
+        "course_name": "Literature Review in Implant Prosthodontics",
+        "course_description": "<p>The advanced dental implant course is designed to give the graduate student an in-depth knowledge and&nbsp;techniques of clinical implant therapy and research through a series of lectures by faculty and review of&nbsp;the &ldquo;classic&rdquo; and current literature. Seminars include the reviews of the history of dental implants,&nbsp;implant materials, bone physiology, physical and psychological patient evaluation, surgical and prosthetic&nbsp;treatment planning, surgical and prosthetic case management, the role of occlusion and inflammation, and&nbsp;the importance of on-going supportive care in long term clinical success in implant therapy. Multiple&nbsp;types of implants and implant systems are introduced. The core knowledge acquired through literature&nbsp;review will be complemented by the faculty seminars.</p>"
+    },
+    "PRS 614": {
+        "course_code": "PRS 614",
+        "course_name": "Critical Topics in Prosthodontics",
+        "course_description": "<p>This course is designed to provide an in-depth understanding of the prosthodontic disciplines and the management of the complex prosthodontic patients. Students are required to present the treatment planning and progress (TPP) reports of their clinical cases. Students are also assigned selected topics and present to the class. The topics are related to their clinical cases including fixed prosthodontics, occlusion, esthetics, implant dentistry, removable prosthodontics, dental materials and current literature.</p>"
+    },
+    "PRS 617": {
+        "course_code": "PRS 617",
+        "course_name": "Advances in Dental Implant Surgery and Digital Dentistry",
+        "course_description": "<p>Recent advances in the fields of implant and digital dentistry continue to transform many facets of dental patient care from treatment planning to execution.</p><p>Digital dentistry can be broadly defined as any dental technology or device that incorporates digital or computer-controlled components. This course is divided into several seminars that cover the fundamental principles as well as more advanced concepts related to implant and digital dentistry including 3D diagnosis and planning, computer guided implant placement, intraoral/extraoral scanning, and CAD/CAM (computer aided design/computer aided manufacturing). The purpose of this course is to examine current concepts of existing and emerging digital dental technologies and understand how they integrate into a prosthodontic treatment workflow, as well as to explore the advantages and limitations of these technologies by reviewing the current research in the field.</p>"
+    },
+    "PRS 618": {
+        "course_code": "PRS 618",
+        "course_name": "Biomaterials Science",
+        "course_description": "<p>This is an interdepartmental course for Advanced Graduate Education students or Master of Science students who have an interest in dental material properties and applications. This course is designed to provide background knowledge of the structure and properties of various materials, their composition, chemistry, reaction, biocompatibility and other characteristics.</p>"
+    },
+    "PRS 702": {
+        "course_code": "PRS 702",
+        "course_name": "Teaching and Mentoring in Prosthodontics",
+        "course_description": "<p>Students teach in the pre-doctoral TP and in the preclinical courses. Students are encouraged to mentor students who demonstrate an interest and talent in prosthodontics.</p>"
+    },
+    "PRS 706": {
+        "course_code": "PRS 706",
+        "course_name": "Applied Occlusion and Case Review Seminars",
+        "course_description": "<p>In this course, students are asked to present one of the cases assigned to them in the advanced specialty prosthodontic clinic. Clinical slides, mounted casts, and radiographs are used to present the case. Students have to develop a comprehensive treatment plan, present this plan during the seminar and explain the basic concepts of this process. Students will present approximately five cases over the duration of the course.</p>"
+    },
+    "PRS 714": {
+        "course_code": "PRS 714",
+        "course_name": "Critical Topics in Prosthodontics",
+        "course_description": "<p>This course is designed to provide an in-depth understanding of the prosthodontic disciplines and the management of the complex prosthodontic patients. Students are required to present the treatment planning and progress (TPP) reports of their clinical cases. Students are also assigned selected topics and present to the class. The topics are related to their clinical cases including fixed prosthodontics, occlusion, esthetics, implant dentistry, removable prosthodontics, dental materials and current literature.&nbsp;</p>"
+    },
+    "PRS 715": {
+        "course_code": "PRS 715",
+        "course_name": "Literature Review and Seminars in Maxillofacial Prosthodontics",
+        "course_description": "<p>To help residents understand historical and modern treatment protocol for management of medically complex and maxillofacial prosthodontic cases. To help residents clinically manage medically complex and maxillofacial prosthodontic cases.</p>"
+    },
+    "PRS 802": {
+        "course_code": "PRS 802",
+        "course_name": "Teaching and Mentoring in Prosthodontics",
+        "course_description": "<p>Students teach in the pre-doctoral TP and in the preclinical courses. Students are encouraged to mentor students who demonstrate an interest and talent in prosthodontics.</p>"
+    },
+    "PRS 806": {
+        "course_code": "PRS 806",
+        "course_name": "Applied Occlusion and Case Review Seminars",
+        "course_description": "<p>In this course, students are asked to present one of the cases assigned to them in the advanced specialty prosthodontic clinic. Clinical slides, mounted casts, and radiographs are used to present the case. Students have to develop a comprehensive treatment plan, present this plan during the seminar and explain the basic concepts of this process. Students will present approximately five cases over the duration of the course.</p>"
+    },
+    "PRS 814": {
+        "course_code": "PRS 814",
+        "course_name": "Critical Topics in Prosthodontics",
+        "course_description": "<p>This course is designed to provide an in-depth understanding of the prosthodontic disciplines and the management of the complex prosthodontic patients. Students are required to present the treatment planning and progress (TPP) reports of their clinical cases. Students are also assigned selected topics and present to the class. The topics are related to their clinical cases including fixed prosthodontics, occlusion, esthetics, implant dentistry, removable prosthodontics, dental materials and current literature.&nbsp;</p>"
+    },
+    "PRS 815": {
+        "course_code": "PRS 815",
+        "course_name": "Literature Review and Seminars in Maxillofacial Prosthodontics",
+        "course_description": "<p>To help residents understand historical and modern treatment protocol for management of medically complex and maxillofacial prosthodontic cases. To help residents clinically manage medically complex and maxillofacial prosthodontic cases.</p>"
+    },
+    "SDM 141": {
+        "course_code": "SDM 141",
+        "course_name": "Principles of Oral Health",
+        "course_description": "<p>This course aims for students to be competent at performing a comprehensive dental examination and to have an understanding of the data collection necessary to prepare a comprehensive and broad diagnosis. Clinical examination, history taking, charting, and record keeping will be an integral component of this course. Fundamentals of local anesthesia will be introduced and its clinical applications will be demonstrated. In addition, POH will feature a foundational clinical experience for students to provide clinical exposure through hospital-based programs. Students will learn to diagnose active oral diseases, including the basic principles of dental carious lesions, periodontal disease, oral pathology, and occlusion. Furthermore, they will learn to assess the individual risk factors that cause the development of active oral diseases. Risk factors including nutrition, behavioral science, medical conditions, and specials needs as well as their relation to oral health will be incorporated. The current oral health care system and its impact on oral health will be described. Additionally, the student will be able to integrate basic sciences, clinical sciences, and evidence-based dentistry in the case-based format.</p>"
+    },
+    "SDM 142": {
+        "course_code": "SDM 142",
+        "course_name": "Scholarship in Oral Health",
+        "course_description": "<p>This course will provide a comprehensive introduction to research protocols, proposal writing, research methodologies, statistical analyses, and presentations. The course is designed to provide students with the foundation to engage in independent study, and work collaboratively in a mentor-mentee relationship with a faculty advisor. By the end of the course, students should be prepared to engage in the research experience required by the HSDM Research Office.</p>"
+    },
+    "SDM 216C": {
+        "course_code": "SDM 216C",
+        "course_name": "Comprehensive Exam I",
+        "course_description": "<p>Each student is required to take and pass three oral comprehensive examinations on cases selected and documented by the faculty. The objectives of these examinations are: to evaluate the student&#39;s comprehensive understanding of total patient care; to provide a learning experience for students so that they may gain confidence in comprehensive patient management; to provide a forum in which the student may orally present the case history, the clinical findings, and treatment planning before a critical audience; to evaluate the breadth and depth of each student&#39;s dental knowledge; and to determine if deficiencies in dental knowledge exist and initiate remedial action, if needed. Students are provided with the case history, models, Kodachrome slides, radiographs and dental examination charts which they are allowed to study for one and one-half hours and from which they must derive a diagnosis and treatment plan. Immediately following the preparation period, each student reports to an examination team for a one-hour examination period to present the findings and respond to questions.</p>"
+    },
+    "SDM 240": {
+        "course_code": "SDM 240",
+        "course_name": "Oral System Sciences",
+        "course_description": "<p>This course is designed to provide students a foundation to comprehend the oro-facial complex as a unique system and its intricate interrelationship with the entire human body. The fundamental principles of basic science disciplines, including head and neck anatomy, oral histology, craniofacial development and genetics, oral physiology, oral microbiology and immunology, oral radiology, and oral and maxillofacial pathology will be integrated and delivered by modules.&nbsp;</p>"
+    },
+    "SDM 241": {
+        "course_code": "SDM 241",
+        "course_name": "Principles of Oral Health",
+        "course_description": "<p>This course aims for students to be competent at performing a comprehensive dental examination and to have an understanding of the data collection necessary to prepare a comprehensive and broad diagnosis. Clinical examination, history taking, charting, and record keeping will be an integral component of this course. Fundamentals of local anesthesia will be introduced and its clinical applications will be demonstrated. In addition, POH will feature a foundational clinical experience for students to provide clinical exposure through hospital-based programs. Students will learn to diagnose active oral diseases, including the basic principles of dental carious lesions, periodontal disease, oral pathology, and occlusion. Furthermore, they will learn to assess the individual risk factors that cause the development of active oral diseases. Risk factors including nutrition, behavioral science, medical conditions, and specials needs as well as their relation to oral health will be incorporated. The current oral health care system and its impact on oral health will be described. Additionally, the student will be able to integrate basic sciences, clinical sciences, and evidence-based dentistry in the case-based format.</p>"
+    },
+    "SDM 242": {
+        "course_code": "SDM 242",
+        "course_name": "Scholarship in Oral Health",
+        "course_description": "<p>This course will provide a comprehensive introduction to research protocols, proposal writing, research methodologies, statistical analyses, and presentations. The course is designed to provide students with the foundation to engage in independent study, and work collaboratively in a mentor-mentee relationship with a faculty advisor. By the end of the course, students should be prepared to engage in the research experience required by the HSDM Research Office.</p>"
+    },
+    "SDM 243": {
+        "course_code": "SDM 243",
+        "course_name": "Diagnosis and Treatment Planning",
+        "course_description": "<p>In this course, students enhance their skills in acquiring a complete patient history and learn to perform an accurate oral examination and dental evaluation. Building on their knowledge of preclinical dental science and pathophysiology, students acquire a sound knowledge of principles of dental and oral diagnosis and disease prevention. Students are introduced to the techniques and protocol used for documentation of patient care, including impressions, study models, radiographs, charting, intraoral photography and record keeping. Students are oriented to their treatment team and become familiarized with clinical protocol, infection control procedures, patient records, and information systems management. The role of health-related behaviors as risk factors for dental and oral disease is examined and students learn oral hygiene and disease prevention strategies. In addition, consideration is given to medical conditions that may complicate the delivery of dental care, as well as dental and medical management of patients with these conditions. In the dental laboratory, students learn the structure of teeth and their parts as necessary for planning restorations. In addition, considerable attention is given to anatomical, physiological and biomechanical relationships of the masticatory system, and the restoration of the occlusal relationship to proper function. An understanding of the instrumentation and techniques required to reproduce these relationships during restoration of the dentition is achieved. Students learn how to assemble casts on the articulator to perform occlusal diagnosis and treatment. Motor skills derived from technical training are applied by students to more complicated procedures, such as carving wax patterns to using additive and subtractive drop-wax techniques. In addition, students are required to wax-up occlusal morphology to specific determinants of occlusion.</p>"
+    },
+    "SDM 244C": {
+        "course_code": "SDM 244C",
+        "course_name": "Treatment of Active Disease",
+        "course_description": "<p>The purpose of this course is to provide the concepts, skills development, and clinical skills/practice to facilitate the diagnosis, treatment planning, and clinical management of active dental disease. Case materials encompassing emergency/acute disease will be used to introduce cross-disciplinary concepts including endodontics, periodontics, oral surgery, pediatrics, and operative dentistry. These concepts will be reinforced with relevant textual material and topics. Through the process of discovery, the students will translate case experiences into the skills development arena in the laboratory and to clinical skills in clinical practice. The initial phase of treatment includes the treatment of acute and emergency situations. Cases will be presented that represent a variety of these clinical situations. The student clinicians will begin to identify the clinical and diagnostic skills to arrive at a diagnosis and treatment plan. Important concepts in pain control and the administration of anesthetic will translate into the clinical cases, facilitating students and their patients to enter into the treatment phase. The treatment concepts of caries removal/temporization, pulpectomy/pulpotomy, scaling and root planning, simple restorations, incisions and drainage, biopsies, and extractions will be introduced through problem-based and learning-based formats. These concepts will be enhanced in a skills development arena in the laboratory where exercises will be practiced on odontotypes and pig jaws. Clinical skills will be introduced through supervised exercises on fellow students, and finally student clinicians will move to their clinic teams to begin the treatment of patients.</p>"
+    },
+    "SDM 245": {
+        "course_code": "SDM 245",
+        "course_name": "Emergent Clinical Experience",
+        "course_description": "<p>This course focuses on being responsive to student&#39;s interests to create meaningful learning experiences. Students will have an opportunity to develop insight into their interests through observation and active participation using flexible and adaptable methods to promote self-directed and inquiry-based learning. Additionally, each session is influenced by values held by the program, hospital, school, and community in a collaborative learning environment.</p><p>&nbsp;</p><p>The clinical sessions are built on the principles taught in the didactic portion of the curriculum. Students will spend time in active disciplinary rotations applying their didactic knowledge as observers of an oral health specialty. Under the supervision of attending specialists and residents, they may have the opportunity to participate in various diagnostic tests and procedures at various hospital-based and school-based specialty programs.</p>"
+    },
+    "SDM 304C": {
+        "course_code": "SDM 304C",
+        "course_name": "Advanced Surgical Treatment",
+        "course_description": "<p>In this course, a wide variety of surgical conditions are studied including etiology, management, interpretation of surgical radiographs, and indications for surgical intervention. These include head and neck tumors, salivary gland disease, temporomandibular joint disorders, and facial features and deformities. In addition, students are familiarized with the basic biology, current concepts, and techniques of implant dentistry. Advanced periodontal procedures are taught and include ridge augmentation, bone grafting, and guided tissue regeneration.</p>"
+    },
+    "SDM 312C": {
+        "course_code": "SDM 312C",
+        "course_name": "Final Restorative Treatment",
+        "course_description": "<p>The purpose of this course is to provide the student with the didactic knowledge to formulate a comprehensive diagnosis, sequencing, and treatment plan for the restorative needs of the patient.\u00a0 During the pre-clinical skill development section of the course, students will develop the necessary skills required for clinical practice.\u00a0 Students will learn to diagnose, design and implement a treatment plan based on their didactic knowledge and skills development.\u00a0 This will enable them to perform routinely provided restorative procedures that are rendered in the course of comprehensive dental care during their third year.</p>"
+    },
+    "SDM 313C": {
+        "course_code": "SDM 313C",
+        "course_name": "Treatment of the Child and Adolescent",
+        "course_description": "<p>This course is designed to teach students the skills they need to provide basic preventive, restorative, and orthodontic care for children and adolescents. This includes exposure to ideas and training in the areas of growth and development, behavioral management, pulp therapy, restorative procedures, and management of traumatized teeth. Students learn classification of malocclusion, dentofacial growth and cephalometrics, as well as biomechanical principles of tooth movement and correction of maligned teeth. Management of the developing occlusion and decision-making are emphasized through history, examination, analysis of clinical records, diagnosis, and treatment planning. In addition, students construct active appliances and perform orthodontic treatment. Finally, students gain experience in the management and care of medically, emotionally, and/or physically disabled children.&nbsp; Students learn the fundamental differences between restoration of primary and secondary teeth with emphasis on tooth preparation and fabrication of the stainless steel crown. In the dental laboratory, students construct appliances for space maintenance and minor orthodontic tooth movement. The typodont course is utilized to demonstrate the effects of orthodontic forces on tooth movement and to enable students to acquire skills in banding and bracketing the dentition of orthodontic treatment.</p>"
+    },
+    "SDM 316C": {
+        "course_code": "SDM 316C",
+        "course_name": "Comprehensive Exam II",
+        "course_description": "<p>Each student is required to take and pass three oral comprehensive examinations on cases selected and documented by the faculty. The objectives of these examinations are: to evaluate the student&#39;s comprehensive understanding of total patient care; to provide a learning experience for students so that they may gain confidence in comprehensive patient management; to provide a forum in which the student may orally present the case history, the clinical findings, and treatment planning before a critical audience; to evaluate the breadth and depth of each student&#39;s dental knowledge; and to determine if deficiencies in dental knowledge exist and initiate remedial action, if needed. Students are provided with the case history, models, Kodachrome slides, radiographs and dental examination charts which they are allowed to study for one and one-half hours and from which they must derive a diagnosis and treatment plan. Immediately following the preparation period, each student reports to an examination team for a one-hour examination period to present the findings and respond to questions.</p>"
+    },
+    "SDM 317C": {
+        "course_code": "SDM 317C",
+        "course_name": "Year III Core Clinical Dentistry Case Presentation",
+        "course_description": "<p>The purpose of this course is to provide the student with an in-depth experience in selecting, documenting, treating (as far as possible) and preparing a suitable case using specified guidelines for presentation to classmates and faculty representatives from all clinical departments. The student is expected to prepare a comprehensive, typed, and charted handout for the intended audience. After presenting the case (including slides, radiographs, study models, and handouts), the student is expected to respond to all questions by the faculty and students, and to defend the ideal and the alternative treatment plans which the student has presented. The objectives of the course are: to provide a forum for sharing the learning experiences of the clinic; to discuss problems encountered in treatment planning and treatment; and to give the student additional experience in case presentations with emphasis on the comprehensive examination, history, diagnosis, and ideal and alternative treatment planning.</p>"
+    },
+    "SDM 318C": {
+        "course_code": "SDM 318C",
+        "course_name": "Advanced Dentistry",
+        "course_description": "<p>This course focuses primarily on theories, mechanisms, and clinical procedures of dental topics with the aim of advancing students&rsquo; knowledge of comprehensive treatment planning and its application.&nbsp; Topics include advanced applications in endodontics, operative updates, esthetic dentistry, occlusion, prosthodontics, implant technology, new periodontal clinical application, and advanced topics in pediatric dentistry and treatment planning.</p><p>&nbsp;</p><p>In this course, students will learn about dental materials and technologies through lectures and presentations given by faculty members, company R&amp;D representatives, and residents.&nbsp; Several 4th year students will also be invited to share their clinical experiences, especially unforeseen clinical incidents that were dealt with successfully.&nbsp; The goal of this course is to enhance students&rsquo; education in advanced dental treatment planning by expanding theoretical and clinical understanding in many areas of dentistry.&nbsp; Also, new lectures and presentations are integrated in the course to give more exposure to innovative technology in advanced dentistry.</p>"
+    },
+    "SDM 319C": {
+        "course_code": "SDM 319C",
+        "course_name": "Concepts of Oral Health Leadership",
+        "course_description": "<p>In this course, students will gain an understanding of the challenges of dental public health, the ethics around oral health dilemmas, as well as the management and leadership challenges of a dental practice/departmental setting. At the end of this course, the student should:<br /><br />1. Understand the practical ethics of day to day dentistry and dental hygiene<br />2. Understand the rules and regulation regarding the practice of dentistry and legal ramifications of non-compliance<br />3. Understand how to read dental related legal material using the legal reasoning approach<br />4. Be able to apply basic principles of finance to the dental office<br />5. Understand economic trends that impact the dental profession and factors that may impact a dentist&rsquo;s income<br />6. Be able to analyze aspects of the business of dentistry<br />7. Be able to assess marketing strategies of a dental practice<br />8. Understand the concept of quality improvement in the dental setting<br />9. Understand the intrinsic qualities necessary to be a leader, such as emotional awareness and the ability to self-manage<br />10. Understand the importance of communication skills in leadership and management<br />11. Understand the importance of team building and communication skills<br />12. Understand the dentist&rsquo;s role in global and community health</p>"
+    },
+    "SDM 320C": {
+        "course_code": "SDM 320C",
+        "course_name": "Core Clinical Diagnosis & Treatment Planning",
+        "course_description": "<p>The goal of this third-year course is to enable the students to understand the basic principles of oral diagnosis and treatment planning and their clinical application in order to correctly diagnose and formulate treatment plans. The Student Teaching Practice remains committed to its current comprehensive care model.&nbsp; Students are encouraged to perform quality patient care and to learn the importance of patient management in the field of Oral Diagnosis and Treatment Planning. The students should be able to recognize the necessities of interdisciplinary consultation and direct the patients for proper and prompt referral to appropriate specialists.</p>"
+    },
+    "SDM 321C": {
+        "course_code": "SDM 321C",
+        "course_name": "Core Clinical Endodontics",
+        "course_description": "<p>The goal of the course is for students to understand the basic principles of Endodontics and their clinical application to be able to diagnose and treat pulpal and peri-radicular diseases on a biological basis. The students must be able to recognize the necessities of consultation with other disciplines and referral to endodontic specialists.</p>"
+    },
+    "SDM 322C": {
+        "course_code": "SDM 322C",
+        "course_name": "Core Clinical Periodontology",
+        "course_description": "<p>The goal of the course is to enable the students to understand the basic principles of clinical periodontology and their clinical application in order to correctly diagnose and treat periodontal disease correctly. The Student Teaching Practice remains committed to its current comprehensive care model.&nbsp; Students are encouraged to perform quality patient care and to learn the importance of patient management in the field of periodontology. The students should be able to recognize the necessities of interdisciplinary consultation and direct the patients for proper/prompt referral to periodontal specialists.</p>"
+    },
+    "SDM 323C": {
+        "course_code": "SDM 323C",
+        "course_name": "Core Clinical Operative Dentistry",
+        "course_description": "<p>The goal of the&nbsp;Core Clinical Operative Dentistry course is to attain a level of operative competency that allows the student to successfully diagnose and treat patients with restorative needs. The student must be able to provide restorations that are correct in anatomical form, comfortable and functionally effective, and which satisfy the esthetic requirements of the patient.</p>"
+    },
+    "SDM 324C": {
+        "course_code": "SDM 324C",
+        "course_name": "Core Clinical Oral Radiology",
+        "course_description": "<p>The intent of the Core Clinical Oral Radiology course is to integrate all oral radiology didactic material taught during the third year into clinical practice. This is performed through oral radiology rotations and a summative examination. Students are expected to complete four oral radiology rotations.</p>"
+    },
+    "SDM 325C": {
+        "course_code": "SDM 325C",
+        "course_name": "Core Clinical Prosthodontics",
+        "course_description": "<p>The goal of the course is to enable the students to gain and exhibit competency in clinical prosthodontics. As part of the student practice&rsquo;s comprehensive care model, students are encouraged to treatment plan, prepare, fabricate, and deliver a variety of fixed and removable prostheses to patients. Students are also instructed and evaluated in the areas of patient communication, laboratory communication, and collaboration with other providers and treatment team members. Through a comprehensive set of formative and summative assessments, students are given the opportunity to exhibit competency in clinical prosthodontics.</p>"
+    },
+    "SDM 326C": {
+        "course_code": "SDM 326C",
+        "course_name": "Core Clinical Pediatric Dentistry",
+        "course_description": "<p>Clinical exposure to pediatric patients starts in the third at HSDM. Patient care will occur in the Student Teaching Practice, which follows a comprehensive care model. In addition, students may have the opportunity to treat patients while on rotation at Boston Children&rsquo;s Hospital. These encounters are designed so the general dentist may be able to care for children of all ages. Students will have the opportunity to manage the following: recognition and diagnosis of intra- and extra-oral pathology such as hard and soft tissue abnormalities, malocclusion and related dentofacial problems, applied growth and development, diagnostic methods, diagnosis and treatment planning, caries prevention, interceptive orthodontic therapy, simple restorative treatment, psychology of the child and adolescent, dental trauma, identification of child abuse and neglect, management of special health care needs, perinatal oral health, and oral health care for the adolescent patient. A part of this clinical training is an understanding of when referral to a pediatric, or other specialist, is indicated. The expectation will be for students to demonstrate competency in managing the child and adolescent patient.</p>"
+    },
+    "SDM 327C": {
+        "course_code": "SDM 327C",
+        "course_name": "Core Clinical Orthodontics",
+        "course_description": "<p>The intent of the Core Clinical Orthodontics course is to integrate all orthodontic didactic material taught during the second and third years into clinical practice. This is performed through orthodontic consultations on students&#39; diverse patient pool.&nbsp; This is also achieved through orthodontic rotations. Students are expected to complete one formative and one summative orthodontic consultation. Students are expected to complete one orthodontic rotation.</p>"
+    },
+    "SDM 328C": {
+        "course_code": "SDM 328C",
+        "course_name": "Core Clinical Oral Surgery",
+        "course_description": "<p>The goal of this pre-doctoral Oral Surgery course is to allow students to successfully diagnose and manage conditions in patients generally encountered in the practice of general dentistry.</p><p>The students must be able to treat and manage conditions utilizing excisional or reparative surgical procedures on hard and soft tissues and must be able to recognize the necessities of consultation with other disciplines and referral to oral surgery specialists.</p>"
+    },
+    "SDM 329C": {
+        "course_code": "SDM 329C",
+        "course_name": "Core Clinical Oral Pathology and Medicine",
+        "course_description": "<p>This course builds on the principles taught in the Oral System Sciences course (in particular, Oral Pathology and Oral Radiology disciplines) in the second-year curriculum. Students will spend time in an active oral medicine practice applying their didactic knowledge as part of a team to diagnose and manage patients with a variety of oral infections, immune-mediated diseases, neoplasms, reactive conditions, and iatrogenic disorders. Under the supervision of attending oral medicine specialists, they may have the opportunity to participate in various tests and procedures including clinical testing, microbial cultures, exfoliative cytology, and superficial soft tissue biopsies when clinically indicated. In addition, students will participate in surgical oral pathology slide conferences to correlate clinical and histopathologic findings in an effort to better understand the pathologic entities.</p>"
+    },
+    "SDM 340C": {
+        "course_code": "SDM 340C",
+        "course_name": "Practice of Dentistry I",
+        "course_description": "<p>The purpose of this course is to provide the concepts and skills needed to function as a culturally-competent dental provider in a comprehensive, patient-centered dental practice. The Practice of Dentistry I course includes orientation to HSDM clinical operations (including billing, staff, and insurance) and clinical protocols. Additionally, ethics, professional behavior, and cultural sensitivity will be explored through cases in treatment team meetings and lectures.</p>"
+    },
+    "SDM 401C": {
+        "course_code": "SDM 401C",
+        "course_name": "Oral and Maxillofacial Surgery Rotation",
+        "course_description": "<p>During the intensive Oral Surgery Externship, each student is fully integrated into the life of the department.&nbsp; The student attends 6:00 a.m. rounds, observes or assists in actual oral and maxillofacial surgery cases, interviews and treats patients in the Out-Patient Unit under staff supervision, and teams up with the resident on call for specific night and weekend assignments. The student also attends the Orthognathic Conference and Tumor clinic and has the opportunity to observe in the Chronic Facial Pain Clinic and Temporomandibular Joint Disorders Clinic on a weekly basis. There are opportunities to observe the use of general anesthetic agents as well as intravenous and inhalation sedation agents in different&nbsp;clinical settings.</p>"
+    },
+    "SDM 403C": {
+        "course_code": "SDM 403C",
+        "course_name": "Community-Based Externship",
+        "course_description": "<p>This externship provides the opportunity for the students to enhance their clinical skills and judgement outside of the dental school environment. In their assignments at the dental clinic of selected Veterans Administration Medical Centers and Community Health Centers students learn how dental health care is integrated with total health care delivery. Students have the opportunity to work with a great degree of independence and to improve&nbsp; their diagnostic skills, patient management and communication skills, and decision-making abilities. In addition, this externship enables student&nbsp;to increase their speed, proficiency and self-confidence in general dental practice.</p>"
+    },
+    "SDM 405C": {
+        "course_code": "SDM 405C",
+        "course_name": "Comprehensive Care Rotation",
+        "course_description": "<p>The patient-centered comprehensive care is driven by an emphasis on treatment planning and completion of comprehensive care.&nbsp; The Teaching Practice remains committed to its current comprehensive care model.&nbsp; Students are encouraged to perform quality patient care and to learn the importance of patient management.&nbsp; The goal of this fourth-year course is to enable the students to understand the comprehensive care philosophy while completing dental treatment for their assigned patients. Students are expected to complete the sequential treatment plans in their patient list. Case types will be determined by the complexity and duration of treatment required according to the Case Classification System.</p>"
+    },
+    "SDM 407C": {
+        "course_code": "SDM 407C",
+        "course_name": "HSDM Pediatric Dentistry Rotation",
+        "course_description": "<p>This is a one-month elective clinical rotation which students can take in their fourth year.</p>"
+    },
+    "SDM 408C": {
+        "course_code": "SDM 408C",
+        "course_name": "HSDM Periodontology Rotation",
+        "course_description": "<p>This is a one-month elective clinical rotation which students can take in their fourth year.</p>"
+    },
+    "SDM 409C": {
+        "course_code": "SDM 409C",
+        "course_name": "HSDM Orthodontics Rotation",
+        "course_description": "<p>This is a one-month elective clinical rotation which students can take in their fourth year.</p>"
+    },
+    "SDM 412C": {
+        "course_code": "SDM 412C",
+        "course_name": "Off-Site Clinical Elective",
+        "course_description": "<p>This is an elective rotation done during the fourth year of the DMD program in a particular clinical area.</p>"
+    }
+}

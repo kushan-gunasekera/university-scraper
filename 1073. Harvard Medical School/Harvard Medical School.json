@@ -1,0 +1,137 @@
+{
+    "AC 505M": {
+        "course_code": "AC 505M",
+        "course_name": "Family Medicine Elective",
+        "course_description": " "
+    },
+    "AC 507M": {
+        "course_code": "AC 507M",
+        "course_name": "Family Medicine - Advanced Primary Care",
+        "course_description": " "
+    },
+    "AC 510M": {
+        "course_code": "AC 510M",
+        "course_name": "Primary Care Internal Medicine/Pediatrics at CHA-Revere",
+        "course_description": " "
+    },
+    "AC 512M": {
+        "course_code": "AC 512M",
+        "course_name": "Medical Sports Medicine",
+        "course_description": " "
+    },
+    "AC 513M": {
+        "course_code": "AC 513M",
+        "course_name": "Rural Family Medicine in New England",
+        "course_description": " "
+    },
+    "AC 700M": {
+        "course_code": "AC 700M",
+        "course_name": "Primary Care Clerkship",
+        "course_description": " "
+    },
+    "AE 501M": {
+        "course_code": "AE 501M",
+        "course_name": "Clinical Anaesthesia",
+        "course_description": " "
+    },
+    "AE 502M": {
+        "course_code": "AE 502M",
+        "course_name": "Pain Management",
+        "course_description": " "
+    },
+    "AE 503M": {
+        "course_code": "AE 503M",
+        "course_name": "Respiratory-Surgical Care",
+        "course_description": " "
+    },
+    "AE 504M": {
+        "course_code": "AE 504M",
+        "course_name": "Intraoperative & Postoperative Mgmt of the Cardiac Surgical Patient",
+        "course_description": " "
+    },
+    "AE 505M": {
+        "course_code": "AE 505M",
+        "course_name": "Anaesthesia for Infants and Children",
+        "course_description": "?p?This course provides students with an introduction to the anesthesia care of children. The student will participate in departmental conferences and the pre-, intra-, and post-operative evaluation and management of patients undergoing anesthesia and surgery.?/p?"
+    },
+    "AISC 600": {
+        "course_code": "AISC 600",
+        "course_name": "Cancer Biology",
+        "course_description": ""
+    },
+    "AISC 602": {
+        "course_code": "AISC 602",
+        "course_name": "Regenerative Biomedicine",
+        "course_description": ""
+    },
+    "AISC 606": {
+        "course_code": "AISC 606",
+        "course_name": "Human Genetics",
+        "course_description": ""
+    },
+    "AISC 608": {
+        "course_code": "AISC 608",
+        "course_name": "Immunology",
+        "course_description": ""
+    },
+    "AISC 610": {
+        "course_code": "AISC 610",
+        "course_name": "Computationally-Enabled Medicine",
+        "course_description": ""
+    },
+    "AISC 612": {
+        "course_code": "AISC 612",
+        "course_name": "Microbiology and Infectious Diseases",
+        "course_description": ""
+    },
+    "AISC 614": {
+        "course_code": "AISC 614",
+        "course_name": "Neurobiology",
+        "course_description": ""
+    },
+    "AISC 616": {
+        "course_code": "AISC 616",
+        "course_name": "Translational Biomedical Engineering",
+        "course_description": ""
+    },
+    "AISC 618": {
+        "course_code": "AISC 618",
+        "course_name": "Metabolism, Nutrition and Lifestyle Medicine",
+        "course_description": ""
+    },
+    "AISC 622": {
+        "course_code": "AISC 622",
+        "course_name": "Health Systems Science",
+        "course_description": ""
+    },
+    "AISC 624": {
+        "course_code": "AISC 624",
+        "course_name": "Medications and Evidence",
+        "course_description": ""
+    },
+    "AISC 626": {
+        "course_code": "AISC 626",
+        "course_name": "Sex- and Gender-Informed Medicine: Research, Clinical Practice, and Population Health",
+        "course_description": ""
+    },
+    "AT 501": {
+        "course_code": "AT 501",
+        "course_name": "Clinical Application of Anatomy",
+        "course_description": ""
+    },
+    "BETH 701": {
+        "course_code": "BETH 701",
+        "course_name": "Foundations of Bioethics I",
+        "course_description": "?p?Foundations of Bioethics I is the first semester of a year-long, ten-credit, required course sequence for the Bioethics degree.&nbsp; The Master of Science in Bioethics program requires Foundations I in the first semester of study.&nbsp; The course is a multi-layered approach to bioethics, from t"
+    },
+    "BETH 702": {
+        "course_code": "BETH 702",
+        "course_name": "Foundations of Bioethics II",
+        "course_description": "?p?Foundations of Bioethics II is the second semester of a year-long, eight-credit, required course sequence for the Master of Bioethics Degree.\u00a0 The Master of Bioethics program requires Foundations I in the second semester of study.\u00a0 The course is a multilayered approach to bioethics, from the phil"
+    },
+    "BETH 703": {
+        "course_code": "BETH 703",
+        "course_name": "Introduction to Clinical Ethics",
+        "course_description": "?p?Introduction to Clinical Ethics is a core course in the Masters of Bioethics program at Harvard Medical School. There are 14 three-hour sessions covering major principles and themes in Clinical Ethics (e.g. futility, physician-assisted suicide, advance directives). Each session includes approxima"
+    }
+}
