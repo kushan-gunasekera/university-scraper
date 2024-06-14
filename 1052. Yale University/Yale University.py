@@ -66,7 +66,7 @@ def get_course(url):
         return courses
 
     print(f'results: {len(results)} | {url}')
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(description, result) for result in results):
             courses = {**courses, **i.result()}
 
