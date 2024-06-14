@@ -36,7 +36,7 @@ def get_courses():
     return list(set(courses))
 
 
-def description(result):
+def get_description(result):
     course = {
         result['code']: {
             'course_code': result['code'],
@@ -67,7 +67,7 @@ def get_course(url):
 
     print(f'results: {len(results)} | {url}')
     with ThreadPoolExecutor(max_workers=100) as executor:
-        for i in as_completed(executor.submit(description, result) for result in results):
+        for i in as_completed(executor.submit(get_description, result) for result in results):
             courses = {**courses, **i.result()}
 
     print(f'{len(courses)} courses in {url}')
@@ -78,7 +78,7 @@ def main():
     # get_course('202401')
     course_urls = get_courses()
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, course_url) for course_url in course_urls):
             full_courses = {**full_courses, **i.result()}
 
