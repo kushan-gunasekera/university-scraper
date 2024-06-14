@@ -64,7 +64,9 @@ def get_course(term, school):
         )
         r = requests.post(url, headers=HEADERS, data=final_data)
         description = r.json().get('description', '').strip().replace('\xa0', ' ')
+        # instructures = r.json().get('allInGroup', [])
         courses[result['custom_code']]['course_description'] = description
+        courses[result['custom_code']]['course_professor'] = result.get('instr')
 
     logging.info(f'{len(courses)} courses in {term} | {school}')
     return courses
@@ -79,7 +81,9 @@ def main():
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
         json.dump(full_courses, json_file, indent=4)
 
-    header = ['course_code', 'course_name']
+    header = [
+        'course_code', 'course_name', 'course_description', 'course_professor'
+    ]
     workbook = xlsxwriter.Workbook(f'{UNIVERSITY}.xlsx')
     worksheet = workbook.add_worksheet()
     for col, header_name in enumerate(header):
@@ -90,6 +94,7 @@ def main():
         worksheet.write(row, 0, value.get('course_code'))
         worksheet.write(row, 1, value.get('course_name'))
         worksheet.write(row, 2, value.get('course_description'))
+        worksheet.write(row, 3, value.get('course_professor'))
         row += 1
 
     workbook.close()

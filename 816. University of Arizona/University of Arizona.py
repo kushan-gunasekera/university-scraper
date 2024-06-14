@@ -27,8 +27,8 @@ def get_courses():
         for i in data:
             courses[i['code']] = {
                 'course_code': i['code'],
-                'course_name': i['globalCourseTitle'].split(' - ', 1)[1],
-                'course_name': i['description']
+                'course_name': i['longName'],
+                'course_description': i['description']
             }
         skip += limit
     return courses
