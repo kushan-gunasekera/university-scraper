@@ -39,20 +39,20 @@ def run():
     # logger.info('logger')
     data = {}
     # Initialize the Chrome driver
-    driver = webdriver.Chrome()  # Ensure chromedriver is in your PATH, or specify the path
+    # driver = webdriver.Chrome()  # Ensure chromedriver is in your PATH, or specify the path
 
-    # # Setup Chrome options for headless mode
-    # chrome_options = webdriver.ChromeOptions()
-    # chrome_options.add_argument("--headless")
-    # chrome_options.add_argument("--disable-gpu")
-    # chrome_options.add_argument("--no-sandbox")
-    # chrome_options.add_argument("--disable-dev-shm-usage")
-    #
-    # # Initialize the Chrome driver
-    # service = Service(ChromeDriverManager().install())
-    # driver = webdriver.Chrome(service=service, options=chrome_options)
-    #
-    # # Open the webpage
+    # Setup Chrome options for headless mode
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+
+    # Initialize the Chrome driver
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+
+    # Open the webpage
     driver.get(f'{MAIN_DOMAIN}/psp/courses/EMPLOYEE/EMPL/h/?tab=HU_CLASS_SEARCH&SearchReqJSON=%7B"ExcludeBracketed"%3Atrue%2C"PageNumber"%3A1%2C"PageSize"%3A""%2C"SortOrder"%3A%5B"IS_SCL_SUBJ_CAT"%5D%2C"Facets"%3A%5B"IS_SCL_DESCR_IS_SCL_DESCRI%3AFaculty%20of%20Arts%20%2526%20Sciences%3ASchool"%5D%2C"Category"%3A"HU_SCL_SCHEDULED_BRACKETED_COURSES"%2C"SearchPropertiesInResults"%3Atrue%2C"FacetsInResults"%3Atrue%2C"SaveRecent"%3Atrue%2C"TopN"%3A""%2C"CombineClassSections"%3Atrue%2C"SearchText"%3A"*"%2C"DeepLink"%3Afalse%7D')
 
     # Wait for the search button to be present
@@ -108,18 +108,26 @@ def run():
                 else:
                     parsed_query = None
                     try:
+                        all_results = []
+                        if isinstance(body, list):
+                            for i in body:
+                                if i.get('Key') == 'Results':
+                                    all_results += i.get('ResultsCollection')
+                        else:
+                            all_results.append(body)
                         # Parse the query string
-                        parsed_query = parse_qs(body.get('Key'))
+                        for i in all_results:
+                            parsed_query = parse_qs(i.get('Key'))
 
-                        # Extract the values
-                        subject = parsed_query.get('subject', [''])[0]
-                        catnbr = parsed_query.get('catnbr', [''])[0].strip()
-                        course_code = f'{subject} {catnbr}'
-                        data[course_code] = {
-                            'course_code': course_code,
-                            'course_name': body.get('Name'),
-                            'course_description': body.get('IS_SCL_DESCR'),
-                        }
+                            # Extract the values
+                            subject = parsed_query.get('subject', [''])[0]
+                            catnbr = parsed_query.get('catnbr', [''])[0].strip()
+                            course_code = f'{subject} {catnbr}'
+                            data[course_code] = {
+                                'course_code': course_code,
+                                'course_name': i.get('Name'),
+                                'course_description': i.get('IS_SCL_DESCR'),
+                            }
                     except Exception as error:
                         print(f'\nerror in API_URL_2: {error}')
                         print(f'error in API_URL_2: {body}')
