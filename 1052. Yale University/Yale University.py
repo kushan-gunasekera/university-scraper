@@ -84,7 +84,7 @@ def get_course(srcdb):
 
     print(f'final results: {len(final_results)} | {srcdb}')
     files_keys = []
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_description, srcdb, result) for result in final_results.values()):
             file_key, desc_details = i.result()
             if file_key and desc_details:
