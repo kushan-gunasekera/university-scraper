@@ -4,3 +4,4 @@ beautifulsoup4==4.12.3
 lxml==5.2.2
 selenium-wire==5.1.0
 packaging==24.1
+selenium==4.21.0
