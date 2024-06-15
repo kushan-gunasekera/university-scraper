@@ -143,12 +143,6 @@ def run():
                     logging.info("Skipping row with Multiple Sections")
                     continue
 
-                if row.text.startswith('Sophomore Tutorial'):
-                    a = 1
-                    a = 1
-                    a = 1
-                    a = 1
-
                 time.sleep(5)  # Adjust sleep time as needed for modal loading
                 row.click()
                 # Optionally, wait for the modal or detail page to load
@@ -167,6 +161,7 @@ def run():
 
     # Loop through pages 1 to 100
     for page_number in range(1, total_pages):
+        print(f'{page_number}/{total_pages} pages')
         try:
             # Log the network requests
             log_requests()
