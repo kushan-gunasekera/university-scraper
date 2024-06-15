@@ -12,8 +12,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 from urllib.parse import parse_qs
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 
-logging.basicConfig(format='[%(asctime)s] %(levelname)s:%(message)s [%(filename)s/%(funcName)s:%(lineno)d:%(threadName)s]\n', level=logging.INFO)
+# logger = logging.getLogger(__name__)
+# logger.setLevel(logging.INFO)
+logging.basicConfig(format='[%(asctime)s] %(levelname)s:%(message)s [%(filename)s/%(funcName)s:%(lineno)d:%(threadName)s]\n', level=logging.ERROR)
+logging.getLogger(__name__)
 MAIN_DOMAIN = 'https://courses.my.harvard.edu'
 API_URL_1 = f'{MAIN_DOMAIN}/psc/courses/EMPLOYEE/EMPL/s/WEBLIB_IS_SCL.ISCRIPT1.FieldFormula.IScript_Search'
 API_URL_2 = f'{MAIN_DOMAIN}/psc/courses/EMPLOYEE/EMPL/s/WEBLIB_IS_SCL.ISCRIPT1.FieldFormula.IScript_PreLboxAppends'
@@ -31,9 +36,21 @@ def decode_body(response):
 
 
 def run():
+    # logger.info('logger')
     data = {}
     # Initialize the Chrome driver
-    driver = webdriver.Chrome()  # Ensure chromedriver is in your PATH, or specify the path
+    # driver = webdriver.Chrome()  # Ensure chromedriver is in your PATH, or specify the path
+
+    # Setup Chrome options for headless mode
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--disable-gpu")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+
+    # Initialize the Chrome driver
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
 
     # Open the webpage
     driver.get(f'{MAIN_DOMAIN}/psp/courses/EMPLOYEE/EMPL/h/?tab=HU_CLASS_SEARCH&SearchReqJSON=%7B"ExcludeBracketed"%3Atrue%2C"PageNumber"%3A1%2C"PageSize"%3A""%2C"SortOrder"%3A%5B"IS_SCL_SUBJ_CAT"%5D%2C"Facets"%3A%5B"IS_SCL_DESCR_IS_SCL_DESCRI%3AFaculty%20of%20Arts%20%2526%20Sciences%3ASchool"%5D%2C"Category"%3A"HU_SCL_SCHEDULED_BRACKETED_COURSES"%2C"SearchPropertiesInResults"%3Atrue%2C"FacetsInResults"%3Atrue%2C"SaveRecent"%3Atrue%2C"TopN"%3A""%2C"CombineClassSections"%3Atrue%2C"SearchText"%3A"*"%2C"DeepLink"%3Afalse%7D')
@@ -104,7 +121,7 @@ def run():
             try:
                 # Check if the row contains "Multiple Sections"
                 if "Multiple Sections" in row.text:
-                    print("Skipping row with Multiple Sections")
+                    logging.info("Skipping row with Multiple Sections")
                     continue
 
                 row.click()
@@ -119,7 +136,7 @@ def run():
                 # Optionally, wait for the modal to close
                 # time.sleep(2)  # Adjust sleep time as needed for modal closing
             except Exception as e:
-                print(f"2. Error clicking row: {e}")
+                logging.error(f"2. Error clicking row({row}): {e}")
 
     # Loop through pages 1 to 100
     for page_number in range(1, total_pages):
@@ -127,7 +144,7 @@ def run():
             # Log the network requests
             log_requests()
         except Exception as e:
-            print(f"1. Error navigating to page {page_number}: {e}")
+            logging.error(f"1. Error navigating to page {page_number}: {e}")
         try:
             # Click all rows on the current page
             click_all_rows()
@@ -143,7 +160,7 @@ def run():
             time.sleep(5)  # Adjust sleep time as needed for the next page to load
 
         except Exception as e:
-            print(f"Error navigating to page {page_number}: {e}")
+            logging.error(f"Error navigating to page {page_number}: {e}")
             break
 
     # Close the browser
