@@ -1,0 +1,232 @@
+import json
+import logging
+
+import math
+import requests
+from seleniumwire.utils import decode
+import xlsxwriter
+from seleniumwire import \
+    webdriver  # Import from seleniumwire to capture network traffic
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import time
+from urllib.parse import parse_qs
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+
+logging.basicConfig(format='[%(asctime)s] %(levelname)s:%(message)s [%(filename)s/%(funcName)s:%(lineno)d:%(threadName)s]\n', level=logging.ERROR)
+logging.getLogger(__name__)
+MAIN_DOMAIN = 'https://courses.my.harvard.edu'
+API_URL_1 = f'{MAIN_DOMAIN}/psc/courses/EMPLOYEE/EMPL/s/WEBLIB_IS_SCL.ISCRIPT1.FieldFormula.IScript_Search'
+API_URL_2 = f'{MAIN_DOMAIN}/psc/courses/EMPLOYEE/EMPL/s/WEBLIB_IS_SCL.ISCRIPT1.FieldFormula.IScript_PreLboxAppends'
+UNIVERSITY = 'Harvard Non-Harvard'
+COMPLETED_PAGES = []
+
+try:
+    with open('completed_pages.txt', 'r') as file:
+        content = file.read()
+        for i in content.splitlines():
+            COMPLETED_PAGES.append(i)
+except FileNotFoundError:
+    print("The file 'completed_courses.txt' does not exist. Skipping processing.")
+
+
+def decode_body(response):
+    body = response.body
+    headers = response.headers
+    decode_string = decode(body, headers.get(
+        'Content-Encoding', 'identity'
+    )).decode("utf8")
+    raw_string = fr'{decode_string}'
+    return json.loads(raw_string)
+
+
+def run():
+    # logger.info('logger')
+    data = {}
+    # Initialize the Chrome driver
+    driver = webdriver.Chrome()  # Ensure chromedriver is in your PATH, or specify the path
+
+    # # Setup Chrome options for headless mode
+    # chrome_options = webdriver.ChromeOptions()
+    # chrome_options.add_argument("--headless")
+    # chrome_options.add_argument("--disable-gpu")
+    # chrome_options.add_argument("--no-sandbox")
+    # chrome_options.add_argument("--disable-dev-shm-usage")
+    #
+    # # Initialize the Chrome driver
+    # service = Service(ChromeDriverManager().install())
+    # driver = webdriver.Chrome(service=service, options=chrome_options)
+
+    # Open the webpage
+    driver.get(f'{MAIN_DOMAIN}/psp/courses/EMPLOYEE/EMPL/h/?tab=HU_CLASS_SEARCH&SearchReqJSON=%7B"ExcludeBracketed"%3Atrue%2C"PageNumber"%3A1%2C"PageSize"%3A""%2C"SortOrder"%3A%5B"IS_SCL_SUBJ_CAT"%5D%2C"Facets"%3A%5B"IS_SCL_DESCR_IS_SCL_DESCRI%3ANon-Harvard%3ASchool"%5D%2C"Category"%3A"HU_SCL_SCHEDULED_BRACKETED_COURSES"%2C"SearchPropertiesInResults"%3Atrue%2C"FacetsInResults"%3Atrue%2C"SaveRecent"%3Atrue%2C"TopN"%3A""%2C"CombineClassSections"%3Atrue%2C"SearchText"%3A"*"%2C"DeepLink"%3Afalse%7D')
+
+    # Wait for the search button to be present
+    wait = WebDriverWait(driver, 60)
+    time.sleep(30)
+    search_button = wait.until(
+        EC.presence_of_element_located((By.ID, "IS_SCL_SearchBtn")))
+
+    # Click the search button
+    search_button.click()
+
+    # Optionally, wait for the results to load
+    time.sleep(5)  # Adjust sleep time as needed for the results to load
+
+    # Extract the total hit count
+    total_hit_count_element = wait.until(EC.presence_of_element_located((By.ID, "IS_SCL_TotalHitCount")))
+    total_hit_count = int(total_hit_count_element.text)
+
+    # Calculate the total number of pages (assuming 10 results per page)
+    results_per_page = 25
+    total_pages = math.ceil(total_hit_count / results_per_page)
+
+    # Function to log network requests
+    def log_requests():
+        for request in driver.requests:
+            if request.response and request.url.startswith((API_URL_1, API_URL_2)):
+                body = decode_body(request.response)
+                if not body:
+                    continue
+                if request.url == API_URL_1:
+                    i = None
+                    try:
+                        for i in body or {}:
+                            if i.get('Key') != 'Results':
+                                continue
+                            results = i.get('ResultsCollection') or {}
+                            for j in results:
+                                # Parse the query string
+                                parsed_query = parse_qs(j.get('Key'))
+
+                                # Extract the values
+                                subject = parsed_query.get('subject', [''])[0]
+                                catnbr = parsed_query.get('catnbr', [''])[0].strip()
+                                course_code = f'{subject} {catnbr}'
+                                data[course_code] = {
+                                    'course_code': course_code,
+                                    'course_name': j.get('Name'),
+                                    'course_description': j.get('Description'),
+                                }
+                    except Exception as error:
+                        print(f'\nerror in API_URL_1: {error}')
+                        print(f'error in API_URL_1: {i}\n')
+                else:
+                    parsed_query = None
+                    try:
+                        all_results = []
+                        if isinstance(body, list):
+                            for i in body:
+                                if i.get('Key') == 'Results':
+                                    all_results += i.get('ResultsCollection')
+                        else:
+                            all_results.append(body)
+                        # Parse the query string
+                        for i in all_results:
+                            parsed_query = parse_qs(i.get('Key'))
+
+                            # Extract the values
+                            subject = parsed_query.get('subject', [''])[0]
+                            catnbr = parsed_query.get('catnbr', [''])[0].strip()
+                            course_code = f'{subject} {catnbr}'
+                            data[course_code] = {
+                                'course_code': course_code,
+                                'course_name': i.get('Name'),
+                                'course_description': i.get('IS_SCL_DESCR'),
+                            }
+                    except Exception as error:
+                        print(f'\nerror in API_URL_2: {error}')
+                        print(f'error in API_URL_2: {body}')
+                        print(f'error in API_URL_2: {parsed_query}\n')
+
+    # Function to click all rows on the current page
+    def click_all_rows():
+        rows = driver.find_elements(By.CLASS_NAME, "isSCL_ResultItem")
+        len_rows = len(rows)
+        for count, row in enumerate(rows, 1):
+            print(f'{count}/{len_rows} rows clicked')
+            try:
+                # Check if the row contains "Multiple Sections"
+                if "Multiple Sections" in row.text:
+                    logging.info("Skipping row with Multiple Sections")
+                    continue
+
+                # time.sleep(5)  # Adjust sleep time as needed for modal loading
+                row.click()
+                # Optionally, wait for the modal or detail page to load
+                # time.sleep(3)  # Adjust sleep time as needed for modal loading
+
+                # Find and click the close button
+                close_button = wait.until(EC.presence_of_element_located((By.ID, "lbCloseWindowButton")))
+                close_button.click()
+                log_requests()
+
+                # Optionally, wait for the modal to close
+                # time.sleep(2)  # Adjust sleep time as needed for modal closing
+            except Exception as e:
+                logging.error(f"2. Error clicking row({row}): {row.text}")
+                logging.error(f"2. Error clicking row({row}): {e}")
+
+    # Loop through pages 1 to 100
+    for page_number in range(1, total_pages):
+        print(f'\n{page_number}/{total_pages} pages clicked')
+        try:
+            # Log the network requests
+            log_requests()
+        except Exception as e:
+            logging.error(f"1. Error navigating to page {page_number}: {e}")
+        try:
+            if page_number not in COMPLETED_PAGES:
+                # Click all rows on the current page
+                click_all_rows()
+
+            # Find the pagination button by its link text (page number)
+            page_button = wait.until(EC.presence_of_element_located(
+                (By.LINK_TEXT, str(page_number))))
+
+            # Click the pagination button
+            time.sleep(10)  # Adjust sleep time as needed for the next page to load
+            page_button.click()
+
+            # Optionally, wait for the next page results to load
+            time.sleep(10)  # Adjust sleep time as needed for the next page to load
+
+            if page_number not in COMPLETED_PAGES:
+                with open('completed_pages.txt', 'a') as file:
+                    file.write(f'{page_number}\n')
+
+        except Exception as e:
+            logging.error(f"Error navigating to page {page_number}: {e}")
+            break
+
+    # Close the browser
+    time.sleep(3600)
+    driver.quit()
+
+    return data
+
+
+def main():
+    full_courses = run()
+    with open(f'{UNIVERSITY}.json', 'w') as json_file:
+        json.dump(full_courses, json_file, indent=4)
+
+    header = ['course_code', 'course_name', 'course_description']
+    workbook = xlsxwriter.Workbook(f'{UNIVERSITY}.xlsx')
+    worksheet = workbook.add_worksheet()
+    for col, header_name in enumerate(header):
+        worksheet.write(0, col, header_name)
+
+    row = 1
+    for value in full_courses.values():
+        worksheet.write(row, 0, value.get('course_code'))
+        worksheet.write(row, 1, value.get('course_name'))
+        worksheet.write(row, 2, value.get('course_description'))
+        row += 1
+
+    workbook.close()
+
+
+if __name__ == '__main__':
+    main()
