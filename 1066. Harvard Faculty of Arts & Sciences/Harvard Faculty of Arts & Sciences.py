@@ -15,14 +15,21 @@ from urllib.parse import parse_qs
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-# logger = logging.getLogger(__name__)
-# logger.setLevel(logging.INFO)
 logging.basicConfig(format='[%(asctime)s] %(levelname)s:%(message)s [%(filename)s/%(funcName)s:%(lineno)d:%(threadName)s]\n', level=logging.ERROR)
 logging.getLogger(__name__)
 MAIN_DOMAIN = 'https://courses.my.harvard.edu'
 API_URL_1 = f'{MAIN_DOMAIN}/psc/courses/EMPLOYEE/EMPL/s/WEBLIB_IS_SCL.ISCRIPT1.FieldFormula.IScript_Search'
 API_URL_2 = f'{MAIN_DOMAIN}/psc/courses/EMPLOYEE/EMPL/s/WEBLIB_IS_SCL.ISCRIPT1.FieldFormula.IScript_PreLboxAppends'
 UNIVERSITY = 'Harvard Faculty of Arts & Sciences'
+COMPLETED_PAGES = []
+
+try:
+    with open('completed_pages.txt', 'r') as file:
+        content = file.read()
+        for i in content.splitlines():
+            COMPLETED_PAGES.append(i)
+except FileNotFoundError:
+    print("The file 'completed_courses.txt' does not exist. Skipping processing.")
 
 
 def decode_body(response):
@@ -39,18 +46,18 @@ def run():
     # logger.info('logger')
     data = {}
     # Initialize the Chrome driver
-    # driver = webdriver.Chrome()  # Ensure chromedriver is in your PATH, or specify the path
+    driver = webdriver.Chrome()  # Ensure chromedriver is in your PATH, or specify the path
 
-    # Setup Chrome options for headless mode
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-
-    # Initialize the Chrome driver
-    service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=chrome_options)
+    # # Setup Chrome options for headless mode
+    # chrome_options = webdriver.ChromeOptions()
+    # chrome_options.add_argument("--headless")
+    # chrome_options.add_argument("--disable-gpu")
+    # chrome_options.add_argument("--no-sandbox")
+    # chrome_options.add_argument("--disable-dev-shm-usage")
+    #
+    # # Initialize the Chrome driver
+    # service = Service(ChromeDriverManager().install())
+    # driver = webdriver.Chrome(service=service, options=chrome_options)
 
     # Open the webpage
     driver.get(f'{MAIN_DOMAIN}/psp/courses/EMPLOYEE/EMPL/h/?tab=HU_CLASS_SEARCH&SearchReqJSON=%7B"ExcludeBracketed"%3Atrue%2C"PageNumber"%3A1%2C"PageSize"%3A""%2C"SortOrder"%3A%5B"IS_SCL_SUBJ_CAT"%5D%2C"Facets"%3A%5B"IS_SCL_DESCR_IS_SCL_DESCRI%3AFaculty%20of%20Arts%20%2526%20Sciences%3ASchool"%5D%2C"Category"%3A"HU_SCL_SCHEDULED_BRACKETED_COURSES"%2C"SearchPropertiesInResults"%3Atrue%2C"FacetsInResults"%3Atrue%2C"SaveRecent"%3Atrue%2C"TopN"%3A""%2C"CombineClassSections"%3Atrue%2C"SearchText"%3A"*"%2C"DeepLink"%3Afalse%7D')
@@ -136,17 +143,19 @@ def run():
     # Function to click all rows on the current page
     def click_all_rows():
         rows = driver.find_elements(By.CLASS_NAME, "isSCL_ResultItem")
-        for row in rows:
+        len_rows = len(rows)
+        for count, row in enumerate(rows, 1):
+            print(f'{count}/{len_rows} rows clicked')
             try:
                 # Check if the row contains "Multiple Sections"
                 if "Multiple Sections" in row.text:
                     logging.info("Skipping row with Multiple Sections")
                     continue
 
-                time.sleep(5)  # Adjust sleep time as needed for modal loading
+                # time.sleep(5)  # Adjust sleep time as needed for modal loading
                 row.click()
                 # Optionally, wait for the modal or detail page to load
-                time.sleep(5)  # Adjust sleep time as needed for modal loading
+                # time.sleep(3)  # Adjust sleep time as needed for modal loading
 
                 # Find and click the close button
                 close_button = wait.until(EC.presence_of_element_located((By.ID, "lbCloseWindowButton")))
@@ -161,32 +170,38 @@ def run():
 
     # Loop through pages 1 to 100
     for page_number in range(1, total_pages):
-        print(f'{page_number}/{total_pages} pages')
+        print(f'\n{page_number}/{total_pages} pages clicked')
         try:
             # Log the network requests
             log_requests()
         except Exception as e:
             logging.error(f"1. Error navigating to page {page_number}: {e}")
         try:
-            # Click all rows on the current page
-            click_all_rows()
+            if page_number not in COMPLETED_PAGES:
+                # Click all rows on the current page
+                click_all_rows()
 
             # Find the pagination button by its link text (page number)
             page_button = wait.until(EC.presence_of_element_located(
                 (By.LINK_TEXT, str(page_number))))
 
             # Click the pagination button
-            time.sleep(5)  # Adjust sleep time as needed for the next page to load
+            time.sleep(10)  # Adjust sleep time as needed for the next page to load
             page_button.click()
 
             # Optionally, wait for the next page results to load
-            time.sleep(5)  # Adjust sleep time as needed for the next page to load
+            time.sleep(10)  # Adjust sleep time as needed for the next page to load
+
+            if page_number not in COMPLETED_PAGES:
+                with open('completed_pages.txt', 'a') as file:
+                    file.write(f'{page_number}\n')
 
         except Exception as e:
             logging.error(f"Error navigating to page {page_number}: {e}")
             break
 
     # Close the browser
+    # time.sleep(3600)
     driver.quit()
 
     return data
