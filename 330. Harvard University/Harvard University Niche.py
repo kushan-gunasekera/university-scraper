@@ -19,7 +19,25 @@ UNIVERSITY = 'Harvard University'
 
 def run():
     data = {}
-    r = requests.get(f'{MAIN_DOMAIN}/colleges/harvard-university/', headers=HEADERS)
+    headers = {
+        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8,si;q=0.7',
+        'cache-control': 'no-cache',
+        # 'cookie': 'xid=7c88c162-4026-4c1a-b974-efb20440e127; enableGrafanaFaro=false; niche_cookieConsent=true; experiments=da_profile_cta%7Ccontrol%5E%5E%5E%240%7C1%5D; pxcts=bd55cdfd-2de2-11ef-b205-8091b698ae20; _pxvid=b9b0725c-2de2-11ef-8521-9eb394670314; navigation=%7B%22location%22%3A%7B%22guid%22%3A%22e08f5e71-b74a-4e28-ac28-8b4569dd5eef%22%2C%22type%22%3A%22State%22%2C%22name%22%3A%22Massachusetts%22%2C%22url%22%3A%22massachusetts%22%7D%2C%22navigationMode%22%3A%22full%22%2C%22vertical%22%3A%22colleges%22%2C%22mostRecentVertical%22%3A%22colleges%22%2C%22suffixes%22%3A%7B%22colleges%22%3A%22%2Fs%2Fmassachusetts%2F%22%2C%22graduate-schools%22%3A%22%2Fs%2Fmassachusetts%2F%22%2C%22k12%22%3A%22%2Fs%2Fmassachusetts%2F%22%2C%22places-to-live%22%3A%22%2Fs%2Fmassachusetts%2F%22%2C%22places-to-work%22%3A%22%2Fs%2Fmassachusetts%2F%22%7D%7D; recentlyViewed=entityHistory%7CentityName%7CHarvard%2BUniversity%7CentityGuid%7C2beca607-a07e-40a3-b6ae-c23b64decb5d%7CentityType%7CCollege%7CentityFragment%7Charvard-university%7CUniversity%2Bof%2BCalifornia%2B-%2BIrvine%7Cf6ebcd8a-6bf5-4c9a-bd92-bc675ff35532%7Cuniversity-of-california-irvine%7CHarvard%2BUniversity%7Cb511658d-95d9-4684-89c9-eabf96289df0%7CGradSchool%7CsearchHistory%7CMassachusetts%7Ce08f5e71-b74a-4e28-ac28-8b4569dd5eef%7CState%7Cmassachusetts%7CCalifornia%7Cb56d7c2d-d07e-4aa2-bcf6-925ecb0890f6%7Ccalifornia%7CBoston%2BArea%7C1fb5f13a-6673-4bc7-a0c2-fcb7e56d7831%7CMetroArea%7Cboston-metro-area%5E%5E%5E%240%7C%40%241%7C2%7C3%7C4%7C5%7C6%7C7%7C8%5D%7C%241%7C9%7C3%7CA%7C5%7C6%7C7%7CB%5D%7C%241%7CC%7C3%7CD%7C5%7CE%7C7%7C8%5D%5D%7CF%7C%40%241%7CG%7C3%7CH%7C5%7CI%7C7%7CJ%5D%7C%241%7CK%7C3%7CL%7C5%7CI%7C7%7CM%5D%7C%241%7CN%7C3%7CO%7C5%7CP%7C7%7CQ%5D%5D%5D; _pxhd=nSwzs-LZXADsBOF4jE-Er4mND/0V910XuXENyEJ1ikpBxt9jqOqwzEG03nli2xYAKcYnSM0-uUq1zl38j2d-HA==:1DfUPNf1pNS5zvrv5yLmwVKTIsYdZJYLq0nAsEEljyGSdN2EnlHcI7qd7-mAGSu9Hil/s071RFjrjUbHJkx6613/0WmqhNF1yKpr1evDrk8=',
+        'pragma': 'no-cache',
+        'priority': 'u=0, i',
+        'referer': 'https://www.niche.com/colleges/harvard-university/reviews/',
+        'sec-ch-ua': '"Google Chrome";v="125", "Chromium";v="125", "Not.A/Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Linux"',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-user': '?1',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+    }
+    r = requests.get(f'{MAIN_DOMAIN}/colleges/harvard-university/', headers=headers)
     soup = BeautifulSoup(r.content, 'html.parser')
     tags = soup.find('div', class_='overall-grade__niche-grade')
 
