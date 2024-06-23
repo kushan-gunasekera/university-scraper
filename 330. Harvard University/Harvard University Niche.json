@@ -1,0 +1,40 @@
+{
+    "report_card": {
+        "overall_niche_grade": "A+",
+        "grades": {
+            "academics": "A+",
+            "value": "A+",
+            "diversity": "A+",
+            "campus": "A-",
+            "athletics": "A-",
+            "party scene": "A-",
+            "professors": "A+",
+            "location": "A+",
+            "dorms": "A-",
+            "campus food": "B",
+            "student life": "A+",
+            "safety": "B+"
+        }
+    },
+    "tags": [
+        "Common App Accepted",
+        "Private",
+        "SAT/ACT Optional",
+        "Some Online Degrees"
+    ],
+    "cost": {
+        "net_price": "$19,491",
+        "average_total_aid": "$61,801",
+        "students_receiving_aid": "72%"
+    },
+    "reviews": {
+        "total": 851,
+        "review_chart": {
+            "excellent": null,
+            "very_good": null,
+            "average": null,
+            "poor": null,
+            "terrible": null
+        }
+    }
+}

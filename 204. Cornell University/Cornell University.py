@@ -1,4 +1,3 @@
-# Adelphi University
 import itertools
 import re
 import json

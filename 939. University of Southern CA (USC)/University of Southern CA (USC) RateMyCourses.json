@@ -1,0 +1,1185 @@
+[
+    {
+        "code": "ASTR 101",
+        "name": "Introduction to Astronomy",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 210",
+        "name": "Introduction to Painting",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL 465",
+        "name": "Domestic Animal Nutrition",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 546",
+        "name": "Graphic Design II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS A398",
+        "name": "T: Social Media",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 750L",
+        "name": "Eval & Ther Interv Upp Ext Lab",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 702L",
+        "name": "Principles of AT Lab",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL A199",
+        "name": "Biol Research I: Analysis of Mutant Zebrafish Development",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM A494",
+        "name": "Project Management",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 739",
+        "name": "Advanced Clinical Practicum in Athletic Training II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL 425L",
+        "name": "Plant Form and Function Laboratory",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS U211",
+        "name": "Introduction to Painting",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM U478",
+        "name": "Senior Seminar: Business Strategy",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL 102",
+        "name": "Biological Principles II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS A261",
+        "name": "Photography",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL U560",
+        "name": "Virology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 519",
+        "name": "Workshop: Printmaking",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 348",
+        "name": "Evaluation and Assessment of Lower Extremity Injuries",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL 510",
+        "name": "Invertebrate Zoology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 220",
+        "name": "Beginning Ceramics",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL 200",
+        "name": "Plant Science",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 100",
+        "name": "Portfolio Review",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL U220L",
+        "name": "Botany and Society Laboratory",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL A576",
+        "name": "T: Restoration Ecology Wri",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 365",
+        "name": "Pharmacology and Drug Education in Athletic Trainers",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM A429",
+        "name": "Internship",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM A324",
+        "name": "Commercial Law",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASTR B111",
+        "name": "Descriptive Astronomy I",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 399",
+        "name": "Independent Study",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 267",
+        "name": "Clinical Foundations In Athletic Training",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL U330",
+        "name": "Microbiology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL B301L",
+        "name": "Ecology and Evolution Laboratory",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM B380",
+        "name": "Entrepreneurship",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL U220",
+        "name": "Botany and Society",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL B232",
+        "name": "Human Anatomy",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 415",
+        "name": "Adv. Printmaking I: Intaglio",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 316",
+        "name": "Intermediate Printmaking II: Screen",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 514",
+        "name": "Workshop: Painting",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASTR 534",
+        "name": "Advanced Observational Astronomy",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 330",
+        "name": "Intermediate Drawing I",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL A390",
+        "name": "Environmental Science and Human Health",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL U530",
+        "name": "Histology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM A724",
+        "name": "Quantitative Methods and Business Analytics",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL A579",
+        "name": "Coastal Health and Restoration",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL B100H",
+        "name": "Biology Honors Seminar",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL U350L",
+        "name": "Genetics Lab",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 896",
+        "name": "Project",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 820",
+        "name": "Ceramics",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS U318",
+        "name": "Interface Design I",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM 899",
+        "name": "Dissertation Preparation",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL A598",
+        "name": "T: Histology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 449",
+        "name": "Graphic Design Practicum",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 300",
+        "name": "First Aid And Cpr",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS A220",
+        "name": "Introduction to Ceramics",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS B345",
+        "name": "Graphic Design II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL B295",
+        "name": "Directed Studies in Biology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL 220",
+        "name": "Elementary Life Science",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 797L",
+        "name": "Clinical Pathology & Pharmacology in Athletic Training Lab",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL U243L",
+        "name": "Human Anatomy and Physiology I Lab",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 466",
+        "name": "Therapeutic Exercise",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL U110L",
+        "name": "General Biology Lab",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASLG 121",
+        "name": "Elementary American Sign Language",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS A410",
+        "name": "Advanced Painting I",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 466",
+        "name": "Advanced Illustration II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 425",
+        "name": "Advanced Three-Dimensional Studies I",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL U507L",
+        "name": "Developmental Biology Lab",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 760",
+        "name": "Photography",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL A106",
+        "name": "Environmental Life Science",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 748L",
+        "name": "Evaluation & Therapeutic Intervention of Lower Extremity Inj...",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 266",
+        "name": "Illustration II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASUP A210",
+        "name": "Citizen Leadership",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL A418",
+        "name": "Comparative Vertebrate Anatomy",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL B270",
+        "name": "Introduction to Environmental Biology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL A443",
+        "name": "Clinical Hematology and Hemostasis",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 104",
+        "name": "3-Dimensional Design I",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL B399",
+        "name": "Analysis Of Brain Magnetic Resonance Images (Mri) Of Marine...",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL U399",
+        "name": "Undergraduate Research",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 255",
+        "name": "Introduction to Jewelry Making",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 710",
+        "name": "Painting",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 526",
+        "name": "Three-Dimensional Studies II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL 527",
+        "name": "The Spring Flora",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 347",
+        "name": "Photographics",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM A299",
+        "name": "Business Analytics II: Advanced Statistical Tools",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 714",
+        "name": "Clinical Experiences in Athletic Training IV",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL B303",
+        "name": "Fundamental Genetics",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 445",
+        "name": "Time and Sequence",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 510",
+        "name": "Painting I",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM 499",
+        "name": "Business Internship",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM U499",
+        "name": "Business Internship",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASTR U111",
+        "name": "Descriptive Astronomy",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOL 461L",
+        "name": "Advanced Human Anatomy Laboratory",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM A720",
+        "name": "Legal/Eth. Envir. of Business",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BADM A296",
+        "name": "Statistics",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ATEP 734",
+        "name": "Evidence-Based Approach to Evaluation, Treatment, and Rehabi...",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS B412",
+        "name": "Advanced Painting",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "CSCI 455",
+        "name": "Introduction to Programming Systems Design",
+        "overall": 3,
+        "easiness": 3,
+        "interest": 4,
+        "usefulness": 4,
+        "review_count": 1,
+        "reviews": [
+            {
+                "evaluationMethods": [
+                    "Assignment Heavy",
+                    "Exam Heavy"
+                ],
+                "reportedByUsers": [],
+                "reportedByDevices": [],
+                "upVotedByDevices": [
+                    "K5FBJymxrKtl"
+                ],
+                "upVotedByUsers": [],
+                "downVotedByDevices": [],
+                "downVotedByUsers": [],
+                "_id": "629cac0be9963a0009f21ce2",
+                "fullRating": 3,
+                "easyRating": 3,
+                "interestingRating": 4,
+                "usefulRating": 4,
+                "professorRating": 3,
+                "workloadString": "Heavy",
+                "professorName": "Claire Bono",
+                "term": "Spring",
+                "year": "2022",
+                "grade": "B",
+                "delivery": "Online",
+                "textbookUse": "Yes",
+                "attendance": "",
+                "comment": "Fast moving course on the basics of programming. Shouldn\u2019t be too hard, but Bono can be confusing at times. Graders are very strict for tiny mistakes, especially for an intro class. ",
+                "advice": "",
+                "commentOnProfessor": "",
+                "syllabus": "",
+                "profId": "clairebono",
+                "date": "2022-06-05T13:13:47.440Z",
+                "postedByDevice": "K5FBJymxrKtl",
+                "id": "a4HRvbKV69v_J5XMnOqry"
+            }
+        ]
+    },
+    {
+        "code": "CHEM 325",
+        "name": "Organic Chemistry",
+        "overall": 4,
+        "easiness": 1,
+        "interest": 4,
+        "usefulness": 5,
+        "review_count": 1,
+        "reviews": [
+            {
+                "evaluationMethods": [
+                    "Exam Heavy"
+                ],
+                "reportedByUsers": [],
+                "reportedByDevices": [],
+                "upVotedByDevices": [
+                    "TFP0lh88ojSH"
+                ],
+                "upVotedByUsers": [],
+                "downVotedByDevices": [],
+                "downVotedByUsers": [],
+                "_id": "629c3464a1a5eb0009960a13",
+                "fullRating": 4,
+                "easyRating": 1,
+                "interestingRating": 4,
+                "usefulRating": 5,
+                "professorRating": 4,
+                "workloadString": "Heavy",
+                "professorName": "Travis Williams, Valery Fokin",
+                "term": "Spring",
+                "year": "2022",
+                "grade": "A",
+                "delivery": "In person",
+                "textbookUse": "Yes",
+                "attendance": "",
+                "comment": "This is for both 325a and b. These are classes you need to study for. You will have to do the reading from the textbooks to understand the content. If you are a chemistry major, this content will be applicable, so pay attention. I really liked both professors, but I can understand why some might not. Both are curved even if the professor claims they are not.",
+                "advice": "Go to office hours, the professors will like you more. Do the assigned readings if you don\u2019t want to be lost.",
+                "commentOnProfessor": "Prof. Williams is a funny, exaggerated personality, and his teaching style is VERY example based. He reasons by analogy like a ************. Prof. Fokin started off standoffish but after the second exam, he warmed up to the class.",
+                "syllabus": "The content changes every time it\u2019s taught. No need to memorize nucleic acids for those who don\u2019t know and never want to touch biology again. Once again, so the textbook readings.",
+                "profId": "traviswilliams,valeryfokin",
+                "date": "2022-06-05T04:43:16.243Z",
+                "postedByDevice": "TFP0lh88ojSH",
+                "id": "UZygNuzH8JjptPd9F7Eog"
+            }
+        ]
+    },
+    {
+        "code": "CSCI 475",
+        "name": "Theory of Computation",
+        "overall": 5,
+        "easiness": 3,
+        "interest": 5,
+        "usefulness": 2,
+        "review_count": 1,
+        "reviews": [
+            {
+                "evaluationMethods": [
+                    "Assignment Heavy",
+                    "Exam Heavy"
+                ],
+                "reportedByUsers": [],
+                "reportedByDevices": [],
+                "upVotedByDevices": [
+                    "bJiGSXsoeCNy"
+                ],
+                "upVotedByUsers": [],
+                "downVotedByDevices": [],
+                "downVotedByUsers": [],
+                "_id": "629c22f60393a30009682303",
+                "fullRating": 5,
+                "easyRating": 3,
+                "interestingRating": 5,
+                "usefulRating": 2,
+                "professorRating": 5,
+                "workloadString": "Moderate",
+                "professorName": "Aaron Cote",
+                "term": "Spring",
+                "year": "2022",
+                "grade": "A+",
+                "delivery": "In person",
+                "textbookUse": "Yes",
+                "attendance": "",
+                "comment": "Best CS class I\u2019ve ever taken",
+                "advice": "",
+                "commentOnProfessor": "",
+                "syllabus": "",
+                "profId": "aaroncote",
+                "date": "2022-06-05T03:28:54.934Z",
+                "postedByDevice": "bJiGSXsoeCNy",
+                "id": "RdwCJhcRDRm18805_U7Ja"
+            }
+        ]
+    },
+    {
+        "code": "ITP 125",
+        "name": "From Hackers to CEOs: Introduction to Information Security",
+        "overall": 5,
+        "easiness": 4,
+        "interest": 5,
+        "usefulness": 5,
+        "review_count": 1,
+        "reviews": [
+            {
+                "evaluationMethods": [],
+                "reportedByUsers": [],
+                "reportedByDevices": [],
+                "upVotedByDevices": [
+                    "jo0TJDVsuDWm"
+                ],
+                "upVotedByUsers": [],
+                "downVotedByDevices": [],
+                "downVotedByUsers": [],
+                "_id": "629c52643cfd8b00096c6cf3",
+                "fullRating": 5,
+                "easyRating": 4,
+                "interestingRating": 5,
+                "usefulRating": 5,
+                "professorRating": 5,
+                "workloadString": "",
+                "professorName": "Joseph Greenfield",
+                "term": "Fall",
+                "year": "2021",
+                "grade": "A+",
+                "delivery": "In person",
+                "textbookUse": "No",
+                "attendance": "",
+                "comment": "I loved it",
+                "advice": "",
+                "commentOnProfessor": "",
+                "syllabus": "",
+                "profId": "josephgreenfield",
+                "date": "2022-06-05T06:51:16.095Z",
+                "postedByDevice": "jo0TJDVsuDWm",
+                "id": "gcihEq3gDb8-zWzLHOV6p"
+            }
+        ]
+    },
+    {
+        "code": "EE 355",
+        "name": "Software Design for Electrical Engineers",
+        "overall": 4,
+        "easiness": 4,
+        "interest": 4,
+        "usefulness": 5,
+        "review_count": 1,
+        "reviews": [
+            {
+                "evaluationMethods": [
+                    "Assignment Heavy",
+                    "Project Heavy"
+                ],
+                "reportedByUsers": [],
+                "reportedByDevices": [],
+                "upVotedByDevices": [
+                    "IcyaYcpN5Ouf"
+                ],
+                "upVotedByUsers": [],
+                "downVotedByDevices": [
+                    "7dQpVIy8ipuL"
+                ],
+                "downVotedByUsers": [],
+                "_id": "629c355aa1a5eb0009960a19",
+                "fullRating": 4,
+                "easyRating": 4,
+                "interestingRating": 4,
+                "usefulRating": 5,
+                "professorRating": 5,
+                "workloadString": "Moderate",
+                "professorName": "Shahin Nazarian",
+                "term": "Spring",
+                "year": "2022",
+                "grade": "A",
+                "delivery": "Hybrid",
+                "textbookUse": "No",
+                "attendance": "",
+                "comment": "A good course for ECE majors interested in SWE roles. The equivalent of CS 104 with a lighter work load (depending on the professor). With a heavier weight on assignments and projects, this course was easier than most EE courses. ",
+                "advice": "",
+                "commentOnProfessor": "A very caring and generous professor, but not the best lecturer. He was very understanding and gave many extensions and extra credit when needed. ",
+                "syllabus": "",
+                "profId": "shahinnazarian",
+                "date": "2022-06-05T04:47:22.868Z",
+                "postedByDevice": "IcyaYcpN5Ouf",
+                "id": "afub_cF9_F6XgJ2eLWuu5"
+            }
+        ]
+    }
+]

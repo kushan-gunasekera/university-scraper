@@ -1,6 +1,6 @@
 # Project
 commit.sh
-completed_courses.txt
+*.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

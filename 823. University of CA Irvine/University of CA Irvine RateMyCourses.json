@@ -1,0 +1,1186 @@
+[
+    {
+        "code": "BIOSCI N182",
+        "name": "Vision",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANATOMY 202B",
+        "name": "Human Neuroscience",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI N152",
+        "name": "Developmental Neuro",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 249A",
+        "name": "Humanism &Posthuman",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI E140L",
+        "name": "Evol & Environ Lab",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI M123",
+        "name": "Intro Comp Biology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 130A",
+        "name": "Proj New Technology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTHIS 134D",
+        "name": "Cubism To Surrealsm",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI E179L",
+        "name": "Field Freshwtr Ecol",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 8",
+        "name": "Changing Creativity",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 45A",
+        "name": "Sci, Culture, Power",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 100",
+        "name": "Collab Projects",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI D135",
+        "name": "Cell Bio Disease",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BATS 255",
+        "name": "Hlth Politics & Pol",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTHIS 114",
+        "name": "Byzantine Art",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI E145",
+        "name": "Color And Vision",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI H90",
+        "name": "Idiom/Practice Sci",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 121D",
+        "name": "X-Cult Stds Gender",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO H190A",
+        "name": "Honors Res Design",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 190",
+        "name": "Senior Thesis",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 50B",
+        "name": "Interact & Expernce",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 10A",
+        "name": "Probability & Stats",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BANA 295",
+        "name": "Big Data Mgmt Systm",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI D132",
+        "name": "Intro Precision Med",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTHIS 55",
+        "name": "Disneyland",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BATS 209B",
+        "name": "Intro Med Stats II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI D114",
+        "name": "Dev&Cell Majors Sem",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARABIC 199",
+        "name": "Independent Study",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARABIC 2C",
+        "name": "Intermed Arabic",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "AFAM 157",
+        "name": "Critical Race Thry",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASIANAM 137",
+        "name": "Asianam Labor",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BANA 212",
+        "name": "Data & Prgm Anlytcs",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "AFAM 125",
+        "name": "Afam Women In Art",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 109",
+        "name": "Perf & The Camera",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANATOMY 500A",
+        "name": "Histology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "AFAM 152",
+        "name": "African Amer Poltcs",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 399",
+        "name": "University Teaching",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI D104",
+        "name": "Developmntl Biology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI N122",
+        "name": "Scientific Argument",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOCHEM 202A",
+        "name": "Cancer Development",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 138",
+        "name": "Public Art",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASIANAM 200D",
+        "name": "Intro Asam Research",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 147",
+        "name": "Egyptomania",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARMN 2A",
+        "name": "Intermediate",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "AFAM 199",
+        "name": "Independent Study",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 128B",
+        "name": "Race Gender&Science",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BANA 277",
+        "name": "Cust & Social Anlyt",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 299",
+        "name": "Independent Study",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 236",
+        "name": "Directed Group Stud",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI N158",
+        "name": "Neurobio Lrn/Memory",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANESTH 699Q",
+        "name": "Research/Anesth",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 71B",
+        "name": "Intro To Photo II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASIANAM 151F",
+        "name": "South Asam Studies",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANATOMY 210A",
+        "name": "Systems Neurosci",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASIANAM 166",
+        "name": "Asianam&Race Reltns",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI M119",
+        "name": "Adv Top Immunology",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOCHEM 292A",
+        "name": "Scientific Communcn",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI N160",
+        "name": "Language And Brain",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANESTH 605E",
+        "name": "Pain Management",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 256B",
+        "name": "Security",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 215C",
+        "name": "Grant & Prop Writng",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI N165",
+        "name": "Brain Disorders",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 25A",
+        "name": "Environ Injustice",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTHIS 155D",
+        "name": "South Asian Photo",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 152F",
+        "name": "Seminar Production",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTHIS 42E",
+        "name": "Persia Egypt Msptma",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI M137",
+        "name": "Microbial Genetics",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 134N",
+        "name": "Disease Hlth&Inequl",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI E155",
+        "name": "Phy Extreme Environ",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 163A",
+        "name": "Peoples Of Pacific",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 12A",
+        "name": "Electronic Culture",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASIANAM 55",
+        "name": "Asam & The Media",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANATOMY 227B",
+        "name": "Curr Topic Neurosci",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 30B",
+        "name": "Basic Painting II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "AFAM 112B",
+        "name": "Caring For Blk Life",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 261",
+        "name": "Thesis Writing Sem",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 150",
+        "name": "Advanced Painting",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTHIS 298",
+        "name": "Art And Fire",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI M114",
+        "name": "Adv Biochemistry",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTS 199",
+        "name": "Independent Study",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 198",
+        "name": "Honors Exhibition",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ASIANAM 291",
+        "name": "Directed Reading",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI E160",
+        "name": "Biology Of Birds",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTHIS 145A",
+        "name": "Modern Architecture",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "AFAM 40B",
+        "name": "African American II",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 136G",
+        "name": "Colonialism/Gender",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOSCI M121L",
+        "name": "Adv Immunology Lab",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ANTHRO 202C",
+        "name": "Proseminar In Anthr",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ACENG 23A",
+        "name": "Oral Engl Comm I",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "BIOCHEM 225",
+        "name": "Epigenetics",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 123B",
+        "name": "Media Violence&Fear",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTHIS 164A",
+        "name": "Modern Afam Art",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ARTHIS 164E",
+        "name": "Afam & Photography",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ART 190B",
+        "name": "Sr Projects: Photo",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "ACENG 20A",
+        "name": "Academic Writing",
+        "overall": 0,
+        "easiness": 0,
+        "interest": 0,
+        "usefulness": 0,
+        "review_count": 0,
+        "reviews": []
+    },
+    {
+        "code": "EDUC 179W",
+        "name": "Adv Wrtg For Ed Sci",
+        "overall": 5,
+        "easiness": 3,
+        "interest": 4,
+        "usefulness": 4,
+        "review_count": 1,
+        "reviews": [
+            {
+                "evaluationMethods": [],
+                "reportedByUsers": [],
+                "reportedByDevices": [],
+                "upVotedByDevices": [
+                    "rP6sLgBYeH5i"
+                ],
+                "upVotedByUsers": [],
+                "downVotedByDevices": [],
+                "downVotedByUsers": [],
+                "_id": "6287f98836340b000942c356",
+                "fullRating": 5,
+                "easyRating": 3,
+                "interestingRating": 4,
+                "usefulRating": 4,
+                "professorRating": 5,
+                "workloadString": "Moderate",
+                "professorName": "Penelope Colins",
+                "term": "Winter",
+                "year": "2021",
+                "grade": "A+",
+                "delivery": "Online",
+                "textbookUse": "No",
+                "attendance": "",
+                "comment": "Pretty easy class. Just have to stay on top of assignments and not procrastinate, especially with the essay.",
+                "advice": "Make sure to think of an interesting and important issue in Education. This was the theme of the course and assignments.",
+                "commentOnProfessor": "Professor Collins was very generous and very nice. She gave very insightful feedback on all assignments.",
+                "syllabus": "",
+                "profId": "penelopecolins",
+                "date": "2022-05-20T20:26:48.766Z",
+                "postedByDevice": "rP6sLgBYeH5i",
+                "id": "1YA_LkcpPk_DAS0ooWBUw"
+            }
+        ]
+    },
+    {
+        "code": "COMPSCI 161",
+        "name": "Des&Analys Of Algor",
+        "overall": 5,
+        "easiness": 2,
+        "interest": 4,
+        "usefulness": 4,
+        "review_count": 1,
+        "reviews": [
+            {
+                "evaluationMethods": [
+                    "Exam Heavy",
+                    "Assignment Heavy"
+                ],
+                "reportedByUsers": [],
+                "reportedByDevices": [],
+                "upVotedByDevices": [
+                    "h1LmmCZZDCro"
+                ],
+                "upVotedByUsers": [],
+                "downVotedByDevices": [],
+                "downVotedByUsers": [],
+                "_id": "62880378fe20dc00099547a8",
+                "fullRating": 5,
+                "easyRating": 2,
+                "interestingRating": 4,
+                "usefulRating": 4,
+                "professorRating": 5,
+                "workloadString": "Moderate",
+                "professorName": "Michael Shindler",
+                "term": "Winter",
+                "year": "2022",
+                "grade": "A",
+                "delivery": "In person",
+                "textbookUse": "No",
+                "attendance": "",
+                "comment": "It was a challenging class since you have to understand different algorithms, and it can be difficult to grasp at first. ",
+                "advice": "",
+                "commentOnProfessor": "I really liked Professor Shindler's teaching style. He's good at keeping us engaged and explaining things. After lectures, he would stay for a while outside class to answer questions, and I think that was quite helpful. ",
+                "syllabus": "The class was divided into three main topics, each focusing on a different type of algorithm and each with an exam at the end. If you do well on these  topic exams, you won't have to take the final! And if you don't do well, the final can make up for it. I think that helped reduce the pressure and also ensured we understood each topic well. There was also homework almost every week which prepared us for exams. ",
+                "profId": "michaelshindler",
+                "date": "2022-05-20T21:09:12.113Z",
+                "postedByDevice": "h1LmmCZZDCro",
+                "id": "IjtjMKtq8stTdFGtKqnnP"
+            }
+        ]
+    },
+    {
+        "code": "ICSCI 32A",
+        "name": "Pythn Pgmg Libr/Acc",
+        "overall": 5,
+        "easiness": 3,
+        "interest": 5,
+        "usefulness": 5,
+        "review_count": 1,
+        "reviews": [
+            {
+                "evaluationMethods": [
+                    "Assignment Heavy"
+                ],
+                "reportedByUsers": [],
+                "reportedByDevices": [],
+                "upVotedByDevices": [
+                    "h1LmmCZZDCro"
+                ],
+                "upVotedByUsers": [],
+                "downVotedByDevices": [],
+                "downVotedByUsers": [],
+                "_id": "62880089fe20dc0009954760",
+                "fullRating": 5,
+                "easyRating": 3,
+                "interestingRating": 5,
+                "usefulRating": 5,
+                "professorRating": 5,
+                "workloadString": "Moderate",
+                "professorName": "Alex Thornton",
+                "term": "Fall",
+                "year": "2021",
+                "grade": "A",
+                "delivery": "Online",
+                "textbookUse": "No",
+                "attendance": "",
+                "comment": "This class taught me a lot about programming in Python. There were a lot of assignments (including a game project in the end), but they really helped me learn and apply the things taught in class. It's one of the most useful classes I've taken. ",
+                "advice": "",
+                "commentOnProfessor": "Professor Thornton is a great teacher who explains things well and gives examples. The course content (lecture videos, notes) were all well-organized. ",
+                "syllabus": "",
+                "profId": "alexthornton",
+                "date": "2022-05-20T20:56:41.740Z",
+                "postedByDevice": "h1LmmCZZDCro",
+                "id": "DEaWXg3m9M0cyrBq4dhO5"
+            }
+        ]
+    },
+    {
+        "code": "PSCI 104S",
+        "name": "The Social Animal",
+        "overall": 4,
+        "easiness": 3,
+        "interest": 4,
+        "usefulness": 5,
+        "review_count": 1,
+        "reviews": [
+            {
+                "evaluationMethods": [
+                    "Participation Heavy",
+                    "Exam Heavy",
+                    "Project Heavy"
+                ],
+                "reportedByUsers": [],
+                "reportedByDevices": [],
+                "upVotedByDevices": [
+                    "aJvEVdu9Go5E",
+                    "tFHTbeBwefbK",
+                    "vdixd8trzAB0"
+                ],
+                "upVotedByUsers": [],
+                "downVotedByDevices": [],
+                "downVotedByUsers": [],
+                "_id": "6287f6a864de430009ceed99",
+                "fullRating": 4,
+                "easyRating": 3,
+                "interestingRating": 4,
+                "usefulRating": 5,
+                "professorRating": 4,
+                "workloadString": "Light",
+                "professorName": "Pia Dietze",
+                "term": "Spring",
+                "year": "2022",
+                "grade": "A+",
+                "delivery": "In person",
+                "textbookUse": "No",
+                "attendance": "",
+                "comment": "Fairly straightforward course with 2 projects, 2 exams, and 2 lectures per week. Content is very memorization-based. ",
+                "advice": "",
+                "commentOnProfessor": "",
+                "syllabus": "",
+                "profId": "piadietze",
+                "date": "2022-05-20T20:14:32.368Z",
+                "postedByDevice": "aJvEVdu9Go5E",
+                "id": "mkZekD3lCKq0xr7fBEHcu"
+            }
+        ]
+    },
+    {
+        "code": "EARTHSS 3",
+        "name": "Oceanography",
+        "overall": 5,
+        "easiness": 3,
+        "interest": 4,
+        "usefulness": 4,
+        "review_count": 1,
+        "reviews": [
+            {
+                "evaluationMethods": [
+                    "Exam Heavy",
+                    "Attendance Heavy"
+                ],
+                "reportedByUsers": [],
+                "reportedByDevices": [],
+                "upVotedByDevices": [],
+                "upVotedByUsers": [
+                    "6287f53236340b000942c323"
+                ],
+                "downVotedByDevices": [],
+                "downVotedByUsers": [],
+                "_id": "6287fbf942ba7b00091171c1",
+                "fullRating": 5,
+                "easyRating": 3,
+                "interestingRating": 4,
+                "usefulRating": 4,
+                "professorRating": 5,
+                "workloadString": "Light",
+                "professorName": "Julie Ferguson",
+                "term": "Winter",
+                "year": "2022",
+                "grade": "A+",
+                "delivery": "Hybrid",
+                "textbookUse": "No",
+                "attendance": "",
+                "comment": "I think what made this class more enjoyable and easy to get through is Professor Ferguson - her lectures were well-organized, she accommodated to COVID issues by dropping lowest 3 quizzes, discussions, and lowest exam. Plus, the course topics themselves were interesting, though sometimes hard. Many people have said this class is too much for a GE, but it covers both II and V, so I think it was worth.",
+                "advice": "I do wish I knew just how little we were going to talk about marine animals, because that was something I was excited for.",
+                "commentOnProfessor": "Julie is quite passionate about the topic and her delivery of lectures seems very friendly. She doesn\u2019t just talk the entire time, but stops for a few minutes of discussion among peers for questions she puts on the board throughout the lecture. Also shows videos.",
+                "syllabus": "The material wasn\u2019t too difficult to grasp for the most part, but if you take this under the assumption you\u2019re mainly learning about marine animals, you\u2019re very wrong. The topics are mainly indirectly related to the ocean and instead more towards general earth science (but what can you expect, really). There is a unit dedicated to just animals at the end of the year quarter",
+                "profId": "julieferguson",
+                "date": "2022-05-20T20:37:13.199Z",
+                "postedByUser": "6287f53236340b000942c323",
+                "id": "Jd8wOOeEqWumgKwUtu3dJ"
+            }
+        ]
+    }
+]
