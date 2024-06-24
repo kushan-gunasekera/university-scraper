@@ -92,7 +92,7 @@ def get_course(term):
         ])
 
     print(f'{len(courses)} courses in {term}')
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=50) as executor:
         for i in as_completed(executor.submit(get_description_n_professors, code, crn, srcdb) for code, crn, srcdb in meta_data):
             code, description, course_professor = i.result()
             courses[code]['course_description'] = description
@@ -105,7 +105,7 @@ def main():
     # get_course('999999')
     terms = get_terms()
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, term) for term in terms):
             full_courses = {**full_courses, **i.result()}
 
