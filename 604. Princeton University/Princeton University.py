@@ -21,8 +21,8 @@ MAIN_DOMAIN = 'https://{sub_domain}.princeton.edu'
 UNIVERSITY = 'Princeton University'
 
 
-def get_description(api_token, term, course_id):
-    print(f'get_description --> {term} | {course_id}')
+def get_description_n_professors(api_token, term, course_id):
+    print(f'get_description_n_professors --> {term} | {course_id}')
     domain = MAIN_DOMAIN.format(sub_domain='api')
     url = f'{domain}/registrar/course-offerings/1.0.5/course-details?term={term}&course_id={course_id}'
     HEADERS['Authorization'] = f'Bearer {api_token}'
@@ -60,7 +60,7 @@ def get_course(api_token, term):
 
     print(f'{len(courses)} courses in {term}')
     with ThreadPoolExecutor(max_workers=100) as executor:
-        for i in as_completed(executor.submit(get_description, api_token, term, course_id) for course_id in courses.keys()):
+        for i in as_completed(executor.submit(get_description_n_professors, api_token, term, course_id) for course_id in courses.keys()):
             course_id, description, course_professor = i.result()
             courses[course_id]['course_description'] = description
             courses[course_id]['course_professor'] = course_professor
