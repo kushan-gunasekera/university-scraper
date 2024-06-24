@@ -78,7 +78,7 @@ def get_terms():
 def main():
     api_token, terms = get_terms()
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, api_token, term) for term in terms):
             full_courses = {**full_courses, **i.result()}
 
