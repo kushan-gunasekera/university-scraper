@@ -48,8 +48,7 @@ def get_course(url):
             'course_code': i['code'],
             'course_name': i['title'],
             'course_description': description,
-            'course_professor': list(set(professors)),
-
+            'course_professor': ', '.join(list(set(professors))),
         }
     return courses
 
