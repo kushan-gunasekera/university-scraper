@@ -40,7 +40,7 @@ def get_description(course_code, url):
     description_tags = soup.find('div', class_='desc')
     if description_tags:
         description = description_tags.text.replace('\n', '')
-    return description
+    return course_code, description
 
 
 def get_course(count, url):
@@ -87,7 +87,7 @@ def get_paths(data):
 
 
 def main():
-    get_course(0, '/Current/orc/Departments-Programs-Undergraduate/African-and-African-American-Studies/AAAS-African-and-African-American-Studies')
+    # get_course(0, '/Current/orc/Departments-Programs-Undergraduate/African-and-African-American-Studies/AAAS-African-and-African-American-Studies')
     paths = get_paths(get_courses())
     full_courses = {}
     with ThreadPoolExecutor(max_workers=100) as executor:
