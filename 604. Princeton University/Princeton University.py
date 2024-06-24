@@ -29,10 +29,13 @@ def get_description(api_token, term, course_id):
     r = requests.get(url, headers=HEADERS)
     results = r.json().get('course_details', {}).get('course_detail', [])
     description = ''
+    course_professor = ''
     if results:
         detail = results[0]
         description = detail.get('description')
-    return course_id, description
+        professors = detail.get('course_instructors', {}).get('course_instructor', [])
+        course_professor = ', '.join(i.get('name') for i in professors)
+    return course_id, description, course_professor
 
 
 def get_course(api_token, term):
@@ -51,14 +54,16 @@ def get_course(api_token, term):
         courses[result['course_id']] = {
             'course_code': result['crosslistings'],
             'course_name': result['long_title'],
-            'course_description': None
+            'course_description': None,
+            'course_professor': None,
         }
 
     print(f'{len(courses)} courses in {term}')
     with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_description, api_token, term, course_id) for course_id in courses.keys()):
-            course_id, description = i.result()
+            course_id, description, course_professor = i.result()
             courses[course_id]['course_description'] = description
+            courses[course_id]['course_professor'] = course_professor
 
     return courses
 
@@ -85,7 +90,9 @@ def main():
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
         json.dump(full_courses, json_file, indent=4)
 
-    header = ['course_code', 'course_name', 'course_description']
+    header = [
+        'course_code', 'course_name', 'course_description', 'course_professor'
+    ]
     workbook = xlsxwriter.Workbook(f'{UNIVERSITY}.xlsx')
     worksheet = workbook.add_worksheet()
     for col, header_name in enumerate(header):
@@ -96,6 +103,7 @@ def main():
         worksheet.write(row, 0, value.get('course_code'))
         worksheet.write(row, 1, value.get('course_name'))
         worksheet.write(row, 2, value.get('course_description'))
+        worksheet.write(row, 3, value.get('course_professor'))
         row += 1
 
     workbook.close()
