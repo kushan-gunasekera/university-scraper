@@ -69,7 +69,7 @@ def get_course(count, url):
         }
         descriptions.append([course_code, tag.get('href')])
 
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_description, code, url) for code, url in descriptions):
             code, description = i.result()
             courses[code]['course_description'] = description
@@ -90,7 +90,7 @@ def main():
     get_course(0, '/Current/orc/Departments-Programs-Undergraduate/African-and-African-American-Studies/AAAS-African-and-African-American-Studies')
     paths = get_paths(get_courses())
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_course, count, path) for count, path in enumerate(paths)):
             full_courses = {**full_courses, **i.result()}
 
