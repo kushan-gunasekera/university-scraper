@@ -21,40 +21,45 @@ MAIN_DOMAIN = 'https://{sub_domain}.princeton.edu'
 UNIVERSITY = 'Princeton University'
 
 
-def get_courses():
-    domain = MAIN_DOMAIN.format(sub_domain='registrar')
-    r = requests.get(f'{domain}/course-offerings?term=1244', headers=HEADERS)
-    soup = BeautifulSoup(r.content, 'html.parser')
-    course_tags = soup.find('select', id='cs-term').find_all('option')
-
-    courses = []
-    for tag in course_tags:
-        url = tag.get('value')
-        # if not (url and url.startswith('/courses-az/')):
-        #     continue
-        courses.append(url)
-
-    return list(set(courses))
-
-
-def get_course(url):
-    print(url)
+def get_description(api_token, term, course_id):
+    print(f'get_description --> {term} | {course_id}')
     domain = MAIN_DOMAIN.format(sub_domain='api')
-    # HEADERS['Referer'] = 'https://courses.yale.edu/?srcdb=201602&stat=A'
-    # data = {"other":{"srcdb":url},"criteria":[{"field":"stat","value":"A"}]}
-    HEADERS['Authorization'] = 'Bearer ZGRmM2M0MTAtMDU0OC0zOWE2LWExMzgtZjliZWZmZDZkNWQ3OnJlZ2lzdHJhcmFwaUBjYXJib24uc3VwZXI='
-    r = requests.get(f'{domain}/registrar/course-offerings/1.0.5/classes/{url}', headers=HEADERS)
+    url = f'{domain}/registrar/course-offerings/1.0.5/course-details?term={term}&course_id={course_id}'
+    HEADERS['Authorization'] = f'Bearer {api_token}'
+    r = requests.get(url, headers=HEADERS)
+    results = r.json().get('course_details', {}).get('course_detail', [])
+    description = ''
+    if results:
+        detail = results[0]
+        description = detail.get('description')
+    return course_id, description
+
+
+def get_course(api_token, term):
+    print(f'get_course --> {term}')
+    domain = MAIN_DOMAIN.format(sub_domain='api')
+    HEADERS['Authorization'] = f'Bearer {api_token}'
+    r = requests.get(f'{domain}/registrar/course-offerings/1.0.5/classes/{term}', headers=HEADERS)
     courses = {}
     results = r.json().get('classes', {}).get('class', [])
     if not results:
-        print(f'No results | {url}')
+        print(f'No results | {term}')
         return courses
 
-    print(f'results: {len(results)} | {url}')
+    print(f'results: {len(results)} | {term}')
     for result in results:
-        courses[result['crosslistings']] = result['long_title']
+        courses[result['course_id']] = {
+            'course_code': result['crosslistings'],
+            'course_name': result['long_title'],
+            'course_description': None
+        }
 
-    print(f'{len(courses)} courses in {url}')
+    print(f'{len(courses)} courses in {term}')
+    with ThreadPoolExecutor(max_workers=100) as executor:
+        for i in as_completed(executor.submit(get_description, api_token, term, course_id) for course_id in courses.keys()):
+            course_id, description = i.result()
+            courses[course_id]['course_description'] = description
+
     return courses
 
 
@@ -62,41 +67,35 @@ def get_terms():
     domain = MAIN_DOMAIN.format(sub_domain='registrar')
     r = requests.get(f'{domain}/course-offerings', headers=HEADERS)
     soup = BeautifulSoup(r.content, 'html.parser')
-    term_tags = soup.find('select', id='cs-term')
 
-    terms = []
-    for tag in term_tags:
-        url = tag.get('value')
-        terms.append(url)
-
-    return list(set(terms))
+    script_tag = soup.find('script', {'type': 'application/json', 'data-drupal-selector': 'drupal-settings-json'})
+    json_data = json.loads(script_tag.string)
+    api_token = json_data["ps_registrar"]["apiToken"]
+    terms = [i.get('code') for i in json_data["ps_registrar"]["terms"]]
+    return api_token, terms
 
 
 def main():
-    # get_courses()
-    # get_course('202403')
-    # course_urls = get_courses()
-    # course_urls = [1252, 1244, 1242, 1234, 1232, 1224, 1222]
-    course_urls = get_terms()
+    api_token, terms = get_terms()
     full_courses = {}
     with ThreadPoolExecutor(max_workers=100) as executor:
-        for i in as_completed(executor.submit(get_course, course_url) for course_url in course_urls):
+        for i in as_completed(executor.submit(get_course, api_token, term) for term in terms):
             full_courses = {**full_courses, **i.result()}
 
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
         json.dump(full_courses, json_file, indent=4)
 
-    header = ['course_code', 'course_name']
+    header = ['course_code', 'course_name', 'course_description']
     workbook = xlsxwriter.Workbook(f'{UNIVERSITY}.xlsx')
     worksheet = workbook.add_worksheet()
     for col, header_name in enumerate(header):
         worksheet.write(0, col, header_name)
 
     row = 1
-    for course_code, course_name in full_courses.items():
-        worksheet.write(row, 0, course_code.split('|')[0])
-        # worksheet.write(row, 0, course_code)
-        worksheet.write(row, 1, course_name)
+    for value in full_courses.values():
+        worksheet.write(row, 0, value.get('course_code'))
+        worksheet.write(row, 1, value.get('course_name'))
+        worksheet.write(row, 2, value.get('course_description'))
         row += 1
 
     workbook.close()
