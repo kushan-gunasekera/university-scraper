@@ -36,7 +36,7 @@ def get_terms():
 
 
 def get_description_n_professors(code, crn, srcdb):
-    print(f'get_description --> {code} | {crn} | {srcdb}')
+    print(f'get_description_n_professors --> {code} | {crn} | {srcdb}')
     data = {
         "group": f"code:{code}",
         "key": f"crn:{crn}",
