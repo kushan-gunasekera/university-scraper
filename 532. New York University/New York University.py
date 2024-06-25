@@ -72,15 +72,15 @@ def main():
     # get_course('999999')
     # course_urls = get_courses()
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        for i in as_completed(executor.submit(get_course, character) for character in [chr(ord('a') + i) for i in range(26)]):
-            full_courses = {**full_courses, **i.result()}
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        for i in as_completed(executor.submit(get_course, character, 'course', 1234) for character in [chr(ord('a') + i) for i in range(26)]):
-            full_courses = {**full_courses, **i.result()}
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        for i in as_completed(executor.submit(get_course, character, 'course', 1232) for character in [chr(ord('a') + i) for i in range(26)]):
-            full_courses = {**full_courses, **i.result()}
+    # with ThreadPoolExecutor(max_workers=1) as executor:
+    #     for i in as_completed(executor.submit(get_course, character) for character in [chr(ord('a') + i) for i in range(26)]):
+    #         full_courses = {**full_courses, **i.result()}
+    # with ThreadPoolExecutor(max_workers=1) as executor:
+    #     for i in as_completed(executor.submit(get_course, character, 'course', 1234) for character in [chr(ord('a') + i) for i in range(26)]):
+    #         full_courses = {**full_courses, **i.result()}
+    # with ThreadPoolExecutor(max_workers=1) as executor:
+    #     for i in as_completed(executor.submit(get_course, character, 'course', 1232) for character in [chr(ord('a') + i) for i in range(26)]):
+    #         full_courses = {**full_courses, **i.result()}
     with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, character, 'class', 1248) for character in [chr(ord('a') + i) for i in range(26)]):
             full_courses = {**full_courses, **i.result()}
@@ -90,12 +90,12 @@ def main():
     with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, character, 'class', 1244) for character in [chr(ord('a') + i) for i in range(26)]):
             full_courses = {**full_courses, **i.result()}
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        for i in as_completed(executor.submit(get_course, character, 'class', 1242) for character in [chr(ord('a') + i) for i in range(26)]):
-            full_courses = {**full_courses, **i.result()}
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        for i in as_completed(executor.submit(get_course, character, 'class', 1238) for character in [chr(ord('a') + i) for i in range(26)]):
-            full_courses = {**full_courses, **i.result()}
+    # with ThreadPoolExecutor(max_workers=1) as executor:
+    #     for i in as_completed(executor.submit(get_course, character, 'class', 1242) for character in [chr(ord('a') + i) for i in range(26)]):
+    #         full_courses = {**full_courses, **i.result()}
+    # with ThreadPoolExecutor(max_workers=1) as executor:
+    #     for i in as_completed(executor.submit(get_course, character, 'class', 1238) for character in [chr(ord('a') + i) for i in range(26)]):
+    #         full_courses = {**full_courses, **i.result()}
 
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
         json.dump(full_courses, json_file, indent=4)
