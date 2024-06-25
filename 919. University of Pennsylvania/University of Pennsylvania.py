@@ -91,7 +91,7 @@ def get_course(semester, mode):
         desc_n_inst[code].append(result['crn'])
 
     print(f'{len(courses)} courses in {semester} | {mode}')
-    with ThreadPoolExecutor(max_workers=50) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_description_n_professors, code, crn, srcdb_dict[code]) for code, crn in desc_n_inst.items()):
             code, description, course_professor = i.result()
             courses[code]['course_description'] = description
