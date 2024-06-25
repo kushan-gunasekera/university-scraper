@@ -69,7 +69,6 @@ def get_course(url):
 
 
 def main():
-    # get_course()
     full_courses = {}
     with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_course, url) for url in get_courses()):
@@ -95,7 +94,6 @@ def main():
         row += 1
 
     workbook.close()
-
 
 
 if __name__ == '__main__':
