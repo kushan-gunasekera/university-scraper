@@ -1,20 +1,12 @@
-# Adelphi University
 import itertools
-import re
 import json
-import math
-import random
-import time
+import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures._base import as_completed
 
 import requests
 import xlsxwriter
 from bs4 import BeautifulSoup
-from lxml import html
-import urllib.parse
-
-from sqlalchemy import desc
 
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
