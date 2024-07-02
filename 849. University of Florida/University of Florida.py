@@ -22,6 +22,7 @@ UNIVERSITY = 'University of Florida'
 
 
 def get_description(code, key, srcdb):
+    print(f'code: {code} | key: {key} | srcdb: {srcdb}')
     data = {
         "group": f"key:{key}",
         "key": f"key:{key}",
