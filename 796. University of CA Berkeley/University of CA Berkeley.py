@@ -66,7 +66,9 @@ def get_course(url):
             'course_description': text_after_br
         }
         try:
-            courses[course_code]['course_professor'] = tag.find_all('div', class_='course-section')[-1].find_all('p')[-1].text.split(':')[-1].strip()
+            for i in tag.find_all('div', class_='course-section'):
+                if 'Instructor' in i.text:
+                    courses[course_code]['course_professor'] = i.find_all('p')[-1].text.split(':')[-1].strip()
         except Exception as error:
             print(error)
 
@@ -77,7 +79,7 @@ def main():
     full_courses = {}
     urls = get_courses()
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, url) for url in urls):
             full_courses = {**full_courses, **i.result()}
 
