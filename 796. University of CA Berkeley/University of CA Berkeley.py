@@ -97,6 +97,7 @@ def main():
         worksheet.write(row, 0, value.get('course_code'))
         worksheet.write(row, 1, value.get('course_name'))
         worksheet.write(row, 2, value.get('course_description'))
+        worksheet.write(row, 3, value.get('course_professor'))
         row += 1
 
     workbook.close()
