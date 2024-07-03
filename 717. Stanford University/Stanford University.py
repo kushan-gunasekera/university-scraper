@@ -124,6 +124,7 @@ def main():
         worksheet.write(row, 3, value.get('course_professor'))
         row += 1
 
+    workbook.close()
 
 
 if __name__ == '__main__':
