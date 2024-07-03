@@ -124,7 +124,7 @@ def get_courses(term, subject):
                 print(f'split_items not found for {term} | {subject} | {a_tag.text}')
                 continue
             title, _, code = split_items
-            description_row = course_tag.find_next_sibling('tr')
+            description_row = course_tag.find_parent('tr').find_next_sibling('tr')
             first_sentence = ''
             if description_row:
                 description = description_row.find('td', class_='dddefault').text.strip()
