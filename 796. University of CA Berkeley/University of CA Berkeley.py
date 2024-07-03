@@ -56,7 +56,10 @@ def get_course(url):
             br_tag = span.find('br')
             if br_tag:
                 # The text after the <br> tag
-                text_after_br = br_tag.next_sibling.strip()
+                try:
+                    text_after_br = br_tag.next_sibling.strip()
+                except:
+                    pass
         courses[course_code] = {
             'course_code': course_code,
             'course_name': course_name,
