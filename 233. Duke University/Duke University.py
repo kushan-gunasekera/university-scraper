@@ -39,9 +39,10 @@ def get_courses(term):
             institution = i.get('campus')
             termm = i.get('strm')
             class_nbr = i.get('class_nbr')
+            print(f'institution: {institution} | termm: {termm} | class_nbr: {class_nbr}')
             r = requests.get(desc_url.format(institution=institution, term=termm, class_nbr=class_nbr), headers=HEADERS)
-            data = r.json()
-            desc = data.get('section_info', {}).get('catalog_descr', {}).get('crse_catalog_description')
+            desc_data = r.json()
+            desc = desc_data.get('section_info', {}).get('catalog_descr', {}).get('crse_catalog_description')
             inscturators = [
                 j.get('name')
                 for j in i.get('instructors', [])
