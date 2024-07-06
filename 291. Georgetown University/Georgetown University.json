@@ -1,0 +1,2642 @@
+{
+    "ARST 425": {
+        "course_code": "ARST 425",
+        "course_name": "FLAS Fellowship",
+        "course_description": "This course is for undergraduate and graduate students currently receiving a FLAS fellowship."
+    },
+    "ACCT 1001": {
+        "course_code": "ACCT 1001",
+        "course_name": "Principles of Accounting",
+        "course_description": "A survey of financial accounting for non-business students. Major emphasis is on the uses and limita"
+    },
+    "ACCT 100X": {
+        "course_code": "ACCT 100X",
+        "course_name": "Accounting Elective",
+        "course_description": null
+    },
+    "ACCT 1101": {
+        "course_code": "ACCT 1101",
+        "course_name": "Intro to Financial Accounting",
+        "course_description": "This course is an introduction to financial accounting as the &ldquo;language of business.&rdquo; Financial acco"
+    },
+    "ACCT 1181": {
+        "course_code": "ACCT 1181",
+        "course_name": "Business Law",
+        "course_description": "This course serves as an overview of the intersection among business, ethics, and law, both in the U"
+    },
+    "ACCT 2101": {
+        "course_code": "ACCT 2101",
+        "course_name": "Mgmt Acct for Decision Making",
+        "course_description": "This course helps students understand how accounting information is used to measure and drive perfor"
+    },
+    "ACCT 3101": {
+        "course_code": "ACCT 3101",
+        "course_name": "Corporate Financial Reporting",
+        "course_description": "This course is an extension of ACCT 101 that deepens an understanding of how firms report the conver"
+    },
+    "ACCT 3102": {
+        "course_code": "ACCT 3102",
+        "course_name": "Financl Measurement &amp;Risk Mgmt",
+        "course_description": "This course is an extension of ACCT 101 that deepens an understanding of how firms report the financ"
+    },
+    "ACCT 3103": {
+        "course_code": "ACCT 3103",
+        "course_name": "Acct &amp; Management Strategy",
+        "course_description": "This course examines the use of accounting information and control concepts to formulate corporate s"
+    },
+    "ACCT 3221": {
+        "course_code": "ACCT 3221",
+        "course_name": "Fed Income Taxatn: Individuals",
+        "course_description": "This course introduces the U.S. income tax laws, regulations, and procedures pertaining to individua"
+    },
+    "ACCT 3222": {
+        "course_code": "ACCT 3222",
+        "course_name": "Fed Income Taxatn:Bus Entities",
+        "course_description": "This course introduces the taxation of entities such as corporations, partnerships, estates, and tru"
+    },
+    "ACCT 3243": {
+        "course_code": "ACCT 3243",
+        "course_name": "Financial Statement Analysis",
+        "course_description": "This course is an introduction to financial statement analysis. The course covers basic issues in fu"
+    },
+    "ACCT 3251": {
+        "course_code": "ACCT 3251",
+        "course_name": "M&amp;A &amp; Cmplx Financl Structures",
+        "course_description": "This course is an extension of ACCT 101 that deepens an understanding of how firms account for merge"
+    },
+    "ACCT 3261": {
+        "course_code": "ACCT 3261",
+        "course_name": "Governmental &amp; Internatnl Acct",
+        "course_description": "This course introduces (1) the financial accounting issues related to governmental and not-for-profi"
+    },
+    "ACCT 3271": {
+        "course_code": "ACCT 3271",
+        "course_name": "Auditing &amp; Analytics",
+        "course_description": "This course introduces the financial statement audit process and the three fundamental concepts of f"
+    },
+    "ACCT 3281": {
+        "course_code": "ACCT 3281",
+        "course_name": "Corporate Law",
+        "course_description": "The emphasis in Corporate Law is on the business sector and such areas as Agency, Partnerships, and "
+    },
+    "ACCT 4001": {
+        "course_code": "ACCT 4001",
+        "course_name": "Principles of Accounting",
+        "course_description": "A survey of financial accounting for non-business students. Major emphasis is on the uses and limita"
+    },
+    "ACCT 4949": {
+        "course_code": "ACCT 4949",
+        "course_name": "Tutorial: Accounting",
+        "course_description": null
+    },
+    "ACCT 6500": {
+        "course_code": "ACCT 6500",
+        "course_name": "Corporate Financial Reporting",
+        "course_description": "The course focuses on how corporate financial information is produced and presented to external stak"
+    },
+    "ACCT 6505": {
+        "course_code": "ACCT 6505",
+        "course_name": "Fincl Anlysis for Mngr&amp;Investr",
+        "course_description": "This course emphasizes the development of accounting information for use in decision making and fina"
+    },
+    "ACCT 6552": {
+        "course_code": "ACCT 6552",
+        "course_name": "Financial Statement Analysis",
+        "course_description": "This is an introductory course in financial statement analysis. We discuss the analysis of fundament"
+    },
+    "ACCT 6553": {
+        "course_code": "ACCT 6553",
+        "course_name": "Financl Statement Analysis II",
+        "course_description": "This is an advanced course in financial statement analysis with an emphasis on analyzing earnings qu"
+    },
+    "ACCT 6554": {
+        "course_code": "ACCT 6554",
+        "course_name": "Cases in Finc Statement Anal",
+        "course_description": "This is an intermediate course in financial statement analysis with an emphasis on analyzing earning"
+    },
+    "ACCT 6561": {
+        "course_code": "ACCT 6561",
+        "course_name": "Corporate Taxation",
+        "course_description": "This course will provide an overview of the basic corporate tax issues relevant to an organization&rsquo;s"
+    },
+    "ACCT 6565": {
+        "course_code": "ACCT 6565",
+        "course_name": "Taxes &amp; Business Strategy",
+        "course_description": "The overall objective of the course is to provide MBA students with useful analytical frameworks for"
+    },
+    "ACCT 6572": {
+        "course_code": "ACCT 6572",
+        "course_name": "Performance as Value Creation",
+        "course_description": "This course examines how to measure the amount of value that a business creates for its stakeholders"
+    },
+    "ACCT 6573": {
+        "course_code": "ACCT 6573",
+        "course_name": "Forensic Accounting",
+        "course_description": "&ldquo;This is a course studying corporate accounting, reporting and misappropriation fraud in today&rsquo;s eco"
+    },
+    "ACCT 6575": {
+        "course_code": "ACCT 6575",
+        "course_name": "Bus Processes &amp;Enterprise Tech",
+        "course_description": "This course involves the design of enterprise systems that collect, store, and process accounting an"
+    },
+    "ACCT 6580": {
+        "course_code": "ACCT 6580",
+        "course_name": "Law for Managers",
+        "course_description": "This course is designed to offer a broad overview of the legal environment and the application of th"
+    },
+    "ACCT 6581": {
+        "course_code": "ACCT 6581",
+        "course_name": "Law&amp;Business:Corp Transactions",
+        "course_description": "In practice, once business managers have reached a tentative deal on the major terms of a transactio"
+    },
+    "ACCT 6582": {
+        "course_code": "ACCT 6582",
+        "course_name": "Startup Law",
+        "course_description": "Startup Law teaches students the legal framework relevant to founding and operating a startup compan"
+    },
+    "ACCT 6601": {
+        "course_code": "ACCT 6601",
+        "course_name": "Acct for Sustainability Mgmt",
+        "course_description": "This course examines the use of accounting information and management control to formulate corporate"
+    },
+    "ACCT 7949": {
+        "course_code": "ACCT 7949",
+        "course_name": "Tutorial: Accounting",
+        "course_description": null
+    },
+    "ADPP 5015": {
+        "course_code": "ADPP 5015",
+        "course_name": "Fundamentals of Neurobiology I",
+        "course_description": "This is a 2-credit course, providing students with the scientific foundation for understanding the n"
+    },
+    "ADPP 6001": {
+        "course_code": "ADPP 6001",
+        "course_name": "Foundations of Addiction I",
+        "course_description": "This course will provide an overview of the behavioral health issues involved in addiction, includin"
+    },
+    "ADPP 6002": {
+        "course_code": "ADPP 6002",
+        "course_name": "Foundations of Addiction II",
+        "course_description": null
+    },
+    "ADPP 6006": {
+        "course_code": "ADPP 6006",
+        "course_name": "Addiction &amp; Mental Health Law",
+        "course_description": "Addiction and mental health have increasingly become an integral part of the broader policy landscap"
+    },
+    "ADPP 6010": {
+        "course_code": "ADPP 6010",
+        "course_name": "Data &amp; Stats in Drug Policy I",
+        "course_description": "This course will review the primary data sets used in to track substance use trends in the U.S. and "
+    },
+    "ADPP 6011": {
+        "course_code": "ADPP 6011",
+        "course_name": "Data &amp; Stats in Drug Policy II",
+        "course_description": "This is the second  of a two part course to review the primary data sets used to track substance use"
+    },
+    "ADPP 6020": {
+        "course_code": "ADPP 6020",
+        "course_name": "US Addiction Policy",
+        "course_description": " A foundational course providing an overview of U.S. policies on addiction, including federal and st"
+    },
+    "ADPP 6021": {
+        "course_code": "ADPP 6021",
+        "course_name": "Comp. Appr to Addiction Policy",
+        "course_description": "Full title: Comparative Approaches to Addiction Policy\nThis course provides an overview of internati"
+    },
+    "ADPP 6025": {
+        "course_code": "ADPP 6025",
+        "course_name": "Addiction&amp; Mental Hlth Law Pol",
+        "course_description": "This course will examine the evolution of legal and policy responses to addiction, mental health, an"
+    },
+    "ADPP 6030": {
+        "course_code": "ADPP 6030",
+        "course_name": "Health Care Financing",
+        "course_description": "A foundational course providing an overview of financing for behavioral health services in the US. T"
+    },
+    "ADPP 6040": {
+        "course_code": "ADPP 6040",
+        "course_name": "Social Epidemiol. &amp; Addiction",
+        "course_description": "Students will apply social epidemiologic concepts to addiction, introduced through weekly lectures a"
+    },
+    "ADPP 7001": {
+        "course_code": "ADPP 7001",
+        "course_name": "Integrative Seminar",
+        "course_description": "The goal of the course is to allow students to integrate academic coursework with real-world experie"
+    },
+    "ADPP 7002": {
+        "course_code": "ADPP 7002",
+        "course_name": "Integrative Seminar",
+        "course_description": "The goal of the course is to allow students to integrate academic coursework with real-world experie"
+    },
+    "ADPP 7003": {
+        "course_code": "ADPP 7003",
+        "course_name": "Mentored Capstone",
+        "course_description": "The capstone assignment required of all MAPP students is developed through the integrative seminar a"
+    },
+    "AFSP 1104": {
+        "course_code": "AFSP 1104",
+        "course_name": "Beginners Swahili I",
+        "course_description": "This course is an introduction to the culture of the Swahili people of eastern Africa and their lang"
+    },
+    "AFSP 1105": {
+        "course_code": "AFSP 1105",
+        "course_name": "Beginners Swahili II",
+        "course_description": null
+    },
+    "AFSP 2203": {
+        "course_code": "AFSP 2203",
+        "course_name": "Intermediate Swahili",
+        "course_description": "This course will deal with the extension of grammatical concepts and structures and vocabulary expan"
+    },
+    "AFSP 2204": {
+        "course_code": "AFSP 2204",
+        "course_name": "Intermediate Swahili II",
+        "course_description": "This course will be a survey of cultural and contemporary issues in Kiswahili. A variety of issues a"
+    },
+    "AFSP 2205": {
+        "course_code": "AFSP 2205",
+        "course_name": " Africa is People",
+        "course_description": "What is Africa to you? How should Africa be written? How should Africa not be written? These fundame"
+    },
+    "AFSP 2209": {
+        "course_code": "AFSP 2209",
+        "course_name": "Women &amp; Politics in Africa",
+        "course_description": "This course will analyze the formal and informal roles that women play in politics in sub-Saharan Af"
+    },
+    "AFSP 2248": {
+        "course_code": "AFSP 2248",
+        "course_name": "Qstn Eql:Lit/Pol Thry Afr/West",
+        "course_description": "&quot;Equality,&quot; is, in many ways, the cornerstone of modern conceptions of society, government, and glob"
+    },
+    "AFSP 2286": {
+        "course_code": "AFSP 2286",
+        "course_name": "Advanced Swahili II",
+        "course_description": "This course builds on the material covered in Beginners and Intermediate Swahili. Advanced Swahili I"
+    },
+    "AFSP 2294": {
+        "course_code": "AFSP 2294",
+        "course_name": "Environment in Africa",
+        "course_description": "Poor resource management in many parts of Africa has resulted in serious social and environmental pr"
+    },
+    "AFSP 2295": {
+        "course_code": "AFSP 2295",
+        "course_name": "Religions in Africa",
+        "course_description": null
+    },
+    "AFSP 3303": {
+        "course_code": "AFSP 3303",
+        "course_name": "Making of A Region-West Africa",
+        "course_description": "Full Course Title: The Making of A Region: Conflict and Nationalism in West Africa\n&lt;br&gt;&lt;br&gt;\nIn this "
+    },
+    "AFSP 3310": {
+        "course_code": "AFSP 3310",
+        "course_name": "Advanced Swahili I",
+        "course_description": "This course builds on the material covered in Beginners and Intermediate Swahili.  Advanced Swahili "
+    },
+    "AFSP 3323": {
+        "course_code": "AFSP 3323",
+        "course_name": "Civil Society&amp;Democ. in Africa",
+        "course_description": "Civil Society &amp; Democratization in Africa\n&lt;br&gt;&lt;br&gt;\nWhat do student organizations, church groups, tra"
+    },
+    "AFSP 3325": {
+        "course_code": "AFSP 3325",
+        "course_name": "Polts &amp; Society in West Africa",
+        "course_description": "This discussion-based seminar will introduce students to the diverse societies and contentious polit"
+    },
+    "AFSP 3345": {
+        "course_code": "AFSP 3345",
+        "course_name": "Ethnicity &amp; Nationalism:Africa",
+        "course_description": "The borders created by European colonialism have great significance to African states and politician"
+    },
+    "AFSP 3348": {
+        "course_code": "AFSP 3348",
+        "course_name": "African Studies:Capstone Cours",
+        "course_description": "In this course we will explore the representations of Africa and African peoples from various perspe"
+    },
+    "AFSP 3350": {
+        "course_code": "AFSP 3350",
+        "course_name": "Humanitarianism in Africa",
+        "course_description": "This course seeks to broaden students&rsquo; understanding of the history, practices, and agenda of humani"
+    },
+    "AFSP 3351": {
+        "course_code": "AFSP 3351",
+        "course_name": "Rev Struggles in Af. Atlantic",
+        "course_description": "Revolutionary Struggles in the African Atlantic\nThe concepts of struggle and freedom, and their revo"
+    },
+    "AFSP 3357": {
+        "course_code": "AFSP 3357",
+        "course_name": "African Politics/Governments",
+        "course_description": "Most sub-Saharan African governments began independence as democracies. With few exceptions, they ga"
+    },
+    "AFSP 3358": {
+        "course_code": "AFSP 3358",
+        "course_name": "Queer Africas",
+        "course_description": "In this interdisciplinary undergraduate seminar, we will discuss what it means to &ldquo;queer&rdquo; Africa and"
+    },
+    "AFSP 3361": {
+        "course_code": "AFSP 3361",
+        "course_name": "Technology &amp;Politics in Africa",
+        "course_description": "How is technology impacting the conduct of politics in African states? Is technology strengthening o"
+    },
+    "AFSP 3364": {
+        "course_code": "AFSP 3364",
+        "course_name": "Art and Power in Africa",
+        "course_description": "TBA"
+    },
+    "AFSP 3365": {
+        "course_code": "AFSP 3365",
+        "course_name": "Afrofuturism:PoliticsCultur&amp;De",
+        "course_description": "Afrofuturism has a decades-long history, but arguably did not enter the mainstream before 2018&rsquo;s &ldquo;Bl"
+    },
+    "AFSP 3373": {
+        "course_code": "AFSP 3373",
+        "course_name": "Intra-African Cooperation",
+        "course_description": "There has been a recent resurgence in inter-state cooperation in Africa on security and economic iss"
+    },
+    "AFSP 3377": {
+        "course_code": "AFSP 3377",
+        "course_name": "Environment in Africa",
+        "course_description": "Poor resource management in many parts of Africa has resulted in serious social and environmental pr"
+    },
+    "AFSP 3381": {
+        "course_code": "AFSP 3381",
+        "course_name": "Jihad Security/Challenge Afric",
+        "course_description": "Jihadism and Security Challenges in Africa: The significant rise of jihadist networks has seriously "
+    },
+    "AFSP 3392": {
+        "course_code": "AFSP 3392",
+        "course_name": "Economics of Africa",
+        "course_description": "This course is concerned with the understanding and analysis of African Economies. We will explore m"
+    },
+    "AFSP 3394": {
+        "course_code": "AFSP 3394",
+        "course_name": "History of African Pop Culture",
+        "course_description": null
+    },
+    "AFSP 3395": {
+        "course_code": "AFSP 3395",
+        "course_name": "Pol Econ of Development Africa",
+        "course_description": null
+    },
+    "AFSP 3396": {
+        "course_code": "AFSP 3396",
+        "course_name": "Soc Change:Sub-Saharan Africa",
+        "course_description": null
+    },
+    "AFSP 4401": {
+        "course_code": "AFSP 4401",
+        "course_name": "Environment in Africa",
+        "course_description": "Poor resource management in many parts of Africa has resulted in serious social and environmental pr"
+    },
+    "AFSP 4402": {
+        "course_code": "AFSP 4402",
+        "course_name": "Cont. African Culture/Ideology",
+        "course_description": "The course seeks to introduce students to African cultural ideologies constructed by African scholar"
+    },
+    "AFSP 4404": {
+        "course_code": "AFSP 4404",
+        "course_name": "The Racial Life of Waste",
+        "course_description": "Africa will constitute the backdrop for discussing the markings and un-markings of waste and its dis"
+    },
+    "AFSP 4409": {
+        "course_code": "AFSP 4409",
+        "course_name": "Women &amp; Politics in Africa",
+        "course_description": "The role of women in African politics has undergone a dramatic transformation over the past few deca"
+    },
+    "AFSP 4428": {
+        "course_code": "AFSP 4428",
+        "course_name": "Global History of Slavery",
+        "course_description": "This course examines the development of forms of slavery in world history. Understandings of slavery"
+    },
+    "AFSP 4430": {
+        "course_code": "AFSP 4430",
+        "course_name": "Islam in Africa",
+        "course_description": "Although Islam has been well established in Africa for many centuries, many simplistically associate"
+    },
+    "AFSP 4445": {
+        "course_code": "AFSP 4445",
+        "course_name": "Nigeria: Conflict &amp; Change",
+        "course_description": "This discussion-based course examines Nigeria, Africa&rsquo;s most populous country and the continent&#39;s la"
+    },
+    "AFSP 4447": {
+        "course_code": "AFSP 4447",
+        "course_name": "Persp. on African Christianity",
+        "course_description": null
+    },
+    "AFSP 4449": {
+        "course_code": "AFSP 4449",
+        "course_name": "China&#39;s Evolving Role in Afr",
+        "course_description": "China and Africa&rsquo;s economic and diplomatic relations have developed rapidly in the last twenty years"
+    },
+    "AFSP 4459": {
+        "course_code": "AFSP 4459",
+        "course_name": "PubPolDynamicsAfrica Env Crime",
+        "course_description": "This interactive course examines the impacts of environmental crime, such as illegal logging and wil"
+    },
+    "AFSP 4475": {
+        "course_code": "AFSP 4475",
+        "course_name": "ViolConflictFinance:SubSahAfr",
+        "course_description": "Violent Conflict Finance in sub-Saharan Africa : In this class, students will be exposed to historic"
+    },
+    "AFSP 4489": {
+        "course_code": "AFSP 4489",
+        "course_name": "U.S. Policy in Africa",
+        "course_description": "This course examines U.S. foreign policy towards Africa through a multi-sector historical lens. The "
+    },
+    "AFSP 4491": {
+        "course_code": "AFSP 4491",
+        "course_name": "Business &amp; Politics in Africa",
+        "course_description": "Many scholars and practitioners in the developing world once held that the private sector was periph"
+    },
+    "AFSP 5610": {
+        "course_code": "AFSP 5610",
+        "course_name": "Forn Dir. Inv. &amp; Growth Africa",
+        "course_description": "This course explores: (1) The Correlation Between FDI and Economic Growth (2) How to Attract FDI, th"
+    },
+    "AFSP 5659": {
+        "course_code": "AFSP 5659",
+        "course_name": "Theory and Policy in Africa",
+        "course_description": "This course serves as the gateway requirement for students pursuing the Graduate Certificate in Afri"
+    },
+    "AFSP 5675": {
+        "course_code": "AFSP 5675",
+        "course_name": "CBL:Polit of African Migration",
+        "course_description": null
+    },
+    "AFSP 6698": {
+        "course_code": "AFSP 6698",
+        "course_name": "Intro to Humanitarian Crises",
+        "course_description": "This course provides an overview of major principles, theories, operational concerns, and public pol"
+    },
+    "AFSP 7615": {
+        "course_code": "AFSP 7615",
+        "course_name": "Pvt Cap Flows into AfricanMkts",
+        "course_description": "Investing on the Frontier: Module on Private Capital Flows into African Markets\n&lt;br&gt;&lt;br&gt;\nA graduate-"
+    },
+    "AGHL 4199": {
+        "course_code": "AGHL 4199",
+        "course_name": "An Aging World",
+        "course_description": "We age individually, but populations also age. We will explore the primary cause(s) of population ag"
+    },
+    "AGHL 5100": {
+        "course_code": "AGHL 5100",
+        "course_name": "Aging in Place",
+        "course_description": "From boomers to the oldest old, surveys of older adults show that most want to remain as independent"
+    },
+    "AGHL 5101": {
+        "course_code": "AGHL 5101",
+        "course_name": "Theories &amp; Perspectives of Ger",
+        "course_description": "We now know more than ever about how to promote successful cognitive and physiological aging; so tha"
+    },
+    "AGHL 5102": {
+        "course_code": "AGHL 5102",
+        "course_name": "Research in Aging &amp; Health",
+        "course_description": "This course examines the philosophy, methodologies, and methods pertaining to issues of aging and he"
+    },
+    "AGHL 5103": {
+        "course_code": "AGHL 5103",
+        "course_name": "Biology of Health and Disease",
+        "course_description": "Science is generating new views of what it means to age; we know that the brain continues to be plas"
+    },
+    "AGHL 5104": {
+        "course_code": "AGHL 5104",
+        "course_name": "Humanities and Ethics of Aging",
+        "course_description": "This course focuses on human longevity using humanistic and ethical perspectives. Undergraduate and "
+    },
+    "AGHL 5105": {
+        "course_code": "AGHL 5105",
+        "course_name": "Psychology of Aging",
+        "course_description": "This course is an introduction to the psychology of aging, how older adults experience growing older"
+    },
+    "AGHL 5206": {
+        "course_code": "AGHL 5206",
+        "course_name": "Aging Policy",
+        "course_description": "Health policy and aging"
+    },
+    "AGHL 5207": {
+        "course_code": "AGHL 5207",
+        "course_name": " Senior Living Management",
+        "course_description": null
+    },
+    "AGHL 6940": {
+        "course_code": "AGHL 6940",
+        "course_name": "Aging &amp; Health Seminar Series",
+        "course_description": "This monthly seminar will focus on aging and health. Seminar topics may include special topics such "
+    },
+    "AGHL 6941": {
+        "course_code": "AGHL 6941",
+        "course_name": "Aging &amp; Health Seminar Series",
+        "course_description": "This monthly seminar will focus on aging and health. Seminar topics may include special topics such "
+    },
+    "AGHL 7200": {
+        "course_code": "AGHL 7200",
+        "course_name": "Senior Living Sales &amp; Marketin",
+        "course_description": "As a 90% private pay industry, this course will provide instruction in the professional management o"
+    },
+    "AGHL 7949": {
+        "course_code": "AGHL 7949",
+        "course_name": "Tutorial",
+        "course_description": null
+    },
+    "AGHL 7950": {
+        "course_code": "AGHL 7950",
+        "course_name": "Aging &amp; Health Internship/Caps",
+        "course_description": "This class will meet regularly during the summer for students to share ideas and to ensure students "
+    },
+    "AGHL 7951": {
+        "course_code": "AGHL 7951",
+        "course_name": "Senior Living Internship/Capst",
+        "course_description": "Internship/Capstone requirement for those in the M.S. in Aging &amp; Health, Senior Living Administratio"
+    },
+    "AGHL 9991": {
+        "course_code": "AGHL 9991",
+        "course_name": "Continuous Registration",
+        "course_description": "Continuous Registration with fee"
+    },
+    "AGHL 9993": {
+        "course_code": "AGHL 9993",
+        "course_name": "Continuous Registration",
+        "course_description": "There is no tuition associated with this mode of Continuous Registration. It is reserved for student"
+    },
+    "AGHL 9999": {
+        "course_code": "AGHL 9999",
+        "course_name": "Continuous Registration",
+        "course_description": "Continuous registration"
+    },
+    "AMST 1051": {
+        "course_code": "AMST 1051",
+        "course_name": "Exploring DC",
+        "course_description": "This integrative, experiential course provides opportunities for special events, site visits, and ha"
+    },
+    "AMST 1101": {
+        "course_code": "AMST 1101",
+        "course_name": "Race + Class in DC",
+        "course_description": "This first-year seminar examines the way race and class have shaped Washington D.C. over the last tw"
+    },
+    "AMST 1202": {
+        "course_code": "AMST 1202",
+        "course_name": "DC Inquiries",
+        "course_description": "This integrative, experiential course provides opportunities for special events, site visits, and ha"
+    },
+    "AMST 2003": {
+        "course_code": "AMST 2003",
+        "course_name": "Origins &amp; Identities",
+        "course_description": "The American Studies Program is a hub for bringing students of diverse perspectives together to enga"
+    },
+    "AMST 2004": {
+        "course_code": "AMST 2004",
+        "course_name": "Memory, Power &amp; Culture",
+        "course_description": "AMST 204: Memory, Power, &amp; Culture allows American Studies majors to continue their intellectual jou"
+    },
+    "AMST 200X": {
+        "course_code": "AMST 200X",
+        "course_name": "American Studies Elect",
+        "course_description": null
+    },
+    "AMST 3007": {
+        "course_code": "AMST 3007",
+        "course_name": "American Horror 20th Century",
+        "course_description": "This course examines the role of the horror genre in 20th century American film and culture. How is "
+    },
+    "AMST 3008": {
+        "course_code": "AMST 3008",
+        "course_name": "The Hollywood Blacklist",
+        "course_description": "The blacklisting of left-wing filmmakers in Hollywood during the late 1940s and early 1950s was an p"
+    },
+    "AMST 3027": {
+        "course_code": "AMST 3027",
+        "course_name": "Wrkers in the Amer Food System",
+        "course_description": "This is a junior core course for American Studies juniors, and seniors. Others may seek professor ap"
+    },
+    "AMST 3033": {
+        "course_code": "AMST 3033",
+        "course_name": "Crisis:AM Disasters:Film &amp; Fic",
+        "course_description": "This course explores the place of crisis narratives in American culture. As a nation founded upon re"
+    },
+    "AMST 3044": {
+        "course_code": "AMST 3044",
+        "course_name": "Cutting Class: Turn of the Cen",
+        "course_description": "AMST-344 explores changes in cultural and intellectual life in America after the Civil War through t"
+    },
+    "AMST 3056": {
+        "course_code": "AMST 3056",
+        "course_name": "Television &amp; Social Change",
+        "course_description": null
+    },
+    "AMST 3063": {
+        "course_code": "AMST 3063",
+        "course_name": "Undocumented America",
+        "course_description": "This course traces the historical construction of the undocumented subject in the United States. Thr"
+    },
+    "AMST 3071": {
+        "course_code": "AMST 3071",
+        "course_name": "American Photography",
+        "course_description": "This course will explore the reciprocal relationship between American culture and photography over t"
+    },
+    "AMST 3073": {
+        "course_code": "AMST 3073",
+        "course_name": "Crime &amp; Punishment in America",
+        "course_description": "The United States is addicted to imprisoning its citizens. According to the most recent data supplie"
+    },
+    "AMST 3074": {
+        "course_code": "AMST 3074",
+        "course_name": "Women, Domesticity &amp; Am Cult",
+        "course_description": "This course will examine the relationship between women and their homes in American novels, films, t"
+    },
+    "AMST 3075": {
+        "course_code": "AMST 3075",
+        "course_name": "American Lit 1900-present",
+        "course_description": "This course examines American literature and culture in the twentieth century through three themes t"
+    },
+    "AMST 3079": {
+        "course_code": "AMST 3079",
+        "course_name": "Sports, Media &amp; Amer Culture",
+        "course_description": "In this course, we will think critically about the role that sports play in reinforcing and sometime"
+    },
+    "AMST 3081": {
+        "course_code": "AMST 3081",
+        "course_name": "Advertising &amp; Social Change",
+        "course_description": "Advertising &amp; Social Change investigates the significance and impact that advertising has on America"
+    },
+    "AMST 3083": {
+        "course_code": "AMST 3083",
+        "course_name": "Cinema and the American City",
+        "course_description": null
+    },
+    "AMST 3272": {
+        "course_code": "AMST 3272",
+        "course_name": "Facing Georgetown&#39;s History",
+        "course_description": "Facing Georgetown&rsquo;s History carries on the American Studies Program&#39;s longstanding commitment to exp"
+    },
+    "AMST 4960": {
+        "course_code": "AMST 4960",
+        "course_name": "Thesis Research Seminar",
+        "course_description": "Georgetown&rsquo;s Senior Thesis Seminar in American Studies is designed to guide 4th-year students throug"
+    },
+    "ANTH 000-": {
+        "course_code": "ANTH 000-",
+        "course_name": "Anthropology",
+        "course_description": null
+    },
+    "ANTH 1001": {
+        "course_code": "ANTH 1001",
+        "course_name": "Intro to Cultural Anthropology",
+        "course_description": "Most people know that anthropology is the study of cultures and cultural difference around the world"
+    },
+    "ANTH 1120": {
+        "course_code": "ANTH 1120",
+        "course_name": "Visual Anthro:Ways of Seeing",
+        "course_description": "The role of vision and the visual in ethnographic research, anthropological scholarship, and pedagog"
+    },
+    "ANTH 1125": {
+        "course_code": "ANTH 1125",
+        "course_name": "Anthropological Eye",
+        "course_description": "What is the role of vision in the modern discipline of anthropology? Are ways of seeing cultural? Wh"
+    },
+    "ANTH 1141": {
+        "course_code": "ANTH 1141",
+        "course_name": "Applied Anthropology",
+        "course_description": null
+    },
+    "ANTH 1175": {
+        "course_code": "ANTH 1175",
+        "course_name": "Crisis &amp; Creativity/Arab World",
+        "course_description": "Beginning with an overview of anthropological and journalistic approaches to the Arab world over the"
+    },
+    "ANTH 2004": {
+        "course_code": "ANTH 2004",
+        "course_name": "Media Worlds and Technologies",
+        "course_description": "Humans use myriad types of media to build our relationships, support economic and cultural exchanges"
+    },
+    "ANTH 200X": {
+        "course_code": "ANTH 200X",
+        "course_name": "Anthropology Elective",
+        "course_description": null
+    },
+    "ANTH 2034": {
+        "course_code": "ANTH 2034",
+        "course_name": "Trafficking/Terror./War Crimes",
+        "course_description": "This course will focus on threats to heritage in times of conflict and the illicit black market trad"
+    },
+    "ANTH 2070": {
+        "course_code": "ANTH 2070",
+        "course_name": "Slavery Museums &amp; Monuments",
+        "course_description": "Why are museums created? What political and cultural work that curators have in mind and what storie"
+    },
+    "ANTH 2203": {
+        "course_code": "ANTH 2203",
+        "course_name": "Cyborg: HumanMachine Interface",
+        "course_description": "The class will involve a deep dive into human-technology interfaces, with future ethics taking a cen"
+    },
+    "ANTH 2205": {
+        "course_code": "ANTH 2205",
+        "course_name": "Justice and Media",
+        "course_description": null
+    },
+    "ANTH 2206": {
+        "course_code": "ANTH 2206",
+        "course_name": "Media and Global Protest",
+        "course_description": null
+    },
+    "ANTH 2207": {
+        "course_code": "ANTH 2207",
+        "course_name": "Love &amp; Hate in the Digital Age",
+        "course_description": "&ldquo;Have Smartphones Destroyed a Generation?&rdquo; &ldquo;Is Google Making Us Stupid?&rdquo; These sensational headlines"
+    },
+    "ANTH 2208": {
+        "course_code": "ANTH 2208",
+        "course_name": "Ghosts, Spirits, and Anthro",
+        "course_description": "All societies have stories of the supernatural, the afterlife, of haunted places and left-behind spi"
+    },
+    "ANTH 2209": {
+        "course_code": "ANTH 2209",
+        "course_name": "Anthropology of Social Media",
+        "course_description": "In barely a decade, social media has transformed the world around us, the way we learn, the way we c"
+    },
+    "ANTH 2210": {
+        "course_code": "ANTH 2210",
+        "course_name": "Dangerous Fun: Humor &amp; Power",
+        "course_description": " Humor is human. It is art, creativity, resistance, resilience, and political commentary. It can tel"
+    },
+    "ANTH 2211": {
+        "course_code": "ANTH 2211",
+        "course_name": "Anthropology of Development",
+        "course_description": null
+    },
+    "ANTH 2212": {
+        "course_code": "ANTH 2212",
+        "course_name": "Food and Culture",
+        "course_description": null
+    },
+    "ANTH 2215": {
+        "course_code": "ANTH 2215",
+        "course_name": "Youth Culture",
+        "course_description": "This course will take an anthropological and cross-cultural look at topics related to youth culture,"
+    },
+    "ANTH 2218": {
+        "course_code": "ANTH 2218",
+        "course_name": "Exploring Race and Diversity",
+        "course_description": "his course examines anthropological theories of race and ethnicity, starting with approaches develop"
+    },
+    "ANTH 2219": {
+        "course_code": "ANTH 2219",
+        "course_name": "Gender/Race/Nationalism",
+        "course_description": " This course explores the articulations of gender, sexuality, race, ethnicity, and nationalism in di"
+    },
+    "ANTH 2220": {
+        "course_code": "ANTH 2220",
+        "course_name": "Dangerous Kids",
+        "course_description": null
+    },
+    "ANTH 2222": {
+        "course_code": "ANTH 2222",
+        "course_name": "Representing Indigeneity",
+        "course_description": "Representing Native Americans in texts, photographs, museum collections, and exhibits was a central "
+    },
+    "ANTH 2224": {
+        "course_code": "ANTH 2224",
+        "course_name": "Everyday Politics of Water",
+        "course_description": "Further to its physical properties, water affects most domains of social life - religion, politics, "
+    },
+    "ANTH 2225": {
+        "course_code": "ANTH 2225",
+        "course_name": "Environmental Anthropology",
+        "course_description": "Life is an entanglement of relations. Environmental Anthropology is the study of the relations that "
+    },
+    "ANTH 2231": {
+        "course_code": "ANTH 2231",
+        "course_name": "Giant Squid:Humans &amp; Animals",
+        "course_description": "As Claude Levi-Strauss once remarked, animals are &ldquo;good to think with.&rdquo;  Starting with this observat"
+    },
+    "ANTH 2233": {
+        "course_code": "ANTH 2233",
+        "course_name": "Qatari Ethnography",
+        "course_description": "This course will devote considerable attention to Qatari State and Society from the remnants of the "
+    },
+    "ANTH 2235": {
+        "course_code": "ANTH 2235",
+        "course_name": "Conspiracy Theory",
+        "course_description": "What is a conspiracy theory? And what distinguishes it from social theory and social theorizing? In "
+    },
+    "ANTH 2236": {
+        "course_code": "ANTH 2236",
+        "course_name": "Fascism in Everyday Life",
+        "course_description": "This course examines the varieties of fascism that have existed and which exist around the world tod"
+    },
+    "ANTH 2242": {
+        "course_code": "ANTH 2242",
+        "course_name": "Masculinities",
+        "course_description": null
+    },
+    "ANTH 2245": {
+        "course_code": "ANTH 2245",
+        "course_name": "Cultures &amp; Sexualities",
+        "course_description": "This course combines anthropological concepts with recent developments in gender and queer theory to"
+    },
+    "ANTH 2250": {
+        "course_code": "ANTH 2250",
+        "course_name": "Intro: Medical Anthropology",
+        "course_description": "Medical anthropology is a fascinating and fast-developing branch of anthropology with great potentia"
+    },
+    "ANTH 2251": {
+        "course_code": "ANTH 2251",
+        "course_name": "Anthropology &amp; the Body",
+        "course_description": "How does the body factor into or define kinship, family structure, gender roles, medical and religio"
+    },
+    "ANTH 2256": {
+        "course_code": "ANTH 2256",
+        "course_name": "Disability &amp; Culture",
+        "course_description": "This course will take an anthropological approach to issues of culture and identity, with a particul"
+    },
+    "ANTH 2262": {
+        "course_code": "ANTH 2262",
+        "course_name": "Racial Capitalism &amp; the NBA",
+        "course_description": "This class explores the culture of the National Basketball Association through the lens of racial ca"
+    },
+    "ANTH 2264": {
+        "course_code": "ANTH 2264",
+        "course_name": "Veterans: Hero, Victim, Threat",
+        "course_description": "This course exams military veterans, primarily in the United States. Often portrayed as either a her"
+    },
+    "ANTH 2271": {
+        "course_code": "ANTH 2271",
+        "course_name": "Anth/Lit in Latin America",
+        "course_description": null
+    },
+    "ANTH 2272": {
+        "course_code": "ANTH 2272",
+        "course_name": "Strike!",
+        "course_description": "At a time of rising economic inequality and growing labor precarity, workers around the world are ag"
+    },
+    "ANTH 2273": {
+        "course_code": "ANTH 2273",
+        "course_name": "Global Civil War",
+        "course_description": null
+    },
+    "ANTH 2274": {
+        "course_code": "ANTH 2274",
+        "course_name": "Mass Movmnts Mas Incarceration",
+        "course_description": "This course looks at mass movements &amp; mass incarceration in tandem, exploring their many contestatio"
+    },
+    "ANTH 2275": {
+        "course_code": "ANTH 2275",
+        "course_name": "Soldiers/Citizens/War/State",
+        "course_description": "Starting from the viewpoint that war is not a natural, biological &ldquo;necessity&rdquo; or inevitability, this"
+    },
+    "ANTH 2276": {
+        "course_code": "ANTH 2276",
+        "course_name": "Law and Justice",
+        "course_description": "How have societies across time and in different places developed and practiced law? What can cross-c"
+    },
+    "ANTH 2277": {
+        "course_code": "ANTH 2277",
+        "course_name": "Sound in Social Life",
+        "course_description": "Introductory concepts in the Anthropology of Sound, Ethnomusicology and related disciplines with a f"
+    },
+    "ANTH 2278": {
+        "course_code": "ANTH 2278",
+        "course_name": "Cultures of Security",
+        "course_description": "This course exams current trends and foci of security and securitization. Engaging these areas from "
+    },
+    "ANTH 2279": {
+        "course_code": "ANTH 2279",
+        "course_name": "Police in Contemporary World",
+        "course_description": "Public protests against police brutality in the United States have renewed interest in questions of "
+    },
+    "ANTH 2280": {
+        "course_code": "ANTH 2280",
+        "course_name": "Urban Anthropology",
+        "course_description": "This course explores the city as a product of, and a rich site for, humans&rsquo; negotiations over social"
+    },
+    "ANTH 2282": {
+        "course_code": "ANTH 2282",
+        "course_name": "Anthropology of Human Rights",
+        "course_description": null
+    },
+    "ANTH 2286": {
+        "course_code": "ANTH 2286",
+        "course_name": "Spies",
+        "course_description": "Spies hold a particular fascination in political life and popular culture: inhabiting a shadowy worl"
+    },
+    "ANTH 2287": {
+        "course_code": "ANTH 2287",
+        "course_name": "Football &amp; the American Dream",
+        "course_description": "Each year, thousands of hopefuls try out at high school and college levels for a shot at playing one"
+    },
+    "ANTH 3305": {
+        "course_code": "ANTH 3305",
+        "course_name": "Class/Culture/Race",
+        "course_description": null
+    },
+    "ANTH 3310": {
+        "course_code": "ANTH 3310",
+        "course_name": "Digital Anthropology",
+        "course_description": null
+    },
+    "ANTH 3320": {
+        "course_code": "ANTH 3320",
+        "course_name": "The Ethnographic Imagination",
+        "course_description": "What is ethnography? How does it differ from journalism, literature, or travel writing? Torn between"
+    },
+    "ANTH 3328": {
+        "course_code": "ANTH 3328",
+        "course_name": "Culture &amp; Globalization",
+        "course_description": "Does the existence of what we call &lsquo;globalization&rsquo; mean that cultures around the world are moving to"
+    },
+    "ANTH 3329": {
+        "course_code": "ANTH 3329",
+        "course_name": "Anth Perspectives on Clim Chge",
+        "course_description": "Soaring temperatures and increased aridity caused by climate change are predicted to make some parts"
+    },
+    "ANTH 3330": {
+        "course_code": "ANTH 3330",
+        "course_name": "Indian Ocean Ethnography",
+        "course_description": "In one of the rare accounts on the marked connectivity between Africa and the Gulf, Abusharaf and Ei"
+    },
+    "ANTH 3350": {
+        "course_code": "ANTH 3350",
+        "course_name": "War &amp; Peace in Darfur",
+        "course_description": "All eyes are now on Sudan following the arrest warrant for Sudanese president Omar al-Bashir in acco"
+    },
+    "ANTH 3351": {
+        "course_code": "ANTH 3351",
+        "course_name": "CBL:Refu/Asylees/Migrants/Traf",
+        "course_description": "This community-based research seminar on migration combines anthropology and principles of activist "
+    },
+    "ANTH 3358": {
+        "course_code": "ANTH 3358",
+        "course_name": "Doing Anthro Fieldwork",
+        "course_description": "In this course we will not only read anthropology, but also do anthropology. Students will learn abo"
+    },
+    "ANTH 3360": {
+        "course_code": "ANTH 3360",
+        "course_name": "War Ethnography",
+        "course_description": "Anthropologists have brought to bear significant perspectives on war and political violence. Detaile"
+    },
+    "ANTH 3362": {
+        "course_code": "ANTH 3362",
+        "course_name": "Undoc. Life on Global Stage",
+        "course_description": "This community-based research seminar on migration combines anthropology and principles of community"
+    },
+    "ANTH 3364": {
+        "course_code": "ANTH 3364",
+        "course_name": "Turkish Culture through Media",
+        "course_description": "Turkish Culture has exploded beyond ethnic, national, and regional boundaries due to social media, f"
+    },
+    "ANTH 3381": {
+        "course_code": "ANTH 3381",
+        "course_name": " Art/Entertainment/Consumerism",
+        "course_description": "Popular culture is an arena in which Latin Americans make cultural offerings their own through both "
+    },
+    "ANTH 3387": {
+        "course_code": "ANTH 3387",
+        "course_name": "Indigenous Peoples/Confl/Resil",
+        "course_description": null
+    },
+    "ANTH 3394": {
+        "course_code": "ANTH 3394",
+        "course_name": "CBL:Border Imperialism",
+        "course_description": "This course tackles the intertwined issues of settler state formation, capitalist dispossession, mob"
+    },
+    "ANTH 3395": {
+        "course_code": "ANTH 3395",
+        "course_name": "CBL:Fires, Floods, &amp; Heatwaves",
+        "course_description": "How are ways of life changing on a rapidly heating planet? Drought, extreme heat, and wildfires are "
+    },
+    "ANTH 4353": {
+        "course_code": "ANTH 4353",
+        "course_name": "Sex/Religion/Protest in Turkey",
+        "course_description": null
+    },
+    "ANTH 4363": {
+        "course_code": "ANTH 4363",
+        "course_name": "Muslim Cultures",
+        "course_description": "This course will examine the role of anthropology and anthropologists in the history of the contact "
+    },
+    "ANTH 4435": {
+        "course_code": "ANTH 4435",
+        "course_name": "The Other: Immgrnt Intgr NA/EU",
+        "course_description": null
+    },
+    "ANTH 4454": {
+        "course_code": "ANTH 4454",
+        "course_name": "Anthro of Social Engagement",
+        "course_description": null
+    },
+    "ANTH 4495": {
+        "course_code": "ANTH 4495",
+        "course_name": "Anthropological Theory",
+        "course_description": "This seminar surveys major social theories and debates that inspire and inform anthropological analy"
+    },
+    "ANTH 4949": {
+        "course_code": "ANTH 4949",
+        "course_name": "Anthropology Tutorial:Reading",
+        "course_description": null
+    },
+    "ANTH 7949": {
+        "course_code": "ANTH 7949",
+        "course_name": "Tutorial: Anthropology",
+        "course_description": null
+    },
+    "ARST 1199": {
+        "course_code": "ARST 1199",
+        "course_name": "NaTakallam conversation",
+        "course_description": null
+    },
+    "ARST 2220": {
+        "course_code": "ARST 2220",
+        "course_name": "Adv Arabic Writing/Composition",
+        "course_description": "This course will focus on developing writing skills and will help students expand their vocabulary a"
+    },
+    "ARST 3240": {
+        "course_code": "ARST 3240",
+        "course_name": "Academic Topics in Arabic",
+        "course_description": "This course is for students who have passed proficiency in Arabic, who would like to strengthen thei"
+    },
+    "ARST 3318": {
+        "course_code": "ARST 3318",
+        "course_name": "US Foreign Policy &amp; The Gulf",
+        "course_description": "This 7-week course focuses on the evolution of United States foreign policy in the Persian Gulf from"
+    },
+    "ARST 3328": {
+        "course_code": "ARST 3328",
+        "course_name": "US Foreign Policy in Arab ME",
+        "course_description": "This course will offer an introduction to the complex historical and contemporary relationship betwe"
+    },
+    "ARST 3353": {
+        "course_code": "ARST 3353",
+        "course_name": "Iraq: His &amp; Pltcs 1917-2019",
+        "course_description": "This course is designed to provide students with the basic structure of Iraq&rsquo;s political and socio-e"
+    },
+    "ARST 3364": {
+        "course_code": "ARST 3364",
+        "course_name": "Political Economy: MENA",
+        "course_description": "The course provides an introduction to the political economy of the countries in the Middle East and"
+    },
+    "ARST 3367": {
+        "course_code": "ARST 3367",
+        "course_name": "CLab:Devt/Displacment:Arab Wrl",
+        "course_description": "The focus of this lab class will be on different types of development (e.g., community-based develop"
+    },
+    "ARST 3368": {
+        "course_code": "ARST 3368",
+        "course_name": "CLab: Devt &amp; Displacement IFW",
+        "course_description": "ARST 368 is an optional opportunity to participate in international fieldwork in the West Bank durin"
+    },
+    "ARST 4423": {
+        "course_code": "ARST 4423",
+        "course_name": "Activism &amp; Protest: Arab MENA",
+        "course_description": "This course examines the role and complexities of people&rsquo;s agency in the Arab Middle East and North "
+    },
+    "ARST 4429": {
+        "course_code": "ARST 4429",
+        "course_name": "Glob Media/DigitalDystopia&amp;ME",
+        "course_description": " Global Media, Digital Dystopia and the Middle East&mdash;Seminar and Lab\n&lt;br&gt;&lt;br&gt;\nThis interactive media "
+    },
+    "ARST 4432": {
+        "course_code": "ARST 4432",
+        "course_name": "Oil &amp; Politics of the Gulf",
+        "course_description": "The Arab Gulf states are currently undergoing profound political and economic transformations at the"
+    },
+    "ARST 4453": {
+        "course_code": "ARST 4453",
+        "course_name": "Documentary Filmmaking: MENA",
+        "course_description": "Students in this course will incorporate the study of documentary films from the Middle East and Nor"
+    },
+    "ARST 4457": {
+        "course_code": "ARST 4457",
+        "course_name": "China-MENA Relations",
+        "course_description": "China is an increasingly influential actor across the Middle East and North Africa (MENA) region. Th"
+    },
+    "ARST 4464": {
+        "course_code": "ARST 4464",
+        "course_name": "Ethnic/Rel Minorities: MidEast",
+        "course_description": "In January 2016, President Obama claimed that conflicts in the Middle East &ldquo;date back millennia.&rdquo; Th"
+    },
+    "ARST 4467": {
+        "course_code": "ARST 4467",
+        "course_name": "Palestinian Politics",
+        "course_description": "This seminar focuses on internal Palestinian politics &ndash; from the emergence of the modern Palestinian"
+    },
+    "ARST 4468": {
+        "course_code": "ARST 4468",
+        "course_name": "The US and the Palestinians",
+        "course_description": "The United States and the Palestinians: From Balfour to the Present\n&lt;br&gt;&lt;br&gt;\nThis course looks at th"
+    },
+    "ARST 4472": {
+        "course_code": "ARST 4472",
+        "course_name": "Contentious Pol&amp;Activism:MENA",
+        "course_description": "This course aims at investigating the role and complexities of people&#39;s agency in the Arab Middle Ea"
+    },
+    "ARST 4479": {
+        "course_code": "ARST 4479",
+        "course_name": "CLab:CultHeritageArabWorld IFW",
+        "course_description": null
+    },
+    "ARST 4483": {
+        "course_code": "ARST 4483",
+        "course_name": "Gender/Culture/Identity:MENA",
+        "course_description": "The aim of this course is to offer an overview of the key issues in the study of gender in the Middl"
+    },
+    "ARST 4484": {
+        "course_code": "ARST 4484",
+        "course_name": "Palestine Today",
+        "course_description": null
+    },
+    "ARST 4495": {
+        "course_code": "ARST 4495",
+        "course_name": "Research Design",
+        "course_description": "This course will introduce students to foundational principles and strategies in research design, fi"
+    },
+    "ARST 4501": {
+        "course_code": "ARST 4501",
+        "course_name": "Understanding the Arab World",
+        "course_description": "How do we understand the Arab Middle East and North Africa? The first part of the course looks at ho"
+    },
+    "ARST 4970": {
+        "course_code": "ARST 4970",
+        "course_name": "Arab Studies Cert Capstone",
+        "course_description": "This one-credit course is for undergraduate Arab Studies Certificate students to work on their capst"
+    },
+    "ARST 5154": {
+        "course_code": "ARST 5154",
+        "course_name": "Pop Cult/Power/Identity: MENA",
+        "course_description": "Popular Culture, Power, &amp; Identity: Ethnography of Media and Minorities of the Middle East\n&lt;br&gt;&lt;br&gt;\n"
+    },
+    "ARST 5216": {
+        "course_code": "ARST 5216",
+        "course_name": "Literature of Syria",
+        "course_description": "This class will examine the contemporary literature of Syria, including poetry, short stories, novel"
+    },
+    "ARST 5221": {
+        "course_code": "ARST 5221",
+        "course_name": "Prison Literature",
+        "course_description": "In this course we seek to study prison literature in terms of concept, features, and basic themes, t"
+    },
+    "ARST 5252": {
+        "course_code": "ARST 5252",
+        "course_name": "Arab Feminism Thrgh Literature",
+        "course_description": "Course Description:\nThis course offers an exploration of Arab feminism as depicted in literature, in"
+    },
+    "ARST 5281": {
+        "course_code": "ARST 5281",
+        "course_name": "Arab Politics thrgh Literature",
+        "course_description": "Through the study of Arabic novels, this course aims to teach students how to analyze literary works"
+    },
+    "ARST 5323": {
+        "course_code": "ARST 5323",
+        "course_name": "Displacement in the Arab World",
+        "course_description": "The class will address specific topics related to displacement in the Arab World and the framing of "
+    },
+    "ARST 5333": {
+        "course_code": "ARST 5333",
+        "course_name": "Refugees: Mideast &amp; N. Africa",
+        "course_description": "The course will focus on the displacement, internal and external, of the people in the Middle East. "
+    },
+    "ARST 5346": {
+        "course_code": "ARST 5346",
+        "course_name": "Water Politics",
+        "course_description": "This course examines some of the contemporary and conceptual issues relating to disputes over transb"
+    },
+    "ARST 5371": {
+        "course_code": "ARST 5371",
+        "course_name": "Oil and Politics",
+        "course_description": "What are the properties of oil-led political development? Are countries cursed by natural resources "
+    },
+    "ARST 5487": {
+        "course_code": "ARST 5487",
+        "course_name": "US Foreign Policy in Mid East",
+        "course_description": "This course will offer an introduction to the complex historical and contemporary relationship betwe"
+    },
+    "ARST 5500": {
+        "course_code": "ARST 5500",
+        "course_name": "Constructing the Modern MENA",
+        "course_description": null
+    },
+    "ARST 5539": {
+        "course_code": "ARST 5539",
+        "course_name": " History of Migration: MENA",
+        "course_description": "From the Imperial, to the National, to the Global:\nHistory of Migration and Displacement in the Midd"
+    },
+    "ARST 5628": {
+        "course_code": "ARST 5628",
+        "course_name": "History and Politics of Iraq",
+        "course_description": "This course is designed to provide students with the basic structure of Iraq&rsquo;s political and socio-e"
+    },
+    "ARST 5634": {
+        "course_code": "ARST 5634",
+        "course_name": "Race &amp; Ethnicity: MENA",
+        "course_description": "This course explores how race and ethnicity constituted difference, governance, and citizenship in t"
+    },
+    "ARST 5636": {
+        "course_code": "ARST 5636",
+        "course_name": "Civil-Social Activism:N Africa",
+        "course_description": "The purpose of this class is to discuss and investigate different forms of civil-social activism, pa"
+    },
+    "ARST 5647": {
+        "course_code": "ARST 5647",
+        "course_name": "Politics of Syria",
+        "course_description": "This course allows students to acquire an in-depth understanding of Syrian politics. It introduces t"
+    },
+    "ARST 5661": {
+        "course_code": "ARST 5661",
+        "course_name": "Politics of North Africa",
+        "course_description": "This class is in line with a comparative study of the post-colonial politics of the North African re"
+    },
+    "ARST 5669": {
+        "course_code": "ARST 5669",
+        "course_name": "Power&amp;Society:ArabianPeninsula",
+        "course_description": "This course is grounded in the sociological and anthropological perspective of the Arabian Peninsula"
+    },
+    "ARST 5678": {
+        "course_code": "ARST 5678",
+        "course_name": "Negotiation/Mediation:ME&amp;Beynd",
+        "course_description": "This course examines some of the conceptual and contemporary issues relating to the analysis of nego"
+    },
+    "ARST 5780": {
+        "course_code": "ARST 5780",
+        "course_name": "Pol &amp; Econ of Authoritarianism",
+        "course_description": "The course, an interdisciplinary one, will analyze how politics, economics, and social factors inter"
+    },
+    "ARST 5783": {
+        "course_code": "ARST 5783",
+        "course_name": "Arts &amp; Cultures: Arab World",
+        "course_description": "Arts and Cultures of the Arab World\nThis course will address contemporary cultural production in the"
+    },
+    "ARST 5925": {
+        "course_code": "ARST 5925",
+        "course_name": "ARST Internship",
+        "course_description": "This course is for international students in the MAAS program who are pursuing an internship related"
+    },
+    "ARST 6518": {
+        "course_code": "ARST 6518",
+        "course_name": "Culture &amp; Society: Arab World",
+        "course_description": "ARST 518 -- Culture and Society of the Arab World\nProfessors Fida Adely &amp; Rochelle Davis\nSpring 2023"
+    },
+    "ARST 6519": {
+        "course_code": "ARST 6519",
+        "course_name": "International Relations: ME",
+        "course_description": "This course examines contemporary issues relating to the international politics of the Middle East a"
+    },
+    "ARST 6525": {
+        "course_code": "ARST 6525",
+        "course_name": "Comp Politics of Middle East",
+        "course_description": "This course is intended to introduce students to the politics of the Middle East by exploring some o"
+    },
+    "ARST 6532": {
+        "course_code": "ARST 6532",
+        "course_name": "Women&amp;Gender in Arab World",
+        "course_description": "Possibly no issue related to the Arab world has garnered more attention than the status of women. Th"
+    },
+    "ARST 6540": {
+        "course_code": "ARST 6540",
+        "course_name": "Development in Arab World",
+        "course_description": "What is development? How have notions of development, and beliefs about how best to promote it, shif"
+    },
+    "ARST 6564": {
+        "course_code": "ARST 6564",
+        "course_name": "Political Economy: Middle East",
+        "course_description": "This course will provide a general overview of the economies of Arab countries since 1945. Given the"
+    },
+    "ARST 6611": {
+        "course_code": "ARST 6611",
+        "course_name": "Education in MENA: Knowldg&amp;Pol",
+        "course_description": "This course explores the interplay of knowledge and power in the constitution of educational institu"
+    },
+    "ARST 6612": {
+        "course_code": "ARST 6612",
+        "course_name": "Issues in Educatn/Devt:MENA",
+        "course_description": "What is education for? What is quality education? How does what is measureable frame and/or limit ed"
+    },
+    "ARST 6627": {
+        "course_code": "ARST 6627",
+        "course_name": "Political Memoirs",
+        "course_description": "The practice of writing biographies and autobiographies has a long history in both Western and Arabi"
+    },
+    "ARST 6629": {
+        "course_code": "ARST 6629",
+        "course_name": "Environmental Security/Conflct",
+        "course_description": "Security remains one of the most controversial and contested concepts in international politics. New"
+    },
+    "ARST 6631": {
+        "course_code": "ARST 6631",
+        "course_name": "Revolutions in MENA",
+        "course_description": "Since 1900, the Middle East has been one of the most revolutionary regions of the world. This course"
+    },
+    "ARST 6895": {
+        "course_code": "ARST 6895",
+        "course_name": "Thesis Workshop",
+        "course_description": null
+    },
+    "ARST 7949": {
+        "course_code": "ARST 7949",
+        "course_name": "Arab Studies: Tutorial",
+        "course_description": "Research, reading, or internship tutorial available by special arrangement and with permission of th"
+    },
+    "ARST 9991": {
+        "course_code": "ARST 9991",
+        "course_name": "Continuous Registration",
+        "course_description": null
+    },
+    "ARST 9992": {
+        "course_code": "ARST 9992",
+        "course_name": "Continuous Registration",
+        "course_description": null
+    },
+    "ARST 9993": {
+        "course_code": "ARST 9993",
+        "course_name": "Continuous Registration",
+        "course_description": null
+    },
+    "ARST 9994": {
+        "course_code": "ARST 9994",
+        "course_name": "Continuous Registration",
+        "course_description": null
+    },
+    "ARST 9999": {
+        "course_code": "ARST 9999",
+        "course_name": "Thesis Research",
+        "course_description": null
+    },
+    "ARAB 0900": {
+        "course_code": "ARAB 0900",
+        "course_name": "Language Placeholder",
+        "course_description": null
+    },
+    "ARAB 1001": {
+        "course_code": "ARAB 1001",
+        "course_name": "1st Level Mod Standard Arab I",
+        "course_description": "This course welcomes undergraduate and graduate students seeking academic course work for credit and"
+    },
+    "ARAB 1002": {
+        "course_code": "ARAB 1002",
+        "course_name": "1st Level Mod Standard Arab II",
+        "course_description": "This course is video-based and develops proficiency in the standard written Arabic language, as well"
+    },
+    "ARAB 1003": {
+        "course_code": "ARAB 1003",
+        "course_name": "Arabic for Heritage Speakers I",
+        "course_description": null
+    },
+    "ARAB 1004": {
+        "course_code": "ARAB 1004",
+        "course_name": "Arabic for Heritage Speakers 2",
+        "course_description": null
+    },
+    "ARAB 1011": {
+        "course_code": "ARAB 1011",
+        "course_name": "Intens 1st Lev Mod Stand Arb I",
+        "course_description": "This intensive multi-media course focuses on developing proficiency in the standard written Arabic l"
+    },
+    "ARAB 1012": {
+        "course_code": "ARAB 1012",
+        "course_name": "Intens 1st Lv Mod Stnd Arab II",
+        "course_description": "Successful completion of ARAB 011 or placement by exam.\nThe Intensive Beginning Arabic II course con"
+    },
+    "ARAB 1014": {
+        "course_code": "ARAB 1014",
+        "course_name": "Intens 1st Lv Mod Stnd Arab II",
+        "course_description": "This Summer Main-Second Session intensive (5 credits) multi-media course focuses on developing profi"
+    },
+    "ARAB 1015": {
+        "course_code": "ARAB 1015",
+        "course_name": "1st Lev Mod Arb I: Herit Sprkr",
+        "course_description": "This non-Intensive Beginning Arabic I course in Modern Standard Arabic is aimed at heritage students"
+    },
+    "ARAB 1020": {
+        "course_code": "ARAB 1020",
+        "course_name": "Intr Mod Stnd Arab: Heritge Sp",
+        "course_description": "This course will focus on building MSA language skills with an emphasis on oral production through d"
+    },
+    "ARAB 1021": {
+        "course_code": "ARAB 1021",
+        "course_name": "2nd Level Mod Standard Arabic",
+        "course_description": "This non-intensive multi-media course is designed to expand proficiency in the basic communicative s"
+    },
+    "ARAB 1111": {
+        "course_code": "ARAB 1111",
+        "course_name": "Intens 2nd Lvl Md Stnd Arab I",
+        "course_description": "This intensive multi-media course covers topics and situations relating to contemporary Arabic media"
+    },
+    "ARAB 1112": {
+        "course_code": "ARAB 1112",
+        "course_name": "Intens 2nd Lv Mod Stnd Arab II",
+        "course_description": "Successful completion of ARAB 111 or placement by exam.\nThe Intensive Intermediate Arabic II course "
+    },
+    "ARAB 1113": {
+        "course_code": "ARAB 1113",
+        "course_name": "Spoken Arabic I",
+        "course_description": "This course is intended to increase Levantine spoken Arabic proficiency through focusing on intensiv"
+    },
+    "ARAB 1114": {
+        "course_code": "ARAB 1114",
+        "course_name": "Formal Spoken Arabic II",
+        "course_description": "This course is intended to increase spoken Arabic proficiency through focusing on intensive practice"
+    },
+    "ARAB 1117": {
+        "course_code": "ARAB 1117",
+        "course_name": "Intens Spoken Levantine Arab",
+        "course_description": "This course is intended to build proficiency in the Levantine dialect, through practice of interacti"
+    },
+    "ARAB 1118": {
+        "course_code": "ARAB 1118",
+        "course_name": "Levantine Arabic II",
+        "course_description": "This course is intended to build proficiency in the Levantine dialect, through practice of interacti"
+    },
+    "ARAB 1120": {
+        "course_code": "ARAB 1120",
+        "course_name": "Interm Mod Stand Arab:Heritge ",
+        "course_description": "Intermediate Modern Standard Arabic for Heritage Speakers I is a continuation of the course ARAB-021"
+    },
+    "ARAB 1121": {
+        "course_code": "ARAB 1121",
+        "course_name": "Interm Arabic Heritage II",
+        "course_description": "This course introduces students to the comparative study of political systems. By necessity, it enco"
+    },
+    "ARAB 200X": {
+        "course_code": "ARAB 200X",
+        "course_name": "Arabic Language Elective",
+        "course_description": null
+    },
+    "ARAB 2202": {
+        "course_code": "ARAB 2202",
+        "course_name": "Intro to Islamic Civilization",
+        "course_description": null
+    },
+    "ARAB 2213": {
+        "course_code": "ARAB 2213",
+        "course_name": "Intro to Islamic Civilization",
+        "course_description": null
+    },
+    "ARAB 2214": {
+        "course_code": "ARAB 2214",
+        "course_name": "Arabic Media I",
+        "course_description": "This course focuses on authentic Arabic media, including print media, video, and computer-based mate"
+    },
+    "ARAB 2215": {
+        "course_code": "ARAB 2215",
+        "course_name": "Arabic Media II",
+        "course_description": "Successful completion of ARAB 213 or placement by exam.\nThis course focuses on authentic Arabic medi"
+    },
+    "ARAB 2216": {
+        "course_code": "ARAB 2216",
+        "course_name": "Intens 3rd Lvl Md Stnd Arab I",
+        "course_description": "This is an intensive, largely media-based course focusing on developing proficiency in reading and d"
+    },
+    "ARAB 2217": {
+        "course_code": "ARAB 2217",
+        "course_name": "Intens 3rd Lvl Md Stnd Arab II",
+        "course_description": "Successful completion of ARAB 215 or placement by exam.\nThe Intensive Advanced Arabic II course cont"
+    },
+    "ARAB 2218": {
+        "course_code": "ARAB 2218",
+        "course_name": "Arabic Media I",
+        "course_description": "Arabic Media I is designed to enable students interested in media to master their Arabic skills. A d"
+    },
+    "ARAB 2219": {
+        "course_code": "ARAB 2219",
+        "course_name": "NonInten Adv Mod Stand Arabic2",
+        "course_description": "Successful completion of ARAB 215 or placement by exam.\nThis is a non-intensive, largely media-based"
+    },
+    "ARAB 2220": {
+        "course_code": "ARAB 2220",
+        "course_name": "Arabic Media II",
+        "course_description": null
+    },
+    "ARAB 2224": {
+        "course_code": "ARAB 2224",
+        "course_name": "Spoken Modern Standard Arabic",
+        "course_description": " This course focuses on improving students&rsquo; speaking skills and ability to use Modern Standard Arabi"
+    },
+    "ARAB 2225": {
+        "course_code": "ARAB 2225",
+        "course_name": "Arabic Grammar Review Session",
+        "course_description": "This session reviews Arabic grammar concepts from the Intensive Intermediate and Advanced Arabic cou"
+    },
+    "ARAB 2257": {
+        "course_code": "ARAB 2257",
+        "course_name": "Pre-Advanced Arabic I",
+        "course_description": null
+    },
+    "ARAB 2258": {
+        "course_code": "ARAB 2258",
+        "course_name": "Pre-Advanced Arabic II",
+        "course_description": null
+    },
+    "ARAB 2261": {
+        "course_code": "ARAB 2261",
+        "course_name": "Inside Arabic:How it works",
+        "course_description": "This course aims to help students understand how Arabic works linguistically and what socio-cultural"
+    },
+    "ARAB 2270": {
+        "course_code": "ARAB 2270",
+        "course_name": "Variations Std Arab &amp; Dialects",
+        "course_description": "This course introduces the variation within and across Standard Arabic and the dialects. The focus w"
+    },
+    "ARAB 2281": {
+        "course_code": "ARAB 2281",
+        "course_name": "Religious Discourse",
+        "course_description": "Religious Discourse is multidisciplinary in nature as it touches on linguistics, religion, philosoph"
+    },
+    "ARAB 2289": {
+        "course_code": "ARAB 2289",
+        "course_name": "WOMEN &amp; GENDER IN ISLAM",
+        "course_description": "This course traces the historical roots of contemporary Muslim discourses over issues pertaining to "
+    },
+    "ARAB 2298": {
+        "course_code": "ARAB 2298",
+        "course_name": "The Syntax of Arabic",
+        "course_description": "This course explores the grammar of Arabic from a comparative perspective. We will study the grammar"
+    },
+    "ARAB 2299": {
+        "course_code": "ARAB 2299",
+        "course_name": "Post-Advanced Arabic",
+        "course_description": "This post-Advanced Arabic conversation session is a continuation of the advanced level session and i"
+    },
+    "ARAB 3304": {
+        "course_code": "ARAB 3304",
+        "course_name": "Qur&#39;anic and Biblical Figures",
+        "course_description": "This course will explore qur&#39;anic and biblical figures through shared traditions and/or narratives i"
+    },
+    "ARAB 3308": {
+        "course_code": "ARAB 3308",
+        "course_name": "Topics in the Arab World II",
+        "course_description": "This course will focus on contemporary issues shaping the Arab world using various authentic texts. "
+    },
+    "ARAB 3312": {
+        "course_code": "ARAB 3312",
+        "course_name": "Arab Society",
+        "course_description": null
+    },
+    "ARAB 3316": {
+        "course_code": "ARAB 3316",
+        "course_name": "Arabic Language and Politics",
+        "course_description": null
+    },
+    "ARAB 3317": {
+        "course_code": "ARAB 3317",
+        "course_name": "Arabic-English Translations",
+        "course_description": "This course explores translation as it applies to news and entertainment media. Translation is not a"
+    },
+    "ARAB 3320": {
+        "course_code": "ARAB 3320",
+        "course_name": "Arab Film",
+        "course_description": "As a medium that is entangled in the complex relationship between cultural and artistic production a"
+    },
+    "ARAB 3324": {
+        "course_code": "ARAB 3324",
+        "course_name": "The Journey of Arabic",
+        "course_description": "This class is an overview of the historical development of the Arabic language from its earliest sta"
+    },
+    "ARAB 3325": {
+        "course_code": "ARAB 3325",
+        "course_name": "Researching Arabic Dialects",
+        "course_description": "This course will be taught primarily in Arabic.\r\n\r\nThe Study of Arabic dialects has been a long conc"
+    },
+    "ARAB 3326": {
+        "course_code": "ARAB 3326",
+        "course_name": "Arabic Academic Writing",
+        "course_description": null
+    },
+    "ARAB 3327": {
+        "course_code": "ARAB 3327",
+        "course_name": "Media Arabic",
+        "course_description": null
+    },
+    "ARAB 3328": {
+        "course_code": "ARAB 3328",
+        "course_name": "Business Arabic",
+        "course_description": "Students are required to have Intermediate MSA or permission of instructor. This course explores the"
+    },
+    "ARAB 3329": {
+        "course_code": "ARAB 3329",
+        "course_name": "Arabic Formal Writing",
+        "course_description": "This course is a career oriented Arabic writing course that tries to bridge the communication gap be"
+    },
+    "ARAB 3330": {
+        "course_code": "ARAB 3330",
+        "course_name": "Arabic Lang Policies &amp; Politic",
+        "course_description": "This course explores the language policy and its political, economic and educational ramifications i"
+    },
+    "ARAB 3331": {
+        "course_code": "ARAB 3331",
+        "course_name": "Arabian Nights in Western Lit",
+        "course_description": "This course will analyze how the stories of the Arabian Nights have\r\ninfluenced throughout time and "
+    },
+    "ARAB 3332": {
+        "course_code": "ARAB 3332",
+        "course_name": "Islam,Religous Auth,&amp;Modernity",
+        "course_description": "This course focuses on the role of the \u02bfulama\u0304\u02be as bearers of religious authority, on the ways and i"
+    },
+    "ARAB 3333": {
+        "course_code": "ARAB 3333",
+        "course_name": "God, Nature, &amp; Society",
+        "course_description": " Islamic Civilization produced authors who wrote on every topic imaginable. This course, open to und"
+    },
+    "ARAB 3334": {
+        "course_code": "ARAB 3334",
+        "course_name": "Short Stories Fr the Maghreb",
+        "course_description": "This course is primarily a reading course, designed to enable students to read complete stories, to "
+    },
+    "ARAB 3335": {
+        "course_code": "ARAB 3335",
+        "course_name": "Intro Arabic Short Story",
+        "course_description": "Language of Instruction: Arabic\r\nPrerequisite: ARAB216 or ARAB221 or placement by exam\r\n\r\nThis cours"
+    },
+    "ARAB 3336": {
+        "course_code": "ARAB 3336",
+        "course_name": "Contemporary Arabic Novels",
+        "course_description": null
+    },
+    "ARAB 3337": {
+        "course_code": "ARAB 3337",
+        "course_name": "The Arab Novel",
+        "course_description": "Since the late nineteenth century, Arab writers have experimented broadly and at times radically wit"
+    },
+    "ARAB 3338": {
+        "course_code": "ARAB 3338",
+        "course_name": "Arabic Folk Epic",
+        "course_description": "This course aims is a survey of the history of popular oral tradition (sira sha`biyya) narrated by s"
+    },
+    "ARAB 3339": {
+        "course_code": "ARAB 3339",
+        "course_name": "Themes Mod. Arab Novel &amp; Film",
+        "course_description": "This course examines some of the major socio- economic and political changes in the modern Arab worl"
+    },
+    "ARAB 3340": {
+        "course_code": "ARAB 3340",
+        "course_name": "Arabic Drama",
+        "course_description": "This course is a study of representative plays from the Arab world. Although it focuses on the moder"
+    },
+    "ARAB 3341": {
+        "course_code": "ARAB 3341",
+        "course_name": "Modern Arabic Poetry",
+        "course_description": "Course Objectives \r\nThis course has four main objectives. \r\n1. The first objective is to study the i"
+    },
+    "ARAB 3342": {
+        "course_code": "ARAB 3342",
+        "course_name": "Islam in Late Antiquity",
+        "course_description": "In contemporary media, Islam is often portrayed as an isolated and exotic religion. Scholars, too, h"
+    },
+    "ARAB 3343": {
+        "course_code": "ARAB 3343",
+        "course_name": "The Qur&#39;an",
+        "course_description": " This course will provide students with an introduction to the Qur&rsquo;an. We will be reading the Qur&rsquo;an"
+    },
+    "ARAB 3344": {
+        "course_code": "ARAB 3344",
+        "course_name": "Advanced Arabic Media",
+        "course_description": "The purpose of this course is to give students who have passed the Arabic proficiency exam another o"
+    },
+    "ARAB 3345": {
+        "course_code": "ARAB 3345",
+        "course_name": "1001 Nights",
+        "course_description": "Within the classical Arabic literary tradition, the textual variants known as Alf layla wa-layla hav"
+    },
+    "ARAB 3347": {
+        "course_code": "ARAB 3347",
+        "course_name": "Arabic:Diplomacy &amp; Int Rels II",
+        "course_description": "This course is designed for students who have completed Advanced level in Modern Standard Arabic. Th"
+    },
+    "ARAB 3348": {
+        "course_code": "ARAB 3348",
+        "course_name": "Map of the Arab World",
+        "course_description": "This course provides a geographical survey of the countries of the Arab world on a regional and coun"
+    },
+    "ARAB 3349": {
+        "course_code": "ARAB 3349",
+        "course_name": "Intellectual Map of Arab World",
+        "course_description": "The course aims to assist students to comprehend the major intellectual currents in the Arab world t"
+    },
+    "ARAB 3351": {
+        "course_code": "ARAB 3351",
+        "course_name": "Intro to Arabic Culture I",
+        "course_description": "An interdisciplinary survey course based on textual sources in Arabic literature, philosophy, and sc"
+    },
+    "ARAB 3355": {
+        "course_code": "ARAB 3355",
+        "course_name": "Composition and Style",
+        "course_description": "This course will focus on developing writing skills through the use of various forms such as descrip"
+    },
+    "ARAB 3356": {
+        "course_code": "ARAB 3356",
+        "course_name": "Arab Women&#39;s Autobiography",
+        "course_description": "Is the drive to write an autobiography universal? Is an illiterate Moroccan&rsquo;s autobiography penned b"
+    },
+    "ARAB 3358": {
+        "course_code": "ARAB 3358",
+        "course_name": "Map of the Arab World",
+        "course_description": "This course provides a geographical survey of the countries of the Arab world on a regional and coun"
+    },
+    "ARAB 3359": {
+        "course_code": "ARAB 3359",
+        "course_name": "Id &amp; Globlztn: Contmp Arab Wr",
+        "course_description": "This course has 4 goals:\r\n1.Borrowing from the West. The first one is to unveil a Western influence "
+    },
+    "ARAB 3360": {
+        "course_code": "ARAB 3360",
+        "course_name": "1001 Nights",
+        "course_description": "Within the classical Arabic literary tradition, the textual variants known as Alf layla wa-layla hav"
+    },
+    "ARAB 3363": {
+        "course_code": "ARAB 3363",
+        "course_name": "Anthropology and Islam",
+        "course_description": "This course will examine the role of anthropology and anthropologists in the history of the contact "
+    },
+    "ARAB 3365": {
+        "course_code": "ARAB 3365",
+        "course_name": "Arabic Gulf Literature",
+        "course_description": "This course has the following objectives:\r\n-1-To introduce the students to a contemporary, innovativ"
+    },
+    "ARAB 3366": {
+        "course_code": "ARAB 3366",
+        "course_name": "Islam and Identity",
+        "course_description": "This course satisfies the College HALC (Humanities, Arts, Literature, &amp; Cultures) Requirement.\r\n\r\nTh"
+    },
+    "ARAB 3367": {
+        "course_code": "ARAB 3367",
+        "course_name": "Modern Arabic Poetry",
+        "course_description": null
+    },
+    "ARAB 3368": {
+        "course_code": "ARAB 3368",
+        "course_name": "Colloquial Poetry",
+        "course_description": "The Arabic poetic tradition is, in fact, at least two: one composed in Fu\u1e63\u1e25\u0101 and many others in the "
+    },
+    "ARAB 3369": {
+        "course_code": "ARAB 3369",
+        "course_name": "Classical Arabic Poetry",
+        "course_description": "Classical Arabic poetry is usually defined in contrast to modern poetry. It begins with the pre-Isla"
+    },
+    "ARAB 3370": {
+        "course_code": "ARAB 3370",
+        "course_name": "Justice in the Islam Tradition",
+        "course_description": "What is justice perceived by Muslims and how do Muslim writers articulate their vision of justice th"
+    },
+    "ARAB 3371": {
+        "course_code": "ARAB 3371",
+        "course_name": "Rhetoric &amp; Arabo-Islamic Ruler",
+        "course_description": "This course will offer selections of medieval Arabic literary pieces wherein notions of authority an"
+    },
+    "ARAB 3372": {
+        "course_code": "ARAB 3372",
+        "course_name": "Contemporary Shi&#39;i Thought",
+        "course_description": "This course offers a broad survey of Contemporary Twelver Shi&lsquo;i thought and Islamic movements, focus"
+    },
+    "ARAB 3374": {
+        "course_code": "ARAB 3374",
+        "course_name": "The Qur&#39;an",
+        "course_description": "This course will provide students with an introduction to the Qur&rsquo;an. We will be reading the Qur&rsquo;ani"
+    },
+    "ARAB 3376": {
+        "course_code": "ARAB 3376",
+        "course_name": "Language &amp; Political Discourse",
+        "course_description": "This course introduces the linguistic approaches to discourse analysis. The linguistic tools for per"
+    },
+    "ARAB 3377": {
+        "course_code": "ARAB 3377",
+        "course_name": "Language &amp; Identity in Egypt",
+        "course_description": "This course targets students with knowledge of standard Arabic. Knowledge of Egyptian colloquial Ara"
+    },
+    "ARAB 3378": {
+        "course_code": "ARAB 3378",
+        "course_name": "Arab Film",
+        "course_description": "This course examines how cinema in the Arab world constitutes a space through which filmmakers negot"
+    },
+    "ARAB 3385": {
+        "course_code": "ARAB 3385",
+        "course_name": "Classical Arabic Grammar",
+        "course_description": null
+    },
+    "ARAB 3386": {
+        "course_code": "ARAB 3386",
+        "course_name": "Grammar through Poetry &amp; Song",
+        "course_description": "Arabic vocabulary acquisition is often a challenge to students of Arabic. Looking up a word in the d"
+    },
+    "ARAB 3389": {
+        "course_code": "ARAB 3389",
+        "course_name": "Women and Gender in Islam",
+        "course_description": "This course traces the historical roots of contemporary Muslim discourses over issues pertaining to "
+    },
+    "ARAB 3390": {
+        "course_code": "ARAB 3390",
+        "course_name": "Fundamentals of Language",
+        "course_description": "This course introduces the scientific study of language and its major subfields through the study of"
+    },
+    "ARAB 3391": {
+        "course_code": "ARAB 3391",
+        "course_name": "Linguistic Analysis of Arabic",
+        "course_description": "This course introduces the linguistic tools for analyzing the core components of Arabic language str"
+    },
+    "ARAB 3392": {
+        "course_code": "ARAB 3392",
+        "course_name": "Fundmntls of Arabic Linguistic",
+        "course_description": "This course deals with linguistic analysis of the phonology, morphology, and syntax of Modern Standa"
+    },
+    "ARAB 3393": {
+        "course_code": "ARAB 3393",
+        "course_name": "Intro: Arabic Sociolinguistics",
+        "course_description": "This course is an introduction to how Arabic (both the Standard and the colloquial) is used in the d"
+    },
+    "ARAB 3394": {
+        "course_code": "ARAB 3394",
+        "course_name": "Freedom in Modern Arabic Lit",
+        "course_description": null
+    },
+    "ARAB 3395": {
+        "course_code": "ARAB 3395",
+        "course_name": "Literature &amp; Social Movements",
+        "course_description": "Why are poetry and song so central to national liberation movements? How do poets engage in activism"
+    },
+    "ARAB 3396": {
+        "course_code": "ARAB 3396",
+        "course_name": "America in Modern Arab Lit",
+        "course_description": "The relationship between the Arab world and the US is a complex one often fraught with misunderstand"
+    },
+    "ARAB 3397": {
+        "course_code": "ARAB 3397",
+        "course_name": "Andalusia in modern Arabic Lit",
+        "course_description": "Modern Arab writers from all venues became increasingly interested in exploring the unparalleled Ara"
+    },
+    "ARAB 3398": {
+        "course_code": "ARAB 3398",
+        "course_name": "Migration &amp; Exile Mod Arab Lit",
+        "course_description": "Modern Arabic literature has long sought to come to terms with issues of home, migration, displaceme"
+    },
+    "ARAB 3970": {
+        "course_code": "ARAB 3970",
+        "course_name": "Arabic Capstone Seminar",
+        "course_description": "TBA"
+    },
+    "ARAB 4401": {
+        "course_code": "ARAB 4401",
+        "course_name": "The Syntax of Arabic",
+        "course_description": "This course explores the syntactic structures of the major topics in modern Arabic varieties. Topics"
+    },
+    "ARAB 4402": {
+        "course_code": "ARAB 4402",
+        "course_name": " Approaches to Arabic Linguist",
+        "course_description": "This course offers a comprehensive introduction into the major domains of Arabic linguistics. It cov"
+    },
+    "ARAB 4403": {
+        "course_code": "ARAB 4403",
+        "course_name": "Islam &amp;Arab Cult in Golden Age",
+        "course_description": "This class focuses on cultural achievements of this important historical era in Islamic civilization"
+    },
+    "ARAB 4405": {
+        "course_code": "ARAB 4405",
+        "course_name": "Syria: Politics &amp; Identity",
+        "course_description": "This seminar explores Syria&#39;s unique profile in the longue duree history of the Middle East. Student"
+    },
+    "ARAB 4406": {
+        "course_code": "ARAB 4406",
+        "course_name": "Slavery &amp; Islam",
+        "course_description": "Islam has been in the news. And slavery has been in the news. And &#39;Islam &amp; slavery&#39; has been in the "
+    },
+    "ARAB 4407": {
+        "course_code": "ARAB 4407",
+        "course_name": "War&amp;Migration in MiddleEas Lit",
+        "course_description": "The history of the modern Middle East has been shaped by war and mass migration, but all too often t"
+    },
+    "ARAB 4408": {
+        "course_code": "ARAB 4408",
+        "course_name": "Arabic Conversation Practicum",
+        "course_description": "This new language elective course offers students the opportunity to interact on a real-time basis w"
+    },
+    "ARAB 4409": {
+        "course_code": "ARAB 4409",
+        "course_name": "The Quran in History",
+        "course_description": "This course surveys the various theories, methods and approaches to the Qur&rsquo;an employed by modern sc"
+    },
+    "ARAB 4411": {
+        "course_code": "ARAB 4411",
+        "course_name": "Gender, Society and IslamicLaw",
+        "course_description": "This course will survey issues pertaining to gender, society and Islam through an exploration of sac"
+    },
+    "ARAB 4412": {
+        "course_code": "ARAB 4412",
+        "course_name": "Sex &amp; Powr in the Islamic Trad",
+        "course_description": "Whether involving the headscarf, intolerance towards homosexuality or sex slavery, discourse over Is"
+    },
+    "ARAB 4413": {
+        "course_code": "ARAB 4413",
+        "course_name": "AdvReadings in Islamic Thought",
+        "course_description": "This course will involve readings from Arabic primary sources of theology, philosophy, and mysticism"
+    },
+    "ARAB 4414": {
+        "course_code": "ARAB 4414",
+        "course_name": "Advanced Arabic Media",
+        "course_description": "The purpose of this course is to give students who have passed the Arabic proficiency exam another o"
+    },
+    "ARAB 4417": {
+        "course_code": "ARAB 4417",
+        "course_name": "Shariah Law &amp; its Discontents",
+        "course_description": "There are few topics as controversial globally and in the United States as poorly understood as &lsquo;The"
+    },
+    "ARAB 4419": {
+        "course_code": "ARAB 4419",
+        "course_name": "Literature of Syria",
+        "course_description": "We will study in this class Syria&rsquo;s contemporary literature, including poetry, short story, novel an"
+    },
+    "ARAB 4420": {
+        "course_code": "ARAB 4420",
+        "course_name": "Literature: Age of Rhetoric",
+        "course_description": "This course takes as the basis for literary exploration and analysis a selection of classical Arabic"
+    },
+    "ARAB 4421": {
+        "course_code": "ARAB 4421",
+        "course_name": "Islamic Foundational Texts",
+        "course_description": "This course will focus on the close reading, translation, and literary cultural interpretation of se"
+    },
+    "ARAB 4422": {
+        "course_code": "ARAB 4422",
+        "course_name": "Modern Arabic Poetry and Music",
+        "course_description": "This course looks at, and listens to, Arabic music of the twentieth century to explore the relations"
+    },
+    "ARAB 4423": {
+        "course_code": "ARAB 4423",
+        "course_name": "Modern Arabic Poetry",
+        "course_description": "This course will focus on the close reading and interpretation of poetry texts from 1950 on, includi"
+    },
+    "ARAB 4424": {
+        "course_code": "ARAB 4424",
+        "course_name": "Al-Jahiz:Eloquence,Satire&amp;Fou",
+        "course_description": "This course will focus on the close reading and translation of selected passages from the works of a"
+    },
+    "ARAB 4425": {
+        "course_code": "ARAB 4425",
+        "course_name": "Arabic Grammar",
+        "course_description": "TBA"
+    },
+    "ARAB 4426": {
+        "course_code": "ARAB 4426",
+        "course_name": "Poetry &amp;Theory: the Arabic Ode",
+        "course_description": null
+    },
+    "ARAB 4429": {
+        "course_code": "ARAB 4429",
+        "course_name": "Poetry of al-Mutanabbi: Intro",
+        "course_description": "This course will take the poetry of the most celebrated of the classical Arabic poets, al-Mutanabbi,"
+    },
+    "ARAB 4430": {
+        "course_code": "ARAB 4430",
+        "course_name": "1001 Nights",
+        "course_description": "Within the classical Arabic literary tradition, the textual variants known as Alf layla wa-layla hav"
+    },
+    "ARAB 4431": {
+        "course_code": "ARAB 4431",
+        "course_name": "Language Policy &amp;Dev:Arab Wrld",
+        "course_description": "This course explores the language policy and its political, economic and educational ramifications i"
+    },
+    "ARAB 4432": {
+        "course_code": "ARAB 4432",
+        "course_name": "Arabic Dialectology",
+        "course_description": "This seminar explores the variation in the structure of colloquial and Standard Arabic within the fr"
+    },
+    "ARAB 4433": {
+        "course_code": "ARAB 4433",
+        "course_name": "Structure of Semitic Languages",
+        "course_description": "The Semitic language family is one of the oldest attested language families still spoken today. It i"
+    },
+    "ARAB 4442": {
+        "course_code": "ARAB 4442",
+        "course_name": "Sufism in modern Arabic lit",
+        "course_description": "Email: aez3@georgetown.edu\nOffice hours: Mondays and Wednesdays: 5:00-6:00-pm and by appointment.\nPr"
+    },
+    "ARAB 4443": {
+        "course_code": "ARAB 4443",
+        "course_name": "Readings in Fatwa Collections",
+        "course_description": "This class will investigate the important Islamic thought genre of fatwas, or legal response.  It wi"
+    },
+    "ARAB 4447": {
+        "course_code": "ARAB 4447",
+        "course_name": "The Arab Novel",
+        "course_description": " Since the late nineteenth century, Arab writers have experimented broadly and at times radically wi"
+    },
+    "ARAB 4450": {
+        "course_code": "ARAB 4450",
+        "course_name": "Arabic Political Discourse",
+        "course_description": "Analyzing political discourse can be done through Critical Discourse Analysis or the (Socio)-linguis"
+    },
+    "ARAB 4451": {
+        "course_code": "ARAB 4451",
+        "course_name": "Poetry &amp; Performance of Empire",
+        "course_description": "In English. Surveys the interplay of poetry and imperial ideology from pre-Islamic until post-coloni"
+    },
+    "ARAB 4453": {
+        "course_code": "ARAB 4453",
+        "course_name": "Heritage/modernity:Arabic Lit",
+        "course_description": "Contemporary Arabic writing is characterized by ambivalent trends. On one hand we find writers exper"
+    },
+    "ARAB 4466": {
+        "course_code": "ARAB 4466",
+        "course_name": "Modern Arabic Novel",
+        "course_description": "This class focuses on modern Arabic novels for three of the most important contemporary novelists in"
+    },
+    "ARAB 4470": {
+        "course_code": "ARAB 4470",
+        "course_name": "Intro to Arabic Phil &amp; Theo",
+        "course_description": "The course focuses on the rise and development of philosophy in the Arabic and Islamic Middle-Ages. "
+    },
+    "ARAB 4471": {
+        "course_code": "ARAB 4471",
+        "course_name": "Islamic Law",
+        "course_description": "This course introduces students to the main concepts of Islamic law and points out controversies amo"
+    },
+    "ARAB 4478": {
+        "course_code": "ARAB 4478",
+        "course_name": " America in Iraq",
+        "course_description": "This course surveys cultural production in Iraq and the USA, across a number of mediums (poetry, son"
+    },
+    "ARAB 4495": {
+        "course_code": "ARAB 4495",
+        "course_name": "The Qur&#39;an &amp;its Interpretation",
+        "course_description": "Since its revelation, the Qur&#39;an has served as a source of spiritual insight, ethico-legal guidance,"
+    },
+    "ARAB 4893": {
+        "course_code": "ARAB 4893",
+        "course_name": "Intro: Arabic Sociolinguistics",
+        "course_description": "This course is an introduction to how Arabic (both the Standard and the colloquial) is used in the d"
+    },
+    "ARAB 4949": {
+        "course_code": "ARAB 4949",
+        "course_name": "Tutorial: Arabic",
+        "course_description": null
+    },
+    "ARAB 4998": {
+        "course_code": "ARAB 4998",
+        "course_name": "Senior Honors Thesis",
+        "course_description": "Registration for senior Arabic majors completing a Senior Honors Thesis."
+    },
+    "ARAB 5503": {
+        "course_code": "ARAB 5503",
+        "course_name": "Classical Arabic Court Poetry",
+        "course_description": "TBA"
+    },
+    "ARAB 5506": {
+        "course_code": "ARAB 5506",
+        "course_name": "Slavery and Islam",
+        "course_description": "Islam has been in the news. And slavery has been in the news. And &#39;Islam &amp; slavery&#39; has been in the "
+    },
+    "ARAB 5507": {
+        "course_code": "ARAB 5507",
+        "course_name": "Advanced Arabic Media",
+        "course_description": "The purpose of this course is to give students who have passed the\r\nMAAS Arabic proficiency exam ano"
+    },
+    "ARAB 5511": {
+        "course_code": "ARAB 5511",
+        "course_name": "Short Stories from the Maghreb",
+        "course_description": "This course is primarily a reading course, designed to enable students to read complete stories, to "
+    },
+    "ARAB 5520": {
+        "course_code": "ARAB 5520",
+        "course_name": "Hist of Arabic Linguistics",
+        "course_description": "A survey of the rise and development of Arabic grammar and lexicology. Theories of early grammarians"
+    },
+    "ARAB 5523": {
+        "course_code": "ARAB 5523",
+        "course_name": "Politi Phil in Classical Islam",
+        "course_description": "Was there any political philosophy in classical Islam? What was the place left for politics in the s"
+    },
+    "ARAB 5525": {
+        "course_code": "ARAB 5525",
+        "course_name": "Exegesis of the Qur&#39;an",
+        "course_description": "This interactive graduate seminar presents an introduction to the corpus of Sunni Islamic Tafsir fro"
+    },
+    "ARAB 5526": {
+        "course_code": "ARAB 5526",
+        "course_name": "Polit Phil in Classical Islam",
+        "course_description": "Was there any political philosophy in classical Islam? What was the place left for politics in the s"
+    },
+    "ARAB 5527": {
+        "course_code": "ARAB 5527",
+        "course_name": "Trad&amp;Modernity LateOttomanSch.",
+        "course_description": "This course is an exploration of late Ottoman Islamic thought, with a focus on the legal corpus of t"
+    },
+    "ARAB 5530": {
+        "course_code": "ARAB 5530",
+        "course_name": "Comp Approaches to ArabicPoetr",
+        "course_description": null
+    },
+    "ARAB 5533": {
+        "course_code": "ARAB 5533",
+        "course_name": "Classical Arabic Prose",
+        "course_description": "This course will focus on the close reading, translation and interpretation of classical Arab prose "
+    },
+    "ARAB 5537": {
+        "course_code": "ARAB 5537",
+        "course_name": "The Law of the Quran",
+        "course_description": "This course aims at investigating the role and complexities of people&#39;s agency in the Arab Middle Ea"
+    },
+    "ARAB 5538": {
+        "course_code": "ARAB 5538",
+        "course_name": "Crit Approaches:Arabic Qasida",
+        "course_description": "Critical Approaches to the Arabic Qasida will consist of the close reading of selected Arabic odes i"
+    },
+    "ARAB 5547": {
+        "course_code": "ARAB 5547",
+        "course_name": "Teaching Arabic as Forgn Lang",
+        "course_description": "This course provides a critical survey of issues and approaches in Arabic teaching including develop"
+    },
+    "ARAB 5553": {
+        "course_code": "ARAB 5553",
+        "course_name": "I&#39;jaz al&#39;Qur&#39;an",
+        "course_description": "This course will focus on the accurate translation and interpretation of selected classical Arabic t"
+    },
+    "ARAB 5555": {
+        "course_code": "ARAB 5555",
+        "course_name": "IntroArb/Islm Stud:Sources/Met",
+        "course_description": "This course will familiarize students with the sources, research tools and methods used in the field"
+    },
+    "ARAB 5556": {
+        "course_code": "ARAB 5556",
+        "course_name": "Readings in Islamic Lgl Hist",
+        "course_description": "This course is designed to expose students to genres and source texts that depict or record the func"
+    },
+    "ARAB 5557": {
+        "course_code": "ARAB 5557",
+        "course_name": "The Arab Novel",
+        "course_description": null
+    },
+    "ARAB 5558": {
+        "course_code": "ARAB 5558",
+        "course_name": "Intro Linguistics Methodology",
+        "course_description": "This&nbsp;course&nbsp;introduces the linguistics methodology of the major domains of Arabic linguistics. It co"
+    },
+    "ARAB 5559": {
+        "course_code": "ARAB 5559",
+        "course_name": "Intro to Literary Methodology",
+        "course_description": "This course is designed to introduce foundational problems and methods of modern literary studies. I"
+    },
+    "ARAB 5577": {
+        "course_code": "ARAB 5577",
+        "course_name": "Non-Muslims:Islamic Law &amp; Soc",
+        "course_description": null
+    },
+    "ARAB 5578": {
+        "course_code": "ARAB 5578",
+        "course_name": "alMutanabbi-Intro ClassiPoetry",
+        "course_description": "Close reading and interpretation of Arabic poetry texts in conjunction with English literary critica"
+    },
+    "ARAB 6611": {
+        "course_code": "ARAB 6611",
+        "course_name": "EarlyArabicPtry:RitualOralityP",
+        "course_description": "Early Arabic Poetry: Ritual, Orality and Performance seeks to situate the pre- and early Islamic qas"
+    },
+    "ARAB 6621": {
+        "course_code": "ARAB 6621",
+        "course_name": "Reading Classic Text in Arabic",
+        "course_description": "This advanced seminar offers a close and thorough reading of a selection of literary, philosophical "
+    },
+    "ARAB 6623": {
+        "course_code": "ARAB 6623",
+        "course_name": "Poetry&amp;thePerformanceofEmpire",
+        "course_description": "Poetry and Performance will combine the close reading and translation of classical Arabic poetic tex"
+    },
+    "ARAB 6624": {
+        "course_code": "ARAB 6624",
+        "course_name": "Poetry of Ma&#39;arri:Enga to Dis",
+        "course_description": "In this course, we will read, translate and interpret selected works from the two celebrated poetry "
+    },
+    "ARAB 6626": {
+        "course_code": "ARAB 6626",
+        "course_name": "Readings in Early Kalam",
+        "course_description": "This advanced seminar offers a close and thorough reading of a selection of early kalam texts. Texts"
+    },
+    "ARAB 6627": {
+        "course_code": "ARAB 6627",
+        "course_name": "Introduction to Hadith",
+        "course_description": "This course introduces students to hadith literature and the science of hadith. It looks at the orig"
+    },
+    "ARAB 6633": {
+        "course_code": "ARAB 6633",
+        "course_name": "Classical Arabic Literary Text",
+        "course_description": "Classical Arabic Literary Texts will focus on the close reading and accurate translation of passages"
+    },
+    "ARAB 6634": {
+        "course_code": "ARAB 6634",
+        "course_name": "Discovering the Islamic Classi",
+        "course_description": "Classical Islamic Civilization produced innumerable works of history, literature, science, philosoph"
+    },
+    "ARAB 6635": {
+        "course_code": "ARAB 6635",
+        "course_name": "Arabic &amp;Islamic Historiography",
+        "course_description": "This graduate seminar is a reading-intensive survey of the principal historical sources in Arabic fo"
+    },
+    "ARAB 6636": {
+        "course_code": "ARAB 6636",
+        "course_name": "Theology in Arabic",
+        "course_description": "This course will introduce students to seminal primary Arabic sources of theology in Islamic, Jewish"
+    },
+    "ARAB 6666": {
+        "course_code": "ARAB 6666",
+        "course_name": "Race in Islamic Tradition",
+        "course_description": "This course will introduce students to primary- and secondary source-readings on the Arab-Islamic tr"
+    },
+    "ARAB 6670": {
+        "course_code": "ARAB 6670",
+        "course_name": "Mod Arab Poetry, Theory &amp; Tran",
+        "course_description": null
+    },
+    "ACCT 6556": {
+        "course_code": "ACCT 6556",
+        "course_name": "Healthcare, Nonprft, Govt Acct",
+        "course_description": "This course covers financial reporting topics for hospitals and other healthcare organizations, nonp"
+    },
+    "AFSP 2012": {
+        "course_code": "AFSP 2012",
+        "course_name": "Post-Apartheid S. African Lit",
+        "course_description": "While this course starts with Olive Schreiner&#39;s astonishing C19 novel, The Story of an African Farm,"
+    },
+    "AFSP 2206": {
+        "course_code": "AFSP 2206",
+        "course_name": "History of West Africa",
+        "course_description": "From Burna Boy&rsquo;s Afro-fusion music to the Dahomean female warriors in Woman King, and the youth-led "
+    },
+    "AFSP 2207": {
+        "course_code": "AFSP 2207",
+        "course_name": "C-Lab:Africa is People IFW",
+        "course_description": "Registration in the class requires enrollment in AFSP 2205 Africa is People 3 credit course and inst"
+    },
+    "AFSP 3349": {
+        "course_code": "AFSP 3349",
+        "course_name": "African Studies: Thesis",
+        "course_description": "The African Studies Thesis allows students to investigate a topic of their choice in African Studies"
+    },
+    "AFSP 3360": {
+        "course_code": "AFSP 3360",
+        "course_name": "History of African Cities",
+        "course_description": "In a 2021 article, the Washington Post refers to African cities like Lagos and Khartoum as the &ldquo;cent"
+    },
+    "AFSP 3362": {
+        "course_code": "AFSP 3362",
+        "course_name": "Humanitarianism Africa &amp; Media",
+        "course_description": "This course will examine the nexus between the humanitarian crisis in Africa and the media through a"
+    },
+    "AFSP 4406": {
+        "course_code": "AFSP 4406",
+        "course_name": "Migrants Sahara-Sahel Region",
+        "course_description": "Millions of people in the Sahara-Sahel region have freely opted to migrate or/and have been forced i"
+    },
+    "AFSP 4450": {
+        "course_code": "AFSP 4450",
+        "course_name": "Reimagining Tech in Africa",
+        "course_description": "The course will survey the development of the Sub-Saharan African economies since independence. The "
+    },
+    "AFSP 4455": {
+        "course_code": "AFSP 4455",
+        "course_name": "Kenya Alternative Spring Break",
+        "course_description": "Registration in the class requires acceptance to the Kenya Alternative Spring Break Program and Depa"
+    },
+    "AFSP 4456": {
+        "course_code": "AFSP 4456",
+        "course_name": "Econmic &amp; Hum Dvlpmnt in Kenya",
+        "course_description": "Registration in the class requires an application and Instructor Approval. This directed study is an"
+    },
+    "AGHL 9994": {
+        "course_code": "AGHL 9994",
+        "course_name": "Continous Registration",
+        "course_description": "0 credit course for graduating students who have fulfilled all other requirements, but have an incom"
+    },
+    "AMST 2222": {
+        "course_code": "AMST 2222",
+        "course_name": "Advertising &amp; Social Change",
+        "course_description": "Advertising &amp; Social Change investigates the significance and impact that advertising has on America"
+    },
+    "AMST 3028": {
+        "course_code": "AMST 3028",
+        "course_name": " Public History: Theory &amp; Prac",
+        "course_description": "This course introduces the field of Public History by examining topics that range from historical me"
+    },
+    "AMST 3077": {
+        "course_code": "AMST 3077",
+        "course_name": "Privacy, Surveillance, Power",
+        "course_description": "This interdisciplinary seminar examines the contested history, politics, and culture of privacy and "
+    },
+    "AMST 4961": {
+        "course_code": "AMST 4961",
+        "course_name": "Thesis Capstone Seminar",
+        "course_description": "Georgetown&rsquo;s Senior Thesis Seminar in American Studies is designed to guide 4th-year students throug"
+    },
+    "ANTH 2259": {
+        "course_code": "ANTH 2259",
+        "course_name": " Pandemics, Plagues, and Peopl",
+        "course_description": "Since the COVID-19 pandemic, the need to explore the historical and social contexts of epidemic dise"
+    },
+    "ANTH 2270": {
+        "course_code": "ANTH 2270",
+        "course_name": "Solidarity Forever",
+        "course_description": "In this course, we will move across time and space to explore the concept of solidarity. Is solidari"
+    },
+    "ANTH 2281": {
+        "course_code": "ANTH 2281",
+        "course_name": "Money Talks",
+        "course_description": "This course takes the common idiom&mdash;&ldquo;money talks&rdquo;&mdash;as a starting point for interrogating the relations"
+    },
+    "ANTH 2301": {
+        "course_code": "ANTH 2301",
+        "course_name": "Embodied Lives: Q St Ancestors",
+        "course_description": "Bodies may be used as analytical road maps, as entry- and exit- points to and from social, political"
+    },
+    "ANTH 2470": {
+        "course_code": "ANTH 2470",
+        "course_name": "Color and Such",
+        "course_description": "Color prejudice presents a disturbing human paradox. Compelling anthropological works have historica"
+    },
+    "ANTH 2471": {
+        "course_code": "ANTH 2471",
+        "course_name": "Roma Around the World",
+        "course_description": "The Roma, previously referred to by the pejorative &ldquo;gypsy&rdquo; is an ethnic group whose genealogical ori"
+    },
+    "ANTH 3316": {
+        "course_code": "ANTH 3316",
+        "course_name": "Cupcakes and Power",
+        "course_description": "Using cupcakes as our starting points, this class will examine the intersections of food and culture"
+    },
+    "ARST 2202": {
+        "course_code": "ARST 2202",
+        "course_name": "MAAS Arabic Conversation",
+        "course_description": "This course is to support students in reaching Advanced Mid Arabic language proficiency."
+    },
+    "ARST 2231": {
+        "course_code": "ARST 2231",
+        "course_name": "Syrian Dialect",
+        "course_description": "This course is for Advanced level Arabic students who are interested in learning Syrian and other Le"
+    },
+    "ARST 2981": {
+        "course_code": "ARST 2981",
+        "course_name": "Arabic for NGO Careers",
+        "course_description": "This is an advanced Arabic language course specifically designed for students interested in pursuing"
+    },
+    "ARST 4452": {
+        "course_code": "ARST 4452",
+        "course_name": "Oral History Method &amp; Practice",
+        "course_description": "Whose stories do we choose to record and tell? How do we interpret and represent others, and who get"
+    },
+    "ARST 4632": {
+        "course_code": "ARST 4632",
+        "course_name": "Race &amp; Empire: North Africa",
+        "course_description": "This seminar examines the entangled histories of race and imperial power in North Africa since the n"
+    },
+    "ARST 4748": {
+        "course_code": "ARST 4748",
+        "course_name": "Arguing Israel/Palestine",
+        "course_description": "What to do about Palestine has been one of the most hotly debated questions over the past century or"
+    },
+    "ARST 5349": {
+        "course_code": "ARST 5349",
+        "course_name": "Nature, Power &amp; Identity: MENA",
+        "course_description": "Visions of revamped natures and sanitized communities were common across the Middle East and North A"
+    },
+    "ARST 5423": {
+        "course_code": "ARST 5423",
+        "course_name": "Nation/Sectarianism/Place:MENA",
+        "course_description": "This seminar explores the production of the Minority as a category of analysis, practice, domination"
+    },
+    "ARST 5501": {
+        "course_code": "ARST 5501",
+        "course_name": "Studying the Arab World",
+        "course_description": "This course provides a critical introduction to the main paradigms, methods, and approaches that hav"
+    },
+    "ARST 5803": {
+        "course_code": "ARST 5803",
+        "course_name": " Arab Intellectuals",
+        "course_description": null
+    },
+    "ARAB 1025": {
+        "course_code": "ARAB 1025",
+        "course_name": "Beginner Arabic Grammar Review",
+        "course_description": "A grammar review session for students in first-year Arabic language courses at Georgetown."
+    },
+    "ARAB 2222": {
+        "course_code": "ARAB 2222",
+        "course_name": "Advanced MSA Heritage I",
+        "course_description": "Advanced Modern Standard Arabic for Heritage Speakers I is a continuation of the course ARAB-121 whi"
+    },
+    "ARAB 2223": {
+        "course_code": "ARAB 2223",
+        "course_name": "Advanced MSA Heritage II",
+        "course_description": "Advanced Modern Standard Arabic for Heritage Speakers II is a continuation of the course ARAB-220 wh"
+    },
+    "ARAB 2226": {
+        "course_code": "ARAB 2226",
+        "course_name": " Arabic Grmr Review Session II",
+        "course_description": "This Grammar Review Session is open for Intermediate and Advanced Arabic sections. Students interest"
+    },
+    "ARAB 2324": {
+        "course_code": "ARAB 2324",
+        "course_name": " Arabic for Diplomats",
+        "course_description": "The Arabic for Diplomacy course is designed for students who intend to\npursue successful careers in "
+    },
+    "ARAB 3220": {
+        "course_code": "ARAB 3220",
+        "course_name": "Advanced Arabic Media II",
+        "course_description": "The purpose of this course is to give students who have passed the Arabic proficiency exam another o"
+    },
+    "ARAB 3303": {
+        "course_code": "ARAB 3303",
+        "course_name": "Topics in Arab Islamic Civ",
+        "course_description": null
+    },
+    "ARAB 4427": {
+        "course_code": "ARAB 4427",
+        "course_name": " Islamic Devotional Poetry",
+        "course_description": "This course will focus on the Arab-Islamic tradition of praise poems to the Prophet\nMuhammad, partic"
+    },
+    "ARAB 4460": {
+        "course_code": "ARAB 4460",
+        "course_name": "Islam in South Asia",
+        "course_description": "Islam is often associated immediately with the Middle East, but Islam&rsquo;s intellectual and religious l"
+    },
+    "ARAB 5500": {
+        "course_code": "ARAB 5500",
+        "course_name": "Incarceration in Middle East",
+        "course_description": null
+    },
+    "ARAB 6128": {
+        "course_code": "ARAB 6128",
+        "course_name": "Syntax II",
+        "course_description": "This course is a continuation of Syntax I. It provides an advanced survey of topics in\ncontemporary "
+    },
+    "ARAB 6399": {
+        "course_code": "ARAB 6399",
+        "course_name": "State of Research in AIS",
+        "course_description": "This course involves readings of seminal contributions to Arabic and Islamic studies, inclusive of t"
+    },
+    "ARAB 6677": {
+        "course_code": "ARAB 6677",
+        "course_name": "Majaz: Fig Lang in Quran Ptry",
+        "course_description": "This course is aimed at graduate students in the fields of Qur&rsquo;anic studies, Arabic poetry,\nand Arab"
+    },
+    "ARAB 6950": {
+        "course_code": "ARAB 6950",
+        "course_name": "Readings in Hadith Studies",
+        "course_description": "This course will provide an in-depth exploration, at a gradual level, of important genres of Muslim "
+    },
+    "ACCT 3258": {
+        "course_code": "ACCT 3258",
+        "course_name": "Decision Support Systems",
+        "course_description": "This course will introduce students to decision support systems and their role in business. Specific"
+    },
+    "ACCT 5500": {
+        "course_code": "ACCT 5500",
+        "course_name": "Accounting Fundamentals",
+        "course_description": "The objective of this course is to provide you with an overview of the financial accounting and repo"
+    },
+    "AFAM 2030": {
+        "course_code": "AFAM 2030",
+        "course_name": "Introduction to Black Film",
+        "course_description": "This course will examine the history and theories of black filmmaking. We will survey significant ge"
+    },
+    "AFSP 3001": {
+        "course_code": "AFSP 3001",
+        "course_name": "Archival Silences in Africa",
+        "course_description": "Archives and Silences: Writing African History: Archival records, especially written documents are o"
+    },
+    "AFSP 4362": {
+        "course_code": "AFSP 4362",
+        "course_name": "Humanitarianism Africa &amp; Media",
+        "course_description": "This course will examine the nexus between the humanitarian crisis in Africa and the media through a"
+    },
+    "AMST 1020": {
+        "course_code": "AMST 1020",
+        "course_name": "Policing America",
+        "course_description": "This First-Year Seminar explores the history of law enforcement in the United States, with a particu"
+    },
+    "AMST 2230": {
+        "course_code": "AMST 2230",
+        "course_name": "Houses, Schools, and Prisons",
+        "course_description": "This interdisciplinary course examines how housing, education, and incarceration\nserve as key sites "
+    },
+    "AMST 3078": {
+        "course_code": "AMST 3078",
+        "course_name": "Arabs in America",
+        "course_description": "Arabs are an under-studied, and often poorly understood, ethnic group in the United States. This cou"
+    },
+    "AMST 4949": {
+        "course_code": "AMST 4949",
+        "course_name": "Amst Tutorial",
+        "course_description": "Independent research course."
+    },
+    "ANTH 2120": {
+        "course_code": "ANTH 2120",
+        "course_name": "Movies and Masculinity",
+        "course_description": "This course will look at multiple online streaming platforms as a way to explore how gender is being"
+    },
+    "ANTH 2252": {
+        "course_code": "ANTH 2252",
+        "course_name": "Gender and Global Health",
+        "course_description": "This course examines the intersection of gender, health policy, and health care worldwide through an"
+    },
+    "ANTH 2283": {
+        "course_code": "ANTH 2283",
+        "course_name": "Moral Economies",
+        "course_description": "Intersections of the moral and the economic have long motivated anthropological interests and inquir"
+    },
+    "ANTH 2302": {
+        "course_code": "ANTH 2302",
+        "course_name": "Bioarch of African Diaspora",
+        "course_description": "This course offers an introduction to bioarchaeology as a theoretically grounded and historically si"
+    },
+    "ANTH 3327": {
+        "course_code": "ANTH 3327",
+        "course_name": "Intersectional Ecologies",
+        "course_description": "Environmental anthropology has historically asked questions about how humans relate to the interconn"
+    },
+    "ARST 2201": {
+        "course_code": "ARST 2201",
+        "course_name": "MAAS Arabic Convo/Grammar",
+        "course_description": null
+    },
+    "ARST 2244": {
+        "course_code": "ARST 2244",
+        "course_name": "Arabic Social Media Analysis",
+        "course_description": null
+    },
+    "ARST 3281": {
+        "course_code": "ARST 3281",
+        "course_name": "Arab Politics Thru Literature",
+        "course_description": null
+    },
+    "ARST 4125": {
+        "course_code": "ARST 4125",
+        "course_name": "FLAS Fellowship",
+        "course_description": "Course for summer FLAS recipients"
+    },
+    "ARST 4335": {
+        "course_code": "ARST 4335",
+        "course_name": "Energy Security &amp; Diplomacy",
+        "course_description": "The connection between security and oil use can be traced to the early 20th century when the world&rsquo;s"
+    },
+    "ARST 4344": {
+        "course_code": "ARST 4344",
+        "course_name": "Entrepreneurship in N&amp;W Africa",
+        "course_description": "This course will explore the complex dynamics at work in select North and West African countries, su"
+    },
+    "ARST 4455": {
+        "course_code": "ARST 4455",
+        "course_name": "Nuclear Middle East",
+        "course_description": "The emergence of the &ldquo;Arab Regional System&rdquo; in 1945 coincided with the onset of the nuclear age. Thr"
+    },
+    "ARST 4478": {
+        "course_code": "ARST 4478",
+        "course_name": "Cultural Heritage: Arab World",
+        "course_description": "For Instructor approval required. This course has an associated 1cr course (ARST 479). Admission to "
+    },
+    "ARST 4945": {
+        "course_code": "ARST 4945",
+        "course_name": "Nuclear Middle East",
+        "course_description": "The emergence of the &ldquo;Arab Regional System&rdquo; in 1945 coincided with the onset of the nuclear age. Thr"
+    },
+    "ARST 5630": {
+        "course_code": "ARST 5630",
+        "course_name": "Iraq and 3 Wars",
+        "course_description": "The course is split into three parts: Part I will deal with Iraq&#39;s history from the mandate period, "
+    },
+    "ARST 5648": {
+        "course_code": "ARST 5648",
+        "course_name": "Environmental&amp;Human Security",
+        "course_description": "Security remains one of the most controversial and contested concepts in international politics. Tra"
+    },
+    "ARST 5773": {
+        "course_code": "ARST 5773",
+        "course_name": "Arab Civil Military Relations",
+        "course_description": "This class seeks to provide an overview of Arab civil-military relations (CMR) and their implication"
+    },
+    "ARST 6648": {
+        "course_code": "ARST 6648",
+        "course_name": "Environmental&amp;Human Security",
+        "course_description": "Security remains one of the most controversial and contested concepts in international politics. Tra"
+    },
+    "ARAB 3218": {
+        "course_code": "ARAB 3218",
+        "course_name": "Advanced Arabic Media I",
+        "course_description": "The purpose of this course is to give students who have passed the MAAS Arabic proficiency exam anot"
+    },
+    "ARAB 3346": {
+        "course_code": "ARAB 3346",
+        "course_name": "Advanced Business Arabic",
+        "course_description": "Advanced Business Arabic aims to teach you the fundamentals of professional business communication. "
+    },
+    "ARAB 4300": {
+        "course_code": "ARAB 4300",
+        "course_name": "Naguib Mahfouz:Writer &amp; Nation",
+        "course_description": "Naguib Mahfouz (1911-2006) is arguably the Arab world&rsquo;s greatest novelist ever. A chronicler of mode"
+    },
+    "ARAB 4520": {
+        "course_code": "ARAB 4520",
+        "course_name": " Women and Gender in the Qur&#39;a",
+        "course_description": "Since its revelation, the Qur\u02bean has provided spiritual insight, ethical and legal guidance, sacred "
+    },
+    "ARAB 6250": {
+        "course_code": "ARAB 6250",
+        "course_name": " Khasa&#39;is of Ibn Jinnni",
+        "course_description": "This course will focus on a close reading, translation, and analysis of selected passages from Al-Kh"
+    },
+    "AFSP 4425": {
+        "course_code": "AFSP 4425",
+        "course_name": "Political Violence in Africa",
+        "course_description": "The words &ldquo;terrorism&rdquo; and &ldquo;insurgency&rdquo; have long dominated the headlines about Africa. Too often, &ldquo;A"
+    }
+}
