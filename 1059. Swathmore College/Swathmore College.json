@@ -1,0 +1,2562 @@
+{
+    "AIKD 002": {
+        "course_code": "AIKD 002",
+        "course_name": "Aikido Club",
+        "course_description": null
+    },
+    "ARTH 001": {
+        "course_code": "ARTH 001",
+        "course_name": "Critical Study In Visual Arts",
+        "course_description": null
+    },
+    "ARTH 001B": {
+        "course_code": "ARTH 001B",
+        "course_name": "FYS: The Architect &amp; History",
+        "course_description": null
+    },
+    "ARTH 008": {
+        "course_code": "ARTH 008",
+        "course_name": "Understanding Architecture",
+        "course_description": null
+    },
+    "ARTH 009": {
+        "course_code": "ARTH 009",
+        "course_name": "Critical Study: Michelangelo",
+        "course_description": null
+    },
+    "ARTH 011": {
+        "course_code": "ARTH 011",
+        "course_name": "From Caves to Koolhaas",
+        "course_description": null
+    },
+    "ARTH 019": {
+        "course_code": "ARTH 019",
+        "course_name": "Contemporary Art",
+        "course_description": null
+    },
+    "ARTH 034A": {
+        "course_code": "ARTH 034A",
+        "course_name": "Attchm: Japanese Art-1550-1850",
+        "course_description": null
+    },
+    "ARTH 037A": {
+        "course_code": "ARTH 037A",
+        "course_name": "Attch: Approaches to Tibet",
+        "course_description": null
+    },
+    "ARTH 038A": {
+        "course_code": "ARTH 038A",
+        "course_name": "Buddist Tradition Attachment",
+        "course_description": null
+    },
+    "ARTH 038B": {
+        "course_code": "ARTH 038B",
+        "course_name": "BuddhistArt:Econ,Nar&amp;SacredSpa",
+        "course_description": null
+    },
+    "ARTH 041": {
+        "course_code": "ARTH 041",
+        "course_name": "Building an Empire",
+        "course_description": null
+    },
+    "ARTH 051": {
+        "course_code": "ARTH 051",
+        "course_name": "Renaissance Art -Florence",
+        "course_description": null
+    },
+    "ARTH 055A": {
+        "course_code": "ARTH 055A",
+        "course_name": "Attch: Rembrandt &amp; His Times",
+        "course_description": null
+    },
+    "ARTH 060": {
+        "course_code": "ARTH 060",
+        "course_name": "Architecture of Eternal City",
+        "course_description": null
+    },
+    "ARTH 070": {
+        "course_code": "ARTH 070",
+        "course_name": "Art and Dance",
+        "course_description": null
+    },
+    "ARTH 070A": {
+        "course_code": "ARTH 070A",
+        "course_name": "Attchmt: Art and Dance",
+        "course_description": null
+    },
+    "ARTH 076A": {
+        "course_code": "ARTH 076A",
+        "course_name": "Body in Contemp Art-Attachm",
+        "course_description": null
+    },
+    "ARTH 086": {
+        "course_code": "ARTH 086",
+        "course_name": "Architectural Theory",
+        "course_description": null
+    },
+    "ARTH 098": {
+        "course_code": "ARTH 098",
+        "course_name": "Senior Workshop:Art History",
+        "course_description": null
+    },
+    "ARTH 132": {
+        "course_code": "ARTH 132",
+        "course_name": "Arts-Buddhist Temple in Japan",
+        "course_description": null
+    },
+    "ARTH 135": {
+        "course_code": "ARTH 135",
+        "course_name": "18thC-JapanesePaint&amp;ItsContext",
+        "course_description": null
+    },
+    "ARTH 145": {
+        "course_code": "ARTH 145",
+        "course_name": "Gothic Art &amp; Architecture",
+        "course_description": null
+    },
+    "ARTH 166": {
+        "course_code": "ARTH 166",
+        "course_name": "Avant-Gardes-Early 20 C Art",
+        "course_description": null
+    },
+    "ARTH 168": {
+        "course_code": "ARTH 168",
+        "course_name": "Dada &amp; Surrealism",
+        "course_description": null
+    },
+    "ARTH 180": {
+        "course_code": "ARTH 180",
+        "course_name": "Senior Honors Thesis",
+        "course_description": null
+    },
+    "ARTH 199": {
+        "course_code": "ARTH 199",
+        "course_name": "Senior Honors Study",
+        "course_description": null
+    },
+    "ARTH UPENN": {
+        "course_code": "ARTH UPENN",
+        "course_name": "UPENN Course",
+        "course_description": null
+    },
+    "ASIA 010": {
+        "course_code": "ASIA 010",
+        "course_name": "Chinese Tradit Culture/Thought",
+        "course_description": null
+    },
+    "ASIA 021": {
+        "course_code": "ASIA 021",
+        "course_name": "Ideologies-Mod/Contemp China",
+        "course_description": null
+    },
+    "ASIA 022": {
+        "course_code": "ASIA 022",
+        "course_name": "Confucian Analects",
+        "course_description": null
+    },
+    "ASIA 026": {
+        "course_code": "ASIA 026",
+        "course_name": "Introduction to Korean Culture",
+        "course_description": null
+    },
+    "ASIA 041": {
+        "course_code": "ASIA 041",
+        "course_name": "Approaches to Tibet",
+        "course_description": null
+    },
+    "ASIA 093": {
+        "course_code": "ASIA 093",
+        "course_name": "Directed Reading",
+        "course_description": null
+    },
+    "ASIA 098": {
+        "course_code": "ASIA 098",
+        "course_name": "Dir. Reading",
+        "course_description": null
+    },
+    "ASIA 180": {
+        "course_code": "ASIA 180",
+        "course_name": "Thesis",
+        "course_description": null
+    },
+    "ASIA 199": {
+        "course_code": "ASIA 199",
+        "course_name": "Senior Honors Study",
+        "course_description": null
+    },
+    "ASTR 003": {
+        "course_code": "ASTR 003",
+        "course_name": "The Physical Universe",
+        "course_description": null
+    },
+    "ASTR 009": {
+        "course_code": "ASTR 009",
+        "course_name": "Meteorology",
+        "course_description": null
+    },
+    "ASTR 059": {
+        "course_code": "ASTR 059",
+        "course_name": "Cosmology",
+        "course_description": null
+    },
+    "ASTR 061": {
+        "course_code": "ASTR 061",
+        "course_name": "Current Prob-Astr&amp;Astrophys",
+        "course_description": null
+    },
+    "ASTR 064": {
+        "course_code": "ASTR 064",
+        "course_name": "Galactic Structure",
+        "course_description": null
+    },
+    "ASTR 071": {
+        "course_code": "ASTR 071",
+        "course_name": "Res Techniq-Observat Astronomy",
+        "course_description": null
+    },
+    "ASTR 094": {
+        "course_code": "ASTR 094",
+        "course_name": "Research Project",
+        "course_description": null
+    },
+    "ASTR 117": {
+        "course_code": "ASTR 117",
+        "course_name": "Theoretical Astrophysics",
+        "course_description": null
+    },
+    "ASTR 118": {
+        "course_code": "ASTR 118",
+        "course_name": "Theoretical Astrophysics",
+        "course_description": null
+    },
+    "ASTR 123": {
+        "course_code": "ASTR 123",
+        "course_name": "Stars and Stellar Structure",
+        "course_description": null
+    },
+    "ASTR 126": {
+        "course_code": "ASTR 126",
+        "course_name": "The Interstellar Medium",
+        "course_description": null
+    },
+    "ASTR 128": {
+        "course_code": "ASTR 128",
+        "course_name": "Galaxies&amp;Galac Structure",
+        "course_description": null
+    },
+    "ASTR 129": {
+        "course_code": "ASTR 129",
+        "course_name": "Introductory Cosmology",
+        "course_description": null
+    },
+    "ASTR 199": {
+        "course_code": "ASTR 199",
+        "course_name": "Senior Honors Study",
+        "course_description": null
+    },
+    "BADM 002": {
+        "course_code": "BADM 002",
+        "course_name": "Men&#39;s Club Badminton",
+        "course_description": null
+    },
+    "BADW 001": {
+        "course_code": "BADW 001",
+        "course_name": "Womens&#39; Varsity Badminton",
+        "course_description": null
+    },
+    "BSBM 001": {
+        "course_code": "BSBM 001",
+        "course_name": "Mens&#39; Varsity Baseball",
+        "course_description": null
+    },
+    "BSKM 001": {
+        "course_code": "BSKM 001",
+        "course_name": "Mens&#39; Varsity Basketball",
+        "course_description": null
+    },
+    "BSKW 001": {
+        "course_code": "BSKW 001",
+        "course_name": "Womens&#39; Varsity Basketball",
+        "course_description": null
+    },
+    "BIOL 006": {
+        "course_code": "BIOL 006",
+        "course_name": "History &amp; Critique-Biology",
+        "course_description": null
+    },
+    "BIOL 010": {
+        "course_code": "BIOL 010",
+        "course_name": "Genetics",
+        "course_description": null
+    },
+    "ARTH 001H": {
+        "course_code": "ARTH 001H",
+        "course_name": "FYS:Art of Jpns Tea Ceremony",
+        "course_description": null
+    },
+    "ASTR 005": {
+        "course_code": "ASTR 005",
+        "course_name": "Spacetime,Quanta,Cosmology",
+        "course_description": null
+    },
+    "ASTR 093": {
+        "course_code": "ASTR 093",
+        "course_name": "Directed Reading",
+        "course_description": null
+    },
+    "BIOL 003A": {
+        "course_code": "BIOL 003A",
+        "course_name": "FYS: Genetics,Medicine,Society",
+        "course_description": null
+    },
+    "ARAB 027": {
+        "course_code": "ARAB 027",
+        "course_name": "Wrtg Women in Mod Arab Fiction",
+        "course_description": null
+    },
+    "ARTH 033": {
+        "course_code": "ARTH 033",
+        "course_name": "Art of Landscape in E Asia",
+        "course_description": null
+    },
+    "ASTR 001": {
+        "course_code": "ASTR 001",
+        "course_name": "Introductory Astronomy",
+        "course_description": null
+    },
+    "ARAB 001": {
+        "course_code": "ARAB 001",
+        "course_name": "Intensive Elem Mod Stan Arabic",
+        "course_description": null
+    },
+    "ARAB 001B": {
+        "course_code": "ARAB 001B",
+        "course_name": "Intensive Elem Mod Stan Arabic",
+        "course_description": null
+    },
+    "ARAB 002": {
+        "course_code": "ARAB 002",
+        "course_name": "Intensive Elem Mod Stnd Arabic",
+        "course_description": null
+    },
+    "ARAB 002B": {
+        "course_code": "ARAB 002B",
+        "course_name": "Intensive Elem Mod Stnd Arabic",
+        "course_description": null
+    },
+    "ARAB 003": {
+        "course_code": "ARAB 003",
+        "course_name": "Intermed Mod Standard Arabic I",
+        "course_description": null
+    },
+    "ARAB 003B": {
+        "course_code": "ARAB 003B",
+        "course_name": "Intermed Mod Standard Arabic I",
+        "course_description": null
+    },
+    "ARAB 004": {
+        "course_code": "ARAB 004",
+        "course_name": "Intermed Mod Stand Arabic II",
+        "course_description": null
+    },
+    "ARAB 004B": {
+        "course_code": "ARAB 004B",
+        "course_name": "Intermed Mod Stand Arabic II",
+        "course_description": null
+    },
+    "ARAB 005A": {
+        "course_code": "ARAB 005A",
+        "course_name": "Arabic Conversation",
+        "course_description": null
+    },
+    "ARAB 005B": {
+        "course_code": "ARAB 005B",
+        "course_name": "Arabic Conversation",
+        "course_description": null
+    },
+    "ARAB 006A": {
+        "course_code": "ARAB 006A",
+        "course_name": "Advanced Arabic Conversation",
+        "course_description": null
+    },
+    "ARAB 006B": {
+        "course_code": "ARAB 006B",
+        "course_name": "Advanced Arabic Conversation",
+        "course_description": null
+    },
+    "ARAB 007A": {
+        "course_code": "ARAB 007A",
+        "course_name": "Communication Workshop",
+        "course_description": null
+    },
+    "ARAB 011": {
+        "course_code": "ARAB 011",
+        "course_name": "Advanced Arabic I",
+        "course_description": null
+    },
+    "ARAB 012": {
+        "course_code": "ARAB 012",
+        "course_name": "Advanced Arabic II",
+        "course_description": null
+    },
+    "ARAB 014": {
+        "course_code": "ARAB 014",
+        "course_name": "Adv. Arabic Through Reading",
+        "course_description": null
+    },
+    "ARAB 018A": {
+        "course_code": "ARAB 018A",
+        "course_name": "Cultural Context of Arab Music",
+        "course_description": null
+    },
+    "ARAB 045": {
+        "course_code": "ARAB 045",
+        "course_name": "Contemp thought in Arab World",
+        "course_description": null
+    },
+    "ARAB UPA": {
+        "course_code": "ARAB UPA",
+        "course_name": "UPENN:",
+        "course_description": null
+    },
+    "ARTH 001C": {
+        "course_code": "ARTH 001C",
+        "course_name": "FYS: Making Art History (W)",
+        "course_description": null
+    },
+    "ARTH 001E": {
+        "course_code": "ARTH 001E",
+        "course_name": "FYS:Michelangelo/Renaiss Cult",
+        "course_description": null
+    },
+    "ARTH 001L": {
+        "course_code": "ARTH 001L",
+        "course_name": "FYS:Handscrolls to Comic Books",
+        "course_description": null
+    },
+    "ARTH 012": {
+        "course_code": "ARTH 012",
+        "course_name": "Architect: Frank Lloyd Wright",
+        "course_description": null
+    },
+    "ARTH 022": {
+        "course_code": "ARTH 022",
+        "course_name": "Art, Colonialism, Decoloniztio",
+        "course_description": null
+    },
+    "ARTH 039": {
+        "course_code": "ARTH 039",
+        "course_name": "Contemp Jpns Visual Culture",
+        "course_description": null
+    },
+    "ARTH 043": {
+        "course_code": "ARTH 043",
+        "course_name": "Islam and the West",
+        "course_description": null
+    },
+    "ARTH 050": {
+        "course_code": "ARTH 050",
+        "course_name": "Caravaggio,Rubens &amp; Rembrandt",
+        "course_description": null
+    },
+    "ARTH 063": {
+        "course_code": "ARTH 063",
+        "course_name": "Architecture and Urbanism",
+        "course_description": null
+    },
+    "ARTH 065": {
+        "course_code": "ARTH 065",
+        "course_name": "Modern Architecture",
+        "course_description": null
+    },
+    "ARTH 071": {
+        "course_code": "ARTH 071",
+        "course_name": "Global History of Architecture",
+        "course_description": null
+    },
+    "ARTH 074": {
+        "course_code": "ARTH 074",
+        "course_name": "Studies-Hist of Photography",
+        "course_description": null
+    },
+    "ARTH 091": {
+        "course_code": "ARTH 091",
+        "course_name": "Capstone Seminar",
+        "course_description": null
+    },
+    "ARTH 097": {
+        "course_code": "ARTH 097",
+        "course_name": "Thesis",
+        "course_description": null
+    },
+    "BIOL 001": {
+        "course_code": "BIOL 001",
+        "course_name": "Cellular &amp; Molecular Biology",
+        "course_description": null
+    },
+    "BIOL 003B": {
+        "course_code": "BIOL 003B",
+        "course_name": "FYS:Animal Communication",
+        "course_description": null
+    },
+    "BIOL 003D": {
+        "course_code": "BIOL 003D",
+        "course_name": "FYS: Infectious Diseases",
+        "course_description": null
+    },
+    "BIOL 003E": {
+        "course_code": "BIOL 003E",
+        "course_name": "FYS: TBA",
+        "course_description": null
+    },
+    "ANCH 023": {
+        "course_code": "ANCH 023",
+        "course_name": "Alexander &amp; Hellenistic Wrld",
+        "course_description": null
+    },
+    "ANCH 031": {
+        "course_code": "ANCH 031",
+        "course_name": "The Greeks &amp; Persian Empire",
+        "course_description": null
+    },
+    "ANCH 032": {
+        "course_code": "ANCH 032",
+        "course_name": "The Roman Republic",
+        "course_description": null
+    },
+    "ANCH 044": {
+        "course_code": "ANCH 044",
+        "course_name": "The Early Roman Empire",
+        "course_description": null
+    },
+    "ANCH 045": {
+        "course_code": "ANCH 045",
+        "course_name": "Cities of the Mediterranean",
+        "course_description": null
+    },
+    "ANCH 056": {
+        "course_code": "ANCH 056",
+        "course_name": "Pagans &amp; Christians-Roman Emp",
+        "course_description": null
+    },
+    "ANCH 066": {
+        "course_code": "ANCH 066",
+        "course_name": "Rome and Late Antiquity",
+        "course_description": null
+    },
+    "ANCH 093": {
+        "course_code": "ANCH 093",
+        "course_name": "Directed Reading",
+        "course_description": null
+    },
+    "ANCH 180": {
+        "course_code": "ANCH 180",
+        "course_name": "Sr Honors Thesis",
+        "course_description": null
+    },
+    "ANCH 890": {
+        "course_code": "ANCH 890",
+        "course_name": "Democratic Athens",
+        "course_description": null
+    },
+    "ANTH 001D": {
+        "course_code": "ANTH 001D",
+        "course_name": "FYS: Counterculture",
+        "course_description": null
+    },
+    "ANTH 002F": {
+        "course_code": "ANTH 002F",
+        "course_name": "Anthro of Childhood &amp; Family",
+        "course_description": null
+    },
+    "ANTH 009C": {
+        "course_code": "ANTH 009C",
+        "course_name": "Cultures of the Mdl East (W)",
+        "course_description": null
+    },
+    "ANTH 020J": {
+        "course_code": "ANTH 020J",
+        "course_name": "Dance and Diaspora (W)",
+        "course_description": null
+    },
+    "ANTH 021D": {
+        "course_code": "ANTH 021D",
+        "course_name": "Anthro of Art &amp; Aesthetics",
+        "course_description": null
+    },
+    "ANTH 040J": {
+        "course_code": "ANTH 040J",
+        "course_name": "Soc Mvts LAm. Gender &amp;LGBTI",
+        "course_description": null
+    },
+    "ANTH 049A": {
+        "course_code": "ANTH 049A",
+        "course_name": "Comp Persp on Body-Attachment",
+        "course_description": null
+    },
+    "ANTH 080B": {
+        "course_code": "ANTH 080B",
+        "course_name": "AnthroLingui:Endang Lang",
+        "course_description": null
+    },
+    "ANTH 123": {
+        "course_code": "ANTH 123",
+        "course_name": "Culture, Power &amp; Islam",
+        "course_description": null
+    },
+    "ANTH BMC": {
+        "course_code": "ANTH BMC",
+        "course_name": "BMC:",
+        "course_description": null
+    },
+    "ANTH HAV": {
+        "course_code": "ANTH HAV",
+        "course_name": "HAV:",
+        "course_description": null
+    },
+    "ARAB 011A": {
+        "course_code": "ARAB 011A",
+        "course_name": "Arabic Conversation",
+        "course_description": null
+    },
+    "ARAB 012A": {
+        "course_code": "ARAB 012A",
+        "course_name": "Advanced Arabic Conversation",
+        "course_description": null
+    },
+    "ARAB 013A": {
+        "course_code": "ARAB 013A",
+        "course_name": "ForgnLang:Teaching &amp; Pedagogy",
+        "course_description": null
+    },
+    "ARAB 020": {
+        "course_code": "ARAB 020",
+        "course_name": "Arab Litr/Cultural Context",
+        "course_description": null
+    },
+    "ARAB 021": {
+        "course_code": "ARAB 021",
+        "course_name": "Tpcs in Mdrn Arabic Literature",
+        "course_description": null
+    },
+    "ARAB 025": {
+        "course_code": "ARAB 025",
+        "course_name": "War in Arab Lit and Cinema",
+        "course_description": null
+    },
+    "ARAB 076": {
+        "course_code": "ARAB 076",
+        "course_name": "Contemp Arab Women Writers",
+        "course_description": null
+    },
+    "ARAB 180HN": {
+        "course_code": "ARAB 180HN",
+        "course_name": "Thesis-ARAB",
+        "course_description": null
+    },
+    "ARTH 001F": {
+        "course_code": "ARTH 001F",
+        "course_name": "FYS: Picasso (W)",
+        "course_description": null
+    },
+    "ARTH 001P": {
+        "course_code": "ARTH 001P",
+        "course_name": "FYS: Objects of Empire",
+        "course_description": null
+    },
+    "ARTH 015": {
+        "course_code": "ARTH 015",
+        "course_name": "Architecture &amp; Space in China",
+        "course_description": null
+    },
+    "ARTH 017": {
+        "course_code": "ARTH 017",
+        "course_name": "Islamic Architecture",
+        "course_description": null
+    },
+    "ARTH 018": {
+        "course_code": "ARTH 018",
+        "course_name": "Digital Rome",
+        "course_description": null
+    },
+    "ARTH 020": {
+        "course_code": "ARTH 020",
+        "course_name": "Majors Workshop",
+        "course_description": null
+    },
+    "ARTH 023": {
+        "course_code": "ARTH 023",
+        "course_name": "Arts of the Ancient Americas",
+        "course_description": null
+    },
+    "ARTH 025": {
+        "course_code": "ARTH 025",
+        "course_name": "Colloquium:Native American Art",
+        "course_description": null
+    },
+    "ARTH 034HN": {
+        "course_code": "ARTH 034HN",
+        "course_name": "Japanese Art",
+        "course_description": null
+    },
+    "ARTH 035": {
+        "course_code": "ARTH 035",
+        "course_name": "Pictured Environments",
+        "course_description": null
+    },
+    "ARTH 038HN": {
+        "course_code": "ARTH 038HN",
+        "course_name": "Ritual &amp; Image-Buddh Trad",
+        "course_description": null
+    },
+    "ARTH 053": {
+        "course_code": "ARTH 053",
+        "course_name": "The Arts of Golden Age Spain",
+        "course_description": null
+    },
+    "ARTH 053HN": {
+        "course_code": "ARTH 053HN",
+        "course_name": "Michelangelo &amp; His Times",
+        "course_description": null
+    },
+    "ARTH 069": {
+        "course_code": "ARTH 069",
+        "course_name": "Urbanism in 19th-century Europ",
+        "course_description": null
+    },
+    "ARTH 075": {
+        "course_code": "ARTH 075",
+        "course_name": "Public Art in America",
+        "course_description": null
+    },
+    "ARTH 095": {
+        "course_code": "ARTH 095",
+        "course_name": "Cracking Visual Codes",
+        "course_description": null
+    },
+    "ARTH 096": {
+        "course_code": "ARTH 096",
+        "course_name": "Dir Rdg:",
+        "course_description": null
+    },
+    "ARTH 132HN": {
+        "course_code": "ARTH 132HN",
+        "course_name": "Arts -Buddh Temple - Japan",
+        "course_description": null
+    },
+    "ARTH 136HN": {
+        "course_code": "ARTH 136HN",
+        "course_name": "Word &amp; Image - Japanese Art",
+        "course_description": null
+    },
+    "ARTH 145HN": {
+        "course_code": "ARTH 145HN",
+        "course_name": "Gothic Art &amp; Architecture",
+        "course_description": null
+    },
+    "ARTH 147HN": {
+        "course_code": "ARTH 147HN",
+        "course_name": "Vis Narrative -Medieval Art",
+        "course_description": null
+    },
+    "ARTH 151HN": {
+        "course_code": "ARTH 151HN",
+        "course_name": "Renaissance Rome",
+        "course_description": null
+    },
+    "ARTH 155HN": {
+        "course_code": "ARTH 155HN",
+        "course_name": "Rembrandt &amp; His Times",
+        "course_description": null
+    },
+    "ARTH 164HN": {
+        "course_code": "ARTH 164HN",
+        "course_name": "Modern Art",
+        "course_description": null
+    },
+    "ARTH 166HN": {
+        "course_code": "ARTH 166HN",
+        "course_name": "Avant-Garde-Early 20C Art",
+        "course_description": null
+    },
+    "ARTH 168HN": {
+        "course_code": "ARTH 168HN",
+        "course_name": "Dada &amp; Surrealism",
+        "course_description": null
+    },
+    "ARTH 180HN": {
+        "course_code": "ARTH 180HN",
+        "course_name": "Thesis-ARTH",
+        "course_description": null
+    },
+    "ARTH 801HN": {
+        "course_code": "ARTH 801HN",
+        "course_name": "Art and Dance",
+        "course_description": null
+    },
+    "ARTH 802HN": {
+        "course_code": "ARTH 802HN",
+        "course_name": "JapPopCul: Sex, Lies, Markt",
+        "course_description": null
+    },
+    "ARTH 803HN": {
+        "course_code": "ARTH 803HN",
+        "course_name": "The Body in Contempo Art",
+        "course_description": null
+    },
+    "ARTH BMC": {
+        "course_code": "ARTH BMC",
+        "course_name": "BMC:",
+        "course_description": null
+    },
+    "ARTH HAV": {
+        "course_code": "ARTH HAV",
+        "course_name": "HAV:",
+        "course_description": null
+    },
+    "ARTH UPA": {
+        "course_code": "ARTH UPA",
+        "course_name": "UPA:",
+        "course_description": null
+    },
+    "ASIA 091CH": {
+        "course_code": "ASIA 091CH",
+        "course_name": "Dance across Borders-Mod China",
+        "course_description": null
+    },
+    "ASIA 180HN": {
+        "course_code": "ASIA 180HN",
+        "course_name": "Thesis-ASIA",
+        "course_description": null
+    },
+    "ASIA 801HN": {
+        "course_code": "ASIA 801HN",
+        "course_name": "Asia:Ritual ImageBuddh Trad",
+        "course_description": null
+    },
+    "ASIA 802HN": {
+        "course_code": "ASIA 802HN",
+        "course_name": "Buddhist Ethic-Domes Violen",
+        "course_description": null
+    },
+    "ASIA 803HN": {
+        "course_code": "ASIA 803HN",
+        "course_name": "Japanese Architecture",
+        "course_description": null
+    },
+    "ASIA 804HN": {
+        "course_code": "ASIA 804HN",
+        "course_name": "Performing Arts of Bali",
+        "course_description": null
+    },
+    "ASIA BMC": {
+        "course_code": "ASIA BMC",
+        "course_name": "BMC:",
+        "course_description": null
+    },
+    "ASIA HAV": {
+        "course_code": "ASIA HAV",
+        "course_name": "HAV:",
+        "course_description": null
+    },
+    "ASIA UPA": {
+        "course_code": "ASIA UPA",
+        "course_name": "UPA:",
+        "course_description": null
+    },
+    "ASTR 006": {
+        "course_code": "ASTR 006",
+        "course_name": "Introductory Cosmology",
+        "course_description": null
+    },
+    "ASTR 020": {
+        "course_code": "ASTR 020",
+        "course_name": "Black Holes &amp; the Big Bang",
+        "course_description": null
+    },
+    "ASTR 121HN": {
+        "course_code": "ASTR 121HN",
+        "course_name": "Observational Astronomy",
+        "course_description": null
+    },
+    "ASTR 123HN": {
+        "course_code": "ASTR 123HN",
+        "course_name": "Stellar Astrophysics",
+        "course_description": null
+    },
+    "ASTR 125": {
+        "course_code": "ASTR 125",
+        "course_name": "Stars in Interstellar Medium",
+        "course_description": null
+    },
+    "ASTR 126HN": {
+        "course_code": "ASTR 126HN",
+        "course_name": "Interstellar Medium",
+        "course_description": null
+    },
+    "ASTR 128HN": {
+        "course_code": "ASTR 128HN",
+        "course_name": "Galaxies &amp; Galactic Structure",
+        "course_description": null
+    },
+    "ASTR 180HN": {
+        "course_code": "ASTR 180HN",
+        "course_name": "Thesis-Astro",
+        "course_description": null
+    },
+    "ASTR 801HN": {
+        "course_code": "ASTR 801HN",
+        "course_name": "Astronomy I",
+        "course_description": null
+    },
+    "ASTR 802HN": {
+        "course_code": "ASTR 802HN",
+        "course_name": "Astronomy II",
+        "course_description": null
+    },
+    "ASTR HAV": {
+        "course_code": "ASTR HAV",
+        "course_name": "HAV:",
+        "course_description": null
+    },
+    "ASTR UPA": {
+        "course_code": "ASTR UPA",
+        "course_name": "UPA:",
+        "course_description": null
+    },
+    "BIOL 001SP": {
+        "course_code": "BIOL 001SP",
+        "course_name": "Biology - Scholars Program",
+        "course_description": null
+    },
+    "ANCH 016": {
+        "course_code": "ANCH 016",
+        "course_name": "Augustus and Rome",
+        "course_description": null
+    },
+    "ANCH 017": {
+        "course_code": "ANCH 017",
+        "course_name": "FYS: Pompeii/Shadow of Vesu(W)",
+        "course_description": null
+    },
+    "ANCH 890HN": {
+        "course_code": "ANCH 890HN",
+        "course_name": "Democratic Athens",
+        "course_description": null
+    },
+    "ANTH 041C": {
+        "course_code": "ANTH 041C",
+        "course_name": "Visual Cultrs of Mexico/Aztlan",
+        "course_description": null
+    },
+    "ANTH 049B": {
+        "course_code": "ANTH 049B",
+        "course_name": "Comparative Perspectives-Body",
+        "course_description": null
+    },
+    "ANTH UPA": {
+        "course_code": "ANTH UPA",
+        "course_name": "UPA:",
+        "course_description": null
+    },
+    "ARTH 001D": {
+        "course_code": "ARTH 001D",
+        "course_name": "FYS: Architecture of Phila (W)",
+        "course_description": null
+    },
+    "ARTH 001M": {
+        "course_code": "ARTH 001M",
+        "course_name": "FYS: Leonardo:Artist,Engr (W)",
+        "course_description": null
+    },
+    "ARTH 032": {
+        "course_code": "ARTH 032",
+        "course_name": "Arts of Jpns Tea Culture (W)",
+        "course_description": null
+    },
+    "ARTH 054": {
+        "course_code": "ARTH 054",
+        "course_name": "Survey of Latin American Arts",
+        "course_description": null
+    },
+    "ARTH 155": {
+        "course_code": "ARTH 155",
+        "course_name": "Picturing Colonialism",
+        "course_description": null
+    },
+    "ASIA 096": {
+        "course_code": "ASIA 096",
+        "course_name": "Thesis (W)",
+        "course_description": null
+    },
+    "ASTR 016": {
+        "course_code": "ASTR 016",
+        "course_name": "Modern Astrophysics",
+        "course_description": null
+    },
+    "ASTR 180": {
+        "course_code": "ASTR 180",
+        "course_name": "Honors Thesis",
+        "course_description": null
+    },
+    "BIOL 002SP": {
+        "course_code": "BIOL 002SP",
+        "course_name": "Biology- Scholars Program",
+        "course_description": null
+    },
+    "BIOL 011": {
+        "course_code": "BIOL 011",
+        "course_name": "Epigenetics",
+        "course_description": null
+    },
+    "ANCH 023HN": {
+        "course_code": "ANCH 023HN",
+        "course_name": "Alexander &amp; Hellenistic World",
+        "course_description": null
+    },
+    "ANCH 034": {
+        "course_code": "ANCH 034",
+        "course_name": "History/Archaeolo Early Greece",
+        "course_description": null
+    },
+    "ANCH 034A": {
+        "course_code": "ANCH 034A",
+        "course_name": "Hist/Archa Erly Greece-Attachm",
+        "course_description": null
+    },
+    "ANCH 035": {
+        "course_code": "ANCH 035",
+        "course_name": "History/Archaeol of Early Rome",
+        "course_description": null
+    },
+    "ANCH 044A": {
+        "course_code": "ANCH 044A",
+        "course_name": "The Early Roman Empire- Attach",
+        "course_description": null
+    },
+    "ANCH 114HN": {
+        "course_code": "ANCH 114HN",
+        "course_name": "Greek Drama",
+        "course_description": null
+    },
+    "ANCH 180HN": {
+        "course_code": "ANCH 180HN",
+        "course_name": "Thesis-ANCH",
+        "course_description": null
+    },
+    "ANCH 891HN": {
+        "course_code": "ANCH 891HN",
+        "course_name": "Greek Historians",
+        "course_description": null
+    },
+    "ANCH 892HN": {
+        "course_code": "ANCH 892HN",
+        "course_name": "Archain Greece",
+        "course_description": null
+    },
+    "ANCH 893HN": {
+        "course_code": "ANCH 893HN",
+        "course_name": "Ancient Storytelling Fiction",
+        "course_description": null
+    },
+    "ANTH 020N": {
+        "course_code": "ANTH 020N",
+        "course_name": "Anthropological Linguistics",
+        "course_description": null
+    },
+    "ANTH 023C": {
+        "course_code": "ANTH 023C",
+        "course_name": "Anthr Persp on Conservation(T)",
+        "course_description": null
+    },
+    "ANTH 031B": {
+        "course_code": "ANTH 031B",
+        "course_name": "Economic Anthropology",
+        "course_description": null
+    },
+    "ANTH 031BA": {
+        "course_code": "ANTH 031BA",
+        "course_name": "Economic Anthropology-Attachme",
+        "course_description": null
+    },
+    "ANTH 039C": {
+        "course_code": "ANTH 039C",
+        "course_name": "Food and Culture",
+        "course_description": null
+    },
+    "ANTH 043F": {
+        "course_code": "ANTH 043F",
+        "course_name": "Culture, Pwr &amp; Relg in Africa",
+        "course_description": null
+    },
+    "ANTH 053B": {
+        "course_code": "ANTH 053B",
+        "course_name": "Anthropology of Public Health",
+        "course_description": null
+    },
+    "ANTH 103": {
+        "course_code": "ANTH 103",
+        "course_name": "Humanitarianism: Anth Approach",
+        "course_description": null
+    },
+    "ANTH 112": {
+        "course_code": "ANTH 112",
+        "course_name": "Cities,Spaces,&amp;Power (T)",
+        "course_description": null
+    },
+    "ANTH 116": {
+        "course_code": "ANTH 116",
+        "course_name": "Anthropology of Capitalism",
+        "course_description": null
+    },
+    "ARAB 024": {
+        "course_code": "ARAB 024",
+        "course_name": "Cntmpry Arabic Fiction/Critici",
+        "course_description": null
+    },
+    "ARAB 890HN": {
+        "course_code": "ARAB 890HN",
+        "course_name": "Arab Literature",
+        "course_description": null
+    },
+    "ARTH 003": {
+        "course_code": "ARTH 003",
+        "course_name": "Asian Art: Past and Present",
+        "course_description": null
+    },
+    "ARTH 006": {
+        "course_code": "ARTH 006",
+        "course_name": "Contemporary Art",
+        "course_description": null
+    },
+    "ARTH 034": {
+        "course_code": "ARTH 034",
+        "course_name": "Colloquium: Asian Calligraphy",
+        "course_description": null
+    },
+    "ARTH 038": {
+        "course_code": "ARTH 038",
+        "course_name": "Women and Art",
+        "course_description": null
+    },
+    "ARTH 052": {
+        "course_code": "ARTH 052",
+        "course_name": "Global Renaissance",
+        "course_description": null
+    },
+    "ARTH 055": {
+        "course_code": "ARTH 055",
+        "course_name": "Dutch Art of Rembrandt",
+        "course_description": null
+    },
+    "ARTH 124HN": {
+        "course_code": "ARTH 124HN",
+        "course_name": "Colonial Latin Amer Art",
+        "course_description": null
+    },
+    "ARTH 147": {
+        "course_code": "ARTH 147",
+        "course_name": "Vis Narrat-Mediev Art",
+        "course_description": null
+    },
+    "ARTH 149": {
+        "course_code": "ARTH 149",
+        "course_name": "Clasicl in Art and Literat (W)",
+        "course_description": null
+    },
+    "ARTH 151": {
+        "course_code": "ARTH 151",
+        "course_name": "Renaissance Rome (W)",
+        "course_description": null
+    },
+    "ARTH 164": {
+        "course_code": "ARTH 164",
+        "course_name": "Modernism in Paris &amp; New York",
+        "course_description": null
+    },
+    "ARTH 855HN": {
+        "course_code": "ARTH 855HN",
+        "course_name": "Picturing Colonialism",
+        "course_description": null
+    },
+    "ASTR 002": {
+        "course_code": "ASTR 002",
+        "course_name": "Tracing the Unseen Universe",
+        "course_description": null
+    },
+    "ASTR 129HN": {
+        "course_code": "ASTR 129HN",
+        "course_name": "Cosmology",
+        "course_description": null
+    },
+    "BIOL 009": {
+        "course_code": "BIOL 009",
+        "course_name": "Our Food",
+        "course_description": null
+    },
+    "ANCH 010": {
+        "course_code": "ANCH 010",
+        "course_name": "FYS: Slavery in Ancient Greece",
+        "course_description": null
+    },
+    "ANCH 021": {
+        "course_code": "ANCH 021",
+        "course_name": "Rmn Soc and Ident: Food &amp; War",
+        "course_description": null
+    },
+    "ANCH 030": {
+        "course_code": "ANCH 030",
+        "course_name": "Hstry/Archaeology Roman Empire",
+        "course_description": null
+    },
+    "ANCH 034HN": {
+        "course_code": "ANCH 034HN",
+        "course_name": "History/Archaeo Early Greece",
+        "course_description": null
+    },
+    "ANCH 044HN": {
+        "course_code": "ANCH 044HN",
+        "course_name": "Early Roman Empire",
+        "course_description": null
+    },
+    "ANCH 046": {
+        "course_code": "ANCH 046",
+        "course_name": "Hist/Arch Late Rmn Empire (W)",
+        "course_description": null
+    },
+    "ANCH HAV": {
+        "course_code": "ANCH HAV",
+        "course_name": "HAV:",
+        "course_description": null
+    },
+    "ANTH 001": {
+        "course_code": "ANTH 001",
+        "course_name": "Fdns: Culture, Power, Meaning",
+        "course_description": null
+    },
+    "ANTH 020H": {
+        "course_code": "ANTH 020H",
+        "course_name": "Mapping Cult/Differ thru Dance",
+        "course_description": null
+    },
+    "ANTH 021HN": {
+        "course_code": "ANTH 021HN",
+        "course_name": "Anthro of Art &amp; Aesthetics",
+        "course_description": null
+    },
+    "ANTH 022HN": {
+        "course_code": "ANTH 022HN",
+        "course_name": "Anthro of Politics % Devel",
+        "course_description": null
+    },
+    "ANTH 032DA": {
+        "course_code": "ANTH 032DA",
+        "course_name": "Mass Media/Anthropology-Attach",
+        "course_description": null
+    },
+    "ANTH 041D": {
+        "course_code": "ANTH 041D",
+        "course_name": "Art, Money, Power",
+        "course_description": null
+    },
+    "ANTH 049BA": {
+        "course_code": "ANTH 049BA",
+        "course_name": "Comparative Persp-Body- Attach",
+        "course_description": null
+    },
+    "ANTH 051B": {
+        "course_code": "ANTH 051B",
+        "course_name": "Drugs and Governmentality",
+        "course_description": null
+    },
+    "ANTH 061B": {
+        "course_code": "ANTH 061B",
+        "course_name": "Politics &amp; Poetics of Interpre",
+        "course_description": null
+    },
+    "ANTH 077B": {
+        "course_code": "ANTH 077B",
+        "course_name": "Visual Anthropology of Dance",
+        "course_description": null
+    },
+    "ANTH 079B": {
+        "course_code": "ANTH 079B",
+        "course_name": "Dancing Desire Bollywood Film",
+        "course_description": null
+    },
+    "ANTH 091B": {
+        "course_code": "ANTH 091B",
+        "course_name": "Cultures of Scientific Thought",
+        "course_description": null
+    },
+    "ANTH 133": {
+        "course_code": "ANTH 133",
+        "course_name": "Anthropology of Biomedicine",
+        "course_description": null
+    },
+    "ARAB 022": {
+        "course_code": "ARAB 022",
+        "course_name": "Oppression in Arabic Fiction",
+        "course_description": null
+    },
+    "ARAB 023": {
+        "course_code": "ARAB 023",
+        "course_name": "Identity/Culture in Arab Cinem",
+        "course_description": null
+    },
+    "ARAB 093": {
+        "course_code": "ARAB 093",
+        "course_name": "Dir Rdg:",
+        "course_description": null
+    },
+    "ARAB 180": {
+        "course_code": "ARAB 180",
+        "course_name": "Honors Thesis",
+        "course_description": null
+    },
+    "ARAB 891HN": {
+        "course_code": "ARAB 891HN",
+        "course_name": "Oppression in Mod Arabic Lit",
+        "course_description": null
+    },
+    "ARTH 001Q": {
+        "course_code": "ARTH 001Q",
+        "course_name": "FYS: Caravaggio",
+        "course_description": null
+    },
+    "ARTH 013": {
+        "course_code": "ARTH 013",
+        "course_name": "Art/Arch Greece/Rome",
+        "course_description": null
+    },
+    "ARTH 024": {
+        "course_code": "ARTH 024",
+        "course_name": "Visualizing Africa/Ren Europe",
+        "course_description": null
+    },
+    "ARTH 025HN": {
+        "course_code": "ARTH 025HN",
+        "course_name": "Native American Art",
+        "course_description": null
+    },
+    "ARTH 027": {
+        "course_code": "ARTH 027",
+        "course_name": "Colloquium: Exhibiting Women",
+        "course_description": null
+    },
+    "ARTH 029": {
+        "course_code": "ARTH 029",
+        "course_name": "Colloq:ArchitecturPhiladelphia",
+        "course_description": null
+    },
+    "ARTH 032HN": {
+        "course_code": "ARTH 032HN",
+        "course_name": "Japanese Tea Culture",
+        "course_description": null
+    },
+    "ARTH 036": {
+        "course_code": "ARTH 036",
+        "course_name": "Mdrn Japanese Architecture",
+        "course_description": null
+    },
+    "ARTH 056": {
+        "course_code": "ARTH 056",
+        "course_name": "Craftsman to Virtuoso",
+        "course_description": null
+    },
+    "ARTH 057": {
+        "course_code": "ARTH 057",
+        "course_name": "Leonardo, Raphael, Michelangel",
+        "course_description": null
+    },
+    "ARTH 066": {
+        "course_code": "ARTH 066",
+        "course_name": "Colloq:Race,Space,Architecture",
+        "course_description": null
+    },
+    "ARTH 073": {
+        "course_code": "ARTH 073",
+        "course_name": "GlobalHistArch:1400-Present",
+        "course_description": null
+    },
+    "ARTH 077": {
+        "course_code": "ARTH 077",
+        "course_name": "Photography, Race, ID in Amer",
+        "course_description": null
+    },
+    "ARTH 078": {
+        "course_code": "ARTH 078",
+        "course_name": "Museum Matters:Pract,Thry,Cont",
+        "course_description": null
+    },
+    "ARTH 834HN": {
+        "course_code": "ARTH 834HN",
+        "course_name": "East Asian Calligraphy",
+        "course_description": null
+    },
+    "ARTT 001": {
+        "course_code": "ARTT 001",
+        "course_name": "Foundation Drawing",
+        "course_description": null
+    },
+    "ARTT 001B": {
+        "course_code": "ARTT 001B",
+        "course_name": "FYS: Drawing to Find Out",
+        "course_description": null
+    },
+    "ARTT 002": {
+        "course_code": "ARTT 002",
+        "course_name": "FYS: Drawing to Find Out",
+        "course_description": null
+    },
+    "ARTT 003": {
+        "course_code": "ARTT 003",
+        "course_name": "Photography I",
+        "course_description": null
+    },
+    "ARTT 006": {
+        "course_code": "ARTT 006",
+        "course_name": "Photography III: Altn Process",
+        "course_description": null
+    },
+    "ARTT 008": {
+        "course_code": "ARTT 008",
+        "course_name": "Painting I",
+        "course_description": null
+    },
+    "ARTT 009": {
+        "course_code": "ARTT 009",
+        "course_name": "Sculpture II- Clay Modeling",
+        "course_description": null
+    },
+    "ARTT 010": {
+        "course_code": "ARTT 010",
+        "course_name": "Drawing II: Life Drawing",
+        "course_description": null
+    },
+    "ARTT 011": {
+        "course_code": "ARTT 011",
+        "course_name": "Drawing II: Arch Turning Crns",
+        "course_description": null
+    },
+    "ARTT 015": {
+        "course_code": "ARTT 015",
+        "course_name": "Ceramics II- The Potter&#39;sWheel",
+        "course_description": null
+    },
+    "ARTT 016": {
+        "course_code": "ARTT 016",
+        "course_name": "Sculpture I",
+        "course_description": null
+    },
+    "ARTT 020": {
+        "course_code": "ARTT 020",
+        "course_name": "Ceramics I",
+        "course_description": null
+    },
+    "ARTT 020C": {
+        "course_code": "ARTT 020C",
+        "course_name": "Painting-Advanced Studies",
+        "course_description": null
+    },
+    "ARTT 020D": {
+        "course_code": "ARTT 020D",
+        "course_name": "Photography-Advanced Studies",
+        "course_description": null
+    },
+    "ARTT 021": {
+        "course_code": "ARTT 021",
+        "course_name": "Ceramics II: The Potter&#39;s Whee",
+        "course_description": null
+    },
+    "ARTT 022": {
+        "course_code": "ARTT 022",
+        "course_name": "Ceramics II: Container as Arch",
+        "course_description": null
+    },
+    "ARTT 030": {
+        "course_code": "ARTT 030",
+        "course_name": "Painting I",
+        "course_description": null
+    },
+    "ARTT 031": {
+        "course_code": "ARTT 031",
+        "course_name": "Painting I: The Landscape",
+        "course_description": null
+    },
+    "ARTT 032": {
+        "course_code": "ARTT 032",
+        "course_name": "Painting II: Figure Compositio",
+        "course_description": null
+    },
+    "ARTT 033": {
+        "course_code": "ARTT 033",
+        "course_name": "Painting II: Color",
+        "course_description": null
+    },
+    "ARTT 041": {
+        "course_code": "ARTT 041",
+        "course_name": "Photography II: Color",
+        "course_description": null
+    },
+    "ARTT 042": {
+        "course_code": "ARTT 042",
+        "course_name": "Photography III: Alter Process",
+        "course_description": null
+    },
+    "ARTT 050": {
+        "course_code": "ARTT 050",
+        "course_name": "Sculpture I: Mat&#39;ls &amp; Processe",
+        "course_description": null
+    },
+    "ARTT 051": {
+        "course_code": "ARTT 051",
+        "course_name": "Sculpture II: Clay Modeling",
+        "course_description": null
+    },
+    "ARTT 052": {
+        "course_code": "ARTT 052",
+        "course_name": "Sculpture II: Woodworking",
+        "course_description": null
+    },
+    "ARTT 060": {
+        "course_code": "ARTT 060",
+        "course_name": "Book Arts",
+        "course_description": null
+    },
+    "ARTT 070": {
+        "course_code": "ARTT 070",
+        "course_name": "Advanced Studies:Ceramics",
+        "course_description": null
+    },
+    "ARTT 071": {
+        "course_code": "ARTT 071",
+        "course_name": "Advanced Studies: Drawing",
+        "course_description": null
+    },
+    "ARTT 073": {
+        "course_code": "ARTT 073",
+        "course_name": "Advanced Studies: Photography",
+        "course_description": null
+    },
+    "ARTT 074": {
+        "course_code": "ARTT 074",
+        "course_name": "Advanced Studies: Sculpture",
+        "course_description": null
+    },
+    "ARTT 076": {
+        "course_code": "ARTT 076",
+        "course_name": "Advanced Studies: Book Arts",
+        "course_description": null
+    },
+    "ARTT 080": {
+        "course_code": "ARTT 080",
+        "course_name": "Advanced Studies II: Ceramics",
+        "course_description": null
+    },
+    "ARTT 081": {
+        "course_code": "ARTT 081",
+        "course_name": "Advanced Studies II: Drawing",
+        "course_description": null
+    },
+    "ARTT 083": {
+        "course_code": "ARTT 083",
+        "course_name": "Advanced Studies II: Photograp",
+        "course_description": null
+    },
+    "ARTT 084": {
+        "course_code": "ARTT 084",
+        "course_name": "Advanced Studies II: Sculpture",
+        "course_description": null
+    },
+    "ARTT 086": {
+        "course_code": "ARTT 086",
+        "course_name": "Advanced Studies II: Book Arts",
+        "course_description": null
+    },
+    "ARTT 090": {
+        "course_code": "ARTT 090",
+        "course_name": "Senior Thesis Wkshp I",
+        "course_description": null
+    },
+    "ARTT 091": {
+        "course_code": "ARTT 091",
+        "course_name": "Senior Thesis Wkshp II",
+        "course_description": null
+    },
+    "ARTT UPA": {
+        "course_code": "ARTT UPA",
+        "course_name": "UPA:",
+        "course_description": null
+    },
+    "ASIA 015": {
+        "course_code": "ASIA 015",
+        "course_name": "Intro to East Asian Humanities",
+        "course_description": null
+    },
+    "ASTR 001A": {
+        "course_code": "ASTR 001A",
+        "course_name": "Introductory Astronomy II",
+        "course_description": null
+    },
+    "ASTR 014": {
+        "course_code": "ASTR 014",
+        "course_name": "Solar System/Cosmology",
+        "course_description": null
+    },
+    "ASTR 121": {
+        "course_code": "ASTR 121",
+        "course_name": "Rsch Tech Observatio Astronomy",
+        "course_description": null
+    },
+    "ANCH 011": {
+        "course_code": "ANCH 011",
+        "course_name": "FYS:Rome:Archaeology of Empire",
+        "course_description": null
+    },
+    "ANTH 003G": {
+        "course_code": "ANTH 003G",
+        "course_name": "FYS: Dev &amp; Its Discontents (W)",
+        "course_description": null
+    },
+    "ARTH 028": {
+        "course_code": "ARTH 028",
+        "course_name": "Replication in Chinese Art",
+        "course_description": null
+    },
+    "ARTH 072": {
+        "course_code": "ARTH 072",
+        "course_name": "GlobalHistArch:Prehistory-1750",
+        "course_description": null
+    },
+    "ARTH 153": {
+        "course_code": "ARTH 153",
+        "course_name": "Mdrn Architecture &amp; Urbanism",
+        "course_description": null
+    },
+    "ARTT 085": {
+        "course_code": "ARTT 085",
+        "course_name": "Advanced Studies II: Arch Draw",
+        "course_description": null
+    },
+    "ASTR BMC": {
+        "course_code": "ASTR BMC",
+        "course_name": "BMC:",
+        "course_description": null
+    },
+    "ANCH 046A": {
+        "course_code": "ANCH 046A",
+        "course_name": "Hist&amp;Archaeology Late Roman",
+        "course_description": null
+    },
+    "ANCH UPA": {
+        "course_code": "ANCH UPA",
+        "course_name": "UPA:",
+        "course_description": null
+    },
+    "ANCH UPA:": {
+        "course_code": "ANCH UPA:",
+        "course_name": "UPA:",
+        "course_description": null
+    },
+    "ANTH 023E": {
+        "course_code": "ANTH 023E",
+        "course_name": "Ethnographic Research Methods",
+        "course_description": null
+    },
+    "ANTH 031": {
+        "course_code": "ANTH 031",
+        "course_name": "Colorism in Paradise",
+        "course_description": null
+    },
+    "ANTH 031C": {
+        "course_code": "ANTH 031C",
+        "course_name": "Hispanics,Mestizos,Latinxs(M)",
+        "course_description": null
+    },
+    "ANTH 033B": {
+        "course_code": "ANTH 033B",
+        "course_name": "Environmental Anthropology",
+        "course_description": null
+    },
+    "ANTH 071C": {
+        "course_code": "ANTH 071C",
+        "course_name": "Anthropology of the Mind",
+        "course_description": null
+    },
+    "ANTH 071D": {
+        "course_code": "ANTH 071D",
+        "course_name": "Discourse and Power",
+        "course_description": null
+    },
+    "ARTH 014": {
+        "course_code": "ARTH 014",
+        "course_name": "Facing Race&amp;Identity Amer Art",
+        "course_description": null
+    },
+    "ARTH 030": {
+        "course_code": "ARTH 030",
+        "course_name": "Colloq:Art Enlivenment E. Asia",
+        "course_description": null
+    },
+    "ARTH 037": {
+        "course_code": "ARTH 037",
+        "course_name": "Modern &amp; Contemp Chinese Art",
+        "course_description": null
+    },
+    "ARTH 040": {
+        "course_code": "ARTH 040",
+        "course_name": "Michelangelo to Mussolini:Clas",
+        "course_description": null
+    },
+    "ARTH 040A": {
+        "course_code": "ARTH 040A",
+        "course_name": "Michelangelo Mussolini-Attch",
+        "course_description": null
+    },
+    "ARTT 062": {
+        "course_code": "ARTT 062",
+        "course_name": "Drawing Arch-TurningCorners II",
+        "course_description": null
+    },
+    "BIOL 002": {
+        "course_code": "BIOL 002",
+        "course_name": "Organismal &amp; Popul Biol.(W)",
+        "course_description": null
+    },
+    "ARTH 001G": {
+        "course_code": "ARTH 001G",
+        "course_name": "FYS:Art Animation in E.Asia(W)",
+        "course_description": null
+    },
+    "ARTH 002": {
+        "course_code": "ARTH 002",
+        "course_name": "The Western Tradition",
+        "course_description": null
+    },
+    "ARTH 004": {
+        "course_code": "ARTH 004",
+        "course_name": "FYS:Art of Animation in E.Asia",
+        "course_description": null
+    },
+    "ARTH 021": {
+        "course_code": "ARTH 021",
+        "course_name": "Art &amp; Technology",
+        "course_description": null
+    },
+    "ARTH 031": {
+        "course_code": "ARTH 031",
+        "course_name": "Arts of China",
+        "course_description": null
+    },
+    "ARTH 045": {
+        "course_code": "ARTH 045",
+        "course_name": "Topics in Contemporary Art",
+        "course_description": null
+    },
+    "ARTH 046": {
+        "course_code": "ARTH 046",
+        "course_name": "Socially Engaged Art in Americ",
+        "course_description": null
+    },
+    "ARTH 062": {
+        "course_code": "ARTH 062",
+        "course_name": "Streets and Passages",
+        "course_description": null
+    },
+    "ARTH 068": {
+        "course_code": "ARTH 068",
+        "course_name": "Topics in Contemp Architec",
+        "course_description": null
+    },
+    "ARTT 040": {
+        "course_code": "ARTT 040",
+        "course_name": "Photography I",
+        "course_description": null
+    },
+    "ARTT 072": {
+        "course_code": "ARTT 072",
+        "course_name": "Advanced Studies: Painting",
+        "course_description": null
+    },
+    "ASIA 052": {
+        "course_code": "ASIA 052",
+        "course_name": "Afganistan:Central&amp;South Asia",
+        "course_description": null
+    },
+    "ANCH 013": {
+        "course_code": "ANCH 013",
+        "course_name": "FYS: In Search of Troy",
+        "course_description": null
+    },
+    "ANCH 098": {
+        "course_code": "ANCH 098",
+        "course_name": "Senior Course Study",
+        "course_description": null
+    },
+    "ANTH 044": {
+        "course_code": "ANTH 044",
+        "course_name": "Gndr, Sexuality, Soc Chng (W)",
+        "course_description": null
+    },
+    "ANTH 081F": {
+        "course_code": "ANTH 081F",
+        "course_name": "Desire Under Capitalism",
+        "course_description": null
+    },
+    "ARAB 892HN": {
+        "course_code": "ARAB 892HN",
+        "course_name": "ARAB 022/021 Oppres/Mod Lit",
+        "course_description": null
+    },
+    "ARTH 047": {
+        "course_code": "ARTH 047",
+        "course_name": "Cnterculture Arch &amp; Urbanism",
+        "course_description": null
+    },
+    "ARTH 058": {
+        "course_code": "ARTH 058",
+        "course_name": "Modern Architecture",
+        "course_description": null
+    },
+    "ARTH 153HN": {
+        "course_code": "ARTH 153HN",
+        "course_name": "Modern Arch &amp; Urbanism",
+        "course_description": null
+    },
+    "ARTH 160": {
+        "course_code": "ARTH 160",
+        "course_name": "Global Contemporary Art",
+        "course_description": null
+    },
+    "ARTT 812HN": {
+        "course_code": "ARTT 812HN",
+        "course_name": "Studio Art",
+        "course_description": null
+    },
+    "ARTT 81HN": {
+        "course_code": "ARTT 81HN",
+        "course_name": "Studio Art",
+        "course_description": null
+    },
+    "ARTT HAV": {
+        "course_code": "ARTT HAV",
+        "course_name": "HAV:",
+        "course_description": null
+    },
+    "ASTR 019": {
+        "course_code": "ASTR 019",
+        "course_name": "Radio Astronomy",
+        "course_description": null
+    },
+    "ANCH 028": {
+        "course_code": "ANCH 028",
+        "course_name": "Ancient Egypt",
+        "course_description": null
+    },
+    "ANCH 028A": {
+        "course_code": "ANCH 028A",
+        "course_name": "Ancient Egypt-Attchment",
+        "course_description": null
+    },
+    "ANCH 040": {
+        "course_code": "ANCH 040",
+        "course_name": "New Testament in Greco-Roman",
+        "course_description": null
+    },
+    "ANCH 043": {
+        "course_code": "ANCH 043",
+        "course_name": "Thucydides-War, Plague&amp;Democr.",
+        "course_description": null
+    },
+    "ANCH BMC": {
+        "course_code": "ANCH BMC",
+        "course_name": "BMC:",
+        "course_description": null
+    },
+    "ANTH 002D": {
+        "course_code": "ANTH 002D",
+        "course_name": "FYS:Culture &amp; Gender",
+        "course_description": null
+    },
+    "ANTH 032D": {
+        "course_code": "ANTH 032D",
+        "course_name": "Mass Media &amp; Anthropology",
+        "course_description": null
+    },
+    "ANTH 033E": {
+        "course_code": "ANTH 033E",
+        "course_name": "Env. Justice: Ethnography, Pol",
+        "course_description": null
+    },
+    "ANTH 043E": {
+        "course_code": "ANTH 043E",
+        "course_name": "Culture,Health, Illness",
+        "course_description": null
+    },
+    "ANTH 122": {
+        "course_code": "ANTH 122",
+        "course_name": "Urban Ethnographies (M)",
+        "course_description": null
+    },
+    "ANTH 127": {
+        "course_code": "ANTH 127",
+        "course_name": "Cultures of Contemporary Finan",
+        "course_description": null
+    },
+    "ARAB 030": {
+        "course_code": "ARAB 030",
+        "course_name": "Writing America in Arabic",
+        "course_description": null
+    },
+    "ARAB 041": {
+        "course_code": "ARAB 041",
+        "course_name": "Self&amp;Nation in Mahmoud Darwish",
+        "course_description": null
+    },
+    "ARTH 048": {
+        "course_code": "ARTH 048",
+        "course_name": "20th Century Latin Amer Art",
+        "course_description": null
+    },
+    "ARTH 049": {
+        "course_code": "ARTH 049",
+        "course_name": "Document: History and Practice",
+        "course_description": null
+    },
+    "ARTH 152": {
+        "course_code": "ARTH 152",
+        "course_name": "Arts &amp; Crafts as Avant-Garde",
+        "course_description": null
+    },
+    "ARTT 005": {
+        "course_code": "ARTT 005",
+        "course_name": "FYS: Collaborative Art-Making",
+        "course_description": null
+    },
+    "ARTT 019": {
+        "course_code": "ARTT 019",
+        "course_name": "Studio Practices in Ceramics",
+        "course_description": null
+    },
+    "ARTT 039": {
+        "course_code": "ARTT 039",
+        "course_name": "Photography I: Expanding Appro",
+        "course_description": null
+    },
+    "ARTT 043": {
+        "course_code": "ARTT 043",
+        "course_name": "Photo II: Long Term Project",
+        "course_description": null
+    },
+    "ARTT 049": {
+        "course_code": "ARTT 049",
+        "course_name": "Document: History and Practice",
+        "course_description": null
+    },
+    "ARTT 053": {
+        "course_code": "ARTT 053",
+        "course_name": "Sculpture II: Sculpture and th",
+        "course_description": null
+    },
+    "ARTT 054": {
+        "course_code": "ARTT 054",
+        "course_name": "Materials &amp; Processes",
+        "course_description": null
+    },
+    "ARTT 055": {
+        "course_code": "ARTT 055",
+        "course_name": "Sculpture 2:Perfect/Imperfect",
+        "course_description": null
+    },
+    "ANTH 034C": {
+        "course_code": "ANTH 034C",
+        "course_name": "NatAmer Cult &amp; Contemp Music",
+        "course_description": null
+    },
+    "ANTH 037B": {
+        "course_code": "ANTH 037B",
+        "course_name": "Anthropology of Law",
+        "course_description": null
+    },
+    "ARAB 095": {
+        "course_code": "ARAB 095",
+        "course_name": "Arabic Literature: Society and",
+        "course_description": null
+    },
+    "ARTT 025": {
+        "course_code": "ARTT 025",
+        "course_name": "Ceramics II:Form &amp; Design Pott",
+        "course_description": null
+    },
+    "ARTT 100": {
+        "course_code": "ARTT 100",
+        "course_name": "Painting I: Drawing Into Paint",
+        "course_description": null
+    },
+    "ARTT 120": {
+        "course_code": "ARTT 120",
+        "course_name": "Studio Architecture I: Turning",
+        "course_description": null
+    },
+    "ARTT 176": {
+        "course_code": "ARTT 176",
+        "course_name": "Painting III: Studio Materials",
+        "course_description": null
+    },
+    "ARTT 225": {
+        "course_code": "ARTT 225",
+        "course_name": "Sculpture I: Form, Material, P",
+        "course_description": null
+    },
+    "ARTT 240": {
+        "course_code": "ARTT 240",
+        "course_name": "Sculpture II: Installation Art",
+        "course_description": null
+    },
+    "ARTT 300": {
+        "course_code": "ARTT 300",
+        "course_name": "Photography I:Foundations Phot",
+        "course_description": null
+    },
+    "ANCH 012": {
+        "course_code": "ANCH 012",
+        "course_name": "FYS: The World of the Pharaohs",
+        "course_description": null
+    },
+    "ANCH 031A": {
+        "course_code": "ANCH 031A",
+        "course_name": "Attch: Greece &amp; the Barbarians",
+        "course_description": null
+    },
+    "ANTH 027B": {
+        "course_code": "ANTH 027B",
+        "course_name": "Digital Ethnography (M)",
+        "course_description": null
+    },
+    "ANTH 034D": {
+        "course_code": "ANTH 034D",
+        "course_name": "Indigenous Archaeology",
+        "course_description": null
+    },
+    "ANTH 037C": {
+        "course_code": "ANTH 037C",
+        "course_name": "Anti-Corrupt. Politics in LAm",
+        "course_description": null
+    },
+    "ANTH 042D": {
+        "course_code": "ANTH 042D",
+        "course_name": "Political Anthropology",
+        "course_description": null
+    },
+    "ANTH 095": {
+        "course_code": "ANTH 095",
+        "course_name": "Independent Study",
+        "course_description": null
+    },
+    "ARTH 026": {
+        "course_code": "ARTH 026",
+        "course_name": "Painting, Chemistry and Conser",
+        "course_description": null
+    },
+    "ARTH 094": {
+        "course_code": "ARTH 094",
+        "course_name": "Transnational Modernisms",
+        "course_description": null
+    },
+    "ARTH 160HN": {
+        "course_code": "ARTH 160HN",
+        "course_name": "Global Contemporary Art",
+        "course_description": null
+    },
+    "ARTT 075": {
+        "course_code": "ARTT 075",
+        "course_name": "Advanced Studies: Archit Drawi",
+        "course_description": null
+    },
+    "ARTT 093": {
+        "course_code": "ARTT 093",
+        "course_name": "Directed Reading",
+        "course_description": null
+    },
+    "ARTT 126": {
+        "course_code": "ARTT 126",
+        "course_name": "Painting II: Figure Compositio",
+        "course_description": null
+    },
+    "ARTT 310": {
+        "course_code": "ARTT 310",
+        "course_name": "Photography II: The Long Term",
+        "course_description": null
+    },
+    "ARTT 330": {
+        "course_code": "ARTT 330",
+        "course_name": "Photo III: Alternative Process",
+        "course_description": null
+    },
+    "ARTT 800": {
+        "course_code": "ARTT 800",
+        "course_name": "Capstone: Interpret Narrative",
+        "course_description": null
+    },
+    "ARTT 815": {
+        "course_code": "ARTT 815",
+        "course_name": "Design for the  Potter",
+        "course_description": null
+    },
+    "BIOL 008": {
+        "course_code": "BIOL 008",
+        "course_name": "FYS: Freshman Biology Seminar",
+        "course_description": null
+    },
+    "ANCH 022": {
+        "course_code": "ANCH 022",
+        "course_name": "Greek Art and Archaeology",
+        "course_description": null
+    },
+    "ANCH 022A": {
+        "course_code": "ANCH 022A",
+        "course_name": "Attchmnt:",
+        "course_description": null
+    },
+    "ARTH 042": {
+        "course_code": "ARTH 042",
+        "course_name": "Photo &amp; East Asia",
+        "course_description": null
+    },
+    "ARTH 067": {
+        "course_code": "ARTH 067",
+        "course_name": "Bldg. Arch. From Dirt to Dust",
+        "course_description": null
+    },
+    "ARTH 076": {
+        "course_code": "ARTH 076",
+        "course_name": "Art Museums: History, Theory,",
+        "course_description": null
+    },
+    "ARTT 002A": {
+        "course_code": "ARTT 002A",
+        "course_name": "3D Design I: Design and Compos",
+        "course_description": null
+    },
+    "ARTT 003A": {
+        "course_code": "ARTT 003A",
+        "course_name": "Painting I: Drawing Into Paint",
+        "course_description": null
+    },
+    "ARTT 004A": {
+        "course_code": "ARTT 004A",
+        "course_name": "Photography I:Foundations Phot",
+        "course_description": null
+    },
+    "ARTT 005Z": {
+        "course_code": "ARTT 005Z",
+        "course_name": "Student Run:Ceramics",
+        "course_description": null
+    },
+    "ARTT 006A": {
+        "course_code": "ARTT 006A",
+        "course_name": "Studio Architecture I: Turning",
+        "course_description": null
+    },
+    "ARTT 006B": {
+        "course_code": "ARTT 006B",
+        "course_name": "Monuments and Public Space: St",
+        "course_description": null
+    },
+    "ARTT 023B": {
+        "course_code": "ARTT 023B",
+        "course_name": "3D Design II: Process and Iter",
+        "course_description": null
+    },
+    "ARTT 033A": {
+        "course_code": "ARTT 033A",
+        "course_name": "Painting II: Color and Structu",
+        "course_description": null
+    },
+    "ARTT 044A": {
+        "course_code": "ARTT 044A",
+        "course_name": "Photography II: Digital Photog",
+        "course_description": null
+    },
+    "ARTT 054D": {
+        "course_code": "ARTT 054D",
+        "course_name": "Sculpture II: Installation",
+        "course_description": null
+    },
+    "ASAM 010": {
+        "course_code": "ASAM 010",
+        "course_name": "Asian American History",
+        "course_description": null
+    },
+    "ASAM 065": {
+        "course_code": "ASAM 065",
+        "course_name": "Asian American Literature",
+        "course_description": null
+    },
+    "BIOL 005": {
+        "course_code": "BIOL 005",
+        "course_name": "FYS:Exploring Reg&amp;Cancer Bio",
+        "course_description": null
+    },
+    "ANCH 006B": {
+        "course_code": "ANCH 006B",
+        "course_name": "TheTalmud:MentalHlthAntiquity",
+        "course_description": null
+    },
+    "ANTH 037D": {
+        "course_code": "ANTH 037D",
+        "course_name": "Engaging the Law",
+        "course_description": null
+    },
+    "ANTH 044B": {
+        "course_code": "ANTH 044B",
+        "course_name": "Native American Gender Issues",
+        "course_description": null
+    },
+    "ANTH 044C": {
+        "course_code": "ANTH 044C",
+        "course_name": "Decolonizing Rsrch Mthds (M)",
+        "course_description": null
+    },
+    "ANTH 051": {
+        "course_code": "ANTH 051",
+        "course_name": "Contemporary Israel/Palestine",
+        "course_description": null
+    },
+    "ANTH 137": {
+        "course_code": "ANTH 137",
+        "course_name": "Law&amp;Viol:Anth Bynd Forens Gaze",
+        "course_description": null
+    },
+    "ANTH 999HN": {
+        "course_code": "ANTH 999HN",
+        "course_name": "ANTH 049B/PSYC 135",
+        "course_description": null
+    },
+    "ARAB 009P": {
+        "course_code": "ARAB 009P",
+        "course_name": "FYS:Refuge:Resettled in Phila",
+        "course_description": null
+    },
+    "ARAB 013": {
+        "course_code": "ARAB 013",
+        "course_name": "Levantine Arabic",
+        "course_description": null
+    },
+    "ARAB 015": {
+        "course_code": "ARAB 015",
+        "course_name": "Media Arabic",
+        "course_description": null
+    },
+    "ARTH 007": {
+        "course_code": "ARTH 007",
+        "course_name": "Mod &amp; Contemp Indigenous Art",
+        "course_description": null
+    },
+    "ARTH 061": {
+        "course_code": "ARTH 061",
+        "course_name": "Art&amp;Culture of Indigenous Phil",
+        "course_description": null
+    },
+    "ARTH 079": {
+        "course_code": "ARTH 079",
+        "course_name": "Indigenous Arts of the America",
+        "course_description": null
+    },
+    "ARTH 080": {
+        "course_code": "ARTH 080",
+        "course_name": "FYS:Blackness In&amp;Out of Museum",
+        "course_description": null
+    },
+    "ARTH 092": {
+        "course_code": "ARTH 092",
+        "course_name": "Arts and Propoganda In Early M",
+        "course_description": null
+    },
+    "ARTH 100": {
+        "course_code": "ARTH 100",
+        "course_name": "Senior Capstone (W)",
+        "course_description": null
+    },
+    "ARTH 138": {
+        "course_code": "ARTH 138",
+        "course_name": "Ren Art &amp; Global Expan HNRS",
+        "course_description": null
+    },
+    "ARTT 002B": {
+        "course_code": "ARTT 002B",
+        "course_name": "3D Design I:Intro Dig Methods",
+        "course_description": null
+    },
+    "ARTT 005A": {
+        "course_code": "ARTT 005A",
+        "course_name": "Sculpture I: Form, Material, P",
+        "course_description": null
+    },
+    "ARTT 006C": {
+        "course_code": "ARTT 006C",
+        "course_name": "Arch of Air:Envs in Movement",
+        "course_description": null
+    },
+    "ARTT 006D": {
+        "course_code": "ARTT 006D",
+        "course_name": "ARCH Studio:Cities,Ter, Infras",
+        "course_description": null
+    },
+    "ARTT 006E": {
+        "course_code": "ARTT 006E",
+        "course_name": "ARCH 3DRep:Taking Things Apart",
+        "course_description": null
+    },
+    "ARTT 017": {
+        "course_code": "ARTT 017",
+        "course_name": "Advanced Study Drawing I",
+        "course_description": null
+    },
+    "ARTT 023C": {
+        "course_code": "ARTT 023C",
+        "course_name": "3D Design II: Exp Wood Structu",
+        "course_description": null
+    },
+    "ARTT 033B": {
+        "course_code": "ARTT 033B",
+        "course_name": "Painting II: Fig Composition",
+        "course_description": null
+    },
+    "ARTT 033C": {
+        "course_code": "ARTT 033C",
+        "course_name": "Painting II:Painting Landscape",
+        "course_description": null
+    },
+    "ARTT 034B": {
+        "course_code": "ARTT 034B",
+        "course_name": "Painting III: Studio Materials",
+        "course_description": null
+    },
+    "ARTT 034C": {
+        "course_code": "ARTT 034C",
+        "course_name": "Painting III: Fresco Painting",
+        "course_description": null
+    },
+    "ARTT 035A": {
+        "course_code": "ARTT 035A",
+        "course_name": "Painting III: Self-Direction P",
+        "course_description": null
+    },
+    "ARTT 044B": {
+        "course_code": "ARTT 044B",
+        "course_name": "Photography II: Long Term Docu",
+        "course_description": null
+    },
+    "ARTT 054C": {
+        "course_code": "ARTT 054C",
+        "course_name": "Sculpture II: Sculpture &amp; Envi",
+        "course_description": null
+    },
+    "ARTT 054E": {
+        "course_code": "ARTT 054E",
+        "course_name": "Sculpture II: Metal",
+        "course_description": null
+    },
+    "ARTT 054F": {
+        "course_code": "ARTT 054F",
+        "course_name": "Sculpture II: Casting",
+        "course_description": null
+    },
+    "ARTT 082": {
+        "course_code": "ARTT 082",
+        "course_name": "Advanced Studies II: Painting",
+        "course_description": null
+    },
+    "ARTT 095": {
+        "course_code": "ARTT 095",
+        "course_name": "Advanced Study III-Painting",
+        "course_description": null
+    },
+    "ARTT 096": {
+        "course_code": "ARTT 096",
+        "course_name": "Advanced Studies I-Studio Arch",
+        "course_description": null
+    },
+    "ARTT 101": {
+        "course_code": "ARTT 101",
+        "course_name": "Contemporary Art Practice",
+        "course_description": null
+    },
+    "ARTT 102A": {
+        "course_code": "ARTT 102A",
+        "course_name": "Senior Capstone",
+        "course_description": null
+    },
+    "ARTT 102B": {
+        "course_code": "ARTT 102B",
+        "course_name": "Senior Capstone",
+        "course_description": null
+    },
+    "ARTT 102C": {
+        "course_code": "ARTT 102C",
+        "course_name": "Senior Capstone",
+        "course_description": null
+    },
+    "ARTT BMC": {
+        "course_code": "ARTT BMC",
+        "course_name": "BMC:",
+        "course_description": null
+    },
+    "ASAM 002": {
+        "course_code": "ASAM 002",
+        "course_name": "Taiko &amp; Asian Amer Experience",
+        "course_description": null
+    },
+    "ASAM 011": {
+        "course_code": "ASAM 011",
+        "course_name": "K-12 Asian Amr Studies Curric",
+        "course_description": null
+    },
+    "ASAM 046": {
+        "course_code": "ASAM 046",
+        "course_name": "Race,Nation,Empire &amp; Education",
+        "course_description": null
+    },
+    "ASAM 047A": {
+        "course_code": "ASAM 047A",
+        "course_name": "Asian American Lit &amp; Culture",
+        "course_description": null
+    },
+    "ASAM 047C": {
+        "course_code": "ASAM 047C",
+        "course_name": "Asian American Gender/Sexualit",
+        "course_description": null
+    },
+    "ASAM 050": {
+        "course_code": "ASAM 050",
+        "course_name": "Consuming Asian America",
+        "course_description": null
+    },
+    "ASAM 066": {
+        "course_code": "ASAM 066",
+        "course_name": "In/Visible: Asian American Cul",
+        "course_description": null
+    },
+    "ASAM 092": {
+        "course_code": "ASAM 092",
+        "course_name": "Independent Study",
+        "course_description": null
+    },
+    "ASAM UPA": {
+        "course_code": "ASAM UPA",
+        "course_name": "UPA:",
+        "course_description": null
+    },
+    "ASIA 038": {
+        "course_code": "ASIA 038",
+        "course_name": "The Promise &amp; Peril of Dialog",
+        "course_description": null
+    },
+    "ASIA 899HN": {
+        "course_code": "ASIA 899HN",
+        "course_name": "ASIA 098/037 DirRdg/ChinArt",
+        "course_description": null
+    },
+    "ASTR 065": {
+        "course_code": "ASTR 065",
+        "course_name": "Introduction Radio Astronomy",
+        "course_description": null
+    },
+    "BIOL 004": {
+        "course_code": "BIOL 004",
+        "course_name": "FYS:Ecological Research",
+        "course_description": null
+    },
+    "ANCH 042": {
+        "course_code": "ANCH 042",
+        "course_name": "Democratic and its Challenges",
+        "course_description": null
+    },
+    "ANCH 042A": {
+        "course_code": "ANCH 042A",
+        "course_name": "Dem&amp; its Challenges-Attachment",
+        "course_description": null
+    },
+    "ANTH 072C": {
+        "course_code": "ANTH 072C",
+        "course_name": "Memory,History,Nation",
+        "course_description": null
+    },
+    "ANTH 072D": {
+        "course_code": "ANTH 072D",
+        "course_name": "Visual Anthropology(M)",
+        "course_description": null
+    },
+    "ARAB 035": {
+        "course_code": "ARAB 035",
+        "course_name": "Mapping Modern Arab Thought",
+        "course_description": null
+    },
+    "ARTH 001J": {
+        "course_code": "ARTH 001J",
+        "course_name": "FYS:Arts of Everyday Life(W)",
+        "course_description": null
+    },
+    "ARTH 001N": {
+        "course_code": "ARTH 001N",
+        "course_name": "FYS:Indigenous Art,Land,Env(W)",
+        "course_description": null
+    },
+    "ARTH 001R": {
+        "course_code": "ARTH 001R",
+        "course_name": "FYS:Art Flux:Metmrph&amp;Art China",
+        "course_description": null
+    },
+    "ARTH 005": {
+        "course_code": "ARTH 005",
+        "course_name": "Modern Art in Europe &amp; the US",
+        "course_description": null
+    },
+    "ARTH 010": {
+        "course_code": "ARTH 010",
+        "course_name": "Art and Climate Change",
+        "course_description": null
+    },
+    "ARTH 016": {
+        "course_code": "ARTH 016",
+        "course_name": "Renaissance and Baroque Art",
+        "course_description": null
+    },
+    "ARTH 064": {
+        "course_code": "ARTH 064",
+        "course_name": "Woodland Native Arts&amp;Ecologies",
+        "course_description": null
+    },
+    "ARTH 136": {
+        "course_code": "ARTH 136",
+        "course_name": "Word&amp;Image in Japanese Art(W)",
+        "course_description": null
+    },
+    "ARTH 154": {
+        "course_code": "ARTH 154",
+        "course_name": "Art of Modern China:Honors Sem",
+        "course_description": null
+    },
+    "ARTT 006F": {
+        "course_code": "ARTT 006F",
+        "course_name": "ARCH Design:Dwelling &amp; Inhabit",
+        "course_description": null
+    },
+    "ARTT 006K": {
+        "course_code": "ARTT 006K",
+        "course_name": "ARCH:2D:Experiments In Drawing",
+        "course_description": null
+    },
+    "ASAM 003": {
+        "course_code": "ASAM 003",
+        "course_name": "Intro Asian American Studies",
+        "course_description": null
+    },
+    "ASIA 027": {
+        "course_code": "ASIA 027",
+        "course_name": "Writing Systems of East Asia",
+        "course_description": null
+    }
+}
