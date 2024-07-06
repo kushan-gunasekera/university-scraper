@@ -110,7 +110,7 @@ def main():
     full_courses = {}
     terms = get_terms()
 
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_courses, term) for term in terms):
             full_courses = {**full_courses, **i.result()}
 
