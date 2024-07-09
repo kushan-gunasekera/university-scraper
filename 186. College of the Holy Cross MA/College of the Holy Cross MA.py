@@ -48,7 +48,7 @@ def get_course(url):
         return courses
 
     for tag in course_tags:
-        code = tag.find('span', 'text col-3 detail-code margin--tiny text--semibold text--huge').text.split('—')
+        code = tag.find('span', 'text col-3 detail-code margin--tiny text--semibold text--huge').text.split('—')[0]
         title = tag.find('span', 'text col-4 detail-title margin--tiny text--bold text--huge').find('strong').text.strip().replace('\xa0', ' ')
         desc = tag.find('p', 'courseblockextra')
         if desc:
