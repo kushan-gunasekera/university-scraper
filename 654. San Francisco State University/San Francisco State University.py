@@ -50,7 +50,7 @@ def get_course(url):
         course_tag = tag.find('p', class_='courseblocktitle').find('strong').text
         course_tag = course_tag.split(' ', 1)
         course_code = course_tag[0].strip().replace('\xa0', ' ')
-        course_name = course_tag[1].strip().replace('\xa0', ' ')
+        course_name = course_tag[1].strip().replace('\xa0', ' ').split('(')[0]
         courses[course_code] = {
             'course_code': course_code,
             'course_name': course_name,
@@ -64,7 +64,7 @@ def main():
     urls = get_courses()
     print(len(urls))
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, url) for url in urls):
             full_courses = {**full_courses, **i.result()}
 
