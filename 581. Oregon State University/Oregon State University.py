@@ -49,7 +49,9 @@ def get_course(url):
 
     for tag in course_tags:
         title = tag.find('h2', 'courseblocktitle').find('strong').text.strip().replace('\xa0', ' ').split(', ')
-        desc = tag.find('p', 'courseblockdesc noindent').text.strip().replace('\xa0', ' ')
+        desc = tag.find('p', 'courseblockdesc noindent')
+        if desc:
+            desc = desc.text.strip().replace('\xa0', ' ')
         courses[title[0]] = {
             'course_code': title[0],
             'course_name': title[1],
