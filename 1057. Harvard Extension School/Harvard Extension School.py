@@ -22,9 +22,9 @@ def get_terms_and_schools():
         (202403, 'summer_school_pre_college_program'),
         (202403, 'summer_school_secondary_school_program'),
         (202403, ''),
-        (202402, ''),
-        (202401, ''),
-        (999924, ''),
+        (999925, ''),
+        (202501, ''),
+        (202502, ''),
     )
 
     return courses
