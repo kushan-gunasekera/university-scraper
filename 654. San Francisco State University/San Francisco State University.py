@@ -16,8 +16,8 @@ from lxml import html
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
-MAIN_DOMAIN = 'https://catalog.unc.edu'
-UNIVERSITY = 'University of North Carolina, Wilmington'
+MAIN_DOMAIN = 'https://bulletin.sfsu.edu'
+UNIVERSITY = 'San Francisco State University'
 
 
 def get_courses():
@@ -44,15 +44,13 @@ def get_course(url):
 
     for tag in div_tags:
         desc = ''
-        desc_tag = tag.find('p', class_='courseblockextra')
+        desc_tag = tag.find('p', class_='noindent courseblockdesc')
         if desc_tag:
             desc = desc_tag.text
-        strong_tags = tag.find_all('strong')
-        # text = tag.text
-        # parts = text.split(".", 1)
-
-        course_code = strong_tags[0].text.strip().replace('\xa0', ' ')
-        course_name = strong_tags[1].text.strip().replace('\xa0', ' ')
+        course_tag = tag.find('p', class_='courseblocktitle').find('strong').text
+        course_tag = course_tag.split(' ', 1)
+        course_code = course_tag[0].strip().replace('\xa0', ' ')
+        course_name = course_tag[1].strip().replace('\xa0', ' ')
         courses[course_code] = {
             'course_code': course_code,
             'course_name': course_name,
