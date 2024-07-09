@@ -48,16 +48,20 @@ def get_course(url):
         return courses
 
     for tag in course_tags:
-        code = tag.find('span', 'coursecode').text.strip().replace('\xa0', ' ')
-        title = tag.find('span', 'coursetitle').text.strip().replace('\xa0', ' ')
-        desc = tag.find('p', 'courseblockdesc')
-        if desc:
-            desc = desc.text.strip().replace('\xa0', ' ')
-        courses[code] = {
-            'course_code': code,
-            'course_name': title,
-            'course_description': desc,
-        }
+        try:
+            code = tag.find('span', 'coursecode').text.strip().replace('\xa0', ' ')
+            title = tag.find('span', 'coursetitle').text.strip().replace('\xa0', ' ')
+            desc = tag.find('p', 'courseblockdesc')
+            if desc:
+                desc = desc.text.strip().replace('\xa0', ' ')
+            courses[code] = {
+                'course_code': code,
+                'course_name': title,
+                'course_description': desc,
+            }
+        except Exception as err:
+            print(f'Error URL: {url}')
+            print(f'Error ERR: {err}')
 
     return courses
 
