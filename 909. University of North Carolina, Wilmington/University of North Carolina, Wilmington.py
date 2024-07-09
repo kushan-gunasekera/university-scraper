@@ -84,6 +84,7 @@ def main():
 
     row = 1
     for value in full_courses.values():
+        print(value)
         worksheet.write(row, 0, value.get('course_code'))
         worksheet.write(row, 1, value.get('course_name'))
         worksheet.write(row, 2, value.get('course_description'))
