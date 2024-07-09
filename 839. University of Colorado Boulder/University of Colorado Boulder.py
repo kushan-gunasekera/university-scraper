@@ -50,7 +50,7 @@ def get_course(url):
     for tag in course_tags:
         title = tag.find('p', 'courseblocktitle noindent').find('strong').text.strip().replace('\xa0', ' ')
         try:
-            course_code, course_name = re.split(r"\\(.*\)", title)
+            course_code, course_name = re.split(r"\(.*\)", title)
         except Exception as error:
             print(f'url: {url}')
             print(f'title: {title}')
