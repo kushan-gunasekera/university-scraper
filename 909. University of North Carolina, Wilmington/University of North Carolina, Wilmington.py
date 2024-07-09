@@ -53,7 +53,6 @@ def get_course(url):
 
         course_code = strong_tags[0].text.strip().replace('\xa0', ' ')
         course_name = strong_tags[1].text.strip().replace('\xa0', ' ')
-        courses[f'{course_code}|{url}'] = course_name
         courses[course_code] = {
             'course_code': course_code,
             'course_name': course_name,
