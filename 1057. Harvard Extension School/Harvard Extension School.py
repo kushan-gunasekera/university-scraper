@@ -88,7 +88,7 @@ def get_course(term, school):
 
 def main():
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_course, term, school) for term, school in get_terms_and_schools()):
             full_courses = {**full_courses, **i.result()}
 
