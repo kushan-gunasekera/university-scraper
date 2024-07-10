@@ -47,26 +47,40 @@ def get_course(term, school):
         return courses
 
     logging.info(f'results: {len(results)} | {term} | {school}')
+    professors = {}
     for result in results:
-        courses[result['custom_code']] = {
-            'course_code': result['custom_code'].strip().replace('\xa0', ' '),
+        code = result['custom_code'].strip().replace('\xa0', ' ')
+        courses[code] = {
+            'course_code': code,
             'course_name': result['title'].strip().replace('\xa0', ' '),
         }
+        if code not in professors:
+            professors[code] = []
         data = {
             'group': f'custom_code:{result["custom_code"]}',
             'key': f'crn:{result["crn"]}',
             'matched': f'crn:{result["crn"]}',
             'srcdb': result["srcdb"],
         }
-        url = f'{MAIN_DOMAIN}/api/?page=fose&route=details'
-        final_data = urllib.parse.quote_plus(
-            json.dumps(data, separators=separator)
-        )
-        r = requests.post(url, headers=HEADERS, data=final_data)
-        description = r.json().get('description', '').strip().replace('\xa0', ' ')
-        # instructures = r.json().get('allInGroup', [])
-        courses[result['custom_code']]['course_description'] = description
-        courses[result['custom_code']]['course_professor'] = result.get('instr')
+        professors[code].append(data)
+
+    for code, v in professors.items():
+        logging.info(f'getting courses for {school} on {term} term | code: {code} & {len(v)} courses')
+        all_instructors = []
+        final_desc = None
+        for data in v:
+            url = f'{MAIN_DOMAIN}/api/?page=fose&route=details'
+            final_data = urllib.parse.quote_plus(
+                json.dumps(data, separators=separator)
+            )
+            r = requests.post(url, headers=HEADERS, data=final_data)
+            final_desc = r.json().get('description', '').strip().replace('\xa0', ' ')
+            instructures = r.json().get('allInGroup', [])
+            for j in instructures:
+                all_instructors.append(j.get('instr'))
+        courses[code]['course_description'] = final_desc
+        courses[code]['course_professor'] = ', '.join(list(set(all_instructors)))
+
 
     logging.info(f'{len(courses)} courses in {term} | {school}')
     return courses
@@ -74,7 +88,7 @@ def get_course(term, school):
 
 def main():
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, term, school) for term, school in get_terms_and_schools()):
             full_courses = {**full_courses, **i.result()}
 
