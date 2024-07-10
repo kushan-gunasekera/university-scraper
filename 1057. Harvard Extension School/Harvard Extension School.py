@@ -66,10 +66,7 @@ def get_course(term, school):
         professors[code].append(data)
 
     for code, v in professors.items():
-        if code == 'MGMT E-2700':
-            logging.info(f'getting courses for {school} on {term} term | code: {code} & {len(v)} courses')
-        else:
-            continue
+        logging.info(f'getting courses for {school} on {term} term | code: {code} & {len(v)} courses')
         all_instructors = []
         final_desc = None
         for data in v:
