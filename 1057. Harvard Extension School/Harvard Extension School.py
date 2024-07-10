@@ -6,6 +6,7 @@ from concurrent.futures._base import as_completed
 
 import requests
 import xlsxwriter
+from bs4 import BeautifulSoup
 
 logging.basicConfig(format='[%(asctime)s] %(levelname)s:%(message)s [%(filename)s/%(funcName)s:%(lineno)d:%(threadName)s]\n', level=logging.INFO)
 HEADERS = {
@@ -65,7 +66,10 @@ def get_course(term, school):
         professors[code].append(data)
 
     for code, v in professors.items():
-        logging.info(f'getting courses for {school} on {term} term | code: {code} & {len(v)} courses')
+        if code == 'MGMT E-2700':
+            logging.info(f'getting courses for {school} on {term} term | code: {code} & {len(v)} courses')
+        else:
+            continue
         all_instructors = []
         final_desc = None
         for data in v:
@@ -75,9 +79,12 @@ def get_course(term, school):
             )
             r = requests.post(url, headers=HEADERS, data=final_data)
             final_desc = r.json().get('description', '').strip().replace('\xa0', ' ')
-            instructures = r.json().get('allInGroup', [])
-            for j in instructures:
-                all_instructors.append(j.get('instr'))
+            soup = BeautifulSoup(r.json().get('instructor_info_html'), 'html.parser')
+            instructor_tag = soup.find('div', 'instructor-detail')
+            if instructor_tag:
+                a_tag = instructor_tag.find('a')
+                if a_tag:
+                    all_instructors.append(a_tag.text)
         courses[code]['course_description'] = final_desc
         courses[code]['course_professor'] = ', '.join(list(set(all_instructors)))
 
@@ -87,6 +94,7 @@ def get_course(term, school):
 
 
 def main():
+    # get_course(999925, '')
     full_courses = {}
     with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_course, term, school) for term, school in get_terms_and_schools()):
