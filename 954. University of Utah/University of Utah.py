@@ -89,8 +89,6 @@ def get_courses():
         courses = {**courses, **format_response(response.json().get('data'))}
     return courses
 
-    return courses
-
 
 def main():
     full_courses = get_courses()
