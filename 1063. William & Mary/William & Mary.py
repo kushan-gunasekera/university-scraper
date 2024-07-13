@@ -84,99 +84,99 @@ def main():
     # for page_number in range(1, 52):
     #     get_courses(page_number)
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_1, page_number) for page_number in range(1, 13)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_2, page_number) for page_number in range(1, 21)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_3, page_number) for page_number in range(1, 13)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_4, page_number) for page_number in range(1, 22)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_5, page_number) for page_number in range(1, 14)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_6, page_number) for page_number in range(1, 22)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_7, page_number) for page_number in range(1, 14)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_8, page_number) for page_number in range(1, 23)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_9, page_number) for page_number in range(1, 14)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_10, page_number) for page_number in range(1, 23)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_11, page_number) for page_number in range(1, 13)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_12, page_number) for page_number in range(1, 24)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_13, page_number) for page_number in range(1, 13)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_14, page_number) for page_number in range(1, 25)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_15, page_number) for page_number in range(1, 12)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_16, page_number) for page_number in range(1, 25)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_17, page_number) for page_number in range(1, 13)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_18, page_number) for page_number in range(1, 25)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_19, page_number) for page_number in range(1, 13)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_20, page_number) for page_number in range(1, 26)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_21, page_number) for page_number in range(1, 13)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_22, page_number) for page_number in range(1, 27)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_23, page_number) for page_number in range(1, 13)):
             full_courses = {**full_courses, **i.result()}
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_24, page_number) for page_number in range(1, 27)):
             full_courses = {**full_courses, **i.result()}
 
