@@ -21,7 +21,7 @@ UNIVERSITY = 'Texas A&M University'
 
 
 def get_courses():
-    r = requests.get(f'{MAIN_DOMAIN}/archives/2022-2023/graduate/course-descriptions/', headers=HEADERS)
+    r = requests.get(f'{MAIN_DOMAIN}/graduate/course-descriptions/', headers=HEADERS)
     soup = BeautifulSoup(r.content, 'html.parser')
     course_tags = soup.find('div', id='atozindex').find_all('a')
 
