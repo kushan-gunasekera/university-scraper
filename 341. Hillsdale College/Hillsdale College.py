@@ -93,10 +93,11 @@ def get_courses():
     # Make the request
     response = requests.get(url, headers=headers, params=params)
     data = get_data(response)
-
-    courses = {**format_response(data)}
     soup = BeautifulSoup(data, 'html.parser')
     total_pages = int(soup.find('li', 'pager__item pager__item--last').find('a').get('href').split('=')[-1]) + 1
+    print(f'{0}/{total_pages}')
+
+    courses = {**format_response(data)}
     for i in range(1, total_pages):
         print(f'{i}/{total_pages}')
         params['page'] = i
