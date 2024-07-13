@@ -44,8 +44,9 @@ UNIVERSITY = 'William & Mary'
 
 
 def get_courses(domain, page_number):
-    print(f'page_number: {page_number}')
-    r = requests.get(domain.format(page_number=page_number), headers=HEADERS)
+    url = domain.format(page_number=page_number)
+    print(f'page_number: {page_number} | {url}')
+    r = requests.get(url, headers=HEADERS)
     soup = BeautifulSoup(r.content, 'html.parser')
     course_tags = soup.find('table', class_='table_default').find_all('a')
 
@@ -56,7 +57,25 @@ def get_courses(domain, page_number):
         text = tag.text.strip().replace('\xa0', ' ')
         tag_split = text.split(' - ', 1)
         if len(tag_split) == 2:
-            courses[tag_split[0]] = tag_split[1]
+            code = tag_split[0]
+            url = f'https://catalog.wm.edu/{tag.get("href")}'
+            print(f'{code} - {url}')
+            res = requests.get(url, headers=HEADERS)
+            soup = BeautifulSoup(res.content, 'html.parser')
+            course_title = soup.find('h1', {'id': 'course_preview_title'})
+            description = None
+            if course_title:
+                next_hr = course_title.find_next('hr')
+                if next_hr:
+                    for sibling in next_hr.next_siblings:
+                        if not sibling.name and len(sibling) > 1:
+                            description = sibling.strip()
+                            break
+            courses[code] = {
+                'course_code': code,
+                'course_name': tag_split[1],
+                'course_description': description,
+            }
     return courses
 
 
