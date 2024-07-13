@@ -46,12 +46,12 @@ def get_course(url):
         desc_tag = tag.find('p', class_='courseblockdesc').text
         desc = re.sub(r"(Cross Listing:|Prerequisites:).*", '', desc_tag).strip()
         try:
-            strong_tags = tag.find('p', class_='courseblocktitle').find('h2')
+            strong_tags = tag.find('h2', class_='courseblocktitle')
         except Exception as err:
             print('*' * 150)
             print(f'ERROR: {url}')
             print('*' * 150)
-        strong_tags = tag.find('p', class_='courseblocktitle').find('strong')
+        # strong_tags = tag.find('p', class_='courseblocktitle').find('strong')
 
         split = strong_tags.text.strip().replace('\xa0', ' ').split(' ', 2)
         course_code_1 = ''
@@ -71,6 +71,7 @@ def get_course(url):
 
 
 def main():
+    get_course('/graduate/course-descriptions/aero/')
     full_courses = {}
     urls = get_courses()
 
