@@ -40,7 +40,7 @@ def get_course(url):
     print(url)
     r = requests.get(f'{MAIN_DOMAIN}{url}', headers=HEADERS)
     soup = BeautifulSoup(r.content, 'html.parser')
-    course_tags = soup.find_all('strong')
+    course_tags = soup.find_all('div', 'courseblock')
     if not course_tags:
         print(f'No courses | {url}')
         return courses
@@ -48,7 +48,8 @@ def get_course(url):
     text = None
     try:
         for tag in course_tags:
-            text = tag.text
+            text = tag.find('strong').text
+            desc = tag.find('div', 'courseblockdesc').text.strip()
             parts = text.split(".", 1)
 
             if len(parts) != 2:
@@ -57,6 +58,11 @@ def get_course(url):
             course_code = parts[0].strip()
             course_name = parts[1].strip()
             courses[f'{course_code}|{url}'] = course_name
+            courses[course_code] = {
+                'course_code': course_code,
+                'course_name': course_name,
+                'course_description': desc,
+            }
     except Exception as error:
         print(f'{text} | {url}')
         raise Exception(error)
