@@ -46,7 +46,7 @@ def get_course(url):
         desc_tag = tag.find('p', class_='courseblockdesc').text
         desc = re.sub(r"(Cross Listing:|Prerequisites:).*", '', desc_tag).strip()
         try:
-            strong_tags = tag.find('p', class_='courseblocktitle').find('strong')
+            strong_tags = tag.find('p', class_='courseblocktitle').find('h2')
         except Exception as err:
             print('*' * 150)
             print(f'ERROR: {url}')
