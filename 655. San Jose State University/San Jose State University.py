@@ -26,10 +26,17 @@ UNIVERSITY = 'San Jose State University'
 
 
 def get_courses(domain, page_number):
-    print(f'page_number: {page_number}')
-    r = requests.get(domain.format(page_number=page_number), headers=HEADERS)
+    url = domain.format(page_number=page_number)
+    print(f'page_number: {page_number} | {url}')
+    r = requests.get(url, headers=HEADERS)
     soup = BeautifulSoup(r.content, 'html.parser')
-    course_tags = soup.find('table', class_='table_default').find_all('a')
+    try:
+        course_tags = soup.find('table', class_='table_default').find_all('a')
+    except Exception as error:
+        print('#' * 150)
+        print(f'page_number: {page_number} | {url}')
+        print(error)
+        print('#' * 150)
 
     courses = {}
     for tag in course_tags:
