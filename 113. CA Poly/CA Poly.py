@@ -57,7 +57,6 @@ def get_course(url):
 
             course_code = parts[0].strip()
             course_name = parts[1].strip()
-            courses[f'{course_code}|{url}'] = course_name
             courses[course_code] = {
                 'course_code': course_code,
                 'course_name': course_name,
