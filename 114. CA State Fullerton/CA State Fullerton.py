@@ -42,7 +42,14 @@ def get_courses(page_number):
             if course_title:
                 next_hr = course_title.find_next('hr')
                 if next_hr:
-                    description = next_hr.find_next('br').find_next_sibling(string=True)
+                    # Extract text between the first <hr> and the next <br> or <hr> tag
+                    description_parts = []
+                    for sibling in next_hr.next_siblings:
+                        if sibling.name == 'br' or sibling.name == 'hr':
+                            break
+                        if isinstance(sibling, str):
+                            description_parts.append(sibling.strip())
+                    description = ' '.join(description_parts)
 
             courses[code] = {
                 'course_code': code,
