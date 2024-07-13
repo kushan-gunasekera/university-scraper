@@ -45,6 +45,12 @@ def get_course(url):
     for tag in div_tags:
         desc_tag = tag.find('p', class_='courseblockdesc').text
         desc = re.sub(r"(Cross Listing:|Prerequisites:).*", '', desc_tag).strip()
+        try:
+            strong_tags = tag.find('p', class_='courseblocktitle').find('strong')
+        except Exception as err:
+            print('*' * 150)
+            print(f'ERROR: {url}')
+            print('*' * 150)
         strong_tags = tag.find('p', class_='courseblocktitle').find('strong')
 
         split = strong_tags.text.strip().replace('\xa0', ' ').split(' ', 2)
