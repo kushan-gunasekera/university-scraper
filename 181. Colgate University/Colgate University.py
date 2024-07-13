@@ -39,16 +39,15 @@ def get_courses(term):
         res = requests.get(url, headers=HEADERS)
         details = res.json() or []
         desc = None
-        if details:
-            if details[0]['DESCRIPTION']:
-                soup = BeautifulSoup(details[0]['DESCRIPTION'], 'html.parser')
-                original_text = soup.text
-                a_tag = soup.find('a')
-                if a_tag:
-                    a_text = soup.find('a').text
-                    desc = original_text.replace(a_text, '').strip().replace('\n', ' ')
-                else:
-                    desc = original_text
+        if details and details[0]['DESCRIPTION']:
+            soup = BeautifulSoup(details[0]['DESCRIPTION'], 'html.parser')
+            original_text = soup.text
+            a_tag = soup.find('a')
+            if a_tag:
+                a_text = soup.find('a').text
+                desc = original_text.replace(a_text, '').strip().replace('\n', ' ')
+            else:
+                desc = original_text
         courses[code] = {
             'course_code': code,
             'course_name': i.get('TITLE'),
