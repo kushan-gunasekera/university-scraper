@@ -53,7 +53,8 @@ def get_course(url):
             pass
         instructors = None
         try:
-            instructors = tag.find('div', class_='course-description2__instructors course-description2__general-text').find('span').text.strip()
+            instructors = tag.find('div', class_='course-description2__instructors course-description2__general-text').text
+            instructors = instructors.replace('Instructors:', '').strip()
         except:
             pass
         courses[code] = {
