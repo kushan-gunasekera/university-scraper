@@ -16,20 +16,21 @@ from lxml import html
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
-MAIN_DOMAIN = 'https://catalog.tamu.edu'
-UNIVERSITY = 'Texas A&M University'
+MAIN_DOMAIN = 'https://www.catalog.caltech.edu'
+UNIVERSITY = 'CA Institute of Technology (CALTECH)'
 
 
 def get_courses():
-    r = requests.get(f'{MAIN_DOMAIN}/graduate/course-descriptions/', headers=HEADERS)
+    r = requests.get(f'{MAIN_DOMAIN}/current/2023-24/', headers=HEADERS)
     soup = BeautifulSoup(r.content, 'html.parser')
-    course_tags = soup.find('div', id='atozindex').find_all('a')
+    course_tags = soup.find_all('li', class_='sidebar-menu-block__level-2__item d-flex flex-column menu-item')[4].find('ul').find_all('li')
 
     courses = []
     for tag in course_tags:
-        if not tag.get('href'):
+        a_tag = tag.find('a')
+        if not a_tag.get('href'):
             continue
-        courses.append(tag['href'])
+        courses.append(a_tag['href'])
     return courses
 
 
@@ -37,35 +38,34 @@ def get_course(url):
     print(url)
     r = requests.get(f'{MAIN_DOMAIN}{url}', headers=HEADERS)
     soup = BeautifulSoup(r.content, 'html.parser')
-    div_tags = soup.find_all('div', class_='courseblock')
+    div_tags = soup.find_all('div', class_='course-description2')
     courses = {}
     if not div_tags:
         return courses
 
     for tag in div_tags:
-        desc_tag = tag.find('p', class_='courseblockdesc').text
-        desc = re.sub(r"(Cross Listing:|Prerequisites:).*", '', desc_tag).strip()
-
-        strong_tags = tag.find('h2', class_='courseblocktitle')
-        split = strong_tags.text.strip().replace('\xa0', ' ').split(' ', 2)
-        course_code_1 = ''
-        course_code_2 = ''
-        course_name = ''
-        if len(split) == 3:
-            course_code_1, course_code_2, course_name = split
-        elif len(split) == 2:
-            course_code_1, course_name = split
-        code = f'{course_code_1.strip()} {course_code_2.strip()}'
+        code = tag.find('div', class_='course-description2__label').text.strip()
+        title = tag.find('h2', class_='course-description2__title').text.strip()
+        desc = None
+        try:
+            desc = tag.find('div', class_='course-description2__description course-description2__general-text').text.strip()
+        except:
+            pass
+        instructors = None
+        try:
+            instructors = tag.find('div', class_='course-description2__instructors course-description2__general-text').find('span').text.strip()
+        except:
+            pass
         courses[code] = {
             'course_code': code,
-            'course_name': course_name.strip(),
+            'course_name': title,
             'course_description': desc,
+            'course_professor': instructors,
         }
     return courses
 
 
 def main():
-    get_course('/graduate/course-descriptions/aero/')
     full_courses = {}
     urls = get_courses()
 
