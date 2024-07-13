@@ -52,7 +52,7 @@ def get_course(url):
             desc = tag.find('div', 'courseblockdesc').text.strip()
             parts = text.split(".",)
 
-            if len(parts) != 2:
+            if len(parts) != 3:
                 continue
 
             course_code = parts[0].strip()
@@ -72,7 +72,7 @@ def get_course(url):
 
 def main():
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, url) for url in get_courses()):
             full_courses = {**full_courses, **i.result()}
 
