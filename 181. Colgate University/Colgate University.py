@@ -39,8 +39,13 @@ def get_courses(term):
         desc = None
         if details:
             soup = BeautifulSoup(details[0]['DESCRIPTION'], 'html.parser')
-            a_text = soup.find('a').text
-            desc = soup.text.replace(a_text, '').strip().replace('\n', ' ')
+            original_text = soup.text
+            a_tag = soup.find('a')
+            if a_tag:
+                a_text = soup.find('a').text
+                desc = original_text.replace(a_text, '').strip().replace('\n', ' ')
+            else:
+                desc = original_text
         courses[code] = {
             'course_code': code,
             'course_name': i.get('TITLE'),
