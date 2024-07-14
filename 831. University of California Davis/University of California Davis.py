@@ -30,10 +30,14 @@ def get_description(code, key, srcdb):
         "matched": f"key:{key}"
     }
     r = requests.post(f'{MAIN_DOMAIN}/course-search/api/?page=fose&route=details', headers=HEADERS, data=urllib.parse.quote_plus(json.dumps(data, separators=(',', ':'))))
-    description_tag = r.json().get('description')
-    soup = BeautifulSoup(description_tag, 'html.parser')
-    desc = soup.text.replace('Course Description:', '').strip()
-    return {'course_code': code, 'description': desc}
+    try:
+        description_tag = r.json().get('description')
+        soup = BeautifulSoup(description_tag, 'html.parser')
+        desc = soup.text.replace('Course Description:', '').strip()
+        return {'course_code': code, 'description': desc}
+    except Exception as e:
+        print(f'ERROR code: {code} | key: {key} | srcdb: {srcdb} | error: {e}')
+        return {'course_code': code, 'description': ''}
 
 
 def get_course(character):
@@ -56,7 +60,7 @@ def get_course(character):
         }
         descriptions.append([code, result['key'], result['srcdb']])
 
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_description, code, key, srcdb) for code, key, srcdb in descriptions):
             result = i.result()
             courses[result.get('course_code')]['course_description'] = result.get('description')
@@ -67,7 +71,7 @@ def get_course(character):
 
 def main():
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, character) for character in [chr(ord('a') + i) for i in range(26)]):
             full_courses = {**full_courses, **i.result()}
 
