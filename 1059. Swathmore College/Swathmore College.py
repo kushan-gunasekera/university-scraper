@@ -14,7 +14,7 @@ HEADERS = {
 # MAIN_DOMAIN = 'https://vanderbilt.kuali.co/'
 UNIVERSITY = 'Swathmore College'
 uniqueSessionId = 'lp71a1720268299023'
-cookie = 'JSESSIONID=46AF325AA1EBAC5651A935BB31169D1F; BIGipServerstudentregistration-pool=222509698.36895.0000; JSESSIONID=A477C5839264EDD8BDAA5C51CC08158E'
+cookie = 'JSESSIONID=82C91250A1323E06CA7C5C6A0F5A1C3D; BIGipServerstudentregistration-pool=222509698.36895.0000'
 HEADERS = {'Cookie': cookie}
 
 
@@ -82,6 +82,7 @@ def get_courses(term):
             }
         return obj
 
+    print(f'term: {term}')
     courses = {}
     results_per_page = 500
     url = 'https://studentregistration.swarthmore.edu/StudentRegistrationSsb/ssb/searchResults/searchResults'
