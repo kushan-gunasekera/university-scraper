@@ -40,6 +40,7 @@ def get_courses(domain, page_number):
             title = tag_split[1]
             desc = None
             url = f'http://records.ureg.virginia.edu/{tag.get("href")}'
+            print(f'description: {code} - {title} | {url} ')
             res = requests.get(url, headers=HEADERS)
             soup = BeautifulSoup(res.content, 'html.parser')
             try:
