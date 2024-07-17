@@ -48,7 +48,12 @@ def get_course(url):
         for tag in course_tags:
             strong_tags = tag.text.split('. ')
             if len(strong_tags) >= 2:
-                desc = tag.next_sibling.next_sibling.text.strip()
+                desc = ''
+                try:
+                    desc = tag.next_sibling.next_sibling.text.strip()
+                except Exception as error:
+                    print(error)
+                    print(f'ERROR: {url}')
                 course_code = strong_tags[0].strip().replace('\xa0', ' ')
                 course_name = strong_tags[1].strip().replace('\xa0', ' ')
                 courses[course_code] = {
