@@ -50,6 +50,7 @@ def get_terms():
 
 def get_courses(term):
     def format_response(response):
+        response = response or []
         obj = {}
         for i in response:
             code = f'{i.get("subject")} {i.get("courseNumber")}'
