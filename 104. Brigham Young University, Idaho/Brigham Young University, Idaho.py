@@ -25,7 +25,14 @@ def get_courses():
     courses = {}
     r = requests.get('https://byui.kuali.co/api/v1/catalog/courses/654ab5797c1f9a001cd1c92b?q=', headers=HEADERS)
     for i in r.json():
-        courses[i['__catalogCourseId']] = i['title']
+        pid = i['pid']
+        res = requests.get(f'https://byui.kuali.co/api/v1/catalog/course/654ab5797c1f9a001cd1c92b/{pid}', headers=HEADERS)
+        desc = res.json().get('description')
+        courses[i['__catalogCourseId']] = {
+            'course_code': i['__catalogCourseId'],
+            'course_name': i['title'],
+            'course_description': desc
+        }
     return courses
 
 
