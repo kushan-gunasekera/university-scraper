@@ -24,8 +24,11 @@ UNIVERSITY = 'Brigham Young University, Idaho'
 def get_courses():
     courses = {}
     r = requests.get('https://byui.kuali.co/api/v1/catalog/courses/654ab5797c1f9a001cd1c92b?q=', headers=HEADERS)
-    for i in r.json():
+    data = r.json()
+    print(f'{len(data)} courses found')
+    for count, i in enumerate(data, 1):
         pid = i['pid']
+        print(f'{count} | {pid}')
         res = requests.get(f'https://byui.kuali.co/api/v1/catalog/course/654ab5797c1f9a001cd1c92b/{pid}', headers=HEADERS)
         desc = res.json().get('description')
         courses[i['__catalogCourseId']] = {
