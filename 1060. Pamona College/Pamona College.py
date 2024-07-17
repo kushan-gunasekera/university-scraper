@@ -49,7 +49,6 @@ def get_courses(domain, page_number):
                     if count >= 3:
                         break
                     if count == 2:
-                        print(element)
                         extracted_text += element.strip() + " "
                 if "Credit:" in element:
                     start_extracting = True
