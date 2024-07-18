@@ -19,9 +19,11 @@ cookie = 'JSESSIONID=0337D22D5FE75795630310300C4E1236; BIGipServerstudentregistr
 HEADERS = {'Cookie': cookie}
 
 all_codes = []
+old_courses = {}
 try:
     with open('Swathmore College.json', 'r') as f:
-        all_codes = json.load(f).keys()
+        old_courses = json.load(f)
+        all_codes = old_courses.keys()
 except:
     pass
 
@@ -135,7 +137,8 @@ def main():
         for i in as_completed(
                 executor.submit(get_courses, term) for term in terms):
             full_courses = {**full_courses, **i.result()}
-
+    
+    full_courses = {**full_courses, **old_courses}
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
         json.dump(full_courses, json_file, indent=4)
 
