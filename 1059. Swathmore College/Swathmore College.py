@@ -15,7 +15,7 @@ HEADERS = {
 # MAIN_DOMAIN = 'https://vanderbilt.kuali.co/'
 UNIVERSITY = 'Swathmore College'
 uniqueSessionId = 'lp71a1720268299023'
-cookie = 'JSESSIONID=1CFAE6906FE9C96AAFC6E99CBB733336; BIGipServerstudentregistration-pool=222509698.36895.0000'
+cookie = 'JSESSIONID=0337D22D5FE75795630310300C4E1236; BIGipServerstudentregistration-pool=222509698.36895.0000'
 HEADERS = {'Cookie': cookie}
 
 
