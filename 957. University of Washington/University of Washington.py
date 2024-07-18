@@ -22,8 +22,8 @@ def get_programs():
 def get_course(code):
     print(code)
     courses = {}
-    HEADERS['Cookie'] = 'sessionId=a9ab55d3823d54d46d710ec756328f8ed2fdafa341f5fc9ab7595404072d0528'
-    HEADERS['X-Csrf-Token'] = 'e8b03966e997a8861ae9f79d48c73fc730fb3024d92d0d301a291e70b25e985287d0f7aad4dfa947a5bceadf275ad4d86bf9f2090b253db05a874d3fee4fcd4b4fb86a50102f392e6f55c79d18679f7ac55e040f4c2d15b941d3d6e380f3dfcc85bb9fa78c99b8c3e40296a109ccac58e2729cf53666e5045aa9653d7b6848ee'
+    HEADERS['Cookie'] = 'sessionId=61c1874194fff433a706d4a3943d8e4cacf6d6c73432cb03743cd82164b0fc38'
+    HEADERS['X-Csrf-Token'] = '09152ab7f3d9523ee846978bda155833aa50dac6e9edccb130141bb967cdeae0beada3cea8618b92f3d885925b52894288cbcca7ab52ed831a7785109d5cc2ee3511743964670702fa2e8a4dc75b27bb99efc5438d4d6060b93b243fe6901006f2642dea38c166812571b268b18baf4b8b695b100696b076cd7a007d6602c1f2'
     data = {
         "username": "GUEST",
         "requestId": "cfbe1306-d198-4117-97ee-973ab4fb9692",
