@@ -68,7 +68,7 @@ def main():
         1860, 1865, 1870, 1885, 1890, 1900
     ]
 
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, term) for term in terms):
             full_courses = {**full_courses, **i.result()}
 
