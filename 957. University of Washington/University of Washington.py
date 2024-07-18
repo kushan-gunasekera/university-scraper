@@ -20,6 +20,7 @@ def get_programs():
 
 
 def get_course(code):
+    # code = 'VIET'
     print(code)
     courses = {}
     HEADERS['Cookie'] = 'sessionId=61c1874194fff433a706d4a3943d8e4cacf6d6c73432cb03743cd82164b0fc38'
@@ -34,12 +35,15 @@ def get_course(code):
         "campus": "seattle"
     }
     r = requests.post(f'{MAIN_DOMAIN}/api/courses/', headers=HEADERS, json=data)
-    for i in r.json():
+    recourd_count = len(r.json())
+    print(f'{code} has {recourd_count} rows')
+    for count, i in enumerate(r.json(), 1):
         profs = []
         code = i.get('code')
         course_id = i.get('id').split(':')[0]
         desc_url = f'{MAIN_DOMAIN}/api/courses/{urllib.parse.quote(code)}/details?courseId={course_id}'
 
+        print(f'[{count}/{recourd_count}] {code} - {desc_url}')
         res = requests.get(desc_url, headers=HEADERS)
         desc = res.json().get('courseSummaryDetails', {}).get('courseDescription')
         for j in res.json().get('courseOfferingInstitutionList', []):
@@ -62,7 +66,7 @@ def main():
     programs = get_programs()
     # print(len(urls))
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, code) for code in programs):
             full_courses = {**full_courses, **i.result()}
 
