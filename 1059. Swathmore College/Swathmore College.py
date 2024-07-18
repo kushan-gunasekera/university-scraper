@@ -53,7 +53,8 @@ def get_courses(term):
     def format_response(response):
         response = response or []
         obj = {}
-        for i in response:
+        total = len(response)
+        for count, i in enumerate(response, 1):
             code = f'{i.get("subject")} {i.get("courseNumber")}'
             url = 'https://studentregistration.swarthmore.edu/StudentRegistrationSsb/ssb/searchResults'
             data = {
@@ -64,14 +65,14 @@ def get_courses(term):
             desc = None
             profs = []
             if i.get('term') and i.get('courseReferenceNumber'):
-                print(f"term: {i.get('term')} - courseReferenceNumber: {i.get('courseReferenceNumber')}| getCourseDescription")
+                print(f"[{count}/{total}] term: {i.get('term')} - courseReferenceNumber: {i.get('courseReferenceNumber')}| getCourseDescription")
                 time.sleep(5)
                 res = requests.post(f'{url}/getCourseDescription', headers=HEADERS, data=data)
                 soup = BeautifulSoup(res.text, 'html.parser')
                 desc = soup.text.strip().replace('Section information text:', '')
 
                 time.sleep(5)
-                print(f"term: {i.get('term')} - courseReferenceNumber: {i.get('courseReferenceNumber')}| getFacultyMeetingTimes")
+                print(f"[{count}/{total}] term: {i.get('term')} - courseReferenceNumber: {i.get('courseReferenceNumber')}| getFacultyMeetingTimes")
                 res = requests.post(f'{url}/getFacultyMeetingTimes', headers=HEADERS, data=data)
                 for k in res.json().get('fmt', []):
                     for faculty in k.get('faculty', []):
