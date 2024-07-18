@@ -18,6 +18,13 @@ uniqueSessionId = 'lp71a1720268299023'
 cookie = 'JSESSIONID=0337D22D5FE75795630310300C4E1236; BIGipServerstudentregistration-pool=222509698.36895.0000'
 HEADERS = {'Cookie': cookie}
 
+all_codes = []
+try:
+    with open('Swathmore College.json', 'r') as f:
+        all_codes = json.load(f).keys()
+except:
+    pass
+
 
 def get_terms():
     url = 'https://studentregistration.swarthmore.edu/StudentRegistrationSsb/ssb/courseSearch/getTerms'
@@ -56,6 +63,9 @@ def get_courses(term):
         total = len(response)
         for count, i in enumerate(response, 1):
             code = f'{i.get("subject")} {i.get("courseNumber")}'
+            if code in all_codes:
+                print(f'skipping {code}')
+                continue
             url = 'https://studentregistration.swarthmore.edu/StudentRegistrationSsb/ssb/searchResults'
             data = {
                 'term': i.get('term'),
