@@ -30,16 +30,17 @@ def get_courses(term):
         print(f'term: {term} | count: {count}')
         r = requests.get(course_url.format(term=term, page_number=count), headers=HEADERS)
         data = r.json()
+        total = len(data)
         if not data:
             break
-        for i in data:
+        for en_count, i in enumerate(data, 1):
             code = f'{i.get("subject")} {i.get("catalog_nbr")}'
             title = i.get('descr')
             courses[code] = title
             institution = i.get('campus')
             termm = i.get('strm')
             class_nbr = i.get('class_nbr')
-            print(f'institution: {institution} | termm: {termm} | class_nbr: {class_nbr}')
+            print(f'[{en_count}/{total}] institution: {institution} | termm: {termm} | class_nbr: {class_nbr}')
             r = requests.get(desc_url.format(institution=institution, term=termm, class_nbr=class_nbr), headers=HEADERS)
             desc_data = r.json()
             desc = desc_data.get('section_info', {}).get('catalog_descr', {}).get('crse_catalog_description')
