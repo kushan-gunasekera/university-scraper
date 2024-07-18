@@ -11,7 +11,8 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
 MAIN_DOMAIN = 'https://course-app-api.planning.sis.uw.edu'
-UNIVERSITY = 'University of Washington'
+CAMPUS = 'bothell'
+UNIVERSITY = 'University of Washington Bothell Campus'
 
 all_codes = []
 old_courses = {}
@@ -25,7 +26,7 @@ except:
 
 def get_programs():
     r = requests.get(f'{MAIN_DOMAIN}/api/subjectAreas/', headers=HEADERS)
-    return [i.get('code') for i in r.json()]
+    return [i.get('code') for i in r.json() if i.get('campus') == CAMPUS]
 
 
 def get_course(code):
