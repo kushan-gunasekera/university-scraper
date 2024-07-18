@@ -13,6 +13,15 @@ HEADERS = {
 MAIN_DOMAIN = 'https://course-app-api.planning.sis.uw.edu'
 UNIVERSITY = 'University of Washington'
 
+all_codes = []
+old_courses = {}
+try:
+    with open('University of Washington.json', 'r') as f:
+        old_courses = json.load(f)
+        all_codes = old_courses.keys()
+except:
+    pass
+
 
 def get_programs():
     r = requests.get(f'{MAIN_DOMAIN}/api/subjectAreas/', headers=HEADERS)
@@ -40,6 +49,8 @@ def get_course(code):
     for count, i in enumerate(r.json(), 1):
         profs = []
         code = i.get('code')
+        if code in all_codes:
+            continue
         course_id = i.get('id').split(':')[0]
         desc_url = f'{MAIN_DOMAIN}/api/courses/{urllib.parse.quote(code)}/details?courseId={course_id}'
 
@@ -70,6 +81,7 @@ def main():
         for i in as_completed(executor.submit(get_course, code) for code in programs):
             full_courses = {**full_courses, **i.result()}
 
+    full_courses = {**full_courses, **old_courses}
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
         json.dump(full_courses, json_file, indent=4)
 
