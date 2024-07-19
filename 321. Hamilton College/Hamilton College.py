@@ -88,7 +88,7 @@ def get_course(url_path):
         }
         descriptions.append([code, code_a.get('href')])
 
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_description, code, url) for code, url in descriptions):
             result = i.result()
             courses[result.get('course_code')]['course_description'] = result.get('description')
@@ -115,7 +115,7 @@ def get_course_urls():
 def main():
     course_urls = get_course_urls()
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_course, url) for url in course_urls):
             full_courses = {**full_courses, **i.result()}
 
