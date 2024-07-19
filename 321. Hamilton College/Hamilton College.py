@@ -32,7 +32,7 @@ HEADERS = {
 }
 
 MAIN_DOMAIN = 'https://hamilton.smartcatalogiq.com'
-UNIVERSITY = 'Hamilton College  '
+UNIVERSITY = 'Hamilton College'
 
 
 def get_description(code, url_path):
