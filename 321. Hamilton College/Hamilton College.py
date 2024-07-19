@@ -74,26 +74,28 @@ def get_course(url_path):
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Linux"'
     }
+    try:
+        r = requests.get(url, headers=headers)
+        soup = BeautifulSoup(r.content, 'html.parser')
+        tr_tags = soup.find('table', id='primaryTable').find_all('tr')
+        for tr in tr_tags:
+            code_a = tr.find('td', class_='coursetitle').find('a')
+            code = code_a.text
+            title = tr.find('td', class_='coursename').text
+            courses[code] = {
+                'course_code': code,
+                'course_name': title
+            }
+            descriptions.append([code, code_a.get('href')])
 
-    r = requests.get(url, headers=headers)
-    soup = BeautifulSoup(r.content, 'html.parser')
-    tr_tags = soup.find('table', id='primaryTable').find_all('tr')
-    for tr in tr_tags:
-        code_a = tr.find('td', class_='coursetitle').find('a')
-        code = code_a.text
-        title = tr.find('td', class_='coursename').text
-        courses[code] = {
-            'course_code': code,
-            'course_name': title
-        }
-        descriptions.append([code, code_a.get('href')])
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            for i in as_completed(executor.submit(get_description, code, url) for code, url in descriptions):
+                result = i.result()
+                courses[result.get('course_code')]['course_description'] = result.get('description')
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
-        for i in as_completed(executor.submit(get_description, code, url) for code, url in descriptions):
-            result = i.result()
-            courses[result.get('course_code')]['course_description'] = result.get('description')
-
-    print(f'{len(courses)} courses in {url_path}')
+        print(f'{len(courses)} courses in {url_path}')
+    except Exception as e:
+        print(f'ERROR: {url} | {e}')
     return courses
 
 
