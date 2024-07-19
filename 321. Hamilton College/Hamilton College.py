@@ -95,7 +95,9 @@ def get_course(url_path):
 
         print(f'{len(courses)} courses in {url_path}')
     except Exception as e:
+        print('*' * 50)
         print(f'ERROR: {url} | {e}')
+        print('*' * 50)
     return courses
 
 
