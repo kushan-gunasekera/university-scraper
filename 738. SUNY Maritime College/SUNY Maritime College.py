@@ -47,7 +47,7 @@ def get_course(url):
         if desc:
             desc = desc.text.strip().replace('\xa0', ' ')
         strong_tags = tag.find('p', 'courseblocktitle noindent').find('strong')
-        course_code, course_name = strong_tags.text.strip().replace('\xa0', ' ').split(' ', 1)
+        course_code, course_name = strong_tags.text.strip().replace('\xa0', ' ').split('-', 1)
         courses[course_code.strip()] = {
             'course_code': course_code.strip(),
             'course_name': course_name.strip(),
