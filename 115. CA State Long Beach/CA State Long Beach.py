@@ -31,7 +31,7 @@ def get_description(page_number, course_code, url):
         return {'course_code': course_code, 'description': description}
     try:
         description = desc.find('p').text.replace(soup.find('h1').text, '').split(')', 1)[-1].strip()
-        return {'course_code': course_code, 'description': desc[0].text}
+        return {'course_code': course_code, 'description': description}
     except Exception as error:
         print(f'ERROR: {url} | {error}')
         return {'course_code': course_code, 'description': description}
@@ -87,7 +87,7 @@ def main():
     # full_courses = {**full_courses, **get_courses(domain)}
 
     domain = 'http://catalog.csulb.edu/content.php?catoid=1&catoid=1&navoid=23&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D={page_number}#acalog_template_course_filter'
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_courses, domain, page_number) for page_number in range(1, 58)):
             full_courses = {**full_courses, **i.result()}
 
