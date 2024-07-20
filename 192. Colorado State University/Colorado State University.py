@@ -48,13 +48,16 @@ def get_course(url):
             desc = tag.find('p', 'courseblockdesc').find('strong').next_sibling.text.replace('\xa0', ' ').strip()
         except:
             pass
-        strong_tags = tag.find('p', 'courseblocktitle').find('strong')
-        course_code, course_name = strong_tags.text.strip().replace('\xa0', ' ').split('–', 1)
-        courses[course_code.strip()] = {
-            'course_code': course_code.strip(),
-            'course_name': course_name.strip(),
-            'course_description': desc,
-        }
+        try:
+            strong_tags = tag.find('p', 'courseblocktitle').find('strong')
+            course_code, course_name = strong_tags.text.strip().replace('\xa0', ' ').split('–', 1)
+            courses[course_code.strip()] = {
+                'course_code': course_code.strip(),
+                'course_name': course_name.strip(),
+                'course_description': desc,
+            }
+        except:
+            pass
     return courses
 
 
