@@ -1,0 +1,347 @@
+{
+    "AEAD 8310  ESOL": {
+        "course_code": "AEAD 8310  ESOL",
+        "course_name": "Advanced 3 Academic English, Listening & Speaking for Undergraduates  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. For students planning to pursue an undergraduate degree. Improve listening comprehension using Level 3 texts; communicate with increasing fluency and accuracy about ideas from course themes."
+    },
+    "AEAD 8312  ESOL": {
+        "course_code": "AEAD 8312  ESOL",
+        "course_name": "Advanced 3 Academic English, Reading & Writing for Undergraduates  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. For students planning to pursue an undergraduate degree. Improve reading comprehension using Level 3 texts; complete well-developed and organized Level 3 writing tasks about ideas from course themes."
+    },
+    "AEAD 8313  ESOL": {
+        "course_code": "AEAD 8313  ESOL",
+        "course_name": "Advanced 3 Academic English, Grammar for Undergraduates  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. For students planning to pursue an undergraduate degree. Focus on grammatical structures present in Level 3 reading and listening texts; incorporate learned grammatical structures in Level 3 writing and speaking tasks."
+    },
+    "AEAD 8355  ESOL": {
+        "course_code": "AEAD 8355  ESOL",
+        "course_name": "Advanced 3 Academic English, General Non-Core for Undergraduates  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. For students planning to pursue an undergraduate degree. Introduce and review technology tools and independent language learning strategies to support language skill development."
+    },
+    "AEAD 8510  ESOL": {
+        "course_code": "AEAD 8510  ESOL",
+        "course_name": "Advanced 3 Academic English, Listening & Speaking for Graduates  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. For students with a Bachelor\u2019s degree or equivalent. Improve listening comprehension using Level 3 texts; communicate with increasing fluency and accuracy about ideas from course themes."
+    },
+    "AEAD 8512  ESOL": {
+        "course_code": "AEAD 8512  ESOL",
+        "course_name": "Advanced 3 Academic English, Reading & Writing for Graduates  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers.  For students with a Bachelor\u2019s degree or equivalent.  Improve reading comprehension using Level 3 texts; complete well-developed and organized Level 3 writing tasks about ideas from course themes."
+    },
+    "AEAD 8513  ESOL": {
+        "course_code": "AEAD 8513  ESOL",
+        "course_name": "Advanced 3 Academic English, Grammar for Graduates  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers.  For students with a Bachelor\u2019s degree or equivalent.  Focus on grammatical structures present in Level 3 reading and listening texts; incorporate learned grammatical structures in Level 3 writing and speaking tasks."
+    },
+    "AEAD 8555  ESOL": {
+        "course_code": "AEAD 8555  ESOL",
+        "course_name": "Advanced 3 Academic English, General Non-Core for Graduates  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. For students with a Bachelor\u2019s degree or equivalent. Introduce and review technology tools and independent language learning strategies to support language skill development."
+    },
+    "AEIN 8210  ESOL": {
+        "course_code": "AEIN 8210  ESOL",
+        "course_name": "Intermediate 2 Academic English, Listening & Speaking  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Improve listening comprehension using Level 2 texts; communicate with increasing fluency and accuracy about ideas from course themes."
+    },
+    "AEIN 8212  ESOL": {
+        "course_code": "AEIN 8212  ESOL",
+        "course_name": "Intermediate 2 Academic English Reading & Writing  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Improve reading comprehension using Level 2 texts; complete well-developed and organized Level 2 writing tasks about ideas from course themes."
+    },
+    "AEIN 8213  ESOL": {
+        "course_code": "AEIN 8213  ESOL",
+        "course_name": "Intermediate 2 Academic English, Grammar  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Focus on grammatical structures present in Level 2 reading and listening texts; incorporate learned grammatical structures in Level 2 writing and speaking tasks."
+    },
+    "AEIN 8255  ESOL": {
+        "course_code": "AEIN 8255  ESOL",
+        "course_name": "Intermediate 2 Academic English, General Non-Core  CEUs: 3 (3-0-0)",
+        "course_description": ""
+    },
+    "AENG 8300  English for Non-Native Speaker": {
+        "course_code": "AENG 8300  English for Non-Native Speaker",
+        "course_name": "IELTS Prep Class  CEUs: 0",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers. This course focuses on IELTS test preparation. Students will learn about the format of the IELTS exam as well as test taking strategies. Students will practice language skills specific to the IELTS exam tasks, including speaking, listening, reading, and writing."
+    },
+    "AENG 8310  English for Non-native Speakers": {
+        "course_code": "AENG 8310  English for Non-native Speakers",
+        "course_name": "Listening & Speaking  CEUs: Var[1-18] (18-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers.  Skills-based course to prepare students for typical listening and speaking tasks in academic setting."
+    },
+    "AENG 8312  English for Non-Native Speakers": {
+        "course_code": "AENG 8312  English for Non-Native Speakers",
+        "course_name": "Reading & Writing  CEUs: Var[1-18] (18-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers.  Skills-based course to prepare students for the reading and writing tasks in typical academic settings."
+    },
+    "AENG 8313  English for Non-native Speakers": {
+        "course_code": "AENG 8313  English for Non-native Speakers",
+        "course_name": "Grammar  CEUs: Var[1-18] (18-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers Skills-based course to improve grammatical and lexical understanding and accuracy in written and oral communication."
+    },
+    "AEFN 8110  ESOL": {
+        "course_code": "AEFN 8110  ESOL",
+        "course_name": "Level 1 Foundations Academic English, Listening & Speaking  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers.  No previous study in English.  Listening comprehension of Foundations 1 texts; communicate with increasing fluency and accuracy about ideas from course themes."
+    },
+    "AEFN 8112  ESOL": {
+        "course_code": "AEFN 8112  ESOL",
+        "course_name": "Level 1 Foundations Academic English, Reading & Writing  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers.  No previous study in English. Reading comprehension of Foundations 1 texts; complete well-developed and organized Foundations 1 writing tasks about ideas from course themes."
+    },
+    "AEFN 8113  ESOL": {
+        "course_code": "AEFN 8113  ESOL",
+        "course_name": "Level 1 Foundations Academic English, Grammar  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers.  No previous study in English. Focus on grammatical structures present in Foundations 1 reading and listening texts; incorporate learned grammatical structures in Foundations 1 writing and speaking tasks."
+    },
+    "AEFN 8155  ESOL": {
+        "course_code": "AEFN 8155  ESOL",
+        "course_name": "Level 1 Foundations Academic English, General Non-Core  CEU: 1.5 (1.5-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. No previous study in English. Introduce and review technology tools and independent language learning strategies to support Foundations 1 language skill development."
+    },
+    "AEFN 8210  ESOL": {
+        "course_code": "AEFN 8210  ESOL",
+        "course_name": "Level 2 Foundations Academic English, Listening & Speaking  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers.  Improve listening comprehension using Foundations 2 texts; communicate with increasing fluency and accuracy about ideas from course themes."
+    },
+    "AEFN 8212  ESOL": {
+        "course_code": "AEFN 8212  ESOL",
+        "course_name": "Level 2 Foundations Academic English Reading & Writing  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers.  Improve reading comprehension using Foundations 2 texts; complete well-developed and organized Foundations 2 writing tasks about ideas from course themes."
+    },
+    "AEFN 8213  ESOL": {
+        "course_code": "AEFN 8213  ESOL",
+        "course_name": "Level 2 Foundations Academic English, Grammar  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Focus on grammatical structures present in Foundations 2 reading and listening texts; incorporate learned grammatical structures in Foundations 2 writing and speaking tasks."
+    },
+    "AEFN 8255  ESOL": {
+        "course_code": "AEFN 8255  ESOL",
+        "course_name": "Level 2 Foundations Academic English, General Non-Core  CEU: 1.5 (1.5-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Introduce and review technology tools and independent language learning strategies to support Foundations 2 language skill development."
+    },
+    "AEFN 8310  ESOL": {
+        "course_code": "AEFN 8310  ESOL",
+        "course_name": "Level 3 Foundations Academic English, Listening & Speaking  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Improve listening comprehension using Foundations 3 texts; communicate with increasing fluency and accuracy about ideas from course themes."
+    },
+    "AEFN 8312  ESOL": {
+        "course_code": "AEFN 8312  ESOL",
+        "course_name": "Level 3 Foundations Academic English, Reading & Writing  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Improve reading comprehension using Foundations 3 texts; complete well-developed and organized Foundations 3 writing tasks about ideas from course themes."
+    },
+    "AEFN 8313  ESOL": {
+        "course_code": "AEFN 8313  ESOL",
+        "course_name": "Level 3 Foundations Academic English, Grammar  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Focus on grammatical structures present in Foundations 3 reading and listening texts; incorporate learned grammatical structures in Foundations 3 writing and speaking tasks."
+    },
+    "AEFN 8355  ESOL": {
+        "course_code": "AEFN 8355  ESOL",
+        "course_name": "Level 3 Foundations Academic English, General Non-Core  CEU: 1.5 (1.5-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Introduce and review technology tools and independent language learning strategies to support Foundations 3 language skill development."
+    },
+    "AEEP 8393  ESOL": {
+        "course_code": "AEEP 8393  ESOL",
+        "course_name": "Academic English, Preparatory for IELTS Exam  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers."
+    },
+    "AEEP 8591  ESOL": {
+        "course_code": "AEEP 8591  ESOL",
+        "course_name": "Academic English, Preparatory for GRE Exam  CEU: 1.5 (1.5-0-0)",
+        "course_description": "Not for academic credit. GRE Prep course designed for non-native English Speakers."
+    },
+    "AEEP 8592  ESOL": {
+        "course_code": "AEEP 8592  ESOL",
+        "course_name": "Academic English, Preparatory for GMAT Exam  CEU: 1.5 (1.5-0-0)",
+        "course_description": "Not for academic credit. GMAT Prep course designed for non-native English Speakers."
+    },
+    "AEEP 8975  ESOL": {
+        "course_code": "AEEP 8975  ESOL",
+        "course_name": "Academic English, Independent Study  CEUs: Var[1-6] (0-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Independent Study tailored to individual to improve English Language skills in all language skill areas including: grammar, reading, writing, listening, speaking, vocabulary."
+    },
+    "AEBA 8110  ESOL": {
+        "course_code": "AEBA 8110  ESOL",
+        "course_name": "Basic 1 Academic English, Listening & Speaking  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Improve listening comprehension using Level 1 texts; communicate with increasing fluency and accuracy about ideas from course themes."
+    },
+    "AEBA 8112  ESOL": {
+        "course_code": "AEBA 8112  ESOL",
+        "course_name": "Basic 1 Academic English, Reading & Writing  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Improve reading comprehension using Level 1 texts; complete well-developed and organized Level 1 writing tasks about ideas from course themes."
+    },
+    "AEBA 8113  ESOL": {
+        "course_code": "AEBA 8113  ESOL",
+        "course_name": "Basic 1 Academic English, Grammar  CEUs: 6 (6-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Focus on grammatical structures present in Level 1 reading and listening texts; incorporate learned grammatical structures in Level 1 writing and speaking tasks."
+    },
+    "AEBA 8155  ESOL": {
+        "course_code": "AEBA 8155  ESOL",
+        "course_name": "Basic 1 Academic English, General Non-Core  CEUs: 3 (3-0-0)",
+        "course_description": "Not for academic credit. English as a Second Language for non-native speakers. Introduce and review technology tools and independent language learning strategies to support language skill development."
+    },
+    "EDOD 651  On-Demand Learning": {
+        "course_code": "EDOD 651  On-Demand Learning",
+        "course_name": "Improving Performance  Credits: 3 (1-2-1)",
+        "course_description": "On-demand learning theories and tools and techniques for developing impactful digital learning objects to create learning objects for the purpose of improving performance. Utilization of learning network to accelerate understanding of course topics and objectives."
+    },
+    "VS 410  Pets Forever": {
+        "course_code": "VS 410  Pets Forever",
+        "course_name": "Supporting the Life-Long Bond  Credits: 3 (1-4-0)",
+        "course_description": "Opportunity to engage with older adults and individuals with disabilities and their companion animals. Enrichment of students\u2019 experience through the opportunity to gain community service experience."
+    },
+    "BMS 296  Honors": {
+        "course_code": "BMS 296  Honors",
+        "course_name": "Physiological Concepts  Credit: 1 (0-0-1)",
+        "course_description": "Honors breakout session integrating physiological concepts for students in"
+    },
+    "BSPM 528  Invasive Plants/Weeds": {
+        "course_code": "BSPM 528  Invasive Plants/Weeds",
+        "course_name": "Ecosystems to Molecules  Credits: 3 (3-0-0)",
+        "course_description": "Contributions of disciplines of weed science and invasion ecology to understanding the biology, ecology and management of \"problem plants.\""
+    },
+    "DM 482A  Study Abroad: Design/Merchandising": {
+        "course_code": "DM 482A  Study Abroad: Design/Merchandising",
+        "course_name": "Scotland/England  Credit: 1 (0-0-1)",
+        "course_description": "Historical, cultural, aesthetic, and business aspects of international design and merchandising in the selected country(ies)."
+    },
+    "EDHE 640A  Study Abroad": {
+        "course_code": "EDHE 640A  Study Abroad",
+        "course_name": "Global Perspectives: Higher Education and Student Services  Credits: 3 (0-0-3)",
+        "course_description": "International field experience prepares student affairs professionals to work with culturally diverse student, staff, and faculty populations; students who study abroad and the transitional challenges of returning from international experiences; growing populations of international undergraduate and graduate students, and the increasing demands from the federal government and education institutions for internationalization of higher education."
+    },
+    "GEAL 8410  English as a Second Language": {
+        "course_code": "GEAL 8410  English as a Second Language",
+        "course_name": "General English Everyday English  CEUs: Var[1-18] (18-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers. Students will learn the vocabulary and grammar needed to communicate, orally or in writing, in common, everyday situations."
+    },
+    "GEAL 8420  English as a Second Language": {
+        "course_code": "GEAL 8420  English as a Second Language",
+        "course_name": "General English Cultural Issues  CEUs: Var[1-18] (18-0-0)",
+        "course_description": "Not for academic credit.  English as a Second Language for non-native speakers.Through reading and listening passages, students will learn the vocabulary and grammar needed to discuss and write about various cultural topics from around the world."
+    },
+    "LGEN 545  Translation": {
+        "course_code": "LGEN 545  Translation",
+        "course_name": "Theory and Practice  Credits: 3 (0-0-3)",
+        "course_description": "Theory and practice of translation.  Fundamental concepts of translation and the translation profession. Translation practice. A variety of texts are analyzed, and different translation problems and techniques are presented and put into practice to translate real texts."
+    },
+    "BUS 501  Business Communication": {
+        "course_code": "BUS 501  Business Communication",
+        "course_name": "Multicultural Audience  Credits: 3 (3-0-0)",
+        "course_description": "Best practices for communicating in a professional business environment with multicultural audiences. Incorporating business scenarios, students will use technology and written communication in a clear, concise, and professional manner. Provides practical application based on real-world business challenges that require appropriate communication strategies for optimum resolution. Students present solutions to business problems based on credible research and analysis."
+    },
+    "HES 386  Practicum": {
+        "course_code": "HES 386  Practicum",
+        "course_name": "Adult Fitness  Credits: 2 (1-2-0)",
+        "course_description": "Adult fitness."
+    },
+    "HES 486  Practicum": {
+        "course_code": "HES 486  Practicum",
+        "course_name": "Wellness Program Management  Credits: 3 (1-4-0)",
+        "course_description": ""
+    },
+    "LB 386F  Practicum": {
+        "course_code": "LB 386F  Practicum",
+        "course_name": "Sports Production  Credits: Var[1-3] (0-0-0)",
+        "course_description": "Practicum in producing for various sporting events."
+    },
+    "LB 386G  Practicum": {
+        "course_code": "LB 386G  Practicum",
+        "course_name": "Event Production  Credits: Var[1-3] (0-0-0)",
+        "course_description": "Practicum in producing for various on- and off-campus CSU-related events."
+    },
+    "BZ 192  First Year Seminar": {
+        "course_code": "BZ 192  First Year Seminar",
+        "course_name": "Biology/Zoology  Credit: 1 (1-0-0)",
+        "course_description": "Introduction to the biological science and zoology majors through development of academic skills necessary for success within the sciences, exposure to academic resources, science career pathways, research, and relevant topics like globalization and diversity in science fields."
+    },
+    "BZ 449A  Study Abroad: Ecology/Conservation": {
+        "course_code": "BZ 449A  Study Abroad: Ecology/Conservation",
+        "course_name": "Ecuadorian Biodiversity  Credits: 4 (0-0-4)",
+        "course_description": "Winter (January) study abroad experience in Ecuador. First-hand exposure to the unparalleled biodiversity of Ecuador. Ecuador is an ideal location to learn about tropical biodiversity, because it houses an enormous diversity of tropical ecosystems in a relatively small geographic area, all of which are very accessible. Students will visit these ecosystems\u2014including cloud forest, p\u00e1ramo, and lowland Amazonian rainforest."
+    },
+    "SPCM 360  The Personal Lens": {
+        "course_code": "SPCM 360  The Personal Lens",
+        "course_name": "Making Media  Credits: 3 (3-0-0)",
+        "course_description": "Harnessing smart phone technology to produce video; telling personal stories via video that engage local and global communities; exploring traditional and novel forms of storytelling, representation, documentary, media appropriation, and cultural jamming in the context of fair use; using the internet to distribute self-produced content and communicate with audiences."
+    },
+    "ETST 487  Internship": {
+        "course_code": "ETST 487  Internship",
+        "course_name": "Ethnic Studies  Credits: 3 (0-0-9)",
+        "course_description": "Supervised work experience for Ethnic Studies Majors and Minors."
+    },
+    "NSCI 612  Myth Busters": {
+        "course_code": "NSCI 612  Myth Busters",
+        "course_name": "Science/Controversy/Evaluation  Credits: 3 (3-0-0)",
+        "course_description": "Development and practice of western science; understanding how conflicts between science and culture create controversy; and evaluating claims."
+    },
+    "HDFS 470A  Campus Connections": {
+        "course_code": "HDFS 470A  Campus Connections",
+        "course_name": "Mentoring At-Risk Youth: Youth Mentor  Credits: 3 (0-4-2)",
+        "course_description": "Service-learning course engaging students as mentors with local at-risk youth."
+    },
+    "HDFS 470B  Campus Connections": {
+        "course_code": "HDFS 470B  Campus Connections",
+        "course_name": "Mentoring At-Risk Youth: Mentor Coach  Credits: 3 (0-4-2)",
+        "course_description": "Serve as mentor coach in a service-learning course engaging students as mentors with local at-risk youth."
+    },
+    "HDFS 470C  Campus Connections": {
+        "course_code": "HDFS 470C  Campus Connections",
+        "course_name": "Mentoring At-Risk Youth: Program Administration  Credits: 3 (0-4-2)",
+        "course_description": "Provide administrative support to a service-learning program for local at-risk youth."
+    },
+    "HDFS 593  Seminar": {
+        "course_code": "HDFS 593  Seminar",
+        "course_name": "Human Services Leadership  Credit: 1 (0-0-1)",
+        "course_description": "Investigates issues relevant to human development and family studies, such as human services, non-profits, and other enterprises related to helping individuals, couples, and families."
+    },
+    "ECE 555  Advanced Robotics": {
+        "course_code": "ECE 555  Advanced Robotics",
+        "course_name": "Redundancy & Optimization  Credits: 3 (3-0-0)",
+        "course_description": "Advanced analysis, design, and control of kinematically redundant articulated objects, including both robotic and biological systems."
+    },
+    "HIST 201  Seminar": {
+        "course_code": "HIST 201  Seminar",
+        "course_name": "Approaches to History  Credits: 3 (0-0-3)",
+        "course_description": "Introduces students to professional historical skills including research methods, citation, and writing via intensive investigation of a historical time period or theme. Topic varies by instructor."
+    },
+    "FW 373A  Travel Abroad : Wildlife Conservation": {
+        "course_code": "FW 373A  Travel Abroad : Wildlife Conservation",
+        "course_name": "Baja California Sur  Credits: 3 (0-0-3)",
+        "course_description": "Study tour of various overseas ecosystems and natural resources conservation programs; discussions with local ecologists/managers."
+    },
+    "ART 324A  Study Abroad-": {
+        "course_code": "ART 324A  Study Abroad-",
+        "course_name": "Mexico: Art Meets Environment  Credits: 3 (0-0-3)",
+        "course_description": "Explores the intersection of visual arts, community and environment in Baja California Sur through direct experience, creative practice, collaborative processes and contemporary and historical art theory."
+    },
+    "ANTH 315  Global Mobilities": {
+        "course_code": "ANTH 315  Global Mobilities",
+        "course_name": "The African Diaspora  Credits: 3 (3-0-0)",
+        "course_description": "Globalization and transnationalism with a focus on the circulation of people, ideas, and cultural products and practices between Africa and the rest of the world. By situating Africans as both producers and consumers of transnational ideas and products, we will develop an understanding of Africa beyond popular representations of violence and crisis."
+    },
+    "ANTH 444  Cultures of Virtual Worlds": {
+        "course_code": "ANTH 444  Cultures of Virtual Worlds",
+        "course_name": "Research Methods  Credits: 3 (3-0-0)",
+        "course_description": "Methodologies and directed research related to virtual worlds and internet, gaming, play, and fan communities."
+    },
+    "JTC 454A  Study Abroad: International Media Studies": {
+        "course_code": "JTC 454A  Study Abroad: International Media Studies",
+        "course_name": "Europe  Credits: 3 (2-0-1)",
+        "course_description": "Field survey of international media systems, technologies, and providers in diverse national and regional cultures."
+    },
+    "JTC 454B  Study Abroad: International Media Studies": {
+        "course_code": "JTC 454B  Study Abroad: International Media Studies",
+        "course_name": "Australia and NZ  Credits: 3 (0-0-3)",
+        "course_description": "A field survey of international media systems, technologies, and providers in diverse national and regional cultures."
+    },
+    "POLS 487  Internship": {
+        "course_code": "POLS 487  Internship",
+        "course_name": "Washington DC Semester  Credits: Var[6-9] (0-0-0)",
+        "course_description": "Students in The Washington Center semester programs will work with an organization in Washington DC. Most internships are for 4 days/week and individually tailored for each student. The Washington Center ensures that all internships are \"substantive and challenging.\" At least 80% of the student's work is non-clerical. Supervised by a professional academic program advisor."
+    },
+    "NR 570  Conservation Managers": {
+        "course_code": "NR 570  Conservation Managers",
+        "course_name": "Media Communications  Credits: 2 (2-0-0)",
+        "course_description": "Conservation communication roles, activities, and practices of the media are examined and analyzed. Critical relationships between the media and conservation practitioners and organizations are also examined. New directions and strategies in conservation communications are analyzed, including ways that conservation professionals can develop and take advantage of opportunities for collaboration with mass media outlets."
+    }
+}
