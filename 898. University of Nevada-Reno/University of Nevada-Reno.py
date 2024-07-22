@@ -74,7 +74,7 @@ def main():
     all_courses.extend(get_courses('undergraduate'))
 
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_course, url) for url in all_courses):
             full_courses = {**full_courses, **i.result()}
 
