@@ -16,9 +16,10 @@ from lxml import html
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
-MAIN_DOMAIN_1 = 'http://catalog.unt.edu/content.php?catoid=35&catoid=35&navoid=3925&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D={page_number}#acalog_template_course_filter'
-MAIN_DOMAIN_2 = 'http://catalog.unt.edu/content.php?catoid=34&catoid=34&navoid=3826&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D={page_number}#acalog_template_course_filter'
-UNIVERSITY = 'Thomas Jefferson University'
+MAIN_DOMAIN_1 = 'https://catalog.smcm.edu/content.php?catoid=1&catoid=1&navoid=11&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D={page_number}#acalog_template_course_filter'
+MAIN_DOMAIN_2 = 'https://catalog.smcm.edu/content.php?catoid=2&catoid=2&navoid=45&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D={page_number}#acalog_template_course_filter'
+MAIN_DOMAIN_3 = 'https://catalog.smcm.edu/content.php?catoid=4&catoid=4&navoid=105&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D={page_number}#acalog_template_course_filter'
+UNIVERSITY = 'University of North Texas'
 
 
 def get_courses(domain, page_number):
@@ -35,7 +36,7 @@ def get_courses(domain, page_number):
         tag_split = text.split(' - ', 1)
         if len(tag_split) == 2:
             code = tag_split[0]
-            url = f'http://catalog.unt.edu/{tag.get("href")}'
+            url = f'https://catalog.smcm.edu/{tag.get("href")}'
             print(f'{code} - {url}')
             res = requests.get(url, headers=HEADERS)
             soup = BeautifulSoup(res.content, 'html.parser')
@@ -43,7 +44,7 @@ def get_courses(domain, page_number):
             description = None
             if course_title:
                 try:
-                    description = course_title.next_sibling.next_sibling.next_sibling.next_sibling.next_sibling.next_sibling.text
+                    description = course_title.next_sibling.next_sibling.next_sibling.next_sibling.next_sibling.text
                 except:
                     pass
             courses[code] = {
@@ -60,11 +61,15 @@ def main():
     #     get_courses(page_number)
     full_courses = {}
     with ThreadPoolExecutor(max_workers=10) as executor:
-        for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_1, page_number) for page_number in range(1, 41)):
+        for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_1, page_number) for page_number in range(1, 12)):
             full_courses = {**full_courses, **i.result()}
 
     with ThreadPoolExecutor(max_workers=10) as executor:
-        for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_2, page_number) for page_number in range(1, 36)):
+        for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_2, page_number) for page_number in range(1, 12)):
+            full_courses = {**full_courses, **i.result()}
+
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_3, page_number) for page_number in range(1, 12)):
             full_courses = {**full_courses, **i.result()}
 
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
