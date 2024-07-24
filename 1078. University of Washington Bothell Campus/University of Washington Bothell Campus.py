@@ -33,8 +33,8 @@ def get_course(code):
     # code = 'VIET'
     print(code)
     courses = {}
-    HEADERS['Cookie'] = 'sessionId=61c1874194fff433a706d4a3943d8e4cacf6d6c73432cb03743cd82164b0fc38'
-    HEADERS['X-Csrf-Token'] = '09152ab7f3d9523ee846978bda155833aa50dac6e9edccb130141bb967cdeae0beada3cea8618b92f3d885925b52894288cbcca7ab52ed831a7785109d5cc2ee3511743964670702fa2e8a4dc75b27bb99efc5438d4d6060b93b243fe6901006f2642dea38c166812571b268b18baf4b8b695b100696b076cd7a007d6602c1f2'
+    HEADERS['Cookie'] = 'sessionId=3f63483d56c8be788d1e0fa72fcdc89189681e778d6752e4360a001de3cc24b2'
+    HEADERS['X-Csrf-Token'] = '9ca5d909c921eafea7ced4df34e5e05eebd1cbb77cdf03e3cb59c5ffdb0355356cb37599e6eb112bff16f8d4528968a800765d65befd6508627de3bbb25d6e2e81369fa481d64750b2858a159c5cdd1bc77afd9678930878577f519452d0f8bc47a365c9b7e2d86c8257755a834d7160118fbe5a72bb3a1de1832a759f391bb5'
     data = {
         "username": "GUEST",
         "requestId": "cfbe1306-d198-4117-97ee-973ab4fb9692",
