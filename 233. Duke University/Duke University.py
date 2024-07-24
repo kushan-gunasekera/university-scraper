@@ -13,6 +13,19 @@ import xlsxwriter
 from bs4 import BeautifulSoup
 from lxml import html
 
+from pathlib import Path
+from os import listdir
+from os.path import isfile, join
+
+json_path = "./json-data"
+Path(json_path).mkdir(parents=True, exist_ok=True)
+json_paths = [f for f in listdir(json_path) if isfile(join(json_path, f))]
+ALL_CODES = {}
+for path in json_paths:
+    with open(f'{json_path}/{path}', 'r') as openfile:
+        json_object = json.load(openfile)
+        ALL_CODES[json_object['course_code']] = json_object
+
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
@@ -35,8 +48,11 @@ def get_courses(term):
             break
         for en_count, i in enumerate(data, 1):
             code = f'{i.get("subject")} {i.get("catalog_nbr")}'
+            if code in ALL_CODES.keys():
+                courses[code] = ALL_CODES[code]
+                print(f'skip {code}')
+                continue
             title = i.get('descr')
-            courses[code] = title
             institution = i.get('campus')
             termm = i.get('strm')
             class_nbr = i.get('class_nbr')
@@ -55,6 +71,8 @@ def get_courses(term):
                 'course_description': desc,
                 'course_professor': ', '.join(inscturators),
             }
+            with open(f"json-data/{code}.json", "w") as outfile:
+                json.dump(courses[code], outfile)
         count += 1
     return courses
 
