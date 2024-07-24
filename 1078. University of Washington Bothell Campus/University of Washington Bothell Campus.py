@@ -61,8 +61,10 @@ def get_course(code):
         for j in res.json().get('courseOfferingInstitutionList', []):
             for k in j.get('courseOfferingTermList', []):
                 for l in k.get('activityOfferingItemList', []):
-                    profs.append(l.get('instructor'))
-        profs = list(set('profs'))
+                    inst = l.get('instructor')
+                    if inst:
+                        profs.append(inst)
+        profs = list(set(profs))
         courses[code] = {
             'course_code': code,
             'course_name': i.get('title'),
