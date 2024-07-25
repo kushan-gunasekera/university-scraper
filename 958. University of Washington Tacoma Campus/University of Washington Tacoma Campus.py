@@ -1,6 +1,9 @@
 # Adelphi University
 import json
 import urllib.parse
+from os import listdir
+from os.path import isfile, join
+from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures._base import as_completed
 
@@ -14,14 +17,14 @@ MAIN_DOMAIN = 'https://course-app-api.planning.sis.uw.edu'
 CAMPUS = 'tacoma'
 UNIVERSITY = 'University of Washington Tacoma Campus'
 
-all_codes = []
-old_courses = {}
-try:
-    with open('University of Washington.json', 'r') as f:
-        old_courses = json.load(f)
-        all_codes = old_courses.keys()
-except:
-    pass
+json_path = "./json-data"
+Path(json_path).mkdir(parents=True, exist_ok=True)
+json_paths = [f for f in listdir(json_path) if isfile(join(json_path, f))]
+ALL_CODES = {}
+for path in json_paths:
+    with open(f'{json_path}/{path}', 'r') as openfile:
+        json_object = json.load(openfile)
+        ALL_CODES[json_object['course_code']] = json_object
 
 
 def get_programs():
@@ -33,8 +36,8 @@ def get_course(code):
     # code = 'VIET'
     print(code)
     courses = {}
-    HEADERS['Cookie'] = 'sessionId=3f63483d56c8be788d1e0fa72fcdc89189681e778d6752e4360a001de3cc24b2'
-    HEADERS['X-Csrf-Token'] = '9ca5d909c921eafea7ced4df34e5e05eebd1cbb77cdf03e3cb59c5ffdb0355356cb37599e6eb112bff16f8d4528968a800765d65befd6508627de3bbb25d6e2e81369fa481d64750b2858a159c5cdd1bc77afd9678930878577f519452d0f8bc47a365c9b7e2d86c8257755a834d7160118fbe5a72bb3a1de1832a759f391bb5'
+    HEADERS['Cookie'] = 'sessionId=7f150ca21e57d5ea4eb32b44a02cc1609286b0e61f532ea76d831ae116525d1d'
+    HEADERS['X-Csrf-Token'] = '19ddef372687d19444bdc2625bad0b1fe7d2b668a25655c61d345cfd3feca61b57d6822c909cb192c4035ee347d638527dafcc604d1044518c8363d81a2346d438bd0109d0af78f51f27b3a6f2b213d2f141880a20fd8a2e74842d80ba76523e734bbc06edb9e5553696960efb89bd71fb01c9128e7ce504392d868c701648dd'
     data = {
         "username": "GUEST",
         "requestId": "cfbe1306-d198-4117-97ee-973ab4fb9692",
@@ -50,7 +53,9 @@ def get_course(code):
     for count, i in enumerate(r.json(), 1):
         profs = []
         code = i.get('code')
-        if code in all_codes:
+        if code in ALL_CODES.keys():
+            courses[code] = ALL_CODES[code]
+            print(f'skip {code}')
             continue
         course_id = i.get('id').split(':')[0]
         desc_url = f'{MAIN_DOMAIN}/api/courses/{urllib.parse.quote(code)}/details?courseId={course_id}'
@@ -71,6 +76,9 @@ def get_course(code):
             'course_description': desc,
             'course_professor': ', '.join(profs),
         }
+        with open(f"json-data/{code}.json", "w") as outfile:
+            json.dump(courses[code], outfile)
+            ALL_CODES[code] = courses[code]
 
     return courses
 
@@ -80,11 +88,14 @@ def main():
     programs = get_programs()
     # print(len(urls))
 
-    with ThreadPoolExecutor(max_workers=1) as executor:
-        for i in as_completed(executor.submit(get_course, code) for code in programs):
-            full_courses = {**full_courses, **i.result()}
+    # with ThreadPoolExecutor(max_workers=1) as executor:
+    #     for i in as_completed(executor.submit(get_course, code) for code in programs):
+    #         full_courses = {**full_courses, **i.result()}
 
-    full_courses = {**full_courses, **old_courses}
+    for code in programs:
+        full_courses = {**full_courses, **get_course(code)}
+
+    # full_courses = {**full_courses, **old_courses}
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
         json.dump(full_courses, json_file, indent=4)
 
