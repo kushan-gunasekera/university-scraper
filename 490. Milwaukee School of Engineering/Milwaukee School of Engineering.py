@@ -60,7 +60,7 @@ def get_courses(domain, page_number):
 
 def main():
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_1, page_number) for page_number in range(1, 10)):
             full_courses = {**full_courses, **i.result()}
 
