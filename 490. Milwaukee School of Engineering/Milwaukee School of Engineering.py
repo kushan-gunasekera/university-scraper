@@ -16,8 +16,9 @@ from lxml import html
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
-MAIN_DOMAIN_1 = 'https://catalog.mtech.edu/content.php?catoid=16&catoid=16&navoid=1642&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D={page_number}#acalog_template_course_filter'
-UNIVERSITY = 'Montant Tech of the University of Montana'
+MAIN_DOMAIN_1 = 'https://catalog.msoe.edu/content.php?catoid=40&catoid=40&navoid=1392&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D={page_number}#acalog_template_course_filter'
+MAIN_DOMAIN_2 = 'https://catalog.msoe.edu/content.php?catoid=41&catoid=41&navoid=1448&filter%5Bitem_type%5D=3&filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D={page_number}#acalog_template_course_filter'
+UNIVERSITY = 'Milwaukee School of Engineering'
 
 
 def get_courses(domain, page_number):
@@ -37,14 +38,16 @@ def get_courses(domain, page_number):
             code = tag_split[0]
             title = tag_split[1]
             desc = None
-            url = f'http://catalog.mtech.edu/{tag.get("href")}'
+            url = f'http://catalog.msoe.edu/{tag.get("href")}'
             # url = f'https://catalog.mtech.edu/preview_course_nopop.php?catoid=16&coid=30381'
             print(f'description: {code} - {title} | {url} ')
             res = requests.get(url, headers=HEADERS)
             soup = BeautifulSoup(res.content, 'html.parser')
             try:
-                desc = soup.find('h1', id='course_preview_title').next_sibling.next_sibling.next_sibling.next_sibling.next_sibling.text.strip()
-                # desc = re.sub(r'.*Credits: \d+', '', desc).strip()
+                for i in soup.find('h1', id='course_preview_title').next_siblings:
+                    if i.name == 'strong' and i.text == 'Course Description':
+                        desc = i.next_sibling.next_sibling.text.strip()
+                        break
             except:
                 print(f'ERROR: {course_url} | {code} - {title}')
             courses[code] = {
@@ -57,8 +60,12 @@ def get_courses(domain, page_number):
 
 def main():
     full_courses = {}
+    with ThreadPoolExecutor(max_workers=1) as executor:
+        for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_1, page_number) for page_number in range(1, 10)):
+            full_courses = {**full_courses, **i.result()}
+
     with ThreadPoolExecutor(max_workers=10) as executor:
-        for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_1, page_number) for page_number in range(1, 14)):
+        for i in as_completed(executor.submit(get_courses, MAIN_DOMAIN_2, page_number) for page_number in range(1, 4)):
             full_courses = {**full_courses, **i.result()}
 
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
