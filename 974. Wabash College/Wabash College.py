@@ -46,7 +46,7 @@ def get_course(url):
             logging.error(f'no title found for {url}')
             break
         text = title_tag.text
-        parts = text.split(" ", 2)
+        parts = text.split(" ", 1)
         course_code = parts[0].strip().replace('\xa0', ' ')
         course_name = parts[1].strip().replace('\xa0', ' ')
         courses[course_code] = {
@@ -70,7 +70,7 @@ def main():
     full_courses = {}
     urls = get_courses()
 
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    with ThreadPoolExecutor(max_workers=100) as executor:
         for i in as_completed(executor.submit(get_course, url) for url in urls):
             full_courses = {**full_courses, **i.result()}
 
