@@ -65,7 +65,7 @@ def main():
     urls.extend(get_courses('/undergraduate/coursedescriptions/'))
     urls.extend(get_courses('/graduate/coursedescriptions/'))
 
-    with ThreadPoolExecutor(max_workers=1) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         for i in as_completed(executor.submit(get_course, url) for url in urls):
             full_courses = {**full_courses, **i.result()}
 
