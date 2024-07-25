@@ -76,7 +76,7 @@ def get_course(url):
 
 def main():
     full_courses = {}
-    with ThreadPoolExecutor(max_workers=100) as executor:
+    with ThreadPoolExecutor(max_workers=1) as executor:
         for i in as_completed(executor.submit(get_course, url) for url in get_courses()):
             full_courses = {**full_courses, **i.result()}
 
