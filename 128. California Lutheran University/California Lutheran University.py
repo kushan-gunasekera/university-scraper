@@ -38,7 +38,10 @@ def get_course(url):
     print(f'get_course: {url}')
     break_values = ('Prerequisite', 'Grade Mode', 'Repeat Rule')
     courses = {}
-    r = requests.get(f'{MAIN_DOMAIN}{url}', headers=HEADERS)
+    try:
+        r = requests.get(f'{MAIN_DOMAIN}{url}', headers=HEADERS)
+    except:
+        return courses
     soup = BeautifulSoup(r.content, 'html.parser')
     search_urls = []
     for i in soup.find_all('a'):
@@ -48,7 +51,10 @@ def get_course(url):
     search_urls = list(set(search_urls))
 
     for i in search_urls:
-        r = requests.get(f'{MAIN_DOMAIN}{i}', headers=HEADERS)
+        try:
+            r = requests.get(f'{MAIN_DOMAIN}{i}', headers=HEADERS)
+        except:
+            continue
         soup = BeautifulSoup(r.content, 'html.parser')
         course_tags = soup.find('div', id='fssearchresults')
         if not course_tags:
@@ -76,8 +82,11 @@ def get_course(url):
 
 def main():
     full_courses = {}
+    courses_urls = get_courses()
+    print(len(courses_urls))
+    print(courses_urls)
     with ThreadPoolExecutor(max_workers=1) as executor:
-        for i in as_completed(executor.submit(get_course, url) for url in get_courses()):
+        for i in as_completed(executor.submit(get_course, url) for url in courses_urls):
             full_courses = {**full_courses, **i.result()}
 
     with open(f'{UNIVERSITY}.json', 'w') as json_file:
